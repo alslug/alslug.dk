@@ -12,8 +12,8 @@ elif [ "$1" = "menu" ] ; then
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=../alslug.github.io/$3
-echo  	mkdir $( dirname $TARGET ) -pv
-false && 	(
+  	mkdir $( dirname $TARGET ) -pv
+	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 		echo "HER SKAL MENU VÆRE"
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
