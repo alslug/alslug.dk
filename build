@@ -5,8 +5,8 @@ if [ "$1" = "" ] ; then
 	find -type f -not -path '\./pages/.*' -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
 	(
-		cat ../template | sed ':a;N;$!ba;s/<section>.*/<section>/'
+		cat ../template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1
-		cat ../template | sed ':a;N;$!ba;s/</section>.*/</section>/'
+		cat ../template.html | sed ':a;N;$!ba;s/</section>.*/</section>/'
 	) > ../$( echo $1 | md5sum | awk '{ print $1 }' ).html
 fi
