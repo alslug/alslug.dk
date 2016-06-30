@@ -4,14 +4,14 @@ if [ "$1" = "" ] ; then
 	MENU=$( mktemp )
 	_PWD_=$( pwd )
 	cd ../alslug.dk-content &&
-	echo "<ol>" >> $MENU
+#	echo "<ol>" >> $MENU
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 menu	$MENU \{\} \;
-	echo "</ol>" >> $MENU
+#	echo "</ol>" >> $MENU
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 build	$MENU \{\} \;
 	rm $MENU
 elif [ "$1" = "menu" ] ; then
 	TARGET=$( echo $3 | sed "s/^.//" )
-	echo "<li><p><a href='$TARGET'>$TARGET</a></p></li>" >> $2
+	echo "<p><a href='$TARGET'>$TARGET</a></p>" >> $2
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=../alslug.github.io/$3
