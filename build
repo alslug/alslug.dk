@@ -4,7 +4,8 @@ if [ "$1" = "" ] ; then
 	cd ../alslug.dk-content &&
 	find -type f -not name template.html -not -path -name '*.html' -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
-	mkdir $( dirname ../$1 ) -pv
+	TARGET=$TARGET
+	mkdir $( dirname $TARGET ) -pv
 	(
 		cat ../alslug.dk-content/template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1					|
@@ -13,5 +14,5 @@ elif [ -f "$1" ] ; then
 		sed "s/##\(.*\)##/<h2>\1<\/h2>/g"	|
 		sed "s/#\(.*\)#/<h1>\1<\/h1>/g"
 		cat ../alslug.dk-content/template.html | sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
-	) > ../$1
+	) > $TARGET
 fi
