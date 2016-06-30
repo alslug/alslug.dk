@@ -17,6 +17,7 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 		cat $MENU
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
+		echo "<p>"; date ; echo "</p>"
 		cat $3					|
 		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
 		sed "s/###\(.*\)###/<h3>\1<\/h3>/g"	|
