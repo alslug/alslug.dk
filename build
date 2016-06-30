@@ -6,13 +6,13 @@ if [ "$1" = "" ] ; then
 elif [ -f "$1" ] ; then
 	(
 		echo mkdir $( ../dirname $1 ) -p
-		cat ../template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
-		cat $1					|
-		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
-		sed "s/###\(.*\)###/<h3>\1<\/h3>/g"	|
-		sed "s/##\(.*\)##/<h2>\1<\/h2>/g"	|
-		sed "s/#\(.*\)#/<h1>\1<\/h1>/g"
-		cat ../template.html | sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
+#		cat ../template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
+#		cat $1					|
+#		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
+#		sed "s/###\(.*\)###/<h3>\1<\/h3>/g"	|
+##		sed "s/##\(.*\)##/<h2>\1<\/h2>/g"	|
+#		sed "s/#\(.*\)#/<h1>\1<\/h1>/g"
+#		cat ../template.html | sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
 	) > ../$1
 #$( echo $1 | md5sum | awk '{ print $1 }' ).html
 fi
