@@ -1,19 +1,24 @@
 #!/bin/bash
 
 if [ "$1" = "" ] ; then
+	MENU=mktemp
 	_PWD_=$( pwd )
 	cd ../alslug.dk-content &&
-	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 \{\} \;
+	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 $MENU \{\} \;
+	rm $MENU
 elif [ -f "$1" ] ; then
-	TARGET=../alslug.github.io/$1
+	MENU=$1
+	TARGET=../alslug.github.io/$2
  	mkdir $( dirname $TARGET ) -pv
 	(
-		cat template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
+		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
+		echo "HER SKAL MENU VÆRE"
+		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!/<section>/'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1					|
 		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
 		sed "s/###\(.*\)###/<h3>\1<\/h3>/g"	|
 		sed "s/##\(.*\)##/<h2>\1<\/h2>/g"	|
 		sed "s/#\(.*\)#/<h1>\1<\/h1>/g"
-		cat template.html | sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
+		cat template.html							| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
 	) > $TARGET
 fi
