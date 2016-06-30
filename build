@@ -7,8 +7,7 @@ if [ "$1" = "" ] ; then
 elif [ -f "$1" ] ; then
 	TARGET=../alslug.github.io/$1
  	mkdir $( dirname $TARGET ) -pv
-false &&
-(
+	(
 		cat template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1					|
 		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
