@@ -5,7 +5,7 @@ if [ "$1" = "" ] ; then
 	cd ../alslug.dk-content &&
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 \{\} \;
 elif [ -f "$1" ] ; then
-	TARGET=$TARGET
+	TARGET=../alslug.github.io/$1
 	mkdir $( dirname $TARGET ) -pv
 false &&
 (
