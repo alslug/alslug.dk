@@ -3,7 +3,7 @@
 if [ "$1" = "" ] ; then
 	cd pages &&
 	find -type f -not -path '\./pages/.*' -exec echo ../$0 \{\} \;
-else
-	cat $FILE
+elif [ -f "$1" ] ; then
+	cat $1
 # | sed ':a;N;$!ba;s/<section>.*/<section>/' > ../$( echo $FILE | md5sum | awk '{ print $1 }' ).html
 fi
