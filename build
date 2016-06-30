@@ -4,5 +4,5 @@ if [ "$1" = "" ] ; then
 	cd pages &&
 	find -type f -not -path '\./pages/.*' -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
-	cat $1 | sed ':a;N;$!ba;s/<section>.*/<section>/' > ../$( echo $FILE | md5sum | awk '{ print $1 }' ).html
+	cat $1 | sed ':a;N;$!ba;s/<section>.*/<section>/' > ../$( echo $1 | md5sum | awk '{ print $1 }' ).html
 fi
