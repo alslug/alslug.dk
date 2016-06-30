@@ -13,7 +13,7 @@ elif [ -f "$1" ] ; then
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 		echo "HER SKAL MENU VÆRE"
-		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!/<section>/'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
+		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1					|
 		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
 		sed "s/###\(.*\)###/<h3>\1<\/h3>/g"	|
