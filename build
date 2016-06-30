@@ -6,7 +6,7 @@ if [ "$1" = "" ] ; then
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 \{\} \;
 elif [ -f "$1" ] ; then
 	TARGET=../alslug.github.io/$1
-	mkdir $( dirname $TARGET ) -pv
+echo 	mkdir $( dirname $TARGET ) -pv
 false &&
 (
 		cat ../alslug.dk-content/template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
