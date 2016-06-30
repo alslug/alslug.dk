@@ -2,12 +2,12 @@
 
 if [ "$1" = "" ] ; then
 	cd ../alslug.dk-content &&
-	find . -type f -name '*.html' -not -name 'template.html' -ls 
-# -exec ../$0 \{\} \;
+	find . -type f -name '*.html' -not -name 'template.html' -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
 	TARGET=$TARGET
 	mkdir $( dirname $TARGET ) -pv
-	(
+false &&
+(
 		cat ../alslug.dk-content/template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1					|
 		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
