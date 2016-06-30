@@ -2,13 +2,23 @@
 
 if [ "$1" = "" ] ; then
 	MENU=$( mktemp )
+	FILES=$( mktemp )
 	_PWD_=$( pwd )
 	cd ../alslug.dk-content &&
+	find . -type f -name '*.html' -not -name 'template.html' | sort > $FILES
+
 	echo "<p>" >> $MENU
-	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 menu	$MENU \{\} \;
+	for FILE in ./index.html											\
+		$( cat $FILES				| grep "^./medlemskab/" )				\
+		$( cat $FILES								| grep "^./om/" )	\
+		$( cat $FILES | grep -v "^/index.html"	| grep -v "^./medlemskab/"	| grep -v "^./om/")	; do
+		$_PWD_/$0 menu	$MENU $FILE
+	done
 	echo "</p>" >> $MENU
-	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 build	$MENU \{\} \;
-	rm $MENU
+	for FILE in $( cat $FILES ) ; do
+		$_PWD_/$0 build	$MENU $FILE
+	done
+	rm $MENU $FILES
 elif [ "$1" = "menu" ] ; then
 	TARGET=$( echo $3 | sed "s/^.//" )
 	TEXT=$( head -1 < $3 | sed "s/#//g")
