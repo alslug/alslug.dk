@@ -4,7 +4,7 @@ if [ "$1" = "" ] ; then
 	cd pages &&
 	find -type f -not -path '\./pages/.*' -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
-	echo mkdir $( ../dirname $1 ) -p
+	echo mkdir $( dirname ../$1 ) -p
 	(
 		cat ../template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1					|
