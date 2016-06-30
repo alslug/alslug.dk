@@ -24,8 +24,6 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 
-		echo "<p>Updated: "; date ; echo " - Edited: "; date --reference=$3 ; echo "</p>"
-
 		cat $3					|
 		sed 's/^$/<br>/'			|
 		sed 's/####\(.*\)####/<h4>\1<\/h4>/g'	|
