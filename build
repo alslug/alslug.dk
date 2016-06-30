@@ -7,6 +7,6 @@ elif [ -f "$1" ] ; then
 	(
 		cat ../template.html | sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $1
-		cat ../template.html | sed ':a;N;$!ba;s/<\/section>.*/<\/section>/'
+		cat ../template.html | sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
 	) > ../$( echo $1 | md5sum | awk '{ print $1 }' ).html
 fi
