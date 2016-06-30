@@ -15,7 +15,7 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
   	mkdir $( dirname $TARGET ) -pv
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
-		echo "HER SKAL MENU VÆRE"
+		cat $MENU
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $3					|
 		sed "s/####\(.*\)####/<h4>\1<\/h4>/g"	|
