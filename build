@@ -2,7 +2,7 @@
 
 if [ "$1" = "" ] ; then
 	cd ../alslug.dk-content &&
-	find -name '*.html' -not name 'template.html' -type f -ls 
+	find . -name '*.html' -not name 'template.html' -type f -ls 
 # -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
 	TARGET=$TARGET
