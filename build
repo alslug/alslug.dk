@@ -4,8 +4,11 @@ if [ "$1" = "" ] ; then
 	MENU=$( mktemp )
 	_PWD_=$( pwd )
 	cd ../alslug.dk-content &&
+	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 menu $MENU \{\} \;
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 $MENU \{\} \;
 	rm $MENU
+elif [ "$1" = "menu" ] ; then
+	echo "<p><a href='$3'>$3</a></p>" >> $2
 elif [ -f "$1" ] ; then
 	MENU=$1
 	TARGET=../alslug.github.io/$2
