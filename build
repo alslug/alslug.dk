@@ -4,7 +4,7 @@ if [ "$1" = "" ] ; then
 	MENU=$( mktemp )
 	_PWD_=$( pwd )
 	cd ../alslug.dk-content &&
-	echo "<p>" >> $MENU
+	echo "xxx<p>" >> $MENU
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 menu	$MENU \{\} \;
 	echo "</p>" >> $MENU
 	find . -type f -name '*.html' -not -name 'template.html' -exec $_PWD_/$0 build	$MENU \{\} \;
