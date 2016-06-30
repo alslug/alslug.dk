@@ -2,7 +2,7 @@
 
 if [ "$1" = "" ] ; then
 	cd ../alslug.dk-content &&
-	find -type f -not name template.html -name '*.html' -exec ../$0 \{\} \;
+	find -type f -name '*.html' -not name template.html -exec ../$0 \{\} \;
 elif [ -f "$1" ] ; then
 	TARGET=$TARGET
 	mkdir $( dirname $TARGET ) -pv
