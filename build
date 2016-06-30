@@ -27,7 +27,8 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		sed 's/####\(.*\)####/<h4>\1<\/h4>/g'	|
 		sed 's/###\(.*\)###/<h3>\1<\/h3>/g'	|
 		sed 's/##\(.*\)##/<h2>\1<\/h2>/g'	|
-		sed 's/#\(.*\)#/<h1>\1<\/h1>/g'
+		sed 's/#\(.*\)#/<h1>\1<\/h1>/g'		|
+		sed 's/!!!!!UPDATED!!!!!/'$( date --reference=$3 )'/'
 		cat template.html							| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
 	) > $TARGET
 fi
