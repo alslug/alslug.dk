@@ -12,5 +12,6 @@ elif [ -f "$1" ] ; then
 		sed "s/##\(.*\)##/<h2>\1<\/h2>/g"	|
 		sed "s/#\(.*\)#/<h1>\1<\/h1>/g"
 		cat ../template.html | sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
-	) > ../$( echo $1 | md5sum | awk '{ print $1 }' ).html
+	) > ../$1
+#$( echo $1 | md5sum | awk '{ print $1 }' ).html
 fi
