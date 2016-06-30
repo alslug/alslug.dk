@@ -1,8 +1,9 @@
 #!/bin/bash
 
 if [ "$1" = "" ] ; then
+	PWD=$( pwd )
 	cd ../alslug.dk-content &&
-	find . -type f -name '*.html' -not -name 'template.html' -exec ../$0 \{\} \;
+	find . -type f -name '*.html' -not -name 'template.html' -exec $PWD/$0 \{\} \;
 elif [ -f "$1" ] ; then
 	TARGET=$TARGET
 	mkdir $( dirname $TARGET ) -pv
