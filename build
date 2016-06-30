@@ -11,7 +11,9 @@ if [ "$1" = "" ] ; then
 	rm $MENU
 elif [ "$1" = "menu" ] ; then
 	TARGET=$( echo $3 | sed "s/^.//" )
-	echo "<a href='$TARGET'>$( head -1 < $3 | sed "s/#//g")</a></br>" >> $2
+	TEXT=$( head -1 < $3 | sed "s/#//g")
+	[ "$TEXT" = "" ] && TEXT=$3
+	echo "<a href='$TARGET'>$TEXT</a></br>" >> $2
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=../alslug.github.io/$3
