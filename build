@@ -19,16 +19,21 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	mkdir $( dirname $TARGET ) -pv
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
+
 		cat $MENU
+
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
+
 		echo "<p>Updated: "; date ; echo " - Edited: "; date --reference=$3 ; echo "</p>"
+
 		cat $3					|
 		sed 's/^$/<br>/'			|
 		sed 's/####\(.*\)####/<h4>\1<\/h4>/g'	|
 		sed 's/###\(.*\)###/<h3>\1<\/h3>/g'	|
 		sed 's/##\(.*\)##/<h2>\1<\/h2>/g'	|
-		sed 's/#\(.*\)#/<h1>\1<\/h1>/g'		|
-		sed 's/!!!!!UPDATED!!!!!/'$( date --reference=$3 )'/'
-		cat template.html							| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'
+		sed 's/#\(.*\)#/<h1>\1<\/h1>/g'
+
+		cat template.html							| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'	|
+			sed 's/!!!!!UPDATED!!!!!/'$( date --reference=$3 )'/'
 	) > $TARGET
 fi
