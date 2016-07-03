@@ -29,7 +29,7 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	TARGET=../alslug.github.io/$3
 	echo $TARGET
 	mkdir $( dirname $TARGET ) -pv
-	cat $3 | sed ":a;N;$!ba;s/<[^>]*>//g" | aspell -a | less
+#	cat $3 | sed ":a;N;$!ba;s/<[^>]*>//g" | aspell -a | less
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 
