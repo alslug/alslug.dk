@@ -29,7 +29,9 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	echo $TARGET
 	mkdir $( dirname $TARGET ) -pv
 	if false ; then
-		echo "######################################################################"	echo "######################################################################"
+		echo "######################################################################"
+		echo "######################################################################"
+		echo "######################################################################"
 		echo "#####"
 		echo "##### $3"
 		echo "#####"
@@ -37,6 +39,8 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		cat $3 | sed ":a;N;$!ba;s/\<[^\>]*>//g" | aspell -a
 		echo "######################################################################"
 	fi
+	CONTENT=mktemp
+	cat $3 | sed ':a;N;$!ba;s/.*<section>/<section>/' | sed ':a;N;$!ba;s/<\/section>.*/<\/section>/' > $CONTENT
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 
@@ -44,10 +48,10 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 
-		cat $3					|
+		cat $CONTENT
 		sed 's/^$/<br>/'
 
-		cat template.html							| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'	|
+		cat template.html						| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'	|
 			sed "s/!!!!!UPDATED!!!!!/$( date --reference=$3 )/"
-	) > $TARGET
+	) > $TARGET.new
 fi
