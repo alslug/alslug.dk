@@ -40,9 +40,7 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		echo "######################################################################"
 	fi
 	CONTENT=$( mktemp )
-echo $CONTENT
 	cat $TARGET | sed ':a;N;$!ba;s/.*<section>//' | sed ':a;N;$!ba;s/<\/section>.*//' > $CONTENT
-echo  xxxxxxxxxxxxxxxxx
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 
@@ -50,9 +48,7 @@ echo  xxxxxxxxxxxxxxxxx
 
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 
-ls -la $CONTENT >&2
 		cat $CONTENT
-		sed 's/^$/<br>/'
 
 		cat template.html						| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'	|
 			sed "s/!!!!!UPDATED!!!!!/$( date --reference=$3 )/"

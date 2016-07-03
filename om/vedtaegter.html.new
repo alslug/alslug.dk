@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>AlsLUG.GitHub.io by AlsLUG</title>
+
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+		<link rel="stylesheet" href="/stylesheets/github-light.css">
+		<meta name="viewport" content="width=device-width">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>AlsLUG.dk</h1>
+				<p>Alssund Linux Brugergruppe</p>
+				
+<p>
+<a href='/index.html'>AlsLUG.dk
+Kalender</a></br>
+<a href='/medlemskab/medlemskab.html'>AlsLUG.dk</a></br>
+<a href='/medlemskab/postlister.html'>AlsLUG.dk</a></br>
+<a href='/om/historie.html'>AlsLUG.dk
+Historie</a></br>
+<a href='/om/kontakt.html'>AlsLUG.dk
+Kontakt</a></br>
+<a href='/om/om.html'>AlsLUG.dk
+Om AlsLUG</a></br>
+<a href='/om/vedtaegter.html'>AlsLUG.dk
+Vedtægter</a></br>
+<a href='/arrangementer/installfest.html'>AlsLUG.dk
+Installfest</a></br>
+<a href='/arrangementer/linuxaften.html'>AlsLUG.dk
+Linuxaften</a></br>
+</p>
+
+<!--
+				<p class="view"><a href="https://github.com/AlsLUG">View Our GitHub Profile</a></p>
+-->
+			</header>
+			<section>
+
+<h1>Vedtægter</h1>
+<br>
+<h2>Vedtægter for foreningen - Alssund Linux User Group (Alslug)</h2>
+<br>
+Vedtaget onsdag, den 3. maj 2000.
+<br>
+<h2>Navn og hjemsted</h2>
+<br>
+<h3>§1. stk. 1</h3>
+<br>
+Foreningens navn er ALSLUG - Alssund Linux User Group.
+<br>
+<h3>§1. stk. 2</h3>
+<br>
+Foreningens webadresse er http://www.alslug.dk .
+<br>
+<h3>§1. stk. 3</h3>
+<br>
+Foreningens postadresse er:
+ALSLUG - Alssund Linux User Group
+<br>
+c/o (formandens adresse)
+<br>
+<h3>§1. stk. 4</h3>
+<br>
+Formandens adresse skal oplyses på foreningens webside.
+<br>
+<h2>Formål</h2>
+<br>
+<h3>§2. stk. 1</h3>
+<br>
+Det er foreningens formål at skabe arrangementer for GNU/Linux brugere i Alssund området, samt sekundært at udbrede kendskabet til 
+styresystemet GNU/Linux samt open source samfundet.
+<br>
+<h2>Medlemmer</h2>
+<br>
+<h3>§3. stk. 1</h3>
+<br>
+Som medlemmer optages personer med interesse i at få større kendskab til GNU/Linux.
+<br>
+<h3>§3. stk. 2</h3>
+<br>
+Indmeldelse sker ved tilmelding til mailinglisten alslug-announce@alslug.dk
+<br>
+<h3>§3. stk. 3</h3>
+<br>
+Medlemmer betaler egne udgifter i forbindelse med arrangementer, arrangeret af foreningen.
+<br>
+<h3>§3. stk. 4</h3>
+<br>
+Udmeldelse sker ved afmelding af mailinglisten alslug-announce@alslug.dk
+<br>
+<h2>Generalforsamlingen</h2>
+<br>
+<h3>§4. stk. 1</h3>
+<br>
+Foreningens øverste myndighed er generalforsamlingen.
+<br>
+<h3>§4. stk. 2</h3>
+<br>
+Generalforsamlingen mødes ordinært en gang årligt i september.  
+<br>
+<h3>§4. stk. 3</h3>
+<br>
+Generalforsamlingen består af foreningens medlemmer.
+<br>
+<h3>§4. stk 4</h3>
+<br>
+Stemmeret har medlemmer som har været medlem i mindst 3 måneder op til generalforsamlingen.
+<br>
+<h3>§4. stk. 5</h3>
+<br>
+Bestyrelsen kan indbyde gæster til at overvære generalforsamlingen. Indbudte gæster er dog uden stemmeret.
+<br>
+<h3>§4. stk. 6</h3>
+<br>
+Generalforsamlingen vælger 1 formand, 2 menige bestyrelsesmedlemmer samt 2 suppleanter. Kan der på generalforsamlingen ikke 
+opstilles 3 kandidater, vælger man det på generalforsamlingen antal mulige medlemmer til bestyrelsen. De på generalforsamlingen 
+valgte bestyrelsesmedlemmer har efter den ordinære generalforsamling ret til at optage fuldgyldige bestyrelsesmedlemmer op til 
+rammen på 3 personer. Heraf følger, at der ikke findes suppleanter.
+<br>
+<h3>§4. stk. 7</h3>
+<br>
+Generalforsamlingen vælger 1 revisor. Revisoren kan ikke være medlem af bestyrelsen. Revisoren skal ikke være medlem af Alslug.
+<br>
+<h3>§4. stk. 8</h3>
+<br>
+Generalforsamlingens dagsorden bekendtgøres på foreningens mailingliste, alslug-announce@alslug.dk, mindst en uge før afholdelse.
+<br>
+<h3>§4. stk. 9</h3>
+<br>
+Forslag til punkter på dagsordenen skal være bestyrelsen i hænde senest 2 uger før generalforsamlingen.
+<br>
+<h3>§4. stk. 10</h3>
+<br>
+Generalforsamlingens dagsorden skal mindst indeholde følgende punkter:
+<br>
+A : Valg af ordstyrer
+<br>
+B : Formandens beretning
+<br>
+C : Fremlæggelse af regnskab
+<br>
+D : Indkomne forslag
+<br>
+E : Valg af 3 bestyrelsesmedlemmer og 2 suppleanter
+<br>
+F : Valg af revisor
+<br>
+G : Eventuelt .
+<br>
+<h3>§4. stk. 11</h3>
+<br>
+Ved personvalg gælder følgende regler:
+<br>
+A. Personvalg afgøres ved absolut flertal, evt. i flere afstemninger.
+<br>
+B. Afstemninger sker ved håndsoprækning.
+<br>
+Hvis en eller flere medlemmer til mødet anmoder om en skriftlig afstemning, skal dette efterkommes.
+<br>
+<h3>§4. stk. 12</h3>
+<br>
+Ved andre afstemninger gælder følgende særlige regler:
+<br>
+A. Forslag om vedtægtsændringer vedtages med kvalificeret flertal på mindst 2/3 af de afgivne stemmer.
+<br>
+<h3>§4. stk. 13</h3>
+<br>
+Ekstraordinær generalforsamling kan indkaldes af bestyrelsen og skal indkaldes, hvis mindst 10 procent af medlemerne overfor 
+bestyrelsen fremsætter anmodning herom. Af anmodningen skal fremgå hvad man ønsker behandlet på den ekstraordinære 
+generalforsamling. Den ekstraordinære generalforsamling skal afholdes senest fire uger efter, at anmodningen er modtaget.
+<br>
+<h3>§4. stk. 14</h3>
+<br>
+Indkaldelse til den ekstraordinære generalforsamling følger reglerne for ordinær generalforsamling, dog undtaget stk. 10 omkring 
+dagsordenen.
+<br>
+<h2>Bestyrelsen</h2>
+<br>
+<h3>§5. stk. 1</h3>
+<br>
+Bestyrelsen, der består af 3 medlemmer, er foreningens højeste myndighed mellem generalforsamlingerne.
+<br>
+<h3>§5. stk. 2</h3>
+<br>
+Bestyrelsen er beslutningsdygtig, når mindst 2/3 er tilstedeværende.
+<br>
+<h3>§5. stk. 3</h3>
+<br>
+Bestyrelsen mødes efter behov. Hvert medlem af bestyrelsen kan indkalde til bestyrelsesmøde med min. en uges varsel.
+<br>
+<h3>§5. stk. 4</h3>
+<br>
+Bestyrelsen leder foreningen i overensstemmelse med nærværende vedtægter og beslutninger. Den har med disse begrænsninger myndighed 
+til at handle på foreningens vegne, og i foreningens interesse. Bestyrelsen er ansvarlig for foreningens økonomi, dog uden at hæfte 
+personligt for eventuel gæld indgået efter foreningens regler.
+<br>
+<h3>§5. stk. 5</h3>
+<br>
+Bestyrelsen kan nedsætte udvalg. I så fald skal bestyrelsen udarbejde et kommissorium for udvalgets arbejde og tage stilling til 
+udvalgsarbejdets tidsmæssige udstrækning og økonomi.
+<br>
+<h3>§5. stk. 6</h3>
+<br>
+Personvalg afgøres ved absolut flertal, eventuelt i flere valgrunder.
+<br>
+<h3>§5. stk. 7</h3>
+<br>
+Foreningen tegnes af hele bestyrelsen.
+<br>
+<h3>§5. stk. 8</h3>
+<br>
+Udmeldelse af bestyrelsen foregår ved at sende en besked til alslug-announce@alslug.dk.
+<br>
+<h2>Udvalg</h2>
+<br>
+<h3>§6. stk. 1</h3>
+<br>
+Udvalgene skal behandle og komme med forslag om emner under udvalgenes sagsområder i overensstemmelse med deres kommissorier.
+<br>
+<h2>Økonomi</h2>
+<br>
+<h3>§7. stk. 1</h3>
+<br>
+Foreningen er ikke-kommerciel, dog kan penge opkræves ved specielle arrangementer til dækning af udgifter i forbindelse med arrangementet.
+<br>
+<h2>Opløsning af foreningen</h2>
+<br>
+<h3>§8. stk. 1</h3>
+<br>
+Beslutning om opløsning af foreningen kan kun træffes på en ekstraordinær generalforsamling, der er indkaldt med dette som eneste 
+punkt på dagsordenen.
+<br>
+<h3>§8. stk. 2</h3>
+<br>
+Denne ekstraordinære generalforsamling er kun beslutningsdygtig, hvis mere end halvdelen af alle medlemmer er til stede på 
+afstemningstidspunktet.
+<br>
+<h3>§8. stk. 3</h3>
+<br>
+Et forslag om opløsning kan kun vedtages med kvalificeret flertal på mindst 2/3 af de afgivne stemmer.
+<br>
+<h3>§8. stk. 4</h3>
+<br>
+Er færre end halvdelen af medlemmerne til stede på afstemningstidspunktet, indkaldes til ny ekstraordinær generalforsamling, hvor 
+forslaget om opløsning kan vedtages med absolut flertal af de afgivne stemmer uanset antallet af tilstedeværende medlemmer.
+<br>
+<h3>§8. stk 5</h3>
+<br>
+Ved opløsning af foreningen tilfalder evt. aktiver til "The Free Software Foundation".
+
+</section>
+			<footer>
+				<p><small>
+<!--
+					Hosted on GitHub Pages
+					<br>
+-->
+					Theme based on <a href="https://github.com/orderedlist">orderedlist</a>
+					<br>
+					Opdateret søn jul  3 22:06:10 CEST 2016
+				</small></p>
+			</footer>
+		</div>
+		<script src="/javascripts/scale.fix.js"></script>
+	</body>
+</html>
