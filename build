@@ -25,7 +25,7 @@ elif [ "$1" = "menu" ] ; then
 	echo "<a href='$TARGET'>$TEXT</a></br>" >> $2
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
-	TARGET=../alslug.github.io/$3
+	TARGET=$3
 	echo $TARGET
 	mkdir $( dirname $TARGET ) -pv
 	if false ; then
@@ -40,7 +40,8 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		echo "######################################################################"
 	fi
 	CONTENT=$( mktemp )
-	cat $3 | sed ':a;N;$!ba;s/.*<section>/<section>/' | sed ':a;N;$!ba;s/<\/section>.*/<\/section>/' > $CONTENT
+echo $CONTENT
+	cat $TARGET | sed ':a;N;$!ba;s/.*<section>/<section>/' | sed ':a;N;$!ba;s/<\/section>.*/<\/section>/' > $CONTENT
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 
