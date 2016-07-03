@@ -1,3 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>AlsLUG.GitHub.io by AlsLUG</title>
+
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+		<link rel="stylesheet" href="/stylesheets/github-light.css">
+		<meta name="viewport" content="width=device-width">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>AlsLUG.dk</h1>
+				<p>Alssund Linux Brugergruppe</p>
+				
 <p>
 <a href='/index.html'>AlsLUG.dk
 Kalender</a></br>
@@ -16,6 +36,12 @@ Installfest</a></br>
 <a href='/arrangementer/linuxaften.html'>AlsLUG.dk
 Linuxaften</a></br>
 </p>
+
+<!--
+				<p class="view"><a href="https://github.com/AlsLUG">View Our GitHub Profile</a></p>
+-->
+			</header>
+			<section>
 <section>
 <h1>Installfest</h1>
 <p>
