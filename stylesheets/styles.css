@@ -164,7 +164,8 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
   background-image:url(/images/alslug-logo.png);
   background-position: right bottom;
-  background-repeat: no-repeat'
+  background-repeat: no-repeat';
+  background-size: 200px 200px;
 }
 
 header ul {
