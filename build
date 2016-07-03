@@ -8,9 +8,11 @@ if [ "$1" = "" ] ; then
 
 	echo "<p>" >> $MENU
 	for FILE in ./index.html											\
-		$( cat $FILES				| grep "^./medlemskab/" )				\
-		$( cat $FILES								| grep "^./om/" )	\
-		$( cat $FILES | grep -v "^./index.html"	| grep -v "^./medlemskab/"	| grep -v "^./om/")	; do
+		$( cat $FILES			| grep "^./medlemskab/medlemskab.html" )				\
+		$( cat $FILES			| grep "^./medlemskab/"	| grep -v "^./medlemskab/medlemskab.html"	) \
+		$( cat $FILES			| grep "^./om/om.html" )						\
+		$( cat $FILES			| grep "^./om/"		| grep -v "^./om/om.html"			) \
+		$( cat $FILES | grep -v "^./index.html"	| grep -v "^./medlemskab/"	| grep -v "^./om/")		; do
 		$_PWD_/$0 menu	$MENU $FILE
 	done
 	echo "</p>" >> $MENU
