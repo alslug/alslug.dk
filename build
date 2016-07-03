@@ -42,6 +42,7 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	CONTENT=$( mktemp )
 echo $CONTENT
 	cat $TARGET | sed ':a;N;$!ba;s/.*<section>/<section>/' | sed ':a;N;$!ba;s/<\/section>.*/<\/section>/' > $CONTENT
+echo  xxxxxxxxxxxxxxxxx
 	(
 		cat template.html | sed ':a;N;$!ba;s/!!!!!!! MENU !!!!!!!.*//'
 
