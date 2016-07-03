@@ -159,7 +159,7 @@ img {
 
 header {
   width:270px;
-  float:left;
+  float:right;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   background-image:url(/images/alslug-logo.png);
