@@ -52,6 +52,6 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 
 		cat template.html						| sed ':a;N;$!ba;s/.*<\/section>/<\/section>/'	|
 			sed "s/!!!!!UPDATED!!!!!/$( date --reference=$3 )/"
-	) > $TARGET.new
+	) > $TARGET
 	rm $CONTENT
 fi
