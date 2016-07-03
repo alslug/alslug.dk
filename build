@@ -6,7 +6,7 @@ if [ "$1" = "" ] ; then
 	_PWD_=$( pwd )
 	find . -type f -name '*.html' -not -name 'template.html' | sort > $FILES
 
-	echo "<p>" >> $MENU
+	echo "				<p>" >> $MENU
 	for FILE in ./index.html											\
 		$( sort < $FILES | grep "^./medlemskab/medlemskab.html" )				\
 		$( sort < $FILES | grep "^./medlemskab/"	| grep -v "^./medlemskab/medlemskab.html"	) \
@@ -15,7 +15,7 @@ if [ "$1" = "" ] ; then
 		$( sort < $FILES | grep -v "^./index.html"	| grep -v "^./medlemskab/"	| grep -v "^./om/")		; do
 		$_PWD_/$0 menu	$MENU $FILE
 	done
-	echo "</p>" >> $MENU
+	echo "				</p>" >> $MENU
 	for FILE in $( cat $FILES ) ; do
 		$_PWD_/$0 build	$MENU $FILE
 	done
@@ -24,7 +24,7 @@ elif [ "$1" = "menu" ] ; then
 	TARGET=$( echo $3 | sed "s/^.//" )
 	TEXT=$( cat $3 | grep "<h1>" -i | sed "s/.*<h1>\(.*\)<\/h1>.*/\\1/g" )
 	[ "$TEXT" = "" ] && TEXT=$( basename $3 )
-	echo "<a href='$TARGET'>$TEXT</a></br>" >> $2
+	echo "					<a href='$TARGET'>$TEXT</a></br>" >> $2
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=$3
