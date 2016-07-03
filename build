@@ -7,7 +7,7 @@ if [ "$1" = "" ] ; then
 	find . -type f -name '*.html' -not -name 'template.html' | sort > $FILES
 
 	echo "				<p>" >> $MENU
-	BLOCKS "medlemskab om";
+	BLOCKS="medlemskab om";
 	for FILE in ./index.html							; do	$_PWD_/$0 menu  $MENU $FILE ; done
 	for BLOCK in $BLOCKS ; do for FILE in \
 		$( sort < $FILES | grep "^./$BLOCK/$BLOCK.html" )			\
