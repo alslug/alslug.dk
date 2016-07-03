@@ -159,7 +159,7 @@ img {
 
 header {
   width:270px;
-  float:right;
+  float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   background-image:url(/images/alslug-logo.png);
@@ -229,7 +229,7 @@ header ul a strong {
 
 section {
   width:500px;
-  float:left;
+  float:right;
   padding-bottom:50px;
 }
 
@@ -246,7 +246,7 @@ hr {
 
 footer {
   width:270px;
-  float:right;
+  float:left;
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
