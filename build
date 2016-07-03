@@ -50,6 +50,7 @@ echo  xxxxxxxxxxxxxxxxx
 
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 
+ls -la $CONTENT >&2
 		cat $CONTENT
 		sed 's/^$/<br>/'
 
