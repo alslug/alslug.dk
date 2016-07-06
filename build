@@ -1,6 +1,7 @@
 #!/bin/bash
 
 if [ "$1" = "" ] ; then
+	FOLDER=$( mktemp )	; echo . > $FOLDER
 	MENU=$( mktemp )
 	FILES=$( mktemp )
 	_PWD_=$( pwd )
@@ -8,24 +9,30 @@ if [ "$1" = "" ] ; then
 
 	echo "				<p>" >> $MENU
 	BLOCKS="medlemskab om";
-	for FILE in ./index.html							; do	$_PWD_/$0 menu  $MENU $FILE ; done
+	for FILE in ./index.html							; do	$_PWD_/$0 menu  $MENU $FILE $FOLDER ; done
 	for BLOCK in $BLOCKS ; do for FILE in \
 		$( sort < $FILES | grep "^./$BLOCK/$BLOCK.html" )			\
-		$( sort < $FILES | grep "^./$BLOCK/" | grep -v "^./$BLOCK/$BLOCK.html" ) ; do	$_PWD_/$0 menu	$MENU $FILE ; done ; done
+		$( sort < $FILES | grep "^./$BLOCK/" | grep -v "^./$BLOCK/$BLOCK.html" ) ; do	$_PWD_/$0 menu	$MENU $FILE $FOLDER ; done ; done
 	for FILE in \
 		$( sort < $FILES | grep -v "^./index.html" | grep -v "^./medlemskab/" | grep -v "^./om/" ) ; do
-												$_PWD_/$0 menu	$MENU $FILE ; done
+												$_PWD_/$0 menu	$MENU $FILE $FOLDER ; done
 	echo "				</p>" >> $MENU
 
 	for FILE in $( cat $FILES ) ; do
 		$_PWD_/$0 build	$MENU $FILE
 	done
-	rm $MENU $FILES
+	rm $FOLDER $MENU $FILES
 elif [ "$1" = "menu" ] ; then
+	FOLDER=$4
 	TARGET=$( echo $3 | sed "s/^.//" )
 	TEXT=$( cat $3 | sed ':a;N;$!ba;s/.*<section>//'| grep "<h1>" -i | sed "s/.*<h1>\(.*\)<\/h1>.*/\\1/g" )
 	[ "$TEXT" = "" ] && TEXT=$( basename $3 )
-	echo "					<a href='$TARGET'>$TEXT</a></br>" >> $2
+	(
+		echo -n	"					"
+		echo $FOLDER
+		echo "<a href='$TARGET'>$TEXT</a></br>"
+	) >> $2
+	dirname $3 > $FOLDER
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=$3
