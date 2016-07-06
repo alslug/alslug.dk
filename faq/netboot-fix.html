@@ -47,16 +47,16 @@ fejlopsætning af det kablede netværk</p>
 <p>Hvis computeren stadigvæk kører live-versionen skal der rettes i filen /target/etc/network/interfaces</p>
 <p>Hvis computeren er blevet genstartet efter installationen filen /etc/network/interfaces</p>
 
-Filen rettes med komanden
+<p>Filen rettes med komanden</p>
 <code>
 	sudo nano /target/etc/network/interfaces
 </code>
-hhv 
+<p>hhv </p>
 <code>
 	sudo nano /etc/network/interfaces
 </code>
 
-Filen vil ligne denne efter installationen:
+<p>Filen vil ligne denne efter installationen:</p>
 <quote>
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
@@ -65,14 +65,14 @@ iface lo inet loopback
 xxxxxxxxxxxxx
 xxxxxxxxxxxxx
 </quote>
-De to sidste linier skal slettes, så den indeholder.
+<p>De to sidste linier skal slettes, så den indeholder.</p>
 <quote>
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
 </quote>
 
-Derefter genstartes maskinen, og der vil være adgang til internettet.
+<p>Derefter genstartes maskinen, og der vil være adgang til internettet.</p>
 			</section>
 			<footer>
 				<p><small>
