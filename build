@@ -30,8 +30,7 @@ elif [ "$1" = "menu" ] ; then
 	(
 		echo -n	"					"
 		if [ "$( cat $FOLDER )" != "." ] ; then
-			echo -n "&nbsp;&nbsp;"
-			cat $FOLDER
+			echo -n "&nbsp;&nbsp;&nbsp;&nbsp;"
 		fi
 		echo "<a href='$TARGET'>$TEXT</a></br>"
 	) >> $2
