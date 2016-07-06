@@ -42,8 +42,25 @@
 Mange, speceilt ældre, computere har et trådløst netkort af typen Broadcom B43xx. Driverne som er nødvendig for at få kontakt til
 disse netkort, må ikke distribueres på Ubuntus CD'er, og kan derfor ikke installeres sammen med operativsystemet. Men det er der
 en simpel løsning på.</p>
+<p>
+
+<h2>Find ud af om du har et B43 netkort i din maskine</h2>
+<p>Følgende kommano vil vise om din computer har et B43 trådløst netkort:</p>
 <code>
-	sudo apt-get install firmware-b43installer
+sudo lshw | grep -i BCM43
+</code>
+
+<h2>Installer driverne.</h2>
+<p>Installationen klares ved at åbne en <a href='terminal'>terminal</a> (Ctrl-Alt-T virker som regel på Ubuntu-varianer m.fl.),
+og køre følgelnde kommando, som downloader driverne og installere dem:</p>
+<code>
+	sudo apt-get install firmware-b43-installer
+</code>
+
+<p>Hvis dit netkort er en meget gammel type vil overstående kommando fejl. Hvis det er tilfældet kan denne kommando bruges til at 
+installere en gammel version til den gamle hardware.</p>
+<code>
+	sudo apt-get install firmware-b43legacy-installer
 </code>
 			
 </section>
