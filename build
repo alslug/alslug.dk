@@ -29,7 +29,7 @@ elif [ "$1" = "menu" ] ; then
 	[ "$TEXT" = "" ] && TEXT=$( basename $3 )
 	(
 		echo -n	"					"
-		if [ "$FOLDER" != "." ] ; then
+		if [ "$( cat $FOLDER )" != "." ] ; then
 			echo -n "&nbsp;&nbsp;"
 			cat $FOLDER
 		fi
