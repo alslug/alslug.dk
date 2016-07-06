@@ -8,14 +8,18 @@ if [ "$1" = "" ] ; then
 	find . -type f -name '*.html' -not -name 'template.html' | sort > $FILES
 
 	echo "				<p>" >> $MENU
-	BLOCKS="medlemskab om faq";
+	BLOCKS="arrangementer medlemskab om faq";
 	for FILE in ./index.html							; do	$_PWD_/$0 menu  $MENU $FILE $FOLDER ; done
 	for BLOCK in $BLOCKS ; do for FILE in \
 		$( sort < $FILES | grep "^./$BLOCK/$BLOCK.html" )			\
 		$( sort < $FILES | grep "^./$BLOCK/" | grep -v "^./$BLOCK/$BLOCK.html" ) ; do	$_PWD_/$0 menu	$MENU $FILE $FOLDER ; done ; done
 	for FILE in \
-		$( sort < $FILES | grep -v "^./index.html" | grep -v "^./medlemskab/" | grep -v "^./om/"  | grep -v "^./faq/") ; do
-												$_PWD_/$0 menu	$MENU $FILE $FOLDER ; done
+		$( sort < $FILES	| grep -v "^./index.html"
+					| grep -v "^./arrangementer/"
+					| grep -v "^./medlemskab/"
+					| grep -v "^./om/"
+					| grep -v "^./faq/"
+											) ; do	$_PWD_/$0 menu	$MENU $FILE $FOLDER ; done
 	echo "				</p>" >> $MENU
 
 	for FILE in $( cat $FILES ) ; do
