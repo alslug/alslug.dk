@@ -58,7 +58,7 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		cat $MENU
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $CONTENT
-		cat template.html						| sed ':a;N;$!ba;s/.*\(<\/section>\)/\\1/'
+		cat template.html						| sed ':a;N;$!ba;s/.*\(<\/section>\)/\1/'
 	) > $TARGET
 	rm $CONTENT
 fi
