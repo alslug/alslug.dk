@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>AlsLUG.dk - Alssund Linux Brugergruppe</title>
+
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+		<link rel="stylesheet" href="/stylesheets/github-light.css">
+		<meta name="viewport" content="width=device-width">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>AlsLUG.dk</h1>
+				<p>Alssund Linux Brugergruppe</p>
+				
+				<p>
+					<a href='/index.html'>Kalender</a></br>
+					<a href='/medlemskab/medlemskab.html'>Medlemskab</a></br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/medlemskab/postlister.html'>Postlister</a></br>
+					<a href='/om/om.html'>Om AlsLUG</a></br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/om/historie.html'>Historie</a></br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/om/kontakt.html'>Kontakt</a></br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/om/vedtaegter.html'>Vedtægter</a></br>
+					<a href='/faq/faq.html'>FAQ - Offte stillede spørgsmål</a></br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/faq/b43.html'>Manglende wifi</a></br>
+					<a href='/installfest.html'>Installfest</a></br>
+					<a href='/linuxaften.html'>Linuxaften</a></br>
+				</p>
+
+<!--
+				<p class="view"><a href="https://github.com/AlsLUG">View Our GitHub Profile</a></p>
+-->
+			</header>
+			<section>
+
+<h1>Netboot fix</h1>
+<p> På grund af en fejl i ubuntu-installeren, har maskiner som installeres via vores net-boot-server i vores lokale en
+fejlopsætning af det kablede netværk</p>
+
+!!!!!TERMINAL!!!!!
+
+<p>Hvis computeren stadigvæk kører live-versionen skal der rettes i filen /target/etc/network/interfaces</p>
+<p>Hvis computeren er blevet genstartet efter installationen filen /etc/network/interfaces</p>
+
+Filen rettes med komanden
+<code>
+	sudo nano /target/etc/network/interfaces
+</code>
+hhv 
+<code>
+	sudo nano /etc/network/interfaces
+</code>
+
+Filen vil ligne denne efter installationen:
+<quote>
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+xxxxxxxxxxxxx
+xxxxxxxxxxxxx
+</quote>
+De to sidste linier skal slettes, så den indeholder.
+<quote>
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+</quote>
+
+Derefter genstartes maskinen, og der vil være adgang til internettet.
+			</section>
+			<footer>
+				<p><small>
+					Hosted on GitHub Pages
+					<br>
+					Theme based on <a href="https://github.com/orderedlist">orderedlist</a>
+				</small></p>
+			</footer>
+		</div>
+		<script src="/javascripts/scale.fix.js"></script>
+	</body>
+</html>
