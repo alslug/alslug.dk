@@ -57,20 +57,20 @@ fejlopsætning af det kablede netværk</p>
 </code>
 
 <p>Filen vil ligne denne efter installationen:</p>
-<quote>
+<pre>
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
 
 xxxxxxxxxxxxx
 xxxxxxxxxxxxx
-</quote>
+</pre>
 <p>De to sidste linier skal slettes, så den indeholder.</p>
-<quote>
+<pre>
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
-</quote>
+</pre>
 
 <p>Derefter genstartes maskinen, og der vil være adgang til internettet.</p>
 			</section>
