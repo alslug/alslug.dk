@@ -35,10 +35,14 @@
 -->
 			</header>
 			<section>
-<h1>Linuxaften</h1>
+<h1>Manglende wifi</h1>
 <p>
-Hvad er en Linuxaften?
-</p>
+Mange, speceilt ældre, computere har et trådløst netkort af typen Broadcom B43xx. Driverne som er nødvendig for at få kontakt til
+disse netkort, må ikke distribueres på Ubuntus CD'er, og kan derfor ikke installeres sammen med operativsystemet. Men det er der
+en simpel løsning på.</p>
+<code>
+	sudo apt-get install firmware-b43installer
+</code>
 			</section>
 			<footer>
 				<p><small>
