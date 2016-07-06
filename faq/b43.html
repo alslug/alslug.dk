@@ -43,18 +43,17 @@
 
 
 <h1>Manglende wifi</h1>
-<p>
-Mange, speceilt ældre, computere har et trådløst netkort af typen Broadcom B43xx. Driverne som er nødvendig for at få kontakt til
-disse netkort, må ikke distribueres på Ubuntus CD'er, og kan derfor ikke installeres sammen med operativsystemet. Men det er der
-en simpel løsning på.</p>
-<p>
+<p> Mange (specielt ældre) computere har et trådløst netkort af typen Broadcom B43xx. Driverne som er nødvendig for at få kontakt til
+disse netkort, må ikke distribueres på CD'erne som Linux distribueres på, og kan derfor ikke installeres sammen med operativsystemet.</p>
+<p>Men det er der heldigvig nogen som har lavel en simpel løsning på.</p>
 
 <h2>Har du et B43 netkort i din maskine?</h2>
 <p>Følgende kommano vil vise om din computer har et B43 trådløst netkort:</p>
 <code>
-sudo lshw | grep -i BCM43
+	sudo lshw | grep -i BCM43
 </code>
 <p>Hvis kommanden ikke returnere noget, har du formodentligt ikke et B43 netkort i maskinen.</p>
+
 <h2>Installer driverne.</h2>
 <p>Installationen klares ved at åbne en <a href='terminal'>terminal</a> (Ctrl-Alt-T virker som regel på Ubuntu-varianer m.fl.),
 og køre følgelnde kommando, som downloader driverne og installere dem:</p>
