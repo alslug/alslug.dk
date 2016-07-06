@@ -29,7 +29,7 @@ elif [ "$1" = "menu" ] ; then
 	[ "$TEXT" = "" ] && TEXT=$( basename $3 )
 	(
 		echo -n	"					"
-		if [ "$( cat $FOLDER )" != "." ] ; then
+		if [ "$( cat $FOLDER )" != "." ] && [ "$( cat $FOLDER )" = "$( dirname $3 )" ] ; then
 			echo -n "&nbsp;&nbsp;&nbsp;&nbsp;"
 		fi
 		echo "<a href='$TARGET'>$TEXT</a></br>"
