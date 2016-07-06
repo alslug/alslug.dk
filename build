@@ -38,6 +38,7 @@ elif [ "$1" = "menu" ] ; then
 		echo "<a href='$TARGET'>$TEXT</a></br>"
 	) >> $2
 	dirname $3 > $FOLDER
+	[ "$3" = "./index.html" ] && echo "./arrangemeter" > $FOLDER
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=$3
