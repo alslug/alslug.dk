@@ -162,7 +162,7 @@ img {
 
 header {
   width:270px;
-  float:left;
+  float:right;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   background-image:url(/images/alslug-logo-modded.png);
@@ -249,7 +249,7 @@ hr {
 
 footer {
   width:270px;
-  float:left;
+  float:right;
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
