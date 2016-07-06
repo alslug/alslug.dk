@@ -58,8 +58,9 @@ elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 		cat $MENU
 		cat template.html | sed ':a;N;$!ba;s/.*!!!!!!! MENU !!!!!!!//'	| sed ':a;N;$!ba;s/<section>.*/<section>/'
 		cat $CONTENT
-# | sed 's/!!!!!TERMINAL!!!!!/<p>Nedenstående kommandoer (teksten med orange baggrund) køres i en <a href="\/faq\/terminal">terminal<\a>(Ctrl-Alt-T virker som regel på Ubuntu-varianer m.fl.). Eller kig på siden om <a href="\faq\/terminal">terminalen<\/a><\/p>/'
 		cat template.html						| sed ':a;N;$!ba;s/.*\(<\/section>\)/\1/'
 	) > $TARGET
+	sed -i 's/!!!!!TERMINAL!!!!!/<p>Nedenstående kommandoer (teksten med orange baggrund) køres i en <a href="\/faq\/terminal">terminal<\a>(Ctrl-Alt-T virker som regel på Ubuntu-varianer m.fl.). Eller kig på siden om <a href="\faq\/terminal">terminalen<\/a><\/p>/' \
+					$TARGET
 	rm $CONTENT
 fi
