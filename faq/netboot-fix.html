@@ -39,17 +39,6 @@
 -->
 			</header>
 			<section>
-
-
-
-
-
-
-
-
-
-
-
 <h1>Netboot fix</h1>
 <p> På grund af en fejl i ubuntu-installeren, har maskiner som installeres via vores netboot-server i vores lokale en
 fejlopsætning af det kablede netværk</p>
@@ -61,7 +50,7 @@ fejlopsætning af det kablede netværk</p>
 <code>
 	sudo nano /target/etc/network/interfaces
 </code>
-<p>Hvis computeren er blevet genstartet efter installationen køres denne kommando:</p>
+<p>Hvis computeren <b>er</b> blevet genstartet efter installationen køres denne kommando:</p>
 <code>
 	sudo nano /etc/network/interfaces
 </code>
@@ -71,7 +60,6 @@ fejlopsætning af det kablede netværk</p>
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
-
 xxxxxxxxxxxxx
 xxxxxxxxxxxxx
 </pre>
@@ -83,17 +71,7 @@ iface lo inet loopback
 </pre>
 
 <p>Derefter genstartes maskinen, og der vil være adgang til internettet.</p>
-			
-
-
-
-
-
-
-
-
-
-</section>
+			</section>
 			<footer>
 				<p><small>
 					Hosted on GitHub Pages
