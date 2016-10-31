@@ -46,10 +46,11 @@
 <p>Der arbejdes for tiden på et nyt medlemskartotek, så der kan være uregelmæssigheder på siden.</p>
 <script>
 function resizeIframe(obj) {
+	alert(obj.contentWindow.document.body.scrollHeight);
 	obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
 </script>
-1
+
 <iframe style='width:100%; height:1200px; bor_der:none;' onload='resizeIframe(this)'
 								src="https://kartoteket.alslug.dk/medlemskab/"></iframe>
 			</section>
