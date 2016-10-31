@@ -51,9 +51,8 @@
 document.getElementById('iframe').onload = function () {
 	obj = document.getElementById('iframe');
 	alert(obj);
-	alert(obj
-.contentWindow
-);
+	obj = obj.contentWindow;
+	alert(obj);
 //.contentWindow.document.body.scrollHeight);
 //	obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
