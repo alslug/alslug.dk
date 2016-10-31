@@ -47,6 +47,7 @@
 9
 <iframe id='iframe' style='width:100%; height:1200px; bor_der:none;' src="https://kartoteket.alslug.dk/medlemskab/"></iframe>
 <script>
+alert(document.getElementById('iframe'));
 document.getElementById('iframe').onload = function (obj) {
 	alert(obj.contentWindow.document.body.scrollHeight);
 	obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
