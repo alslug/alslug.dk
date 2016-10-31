@@ -29,16 +29,18 @@ elif [ "$1" = "menu" ] ; then
 	FOLDER=$4
 	TARGET=$( echo $3 | sed "s/^.//" )
 	TEXT=$( cat $3 | sed ':a;N;$!ba;s/.*<section>//'| grep "<h1>" -i | sed "s/.*<h1>\(.*\)<\/h1>.*/\\1/g" )
+	IFRAME=$( cat $3 | sed ':a;N;$!ba;s/.*<section>//'| grep "<iframe" -i | sed "s/.*<iframe.*src=['\"]\(.*\)['\"]><.*/\\1/g" )
 	[ "$TEXT" = "" ] && TEXT=$( basename $3 )
 	(
 		echo -n	"					"
 		if [ "$( cat $FOLDER )" != "." ] && [ "$( cat $FOLDER )" = "$( dirname $3 )" ] ; then
 			echo -n "&nbsp;&nbsp;&nbsp;&nbsp;"
 		fi
+		[ "$IFRAME" != "" ] && TARGET=$IFRAME
 		echo "<a href='$TARGET'>$TEXT</a></br>"
 	) >> $2
-	dirname $3 > $FOLDER
-	[ "$3" = "./index.html" ] && echo "./arrangementer" > $FOLDER
+	dirname $3							> $FOLDER
+	[ "$3" = "./index.html" ]	&& echo "./arrangementer"	> $FOLDER
 elif [ "$1" = "build" ]  && [ -f "$3" ] ; then
 	MENU=$2
 	TARGET=$3
