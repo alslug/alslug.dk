@@ -45,13 +45,13 @@
 <p>Medlemskab er gratis.</p>
 <p>Der arbejdes for tiden på et nyt medlemskartotek, så der kan være uregelmæssigheder på siden.</p>
 <script>
-function resizeIframe(obj) {
+document.getElementById('iframe').onload = function (obj) {
 	alert(obj.contentWindow.document.body.scrollHeight);
 	obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
 </script>
-5
-<iframe style='width:100%; height:1200px; bor_der:none;' onload="resizeIframe(this)"
+6
+<iframe id='iframe' style='width:100%; height:1200px; bor_der:none;' onload="resizeIframe(this)"
 								src="https://kartoteket.alslug.dk/medlemskab/"></iframe>
 			</section>
 			<footer>
