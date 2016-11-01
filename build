@@ -18,6 +18,7 @@ if [ "$1" = "" ] ; then
 					grep -v	"^./medlemskab/"	|
 					grep -v	"^./om/"		|
 					grep -v	"^./faq/"		\
+					grep -v	"^./infoscreens/"	\
 											) ; do	$_PWD_/$0 menu	$MENU $FILE $FOLDER ; done
 	echo "				</p>" >> $MENU
 
