@@ -38,16 +38,22 @@ men menuerne ser lidt anderledes ud.</p>
 
 <h2>Har du et B43 netkort i din maskine?</h2>
 <p>Følgende kommano vil vise om din computer har et B43 trådløst netkort:</p>
-<code>	sudo lshw | grep -i BCM43	</code>
+<pre class='code'>
+sudo lshw | grep -i BCM43
+</pre>
 <p>Hvis kommanden ikke returnere noget, har du formodentligt ikke et B43 netkort i maskinen.</p>
 
 <h2>Installer driverne.</h2>
 <p>Installationen klares normalt ved at køre følgelnde kommando, som downloader driverne og installere dem:</p>
-<code>	sudo apt-get install firmware-b43-installer	</code>
+<pre class='code'>
+sudo apt-get install firmware-b43-installer
+</pre>
 
 <p>Hvis dit netkort er en meget gammel type vil overstående kommando fejl. Hvis det er tilfældet kan denne kommando bruges til at 
 installere en gammel version til den gamle hardware.</p>
-<code>	sudo apt-get install firmware-b43legacy-installer	</code>
+<pre class='code'>
+sudo apt-get install firmware-b43legacy-installer
+</code>
 			</section>
 			<footer>
 				<p><small>
