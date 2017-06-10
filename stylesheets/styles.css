@@ -136,6 +136,10 @@ pre {
   overflow-x: auto;
 }
 
+pre.code {
+  background-color:#ffd22f;
+}
+
 table {
   width:100%;
   border-collapse:collapse;
