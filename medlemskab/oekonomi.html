@@ -29,25 +29,22 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 						<div>	IBAN: DKxxxx80100001122838	</div>		</td></tr>
 	<tr><td>Kontant:	</td><td>Vores sparegris ved kaffen er altid sulten.			</td></tr>
 	<tr><td>MobilePay:	</td><td>Under oprettelse.<br>Vi skal lige godkendes som forening.	</td></tr>
+	<tr><td>Rent Dankort:	</td><td>Det har vi ikke råd til at tilbyde.				</td></tr>
 	<tr><td><div>Visacard:</div><div>Mastercard:</div>
 				</td><td>Vi er igang med at teste det.
-<form action="https://kartoteket.alslug.dk/stripe/charge.php" method="GET" m_ethod="POST">
-	<script src="https://checkout.stripe.com/checkout.js"	class="stripe-button"	data-key="pk_test_xaFjcaiPopJpuTvDwW1W3E5X"
-		data-image="/images/alslug-logo-modded.png" data-name="AlsLUG - Alssund Linux Brugergruppe" data-locale="da"
-		data-allow-remember-me="no"
-		d_ata-description="Donation (DKK 25.00)"  d_ata-amount="2500"  data-currency="dkk" d_ata-label="Betal DKK 25.00 med kort"
-					></script>
-</form>
-<form action="https://kartoteket.alslug.dk/stripe/charge.php" method="GET" m_ethod="POST">
-	<script src="https://checkout.stripe.com/checkout.js"	class="stripe-button"	data-key="pk_test_xaFjcaiPopJpuTvDwW1W3E5X"
-		data-image="/images/alslug-logo-modded.png" data-name="AlsLUG - Alssund Linux Brugergruppe" data-locale="da"
-		data-allow-remember-me="no"
-		data-description="Donation (DKK 100.00)" data-amount="10000" data-currency="dkk" data-label="Betal DKK 100.00 med kort"
-					></script>
-</form>
-													</td></tr>
-	<tr><td>Rent Dankort:	</td><td>Det har vi ikke råd til at tilbyde.				</td></tr>
+	<form action="https://kartoteket.alslug.dk/stripe/charge.php" method="GET" m_ethod="POST">
+		<input name='amount' value='100' /> DKK
+		<script src="https://checkout.stripe.com/checkout.js"
+			class="stripe-button"
+			data-key="pk_test_xaFjcaiPopJpuTvDwW1W3E5X"
+			data-image="/images/alslug-logo-modded.png" data-name="AlsLUG - Alssund Linux Brugergruppe" data-locale="da"
+			data-allow-remember-me="no"
+			data-description="Donation"
+			data-label="Betal med kort"
+						></script>
+	</form>
 </table>
+													</td></tr>
 <h2>Ønsker til nyt grej:</h2>
 <p>Du kan se vores <a href='onsker-til-nyt-grej.html'>ønskeseddel</a> på hardware <a href='onsker-til-nyt-grej.html'>her</a>.</p>
 			</section>
