@@ -1,1 +1,39 @@
-!
+ALSLUG - Alssund Linux User Group
+
+Regnskab for perioden 01.08.2016 – 31.07.2017
+
+Indtægter
+		Gaver, salg		kr 4487.00
+		Kontante gaver		kr 3242.12
+	I alt							kr 7729.12
+
+Udgifter
+		It, inventar		kr  3090.31
+		Værktøj			kr   338.50
+		Forplejning		kr  1188.00
+		Hosting, netværk	kr  1261.39
+		Tryk, annoncer		kr   789.00
+		Renter-Gebyr		kr     5.90
+	I alt							kr  6673.10
+
+Årets resultat							kr  1056,02
+
+	Overført fra sidste år					kr  1291,07
+	I alt							kr  2347.09
+
+Balance
+	Aktiver
+		31-07-2016 Kassebeholdning	kr     0.00
+		31-07-2016 Konto i Sydbank	kr  2347.09
+								kr  2347.09
+
+
+	Passiver
+		Udstyr				kr 22000,00
+		Sydbank				kr  2347.09
+		Foreningskapital				kr 24347.09
+
+
+
+	Agnete Moos			Poul Erik Lauridsen
+	Revisor				Kasserer
