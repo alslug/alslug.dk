@@ -23,7 +23,10 @@
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script>
 	$(function() {
-		$( ".accordion" ).accordion({
+		$( "accordion" ).accordion({
+			heightStyle: "content"
+		});
+		$( "fixed" ).accordion({
 			heightStyle: "content"
 		});
 	});
@@ -113,10 +116,9 @@
 							Vi har hardwaren stående, men der skal laves en ny styring af den.
 						</div>
 					</div>
-
-				<h1>Ting der ridligere har været på Todo-listen:</h1>
-				<div id="ac___cordion">
 				</div>
+				<h1>Ting der ridligere har været på Todo-listen:</h1>
+				<div id="fixed">
 					<h3>Indkøbe nye tastaturer, da vi meget ofte har brug for løse tastaturer til gæsternes maskiner.</h3>
 					<div>
 						<div>
