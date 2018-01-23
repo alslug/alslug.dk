@@ -24,11 +24,14 @@
 <script>
 	$(function() {
 		$( "#accordion" ).accordion({
+			collapsible: true,
+			active: false,
 			heightStyle: "content"
 		});
 		$( "#fixed" ).accordion({
-			heightStyle: "content",
-			active: false
+			collapsible: true,
+			active: false,
+			heightStyle: "content"
 		});
 	});
 </script>
