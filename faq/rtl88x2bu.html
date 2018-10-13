@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>AlsLUG.dk - Alssund Linux Brugergruppe</title>
+
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+		<link rel="stylesheet" href="/stylesheets/github-light.css">
+		<meta name="viewport" content="width=device-width">
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="/javascripts/w3data.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header w3-include-html="header.include"></header>
+			<noscript><a href="header.include">Menu</a></noscript>
+			<section>
+<h1>Manglende wifi</h1>
+<p> Mange (specielt ældre) computere har et trådløst netkort af typen Broadcom B43xx. Driverne som er nødvendig for at få kontakt til
+disse netkort, må ikke distribueres på CD'erne som Linux distribueres på, og kan derfor ikke installeres sammen med operativsystemet.</p>
+<p>Men det er der heldigvig nogen som har lavel en simpel løsning på.</p>
+
+<p>Nedenstående kommandoer (teksten med orange baggrund) køres i en <a href="/faq/terminal.html">terminal</a>.
+(Ctrl-Alt-T virker som regel på Ubuntu-varianer m.fl.). Eller kig på siden om <a href="/faq/terminal.hrml">terminalen</a></p>
+
+<h2>Virker Wifi?</h2>
+<p>Her er et par screendumps fra Ubuntu-mate. Du behøver ikke at være koblet på wifi, for at se om det vrker.
+Hvis du kan se diverse netværker i nærheden, har du de nødvendige drivere intalleret</p>
+<p>Hvis du bruger en anden distro, vil det se lidt andet ud, men de samme info vil være til stede,
+men menuerne ser lidt anderledes ud.</p>
+<h3>Hvis dit wifi virker:</h3>
+<img src='/images/Med_Wifi.png' />
+<h3>Hvis wifi ikke virker:</h3>
+<img src='/images/Uden_Wifi.png' />
+
+<h2>Har du et B43 netkort i din maskine?</h2>
+<p>Følgende kommano vil vise om din computer har et B43 trådløst netkort:</p>
+<pre class='code'>
+sudo lshw | grep -i BCM43
+</pre>
+<p>Hvis kommanden ikke returnere noget, har du formodentligt ikke et B43 netkort i maskinen.</p>
+
+<h2>Installer driverne.</h2>
+<p>Installationen klares normalt ved at køre følgelnde kommando, som downloader driverne og installere dem:</p>
+<pre class='code'>
+sudo apt-get install firmware-b43-installer
+</pre>
+
+<p>Hvis dit netkort er en meget gammel type vil overstående kommando fejl. Hvis det er tilfældet kan denne kommando bruges til at 
+installere en gammel version til den gamle hardware.</p>
+<pre class='code'>
+sudo apt-get install firmware-b43legacy-installer
+</pre>
+			</section>
+			<footer>
+				<p><small>
+					Hosted on GitHub Pages
+					<br>
+					Theme based on <a href="https://github.com/orderedlist">orderedlist</a>
+				</small></p>
+			</footer>
+		</div>
+		<script src="/javascripts/scale.fix.js"></script>
+		<script>w3IncludeHTML();</script>
+	</body>
+</html>
