@@ -18,41 +18,22 @@
 			<header w3-include-html="header.include"></header>
 			<noscript><a href="header.include">Menu</a></noscript>
 			<section>
-<h1>Manglende wifi</h1>
-<p> Mange (specielt ældre) computere har et trådløst netkort af typen Broadcom B43xx. Driverne som er nødvendig for at få kontakt til
-disse netkort, må ikke distribueres på CD'erne som Linux distribueres på, og kan derfor ikke installeres sammen med operativsystemet.</p>
-<p>Men det er der heldigvig nogen som har lavel en simpel løsning på.</p>
+<h1>Installation af rtl88x2bu driver (kernel mod)</h1>
+<p>Bl.a. brug af netkort med mærket &quot;Aoyool AC1200&quot; eller bare &quot;AC1200&quot;</p>
 
 <p>Nedenstående kommandoer (teksten med orange baggrund) køres i en <a href="/faq/terminal.html">terminal</a>.
 (Ctrl-Alt-T virker som regel på Ubuntu-varianer m.fl.). Eller kig på siden om <a href="/faq/terminal.hrml">terminalen</a></p>
 
-<h2>Virker Wifi?</h2>
-<p>Her er et par screendumps fra Ubuntu-mate. Du behøver ikke at være koblet på wifi, for at se om det vrker.
-Hvis du kan se diverse netværker i nærheden, har du de nødvendige drivere intalleret</p>
-<p>Hvis du bruger en anden distro, vil det se lidt andet ud, men de samme info vil være til stede,
-men menuerne ser lidt anderledes ud.</p>
-<h3>Hvis dit wifi virker:</h3>
-<img src='/images/Med_Wifi.png' />
-<h3>Hvis wifi ikke virker:</h3>
-<img src='/images/Uden_Wifi.png' />
-
-<h2>Har du et B43 netkort i din maskine?</h2>
-<p>Følgende kommano vil vise om din computer har et B43 trådløst netkort:</p>
 <pre class='code'>
-sudo lshw | grep -i BCM43
-</pre>
-<p>Hvis kommanden ikke returnere noget, har du formodentligt ikke et B43 netkort i maskinen.</p>
-
-<h2>Installer driverne.</h2>
-<p>Installationen klares normalt ved at køre følgelnde kommando, som downloader driverne og installere dem:</p>
-<pre class='code'>
-sudo apt-get install firmware-b43-installer
-</pre>
-
-<p>Hvis dit netkort er en meget gammel type vil overstående kommando fejl. Hvis det er tilfældet kan denne kommando bruges til at 
-installere en gammel version til den gamle hardware.</p>
-<pre class='code'>
-sudo apt-get install firmware-b43legacy-installer
+sudo apt-get update
+sudo apt-get install build-essential git
+git clone https://github.com/cilynx/rtl88x2BU_WiFi_linux_v5.2.4.4_25643.20171212_COEX20171012-5044.git cd rtl88x2BU_WiFi_linux_v5.2.4.4_25643.20171212_COEX20171012-5044
+VER=$(cat ./version)
+sudo rsync -rvhP ./ /usr/src/rtl88x2bu-${VER}
+sudo dkms add -m rtl88x2bu -v ${VER}
+sudo dkms build -m rtl88x2bu -v ${VER}
+sudo dkms install -m rtl88x2bu -v ${VER}
+sudo modprobe 88x2bu
 </pre>
 			</section>
 			<footer>
