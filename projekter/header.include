@@ -5,8 +5,10 @@
 					<a href='/index.html'>Kalender</a></br>
 					<a href='https://kartoteket.alslug.dk/medlemskab/'>	Medlemskab</a></br>
 					<a href='/projekter/projekter.html'>Projketer</a></br>
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/door-pi.html'	>	Door-PI		</a></br>
-					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/bootserver.html'	>	Bootserver		</a></br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/door-pi.html'	>	Door-PI		</a><br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/bootserver.html'	>	Bootserver	</a><br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/network.html'	>	Vores netværk	</a><br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/lokale.html'	>	Vores lokale	</a><br/>
 					<a href='/om/om.html'>Om AlsLUG</a></br>
 					<a href='/faq/faq.html'>FAQ - Ofte stillede spørgsmål</a></br>
 					<a href='/infoscreens/infoscreens.html'>Bakkensbro infoskærme</a></br>
