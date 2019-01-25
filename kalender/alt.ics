@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//alslug-calender//alslug.dk//ENx
+PRODID:-//alslug-calender//alslug.dk//EN
 VERSION:1.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
@@ -27,11 +27,11 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART:20180104T190000
 DTEND:20180104T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180104@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION:  !!! NY VERSION !!! EVENT-DETALJER KOMMER SENERE !!!
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -39,7 +39,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180113T130000
 DTEND:20180113T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180113@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -66,7 +66,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -74,7 +74,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180125T190000
 DTEND:20180125T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180125@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -101,7 +101,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -109,7 +109,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180210T130000
 DTEND:20180210T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180210@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -136,7 +136,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -144,7 +144,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180216T180000
 DTEND:20180216T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180216@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -171,7 +171,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: TTN Møde - Ullerup
@@ -179,7 +179,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180221T190000
 DTEND:20180221T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180221@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -206,7 +206,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -214,7 +214,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180310T130000
 DTEND:20180310T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180310@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -241,7 +241,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -249,7 +249,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180320T190000
 DTEND:20180320T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180320@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -276,7 +276,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -284,7 +284,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180404T190000
 DTEND:20180404T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180404@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -311,7 +311,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -319,7 +319,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180414T130000
 DTEND:20180414T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180414@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -346,7 +346,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -354,7 +354,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180423T190000
 DTEND:20180423T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180423@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -381,7 +381,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -389,7 +389,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180512T130000
 DTEND:20180512T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180512@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -416,7 +416,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -424,7 +424,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180524T190000
 DTEND:20180524T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180524@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -451,7 +451,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -459,7 +459,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180609T130000
 DTEND:20180609T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180609@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -486,7 +486,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -494,7 +494,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180620T190000
 DTEND:20180620T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180620@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -521,7 +521,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -529,7 +529,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180703T190000
 DTEND:20180703T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180703@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -556,7 +556,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -564,7 +564,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180714T130000
 DTEND:20180714T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180714@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -591,7 +591,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -599,7 +599,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180811T130000
 DTEND:20180811T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180811@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -626,7 +626,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -634,7 +634,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180820T190000
 DTEND:20180820T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180820@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -661,7 +661,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -669,14 +669,14 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180824T170000
 DTEND:20180824T230000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180824@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Vi udstiller på havnefronten til Kulturnatten i Sønderborg.
  
  Vi har vore computere med, hvor vi viser forskellige linux-distributioner.
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Havnefronten, Sønderhavnegade, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Kulturnat - Sønderborg Kulturnat
@@ -684,14 +684,14 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180906T190000
 DTEND:20180906T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180906@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Vi udstiller på havnefronten til Kulturnatten i Sønderborg.
  
  Vi har vore computere med, hvor vi viser forskellige linux-distributioner.
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Generalforsamling - Ullerup
@@ -699,7 +699,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180908T130000
 DTEND:20180908T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180908@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -726,7 +726,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -734,7 +734,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20180920T190000
 DTEND:20180920T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20180920@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -761,7 +761,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -769,7 +769,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181003T190000
 DTEND:20181003T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181003@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -796,7 +796,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -804,7 +804,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181013T130000
 DTEND:20181013T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181013@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -831,7 +831,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -839,7 +839,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181024T190000
 DTEND:20181024T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181024@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -866,7 +866,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -874,7 +874,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181110T130000
 DTEND:20181110T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181110@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -901,7 +901,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -909,7 +909,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181120T190000
 DTEND:20181120T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181120@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -936,7 +936,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -944,7 +944,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181208T130000
 DTEND:20181208T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181208@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -971,7 +971,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -979,7 +979,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20181217T190000
 DTEND:20181217T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20181217@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1006,7 +1006,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1014,7 +1014,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190112T130000
 DTEND:20190112T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190112@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1041,7 +1041,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1049,7 +1049,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190124T190000
 DTEND:20190124T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190124@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1076,7 +1076,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1084,7 +1084,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190209T130000
 DTEND:20190209T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190209@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1111,7 +1111,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1119,7 +1119,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190220T190000
 DTEND:20190220T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190220@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1146,7 +1146,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1154,7 +1154,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190309T130000
 DTEND:20190309T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190309@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1181,7 +1181,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1189,7 +1189,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190319T190000
 DTEND:20190319T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190319@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1216,7 +1216,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1224,7 +1224,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190401T190000
 DTEND:20190401T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190401@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1251,7 +1251,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1259,7 +1259,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190413T130000
 DTEND:20190413T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190413@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1286,7 +1286,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1294,7 +1294,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190425T190000
 DTEND:20190425T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190425@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1321,7 +1321,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1329,7 +1329,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190511T130000
 DTEND:20190511T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190511@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1356,7 +1356,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1364,7 +1364,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190522T190000
 DTEND:20190522T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190522@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1391,7 +1391,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1399,7 +1399,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190608T130000
 DTEND:20190608T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190608@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1426,7 +1426,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1434,7 +1434,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190618T190000
 DTEND:20190618T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190618@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1461,7 +1461,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1469,7 +1469,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190701T190000
 DTEND:20190701T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190701@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1496,7 +1496,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1504,7 +1504,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190713T130000
 DTEND:20190713T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190713@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1531,7 +1531,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1539,7 +1539,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190810T130000
 DTEND:20190810T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190810@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1566,7 +1566,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1574,7 +1574,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190819T190000
 DTEND:20190819T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190819@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1601,7 +1601,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1609,7 +1609,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190905T190000
 DTEND:20190905T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190905@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1636,7 +1636,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Generalforsamling - Ullerup
@@ -1644,7 +1644,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190914T130000
 DTEND:20190914T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190914@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1671,7 +1671,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1679,7 +1679,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20190926T190000
 DTEND:20190926T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20190926@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1706,7 +1706,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1714,7 +1714,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20191012T130000
 DTEND:20191012T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20191012@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1741,7 +1741,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1749,7 +1749,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20191023T190000
 DTEND:20191023T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20191023@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1776,7 +1776,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1784,7 +1784,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20191109T130000
 DTEND:20191109T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20191109@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1811,7 +1811,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1819,7 +1819,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20191119T190000
 DTEND:20191119T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20191119@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1846,7 +1846,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1854,7 +1854,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20191204T190000
 DTEND:20191204T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20191204@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1881,7 +1881,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Linuxaften - Ullerup
@@ -1889,7 +1889,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20191214T130000
 DTEND:20191214T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20191214@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1916,7 +1916,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1924,7 +1924,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200111T130000
 DTEND:20200111T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200111@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1951,7 +1951,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1959,7 +1959,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200208T130000
 DTEND:20200208T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200208@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -1986,7 +1986,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -1994,7 +1994,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200314T130000
 DTEND:20200314T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200314@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2021,7 +2021,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2029,7 +2029,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200411T130000
 DTEND:20200411T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200411@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2056,7 +2056,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2064,7 +2064,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200509T130000
 DTEND:20200509T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200509@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2091,7 +2091,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2099,7 +2099,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200613T130000
 DTEND:20200613T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200613@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2126,7 +2126,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2134,7 +2134,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200711T130000
 DTEND:20200711T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200711@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2161,7 +2161,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2169,7 +2169,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200808T130000
 DTEND:20200808T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200808@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2196,7 +2196,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2204,7 +2204,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200903T190000
 DTEND:20200903T220000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200903@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2231,7 +2231,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Generalforsamling - Ullerup
@@ -2239,7 +2239,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20200912T130000
 DTEND:20200912T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20200912@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2266,7 +2266,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2274,7 +2274,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20201010T130000
 DTEND:20201010T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20201010@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2301,7 +2301,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2309,7 +2309,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20201114T130000
 DTEND:20201114T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20201114@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2336,7 +2336,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
@@ -2344,7 +2344,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20201212T130000
 DTEND:20201212T160000
-DTSTAMP:20190125T140709Z
+DTSTAMP:20190125T140840Z
 UID: aktivitet.20201212@alslug.wfz.dk
 CLASS:PUBLIC
 DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
@@ -2371,7 +2371,7 @@ DESCRIPTION: Til en install-fest kan du få hjælp til at installere linux på
  der også en udgave der kan køre på din gamle PC, og stadig nyde
  fordelen af nye programmer
 
-LAST-MODIFIED:20190125T140709Z
+LAST-MODIFIED:20190125T140840Z
 LOCATION: Bakkensbro Aktivitets og Kultur Center, Bakkensbro 6, Ullerup, 6400 Sønderborg
 STATUS:CONFIRMED
 SUMMARY: Installfest - Ullerup
