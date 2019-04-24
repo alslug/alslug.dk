@@ -25,21 +25,50 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 <h2>Muligheder for kontante donationer:</h2>
 <!-- PAYMENT-INFO-MARKER -->
 </p>
-<table>
-	<tr><td>MobilePay:			</td><td colspan=2>Sendes til nummer 74953					</td></tr>
-	<tr><td>Bank-overførsel fra Danmark:	</td><td colspan=2>	<div>Sydbank</div>
-									<div>Reg-nr: 8010</div>
-									<div>Konto-nr: 0001122838			</div>	</td></tr>
-	<tr><td>Bank-overførsel fra udlandet:	</td><td colspan=2>	<div>IBAN: DK83 8010 0001122838 (Kun DKK)	</div>
-									<div>Banker beholder 50 af hver indbetaling som ikke er i DKK<br/>
-										Brug kort eller paypal i stedet for.</div>	</td></tr>
-	<tr><td>Kontant:			</td><td colspan=2>Vores sparegris ved kaffen er altid sulten.			</td></tr>
-	<tr><td>Visa/Mastercard:		</td><td colspan=2>Vi er igang med at teste det.
-									De første indbetalinger er gennemført			</td></tr>
-	<tr class=gray><td>Paypal:		</td><td colspan=2>Det kommer måske senere.					</td></tr>
-	<tr class=gray><td>Rent Dankort:	</td><td colspan=2>Det har vi ikke råd til at tilbyde.				</td></tr>
-	<tr class=gray><td>Betalings-Service:	</td><td colspan=2>Det har vi ikke råd til at tilbyde.				</td></tr>
-</table>
+	<link rel='stylesheet' href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css'>
+	<script src='//code.jquery.com/jquery-1.10.2.js'></script>
+	<script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+	<style>
+		.fees   { background:#ff8888; margin-left:3em; margin-right:3em; }
+		.reg-nr:before		{ margin-right:1em;	content:'Reg-nr: ';	}
+		.reg-nr:after		{ padding-left:2em;	content:'( Sydbank )';	}
+		.konto-nr:before	{ margin-right:1em;	content:'Konto-nr:';	}
+	</style>
+	<script>
+		$(function() {
+			$( '#accordion' ).accordion({
+				heightStyle: 'content'
+			});
+		});
+	</script>
+	<div id='accordion'>
+	<h3>MobilePay:</h3>			<div>
+							<div>Donationer kan sendes til vores MobilePay-nummer</div>
+							<div style='font-size:200%; text-align:center;'>	74953		</div>
+							<div class='fees'>Vi skal betale 0.75 DKK gebyr for hver overførsel,
+											så lav meget gerne en samlet overførsel.</div>
+						</div>
+	<h3>Visa/Mastercard:</h3>		<div>
+							****
+						</div>
+	<h3>PayPal:</h3>			<div>
+							Kontoen er oprettet. Oplysninger kommer snart her på siden.
+						</div>
+	<h3>Kontant:</h3>			<div>
+							Vores sparegris ved kaffen er altid sulten.
+						</div>
+	<h3>Bankoverførsel</h3>			<div>
+							<div class='reg-nr'	>	8010		</div>
+							<div class='konto-nr'	>	0001122838	</div>
+						</div>
+	<h3>Bankoverførsel fra udlandet</h3>	<div>
+							<div>IBAN: DK83 8010 0001122838</div>
+							<div class='fees'>
+								Send venligst kun DKK - banken beholder 50 kroner af det du overfører,
+								hvis det ikke er i DKK. Brug derfor kort eller paypal i stedet for.
+							</div>
+						</div>
+	</div>
 <!--
 <p>De betalingsformer der er markeret med * vil komme på en ny samlet betalingsside, hvor der vil kunne laves engangs-betalinger,
 og opsættes faste betalinger.</p>
