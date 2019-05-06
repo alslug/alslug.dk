@@ -46,11 +46,26 @@
 			
 			<section>
 				<h1>Medlemskab</h1>
-				<p>Din email-adresse er allerede registreret som medlem.
-							Der er sendt en link som du kan bruge til at lave ændringer</p>
-				<p style='background:orange'>Hvis ikke du modtager den indenfor et par minutter,
-							skal du checke dit spamfilter. Mailen vi sender til dig kan nogle gange
-							blive forvekslet med spam/uønsket mail.</p>
+				<p>Medlemskab er gratis.</p>
+
+				<p>Hvis du ønsker at ændre i dine oplysninger, sendes en link til din email-adresse.</p>
+				<form method='post' action='https://kartoteket.alslug.dk/medlemskab/indtast_email.php'>
+					<table border=0>
+						<tr>
+							<td>
+								Email:
+							</td>
+							<td>
+								<input name='email' value='' />
+							</td>
+						</tr>
+						<tr>
+							<td colspan=2>
+								<input type='submit' name='continue' value='Forts&aelig;t' />
+							</td>
+						</tr>
+					</table>
+				</form>
 			</section>
 			<footer>
 				<p><small>
