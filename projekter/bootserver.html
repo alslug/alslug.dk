@@ -18,7 +18,7 @@
 			<header w3-include-html="header.include"></header>
 			<noscript><a href="header.include">Menu</a></noscript>
 			<section>
-<h1>Bootserver</h1>
+<h1>Opsætning af netboot-server</h1>
 <h2>Basic mashine instalation</h2>
 Installer en standard maskine med enten ubuntu-server eller via et ubuntu-mini image.
 
@@ -67,6 +67,8 @@ Tilføjes følgende i slutningen af filen:
 /sbin/iptables -P FORWARD ACCEPT
 /sbin/iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE
 </pre>
+
+<h2>Tillykke! Du burde nu have fået liv i en NAT-router</h2>
 			</section>
 			<footer>
 				<p><small>
