@@ -22,9 +22,9 @@
 <h2>Setup a standard mashine with a ubuntu-server og ubuntu-mini image</h2>
 <h2>Setup your network-layout</h2>
 <h2>DHCP-server</h2>
-<quote>sudo apt-get install isc-dhcp-server</quote>
-<quote>sudo nano /etc/dhcp/dhcpd.conf </quote>
-<quote>
+<pre class='code'>sudo apt-get install isc-dhcp-server</pre>
+<pre class='code'>sudo nano /etc/dhcp/dhcpd.conf </pre>
+<pre class='code'>
 ddns-update-style none;
 option domain-name "lokale.alslug.dk";
 option domain-name-servers 127.0.1.1;
@@ -41,21 +41,21 @@ subnet 192.168.201.0 netmask 255.255.255.0 {
         filename "pxelinux.0";
         next-server 192.168.201.4;
 }
-</quote>
-<quote>sudo invoke-rc.d isc-dhcp-server status</quote>
+</pre>
+<pre class='code'>sudo invoke-rc.d isc-dhcp-server status</pre>
 <h2>IPTABLES</h2>
-<quote>sudo nano /etc/sysctl.conf</quote>
+<pre class='code'>sudo nano /etc/sysctl.conf</pre>
 Omkring linie 28 finde du denne linie:
-<quote>#net.ipv4.ip_forward=1 </quote>
+<pre class='code'>#net.ipv4.ip_forward=1 </pre>
 Den ændres til:
-<quote>net.ipv4.ip_forward=1 </quote>
+<pre class='code'>net.ipv4.ip_forward=1 </pre>
 
-<quote>sudo nano /etc/rc.local</quote>
+<pre class='code'>sudo nano /etc/rc.local</pre>
 
-<quote>
+<pre class='code'>
 /sbin/iptables -P FORWARD ACCEPT
 /sbin/iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE
-</quote>
+</pre>
 
 			</section>
 			<footer>
