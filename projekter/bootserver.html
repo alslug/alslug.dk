@@ -43,9 +43,19 @@ subnet 192.168.201.0 netmask 255.255.255.0 {
 }
 </quote>
 <quote>sudo invoke-rc.d isc-dhcp-server status</quote>
+<h2>IPTABLES</h2>
+<quote>sudo nano /etc/sysctl.conf</quote>
+Omkring linie 28 finde du denne linie:
+<quote>#net.ipv4.ip_forward=1 </quote>
+Den ændres til:
+<quote>net.ipv4.ip_forward=1 </quote>
 
+<quote>sudo nano /etc/rc.local</quote>
 
-
+<quote>
+/sbin/iptables -P FORWARD ACCEPT
+/sbin/iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE
+</quote>
 
 			</section>
 			<footer>
