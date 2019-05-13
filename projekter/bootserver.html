@@ -19,8 +19,17 @@
 			<noscript><a href="header.include">Menu</a></noscript>
 			<section>
 <h1>Bootserver</h1>
-<h2>Setup a standard mashine with a ubuntu-server og ubuntu-mini image</h2>
+<h2>Basic mashine instalation</h2>
+Installer en standard maskine med enten ubuntu-server eller via et ubuntu-mini image.
+
 <h2>Setup your network-layout</h2>
+<div>
+	Vi har vores net LAN kørende på 192.168.201.1/24,
+	hvor routeren kører på 192.168.201.1
+	og vores gamle netboot-server kører på 192.168.201.4
+</div>
+
+
 <h2>DHCP-server</h2>
 <pre class='code'>sudo apt-get install isc-dhcp-server</pre>
 <pre class='code'>sudo nano /etc/dhcp/dhcpd.conf </pre>
@@ -44,19 +53,20 @@ subnet 192.168.201.0 netmask 255.255.255.0 {
 </pre>
 <pre class='code'>sudo invoke-rc.d isc-dhcp-server status</pre>
 <h2>IPTABLES</h2>
+Opsætning af routing:
 <pre class='code'>sudo nano /etc/sysctl.conf</pre>
 Omkring linie 28 finde du denne linie:
 <pre class='code'>#net.ipv4.ip_forward=1 </pre>
 Den ændres til:
 <pre class='code'>net.ipv4.ip_forward=1 </pre>
 
+<h3>Opsætning af NAT:</h3>
 <pre class='code'>sudo nano /etc/rc.local</pre>
-
+Tilføjes følgende i slutningen af filen:
 <pre class='code'>
 /sbin/iptables -P FORWARD ACCEPT
 /sbin/iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE
 </pre>
-
 			</section>
 			<footer>
 				<p><small>
