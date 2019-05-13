@@ -18,7 +18,35 @@
 			<header w3-include-html="header.include"></header>
 			<noscript><a href="header.include">Menu</a></noscript>
 			<section>
-				<h1>Bootserver</h1>
+<h1>Bootserver</h1>
+<h2>Setup a standard mashine with a ubuntu-server og ubuntu-mini image</h2>
+<h2>Setup your network-layout</h2>
+<h2>DHCP-server</h2>
+<quote>sudo apt-get install isc-dhcp-server</quote>
+<quote>sudo nano /etc/dhcp/dhcpd.conf </quote>
+<quote>
+ddns-update-style none;
+option domain-name "lokale.alslug.dk";
+option domain-name-servers 127.0.1.1;
+default-lease-time 600;
+max-lease-time 7200;
+log-facility local7;
+subnet 192.168.201.0 netmask 255.255.255.0 {
+        range 192.168.201.2 192.168.201.254;
+        option routers 192.168.201.1;
+        option subnet-mask 255.255.255.0;
+        option broadcast-address 192.168.201.255;
+        option domain-name-servers 4.2.2.2;
+
+        filename "pxelinux.0";
+        next-server 192.168.201.4;
+}
+</quote>
+<quote>sudo invoke-rc.d isc-dhcp-server status</quote>
+
+
+
+
 			</section>
 			<footer>
 				<p><small>
