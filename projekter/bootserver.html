@@ -19,8 +19,9 @@
 			<noscript><a href="header.include">Menu</a></noscript>
 			<section>
 <h1>Opsætning af netboot-server</h1>
-<h2>Basic mashine instalation</h2>
-Installer en standard maskine med enten ubuntu-server eller via et ubuntu-mini image.
+<h2>Basis maksine</h2>
+Vores nye server er en "tilfælig" doneret pc som har god plads til en masse harddisks.
+Den er blevet installeret med en standard 18.04 ubuntu-server. Eller rettere via et ubuntu-mini image serveret fra vores gamle boot-server.
 
 <h2>Setup your network-layout</h2>
 <div>
@@ -60,6 +61,10 @@ Omkring linie 28 finde du denne linie:
 Den ændres til:
 <pre class='code'>net.ipv4.ip_forward=1 </pre>
 
+<div class='one-liner'>
+	<pre class='code'>sudo sed "s/#net\.ipv4\.ip_forward=1/net\.ipv4\.ip_forward=1/"   -i /etc/sysctl.conf</pre>
+</div>
+
 <h3>Opsætning af NAT:</h3>
 <pre class='code'>sudo nano /etc/rc.local</pre>
 Tilføjes følgende i slutningen af filen:
@@ -67,6 +72,8 @@ Tilføjes følgende i slutningen af filen:
 /sbin/iptables -P FORWARD ACCEPT
 /sbin/iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE
 </pre>
+
+<pre class='code'>sudo systemctl start rc-local.service</pre>
 
 <h2>Tillykke! Du burde nu have fået liv i en NAT-router</h2>
 			</section>
