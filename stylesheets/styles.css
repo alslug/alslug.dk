@@ -339,5 +339,6 @@ footer {
 }
 
 div.one-liner:before {
+border: 10px solid black;
   content:'One-liner som gør arbejdet for dig:';
 }
