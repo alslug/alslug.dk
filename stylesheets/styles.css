@@ -339,7 +339,7 @@ footer {
 }
 
 div.one-liner {
-  border: 10px dotted red;
+  border: 5px dotted gray;
 }
 div.one-liner:before {
   font-weight: 700;
