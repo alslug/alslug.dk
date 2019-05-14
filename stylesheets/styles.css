@@ -337,3 +337,7 @@ footer {
 .gray {
   background-color:lightgray;
 }
+
+.one-liner:before {
+  content:'One-liner som gør arbejdet for dig:';
+}
