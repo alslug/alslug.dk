@@ -338,6 +338,6 @@ footer {
   background-color:lightgray;
 }
 
-.one-liner:before {
+div.one-liner:before {
   content:'One-liner som gør arbejdet for dig:';
 }
