@@ -338,6 +338,9 @@ footer {
   background-color:lightgray;
 }
 
+div.one-liner {
+  border: 10px dotted red;
+}
 div.one-liner:before {
   font-weight: 700;
   font-style: normal;
