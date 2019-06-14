@@ -77,9 +77,9 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 			<script src="https://js.stripe.com/v3/"></script>
 			<div id="payment-request-button"><!-- A Stripe Element will be inserted here. -->xxxxxxxx</div>
 			<script>
-alert("sss 1");
+//	alert("sss 1");
 				var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");
-alert("sss 2");
+//	alert("sss 2");
 				var paymentRequest = stripe.paymentRequest({
 					country: "DK",
 					currency: "dkk",
@@ -90,24 +90,24 @@ alert("sss 2");
 					requestPayerName: true,
 					requestPayerEmail: true,
 				});
-alert("sss 3");
+//	alert("sss 3");
 				var elements = stripe.elements();
-alert("sss 4");
+//	alert("sss 4");
 				var prButton = elements.create("paymentRequestButton", {
 					paymentRequest: paymentRequest,
 				});
-alert("sss 5");
+//	alert("sss 5");
 				// Check the availability of the Payment Request API first.
 				paymentRequest.canMakePayment().then(function(result) {
 					if (result) {
 						prButton.mount("#payment-request-button");
-alert("sss 5 - 1");
+//	alert("sss 5 - 1");
 					} else {
 						document.getElementById("payment-request-button").style.display = "none";
-alert("sss 5 - 2");
+//	alert("sss 5 - 2");
 					}
 				});
-alert("sss 6");
+//	alert("sss 6");
 				paymentRequest.on("paymentmethod", function(ev) {
 					stripe.confirmPaymentIntent(clientSecret, {
 						payment_method: ev.paymentMethod.id,
@@ -132,7 +132,7 @@ alert("sss 6");
 						}
 					});
 				});
-alert("sss 7");
+//	alert("sss 7");
 			</script>
 		</div>
 
