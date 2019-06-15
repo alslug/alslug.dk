@@ -73,9 +73,11 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 				så vores test-setup kan ikke bruges.
 				Men der kommer et nyt, som lever op til de nye krav.
 			</div>
-			<div class='fees'>Hvis der er noget herunder, virker det ikke, da det kører i test-mode</div>
-			<script src="https://js.stripe.com/v3/"></script>
+			<div class='fees'>
+				Hvis der er noget herunder, virker det ikke, da det kører i test-mode
+			</div>
 			<div id="payment-request-button"><!-- A Stripe Element will be inserted here. -->xxxxxxxx</div>
+			<script src="https://js.stripe.com/v3/"></script>
 			<script>
 //	alert("sss 1");
 				var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");
@@ -107,32 +109,36 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 //	alert("sss 5 - 2");
 					}
 				});
-//	alert("sss 6");
+	alert("sss 6");
 				paymentRequest.on("paymentmethod", function(ev) {
 					stripe.confirmPaymentIntent(clientSecret, {
 						payment_method: ev.paymentMethod.id,
 					}).then(function(confirmResult) {
 						if (confirmResult.error) {
+	alart("sss 6 - 1");
 							// Report to the browser that the payment failed, prompting it to
 							// re-show the payment interface, or show an error message and close
 							// the payment interface.
 							ev.complete("fail");
 						} else {
+	alart("sss 6 - 2");
 							// Report to the browser that the confirmation was successful, prompting
 							// it to close the browser payment method collection interface.
 							ev.complete("success");
 							// Let Stripe.js handle the rest of the payment flow.
 							stripe.handleCardPayment(clientSecret).then(function(result) {
 								if (result.error) {
+	alart("sss 6 - 2 - 1");
 									// The payment failed -- ask your customer for a new payment method.
 								} else {
+	alart("sss 6 - 2 - 2");
 									// The payment has succeeded.
 								}
 							});
 						}
 					});
 				});
-//	alert("sss 7");
+	alert("sss 7");
 			</script>
 		</div>
 
@@ -170,7 +176,7 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 
 
 
-		<h3>&#127974; &nbsp; Bankoverførsel fra udlandet:			<div class='check'>&check;</div></h3>
+		<h3>&#127974; &nbsp; Bankoverførsel fra udlandet:			<div class='cross'>&cross;</div></h3>
 		<div>
 			<div>IBAN: DK83 8010 0001122838</div>
 			<div>SWIFT / BIC:  SYBKDK22</div>
