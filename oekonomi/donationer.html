@@ -74,7 +74,7 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 		<!-- ****************************** HTML ******************************************** -->
 <script src="https://js.stripe.com/v3/"></script>
 
-<form action="/charge" method="post" id="payment-form">
+<form action="https://kartoteket.alslug.dk/stripe/setup-cc-payment" method="post" id="payment-form">
   <div class="form-row">
     <label for="card-element">
       Credit or debit card
@@ -117,11 +117,11 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 </style>
 		<!-- ****************************** JS ******************************************** -->
 <!--
-var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");
 -->
 		<script>
 // Create a Stripe client.
-var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+//var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx');	Demo-test
+var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");	AlsLUG test
 
 // Create an instance of Elements.
 var elements = stripe.elements();
