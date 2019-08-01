@@ -29,62 +29,55 @@
 <p>Men vi har stadigvæk løbende udgifter, udgifter til udstyr, PR og andet.
 For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 <h2>Muligheder for kontante donationer:</h2>
-<!-- PAYMENT-INFO-MARKER -->
-</p>
-	<link rel='stylesheet' href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css'>
-	<script src='//code.jquery.com/jquery-1.10.2.js'></script>
-	<script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
-	<style>
-		.fees   { background:#ff8888; margin-left:3em; margin-right:3em; }
-		.reg-nr:before		{ margin-right:1em;	content:'Reg-nr: ';	}
-		.reg-nr:after		{ padding-left:2em;	content:'( Sydbank )';	}
-		.konto-nr:before	{ margin-right:1em;	content:'Konto-nr:';	}
-		.iban:before		{ margin-right:1em;	content:'IBAN:';	}
-		.swift:before		{ margin-right:1em;	content:'SWIFT / BIC:';	}
-	</style>
-	<script>
-		$(function() {
-			$( '#accordion' ).accordion({
-				heightStyle: 'content'
-			});
+<link rel='stylesheet' href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css'>
+<script src='//code.jquery.com/jquery-1.10.2.js'></script>
+<script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
+<style>
+	.fees   { background:#ff8888; margin-left:3em; margin-right:3em; }
+	.reg-nr:before		{ margin-right:1em;	content:'Reg-nr: ';	}
+	.reg-nr:after		{ padding-left:2em;	content:'( Sydbank )';	}
+	.konto-nr:before	{ margin-right:1em;	content:'Konto-nr:';	}
+	.iban:before		{ margin-right:1em;	content:'IBAN:';	}
+	.swift:before		{ margin-right:1em;	content:'SWIFT / BIC:';	}
+</style>
+<script>
+	$(function() {
+		$( '#accordion' ).accordion({
+			heightStyle: 'content'
 		});
-	</script>
-	<div id='accordion'>
+	});
+</script>
+<div id='accordion'>
 
 
 
-		<h3>&#128241; &nbsp; MobilePay: 74953					<div class='check'>&check;</div></h3>
-		<div>
-			<div>Donationer kan sendes til vores MobilePay-nummer		</div>
-			<div style='font-size:200%; text-align:center;'>	74953	</div>
-			<div class='fees'>
-				Vi skal betale 0.75 DKK gebyr for hver overførsel,
-				så lav meget gerne en samlet overførsel, istedet
-				for flere små overførsler.
-			</div>
+	<h3>&#128241; &nbsp; MobilePay: 74953					<div class='check'>&check;</div></h3>
+	<div>
+		<div>Donationer kan sendes til vores MobilePay-nummer		</div>
+		<div style='font-size:200%; text-align:center;'>	74953	</div>
+		<div class='fees'>
+			Vi skal betale 0.75 DKK gebyr for hver overførsel,
+			så lav meget gerne en samlet overførsel, istedet
+			for flere små overførsler.
 		</div>
+	</div>
 
 
 
-		<h3>	&#128179; &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='cross'>&cross;</div></h3>
-		<div>
-			<div>Kortbetaling er på vej.</div>
-			<div class='fees'>Vi kan ikke modtage fra rene DanKort</div>
-			<div>
-				Desværre (for foreningen) har EU lavet nye krav til online-betalinger fra september 2019,
-				så vores test-setup kan ikke bruges.
-				Men der kommer et nyt, som lever op til de nye krav.
-			</div>
-			<div class='fees'>
-				Hvis der er noget herunder, virker det ikke, da det kører i test-mode
-			</div>
-			<div id="payment-request-button"><!-- A Stripe Element will be inserted here. -->xxxxxxxx</div>
-			<script src="https://js.stripe.com/v3/"></script>
-			<script>
-//	alert("sss 1");
-				var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");
-//	alert("sss 2");
-				var paymentRequest = stripe.paymentRequest({
+	<h3>	&#128179; &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='cross'>&cross;</div></h3>
+	<div>
+		<div>Kortbetaling er på vej.</div>
+		<div class='fees'>Vi kan ikke modtage fra rene DanKort</div>
+		<div class='fees'>
+			Hvis der er noget herunder, virker det ikke, da det kører i test-mode
+		</div>
+		<div id="payment-request-button"><!-- A Stripe Element will be inserted here. -->xxxxxxxx</div>
+		<script src="https://js.stripe.com/v3/"></script>
+		<script>
+			alert("sss 1");
+			var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");
+			alert("sss 2");
+			var paymentRequest = stripe.paymentRequest({
 					country: "DK",
 					currency: "dkk",
 					total: {
@@ -94,109 +87,106 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 					requestPayerName: true,
 					requestPayerEmail: true,
 				});
-//	alert("sss 3");
-				var elements = stripe.elements();
-//	alert("sss 4");
-				var prButton = elements.create("paymentRequestButton", {
-					paymentRequest: paymentRequest,
-				});
-//	alert("sss 5");
-				// Check the availability of the Payment Request API first.
-				paymentRequest.canMakePayment().then(function(result) {
-					if (result) {
-						prButton.mount("#payment-request-button");
-//	alert("sss 5 - 1");
-					} else {
-						document.getElementById("payment-request-button").style.display = "none";
-//	alert("sss 5 - 2");
-					}
-				});
-//	alert("sss 6");
-				paymentRequest.on("paymentmethod", function(ev) {
-					stripe.confirmPaymentIntent(clientSecret, {
-						payment_method: ev.paymentMethod.id,
-					}).then(function(confirmResult) {
-						if (confirmResult.error) {
-	alart("sss 6 - 1");
+			alert("sss 3");
+			var elements = stripe.elements();
+			alert("sss 4");
+			var prButton = elements.create("paymentRequestButton", {
+				paymentRequest: paymentRequest,
+			});
+			alert("sss 5");
+			// Check the availability of the Payment Request API first.
+			paymentRequest.canMakePayment().then(function(result) {
+				if (result) {
+					prButton.mount("#payment-request-button");
+					alert("sss 5 - 1");
+				} else {
+					document.getElementById("payment-request-button").style.display = "none";
+					alert("sss 5 - 2");
+				}
+			});
+			alert("sss 6");
+			paymentRequest.on("paymentmethod", function(ev) {
+				stripe.confirmPaymentIntent(clientSecret, {
+					payment_method: ev.paymentMethod.id,
+				}).then(function(confirmResult) {
+					if (confirmResult.error) {
+						alert("sss 6 - 1");
 							// Report to the browser that the payment failed, prompting it to
 							// re-show the payment interface, or show an error message and close
 							// the payment interface.
-							ev.complete("fail");
-						} else {
-	alart("sss 6 - 2");
-							// Report to the browser that the confirmation was successful, prompting
-							// it to close the browser payment method collection interface.
-							ev.complete("success");
-							// Let Stripe.js handle the rest of the payment flow.
-							stripe.handleCardPayment(clientSecret).then(function(result) {
-								if (result.error) {
-	alart("sss 6 - 2 - 1");
-									// The payment failed -- ask your customer for a new payment method.
-								} else {
-	alart("sss 6 - 2 - 2");
-									// The payment has succeeded.
-								}
-							});
-						}
-					});
+						ev.complete("fail");
+					} else {
+						alert("sss 6 - 2");
+						// Report to the browser that the confirmation was successful, prompting
+						// it to close the browser payment method collection interface.
+						ev.complete("success");
+						// Let Stripe.js handle the rest of the payment flow.
+						stripe.handleCardPayment(clientSecret).then(function(result) {
+							if (result.error) {
+								alert("sss 6 - 2 - 1");
+								// The payment failed -- ask your customer for a new payment method.
+							} else {
+								alert("sss 6 - 2 - 2");
+								// The payment has succeeded.
+							}
+						});
+					}
 				});
-//	alert("sss 7");
-			</script>
-		</div>
+			});
+			alert("sss 7");
+		</script>
+	</div>
 
 
 
-		<h3>&#128179; &nbsp; Visa/Mastercard i vores lokale:			<div class='check'>&check;</div></h3>
-		<div>
-			<div>Vi har fået en iZettle kortlæser, så der kan betales med kort.</div>
-			<div>Spørg bestyrelsen hvis du gerne vil betale med kort.</div>
-		</div>
+	<h3>&#128179; &nbsp; Visa/Mastercard i vores lokale:			<div class='check'>&check;</div></h3>
+	<div>
+		<div>Vi har fået en iZettle kortlæser, så der kan betales med kort.</div>
+		<div>Spørg bestyrelsen hvis du gerne vil betale med kort.</div>
+	</div>
 
 
 
-		<h3>&#128187; &nbsp; PayPal: 						<div class='cross'>&cross;</div></h3>
-		<div>
-			Kontoen er oprettet. Oplysninger kommer snart her på siden.
-		</div>
+	<h3>&#128187; &nbsp; PayPal: 						<div class='cross'>&cross;</div></h3>
+	<div>
+		Kontoen er oprettet. Oplysninger kommer snart her på siden.
+	</div>
+
+
+	
+	<h3>&#128182; &nbsp; Kontant: Sparegrisen er altid sulten		<div class='check'>&check;</div></h3>
+	<div>
+		<div>	Vores sparegris ved kaffen er altid sulten				</div>
+		<div>	Den vil helst spise danske kroner og euro. Både som sedler og mønter.	</div>
+		<div>	Andre slags kan nogle gange være lidt svære at fordøje.			</div>
+	</div>
 
 
 
-		<h3>&#128182; &nbsp; Kontant: Sparegrisen er altid sulten		<div class='check'>&check;</div></h3>
-		<div>
-			<div>	Vores sparegris ved kaffen er altid sulten				</div>
-			<div>	Den vil helst spise danske kroner og euro. Både som sedler og mønter.	</div>
-			<div>	Andre slags kan nogle gange være lidt svære at fordøje.			</div>
-		</div>
+	<h3>&#127974; &nbsp; Bankoverførsel: 8010-0001122838			<div class='check'>&check;</div></h3>
+	<div>
+		<div class='reg-nr'	>	8010		</div>
+		<div class='konto-nr'	>	0001122838	</div>
+	</div>
 
 
 
-		<h3>&#127974; &nbsp; Bankoverførsel: 8010-0001122838			<div class='check'>&check;</div></h3>
-		<div>
-			<div class='reg-nr'	>	8010		</div>
-			<div class='konto-nr'	>	0001122838	</div>
-		</div>
-
-
-
-		<h3>&#127974; &nbsp; Bankoverførsel fra udlandet:			<div class='cross'>&cross;</div></h3>
-		<div>
-			<div class='iban'	>	DK83 8010 0001122838	</div>
-			<div class='swift'	>	SYBKDK22		</div>
-			<div class='fees'>
-				Send venligst kun DKK - banken beholder 50 kroner af
-				det du overfører, hvis det ikke er i DKK, så send ikke
-				små-beløb i udenlandsk valuta.
-				Brug derfor kort eller paypal i stedet for.
-			</div>
+	<h3>&#127974; &nbsp; Bankoverførsel fra udlandet:			<div class='cross'>&cross;</div></h3>
+	<div>
+		<div class='iban'	>	DK83 8010 0001122838	</div>
+		<div class='swift'	>	SYBKDK22		</div>
+		<div class='fees'>
+			Send venligst kun DKK - banken beholder 50 kroner af
+			det du overfører, hvis det ikke er i DKK, så send ikke
+			små-beløb i udenlandsk valuta.
+			Brug derfor kort eller paypal i stedet for.
 		</div>
 	</div>
-<!--
-<p>De betalingsformer der er markeret med * vil komme på en ny samlet betalingsside, hvor der vil kunne laves engangs-betalinger,
-og opsættes faste betalinger.</p>
--->
+</div>
 
-<!-- PAYMENT-INFO-MARKER -->
-
+				
+				
+				
 <h2>Ønsker til nyt grej:</h2>
 <p>Du kan se vores <a href='/medlemskab/onsker-til-nyt-grej.html'>ønskeseddel</a> på hardware
 							<a href='/medlemskab/onsker-til-nyt-grej.html'>her</a>.</p>
@@ -204,6 +194,7 @@ og opsættes faste betalinger.</p>
 			<footer>
 				<p><small>
 					Hosted on GitHub Pages
+					<a href='https://github.com/alslug/alslug.github.io/edit/master/oekonomi/donationer.html' target='_blank'>&#128393;</a>
 					<br>
 					Theme based on <a href="https://github.com/orderedlist">orderedlist</a>
 				</small></p>
