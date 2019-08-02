@@ -3,7 +3,7 @@
 				
 				<p>
 					<a href='/index.html'>Kalender</a></br>
-					<a href='https://www.alslug.dk/medlemskab/indtast_email.html'>Medlemskab</a></br>
+					<a href='/medlemskab/indtast_email.html'>Medlemskab</a></br>
 					<a href='/projekter/projekter.html'>Projketer</a></br>
 					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/door-pi.html'	>	Door-PI		</a><br/>
 					&nbsp;&nbsp;&nbsp;&nbsp;<a href='/projekter/bootserver.html'	>	Bootserver	</a><br/>
