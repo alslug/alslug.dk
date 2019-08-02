@@ -64,77 +64,108 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 
 
 
-	<h3>	&#128179; &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='cross'>&cross;</div></h3>
+	<h3>	&#128179; &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div></h3>
 	<div>
-		<div>Kortbetaling er på vej.</div>
+		<!-- ****************************** HTML ******************************************** -->
+		<form method='post' id='payment-form' action='/stripe/setup-cc-payment'>
+			<label>Hvem er du, og hvordan kan vi kontakte dig / send kvittering?</label>
+			<div>	&#128587;	<input name='name'	placeholder='Navn'	/>	</div>
+			<div>	&#128233;	<input name='email'	placeholder='email'	/>	</div>
+			<div>	&#128241;	<input name='mobile'	placeholder='mobile'	/>	</div>
+			<label>Hvor meget vil du betale?</label>
+			<div>	&#128176;	<input name='amount'	type='number' min=25 value=100 style='width:4em;' /> DKK
+				<select name='frequency' style='width:10em;' >
+					<option value='0'	>	Betal kun en gang				</option>
+					<option value='1'	>	Betal beløbet nu og automatisk hver måned	</option>
+					<option value='3'	>	Betal beløbet nu og automatisk hver 3. måned	</option>
+					<option value='6'	>	Betal beløbet nu og automatisk hvert ½ år	</option>
+					<option value='12'	>	Betal beløbet nu og automatisk hvert år		</option>
+				</select></div>
+			<label>Kort-oplysninger:</label>
+            		<div class='w3-row-padding form-row'>
+				<div id='card-element'>			A Stripe Element will be inserted here.		</div>
+				<div id='card-errors' role='alert'>	<!-- Used to display form errors. -->		</div>
+			</div>
+			<button type='submit' id='registration_submit' class='w3-button w3-block w3-padding-large w3-red w3-margin-bottom'>
+				Pay using card
+			</button>
+		</form>
 		<div class='fees'>Vi kan ikke modtage fra rene DanKort</div>
-		<div class='fees'>
-			Hvis der er noget herunder, virker det ikke, da det kører i test-mode
-		</div>
-		<div id="payment-request-button"><!-- A Stripe Element will be inserted here. -->xxxxxxxx</div>
-		<script src="https://js.stripe.com/v3/"></script>
+		<!-- ****************************** JS ******************************************** -->
+		<script src='https://js.stripe.com/v3/'></script>
 		<script>
-//			alert("sss 1");
-			var stripe = Stripe("pk_test_xaFjcaiPopJpuTvDwW1W3E5X");
-//			alert("sss 2");
-			var paymentRequest = stripe.paymentRequest({
-					country: "DK",
-					currency: "dkk",
-					total: {
-						label: "Demo total",
-						amount: 1000,
-					},
-					requestPayerName: true,
-					requestPayerEmail: true,
-				});
-//			alert("sss 3");
-			var elements = stripe.elements();
-//			alert("sss 4");
-			var prButton = elements.create("paymentRequestButton", {
-				paymentRequest: paymentRequest,
-			});
-//			alert("sss 5");
-			// Check the availability of the Payment Request API first.
-			paymentRequest.canMakePayment().then(function(result) {
-				if (result) {
-					prButton.mount("#payment-request-button");
-//					alert("sss 5 - 1");
-				} else {
-					document.getElementById("payment-request-button").style.display = "none";
-//					alert("sss 5 - 2");
-				}
-			});
-//			alert("sss 6");
-			paymentRequest.on("paymentmethod", function(ev) {
-				stripe.confirmPaymentIntent(clientSecret, {
-					payment_method: ev.paymentMethod.id,
-				}).then(function(confirmResult) {
-					if (confirmResult.error) {
-//						alert("sss 6 - 1");
-							// Report to the browser that the payment failed, prompting it to
-							// re-show the payment interface, or show an error message and close
-							// the payment interface.
-						ev.complete("fail");
-					} else {
-//						alert("sss 6 - 2");
-						// Report to the browser that the confirmation was successful, prompting
-						// it to close the browser payment method collection interface.
-						ev.complete("success");
-						// Let Stripe.js handle the rest of the payment flow.
-						stripe.handleCardPayment(clientSecret).then(function(result) {
-							if (result.error) {
-//								alert("sss 6 - 2 - 1");
-								// The payment failed -- ask your customer for a new payment method.
-							} else {
-//								alert("sss 6 - 2 - 2");
-								// The payment has succeeded.
-							}
-						});
-					}
-				});
-			});
-//			alert("sss 7");
+// Create a Stripe client.
+var stripe = Stripe('##### STRIPE_PUBLIC_KEY ######');
+
+// Create an instance of Elements.
+var elements = stripe.elements();
+
+// Custom styling can be passed to options when creating an Element.
+// (Note that this demo uses a wider set of styles than the guide below.)
+var style = {
+  base: {
+    color: '#32325d',
+    fontFamily: '\"Helvetica Neue\", Helvetica, sans-serif',
+    fontSmoothing: 'antialiased',
+    fontSize: '16px',
+    '::placeholder': {
+      color: '#aab7c4'
+    }
+  },
+  invalid: {
+    color: '#fa755a',
+    iconColor: '#fa755a'
+  }
+};
+
+// Create an instance of the card Element.
+var card = elements.create('card', {style: style});
+
+// Add an instance of the card Element into the `card-element` <div>.
+card.mount('#card-element');
+
+// Handle real-time validation errors from the card Element.
+card.addEventListener('change', function(event) {
+  var displayError = document.getElementById('card-errors');
+  if (event.error) {
+    displayError.textContent = event.error.message;
+  } else {
+    displayError.textContent = '';
+  }
+});
+
+// Handle form submission.
+var form = document.getElementById('payment-form');
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  stripe.createToken(card).then(function(result) {
+    if (result.error) {
+      // Inform the user if there was an error.
+      var errorElement = document.getElementById('card-errors');
+      errorElement.textContent = result.error.message;
+    } else {
+      // Send the token to your server.
+      stripeTokenHandler(result.token);
+    }
+  });
+});
+
+// Submit the form with the token ID.
+function stripeTokenHandler(token) {
+  // Insert the token ID into the form so it gets submitted to the server
+  var form = document.getElementById('payment-form');
+  var hiddenInput = document.createElement('input');
+  hiddenInput.setAttribute('type', 'hidden');
+  hiddenInput.setAttribute('name', 'stripeToken');
+  hiddenInput.setAttribute('value', token.id);
+  form.appendChild(hiddenInput);
+
+  // Submit the form
+  form.submit();
+}
 		</script>
+		<!-- ****************************** CSS ******************************************** -->
 	</div>
 
 
