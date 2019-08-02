@@ -97,6 +97,7 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 			var clientSecret = cardButton.dataset.secret;
 
 			cardButton.addEventListener('click', function(ev) {
+				alert(1);
   				stripe.handleCardPayment(
     					clientSecret, cardElement, {
       						payment_method_data: {
@@ -105,8 +106,10 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
     					}
   				).then(function(result) {
     					if (result.error) {
+						alert("error");
       						// Display error.message in your UI.
     					} else {
+						alert("Success");
       						// The payment has succeeded. Display a success message.
     					}
   				});
