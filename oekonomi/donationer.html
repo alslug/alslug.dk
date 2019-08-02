@@ -68,11 +68,11 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 	<div>
 		<!-- ****************************** HTML ******************************************** -->
 		<form method='post' id='payment-form' action='/stripe/setup-cc-payment'>
-			<p>Hvem er du, og hvordan kan vi kontakte dig / send kvittering:</p>
+			<label>Hvem er du, og hvordan kan vi kontakte dig / send kvittering:</label>
 			<div>	&#128587;	<input name='name'	placeholder='Navn'	/>	</div>
 			<div>	&#128233;	<input name='email'	placeholder='email'	/>	</div>
 			<div>	&#128241;	<input name='mobile'	placeholder='mobile'	/>	</div>
-			<p>Hvor meget vil du betale?</p>
+			<label>Hvor meget vil du betale?</label>
 			<div>	&#128176;	<input name='amount'	type='number' min=25 value=100 width=35% />
 				<select name='frequency' width=60% >
 					<option value='0'	>	Betalt kun en gang				</option>
@@ -81,7 +81,7 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 					<option value='6'	>	Betalt beløbet nu og automatisk hver ½ år	</option>
 					<option value='12'	>	Betalt beløbet nu og automatisk hveret år	</option>
 				</select></div>
-			<p>Kort-oplysninger:</p>
+			<label>Kort-oplysninger:</label>
             		<div class='w3-row-padding form-row'>
 				<div id='card-element'>			A Stripe Element will be inserted here.		</div>
 				<div id='card-errors' role='alert'>	<!-- Used to display form errors. -->		</div>
