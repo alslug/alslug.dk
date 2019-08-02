@@ -68,53 +68,100 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 	<div>
 		<div>Kortbetaling er på vej.</div>
 		<div class='fees'>Vi kan ikke modtage fra rene DanKort</div>
-		<div class='fees'>
-			Hvis der er noget herunder, virker det ikke, da det kører i test-mode
-		</div>
 		<!-- ****************************** HTML ******************************************** -->
-		<script src="https://js.stripe.com/v3/"></script>
+          	<form method='post' id='payment-form' method='>
+            		<p>Please use our credit/debit-card payment.</p>
+            		<label>Card-info:</label>
+            		<div class='w3-row-padding form-row'>
+              			<div id='card-element'>
+                			<!-- A Stripe Element will be inserted here. -->
+              			</div>
 
-		<form action="https://kartoteket.alslug.dk/stripe/setup-cc-payment" method="post" id="payment-form">
-			Card-holder:
-			<input id="cardholder-name" type="text">
-			<!-- placeholder for Elements -->
-			<div id="card-element"></div>
-			<button id="card-button" data-secret="<%= @intent.client_secret %>">Submit Payment</button>
-		</form>
-		<!-- ****************************** CSS ******************************************** -->
-		<style>
-		</style>
+              			<!-- Used to display form errors. -->
+              			<div id='card-errors' role='alert'></div>  
+            		</div>
+            		<button type='submit' id='registration_submit' class='w3-button w3-block w3-padding-large w3-red w3-margin-bottom'>
+                                Pay using card
+            		</button>
+          	</form>
 		<!-- ****************************** JS ******************************************** -->
-		<script>
-			var stripe = Stripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
+<script src='https:/"."/js.stripe.com/v3/'></script>
+<script>
+var stripe_key = 'pk_test_xaFjcaiPopJpuTvDwW1W3E5X'
+//var stripe_key = 'pk_live_yk5eZHrkVrclS7C9Hj6bH0CB'
 
-			var elements = stripe.elements();
-			var cardElement = elements.create('card');
-			cardElement.mount('#card-element');
-	
-			var cardholderName = document.getElementById('cardholder-name');
-			var cardButton = document.getElementById('card-button');
-			var clientSecret = cardButton.dataset.secret;
+// Create a Stripe client.
+var stripe = Stripe(stripe_key);
 
-			cardButton.addEventListener('click', function(ev) {
-				alert(1);
-  				stripe.handleCardPayment(
-    					clientSecret, cardElement, {
-      						payment_method_data: {
-        						billing_details: {name: cardholderName.value}
-      						}
-    					}
-  				).then(function(result) {
-    					if (result.error) {
-						alert("error");
-      						// Display error.message in your UI.
-    					} else {
-						alert("Success");
-      						// The payment has succeeded. Display a success message.
-    					}
-  				});
-			});
+// Create an instance of Elements.
+var elements = stripe.elements();
+
+// Custom styling can be passed to options when creating an Element.
+// (Note that this demo uses a wider set of styles than the guide below.)
+var style = {
+  base: {
+    color: '#32325d',
+    fontFamily: '\"Helvetica Neue\", Helvetica, sans-serif',
+    fontSmoothing: 'antialiased',
+    fontSize: '16px',
+    '::placeholder': {
+      color: '#aab7c4'
+    }
+  },
+  invalid: {
+    color: '#fa755a',
+    iconColor: '#fa755a'
+  }
+};
+
+// Create an instance of the card Element.
+var card = elements.create('card', {style: style});
+
+// Add an instance of the card Element into the `card-element` <div>.
+card.mount('#card-element');
+
+// Handle real-time validation errors from the card Element.
+card.addEventListener('change', function(event) {
+  var displayError = document.getElementById('card-errors');
+  if (event.error) {
+    displayError.textContent = event.error.message;
+  } else {
+    displayError.textContent = '';
+  }
+});
+
+// Handle form submission.
+var form = document.getElementById('payment-form');
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  stripe.createToken(card).then(function(result) {
+    if (result.error) {
+      // Inform the user if there was an error.
+      var errorElement = document.getElementById('card-errors');
+      errorElement.textContent = result.error.message;
+    } else {
+      // Send the token to your server.
+      stripeTokenHandler(result.token);
+    }
+  });
+});
+
+// Submit the form with the token ID.
+function stripeTokenHandler(token) {
+  // Insert the token ID into the form so it gets submitted to the server
+  var form = document.getElementById('payment-form');
+  var hiddenInput = document.createElement('input');
+  hiddenInput.setAttribute('type', 'hidden');
+  hiddenInput.setAttribute('name', 'stripeToken');
+  hiddenInput.setAttribute('value', token.id);
+  form.appendChild(hiddenInput);
+
+  // Submit the form
+  form.submit();
+}
 		</script>
+		<!-- ****************************** CSS ******************************************** -->
 	</div>
 
 
