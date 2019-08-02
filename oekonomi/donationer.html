@@ -68,13 +68,13 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 	<div>
 		<!-- ****************************** HTML ******************************************** -->
 		<form method='post' id='payment-form' action='/stripe/setup-cc-payment'>
-			<label>Hvem er du, og hvordan kan vi kontakte dig / send kvittering:</label>
+			<label>Hvem er du, og hvordan kan vi kontakte dig / send kvittering?</label>
 			<div>	&#128587;	<input name='name'	placeholder='Navn'	/>	</div>
 			<div>	&#128233;	<input name='email'	placeholder='email'	/>	</div>
 			<div>	&#128241;	<input name='mobile'	placeholder='mobile'	/>	</div>
 			<label>Hvor meget vil du betale?</label>
-			<div>	&#128176;	<input name='amount'	type='number' min=25 value=100 width=35% />
-				<select name='frequency' width=60% >
+			<div>	&#128176;	<input name='amount'	type='number' min=25 value=100 width=3em />
+				<select name='frequency' width=5em >
 					<option value='0'	>	Betalt kun en gang				</option>
 					<option value='1'	>	Betalt beløbet nu og automatisk hver måned	</option>
 					<option value='3'	>	Betalt beløbet nu og automatisk hver 3. måned	</option>
