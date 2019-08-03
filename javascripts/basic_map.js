@@ -1,9 +1,9 @@
 var osmap;
-var sat		= L.tileLayer('https://kartoteket.alslug.dk/.images/proxy.php/map/sat/{z}/{y}/{x}', {
+var sat		= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/map/sat/{z}/{y}/{x}', {
 			maxZoom: 19,
 			attribution: 'Tiles &copy; Esri '//&mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GI$
 		});
-var streets	= L.tileLayer('https://kartoteket.alslug.dk/.images/proxy.php/map/street/{z}/{x}/{y}', {
+var streets	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/map/street/{z}/{x}/{y}', {
 			maxZoom: 19,
 			attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
