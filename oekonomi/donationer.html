@@ -22,13 +22,15 @@
 .cross,.check	{ float:right; }
 .cross	{ color:red;	}
 .check	{ color:green;	}
-
 </style>
 <h1>Økonomi / Donationer</h1>
 <p>Medlemskab hos AlsLUG er gratis.</p>
 <p>Men vi har stadigvæk løbende udgifter, udgifter til udstyr, PR og andet.
-For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
-<h2>Muligheder for kontante donationer:</h2>
+For at få penge til det, håber vi at du vil bidrage med et lille beløb.</p>
+<p>Som forening skal vi betale et lille gebyr for at modtage penge. Ofte er der tale om et fast beløb pr overførsel.
+Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for at lave mange små overførsler.</p>
+
+				<h2>Muligheder for kontante donationer:</h2>
 <link rel='stylesheet' href='//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css'>
 <script src='//code.jquery.com/jquery-1.10.2.js'></script>
 <script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
@@ -55,11 +57,7 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 	<div>
 		<div>Donationer kan sendes til vores MobilePay-nummer		</div>
 		<div style='font-size:200%; text-align:center;'>	74953	</div>
-		<div class='fees'>
-			Vi skal betale 0.75 DKK gebyr for hver overførsel,
-			så lav meget gerne en samlet overførsel, istedet
-			for flere små overførsler.
-		</div>
+		<div class='fees'>	Vi skal betale 0.75 DKK gebyr for hver overførsel	</div>
 	</div>
 
 
@@ -75,7 +73,7 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 			<div>	&#128233;	<input name='email'	placeholder='email'	/>	</div>
 			<div>	&#128241;	<input name='mobile'	placeholder='mobile'	/>	</div>
 			<label>Hvor meget vil du betale?</label>
-			<div>	&#128176;	<input name='amount'	type='number' min=25 value=100 style='width:4em;' /> DKK
+			<div>	&#128176;	<input name='amount'	type='number' min=25 step=5 value=100 style='width:4em;' /> DKK
 				<select name='frequency' style='width:10em;' >
 					<option value='0'	>	Betal kun en gang				</option>
 					<option value='1'	>	Betal beløbet nu og automatisk hver måned	</option>
@@ -96,76 +94,76 @@ For at få penge til det, håber vi at du vil bidrage med et lille beløb.<p>
 		<!-- ****************************** JS ******************************************** -->
 		<script src='https://js.stripe.com/v3/'></script>
 		<script>
-// Create a Stripe client.
-var stripe = Stripe('##### STRIPE_PUBLIC_KEY ######');
+			// Create a Stripe client.
+			var stripe = Stripe('##### STRIPE_PUBLIC_KEY ######');
 
-// Create an instance of Elements.
-var elements = stripe.elements();
+			// Create an instance of Elements.
+			var elements = stripe.elements();
 
-// Custom styling can be passed to options when creating an Element.
-// (Note that this demo uses a wider set of styles than the guide below.)
-var style = {
-  base: {
-    color: '#32325d',
-    fontFamily: '\"Helvetica Neue\", Helvetica, sans-serif',
-    fontSmoothing: 'antialiased',
-    fontSize: '16px',
-    '::placeholder': {
-      color: '#aab7c4'
-    }
-  },
-  invalid: {
-    color: '#fa755a',
-    iconColor: '#fa755a'
-  }
-};
+			// Custom styling can be passed to options when creating an Element.
+			// (Note that this demo uses a wider set of styles than the guide below.)
+			var style = {
+				base: {
+				color: '#32325d',
+					fontFamily: '\"Helvetica Neue\", Helvetica, sans-serif',
+					fontSmoothing: 'antialiased',
+					fontSize: '16px',
+					'::placeholder': {
+						color: '#aab7c4'
+					}
+				},
+				invalid: {
+					color: '#fa755a',
+					iconColor: '#fa755a'
+				}
+			};
 
-// Create an instance of the card Element.
-var card = elements.create('card', {style: style});
+			// Create an instance of the card Element.
+			var card = elements.create('card', {style: style});
 
-// Add an instance of the card Element into the `card-element` <div>.
-card.mount('#card-element');
+			// Add an instance of the card Element into the `card-element` <div>.
+			card.mount('#card-element');
 
-// Handle real-time validation errors from the card Element.
-card.addEventListener('change', function(event) {
-  var displayError = document.getElementById('card-errors');
-  if (event.error) {
-    displayError.textContent = event.error.message;
-  } else {
-    displayError.textContent = '';
-  }
-});
+			// Handle real-time validation errors from the card Element.
+			card.addEventListener('change', function(event) {
+				var displayError = document.getElementById('card-errors');
+				if (event.error) {
+					displayError.textContent = event.error.message;
+				} else {
+					displayError.textContent = '';
+				}
+			});
 
-// Handle form submission.
-var form = document.getElementById('payment-form');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
+			// Handle form submission.
+			var form = document.getElementById('payment-form');
+			form.addEventListener('submit', function(event) {
+				event.preventDefault();
 
-  stripe.createToken(card).then(function(result) {
-    if (result.error) {
-      // Inform the user if there was an error.
-      var errorElement = document.getElementById('card-errors');
-      errorElement.textContent = result.error.message;
-    } else {
-      // Send the token to your server.
-      stripeTokenHandler(result.token);
-    }
-  });
-});
+				stripe.createToken(card).then(function(result) {
+					if (result.error) {
+						// Inform the user if there was an error.
+						var errorElement = document.getElementById('card-errors');
+						errorElement.textContent = result.error.message;
+					} else {
+						// Send the token to your server.
+						stripeTokenHandler(result.token);
+					}
+				});
+			});
 
-// Submit the form with the token ID.
-function stripeTokenHandler(token) {
-  // Insert the token ID into the form so it gets submitted to the server
-  var form = document.getElementById('payment-form');
-  var hiddenInput = document.createElement('input');
-  hiddenInput.setAttribute('type', 'hidden');
-  hiddenInput.setAttribute('name', 'stripeToken');
-  hiddenInput.setAttribute('value', token.id);
-  form.appendChild(hiddenInput);
+			// Submit the form with the token ID.
+			function stripeTokenHandler(token) {
+				// Insert the token ID into the form so it gets submitted to the server
+				var form = document.getElementById('payment-form');
+				var hiddenInput = document.createElement('input');
+				hiddenInput.setAttribute('type', 'hidden');
+				hiddenInput.setAttribute('name', 'stripeToken');
+				hiddenInput.setAttribute('value', token.id);
+				form.appendChild(hiddenInput);
 
-  // Submit the form
-  form.submit();
-}
+				// Submit the form
+				form.submit();
+			}
 		</script>
 		<!-- ****************************** CSS ******************************************** -->
 	</div>
@@ -210,10 +208,10 @@ function stripeTokenHandler(token) {
 		<div class='iban'	>	DK83 8010 0001122838	</div>
 		<div class='swift'	>	SYBKDK22		</div>
 		<div class='fees'>
-			Send venligst kun DKK - banken beholder 50 kroner af
+			Send venligst kun DKK - banken beholder mellem 20 og 50 kroner af
 			det du overfører, hvis det ikke er i DKK, så send ikke
 			små-beløb i udenlandsk valuta.
-			Brug derfor kort eller paypal i stedet for.
+			Brug derfor kort <!-- eller paypal --> i stedet for.
 		</div>
 	</div>
 </div>
