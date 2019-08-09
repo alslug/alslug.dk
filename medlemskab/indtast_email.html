@@ -18,20 +18,35 @@
 			<header w3-include-html="/header.include"></header>
 			<noscript><a href="/header.include">Menu</a></noscript>
 			<section>
-<h1>Medlemskab</h1>
-<p>Medlemskab er gratis.</p>
+				<form>
+					<h1>Medlemskab</h1>
+					<p>Medlemskab er gratis.</p>
 
-<p>Hvis du ønsker at ændre i dine oplysninger, sendes en link til din email-adresse.</p>
-<form method='post' action='https://kartoteket.alslug.dk/medlemskab/indtast_email.php'>
-	<table border=0>
-		<tr>
-			<td>		Email:								</td>
-			<td>		<input name='email' value='' />					</td>
-		</tr><tr>
-			<td colspan=2>	<input type='submit' name='continue' value='Forts&aelig;t' />	</td>
-		</tr>
-	</table>
-</form>
+					<h2>Personlige oplysninger</h2>
+					
+					<label>Navn:</label>
+					<input id='navn' inplace='Linus Thorvald'	class='required' />
+					
+					<label>Email:</label>
+					<input name='email' inplace='min@email.dk'	class='required' />
+
+					<label>Mobil-nummer:</label>
+					<input name='mobil' inplace='60789889'			/>
+
+					<label>Land:</label>
+					<input name='land' value='DK'	/>
+
+					<label>Adresse:</label>
+					<input name='adresse' inplace='Bakkensbro 6, Ullerup'	/>
+
+					<label>Postnr:</label>
+					<input name='postnr' inplace='6400'			/>
+
+					<label>By:</label>
+					<input name='by' inplace='Sønderborg'			/>
+					
+					<input type='submit' name='continue' value='Forts&aelig;t'	/>
+				</form>
 			</section>
 			<footer>
 				<p><small>
