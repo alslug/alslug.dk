@@ -22,35 +22,40 @@
 					<h1>Medlemskab</h1>
 					<p>Medlemskab er gratis.</p>
 
-					<h2>Personlige oplysninger</h2>
+					<p>
+						<h2>Personlige oplysninger:</h2>
+						<div>
+							<div>Navn: <span title=''>&#8505;</span></div>
+							<input id='navn' placeholder='Linus Thorvald'	class='required' />
+						</div><div>
+							<div>Email:<span title=''>&#8505;</span></div>
+							<input name='email' placeholder='min@email.dk'	class='required' />
+						</div><div>
+							<div>Mobil-nummer:<span title=''>&#8505;</span></div>
+							<input name='mobil' placeholder='+45 60789889'			/>
+						</div>
+					</p>
+					<p>
+						<h2>Adresse:</h2>
+						<div>
+							<div>Land:</div>
+							<input name='land' value='DK'	/>
+						</div><div>
+							<div>Adresse:<span title=''>&#8505;</span></div>
+							<input name='adresse' placeholder='Bakkensbro 6, Ullerup'	/>
+						</div><div>
+							<div>Postnr:<span title=''>&#8505;</span></div>
+							<input name='postnr' placeholder='6400'			/>
+						</div><div>
+							<div>By:<span title=''>&#8505;</span></div>
+							<input name='by' placeholder='Sønderborg'			/>
+						</div>
+					</p>
 					
-					<div>
-						<label style='width:10em'>xNavn:</label>
-						<input id='navn' placeholder='Linus Thorvald'	class='required' />
-					</div><div>
-						<label>Email:</label>
-						<input name='email' placeholder='min@email.dk'	class='required' />
-					</div><div>
-						<label>Mobil-nummer:</label>
-						<input name='mobil' placeholder='60789889'			/>
-					</div><div>
-						<label>Land:</label>
-						<input name='land' value='DK'	/>
-					</div><div>
-						<label>Adresse:</label>
-						<input name='adresse' placeholder='Bakkensbro 6, Ullerup'	/>
-					</div><div>
-						<label>Postnr:</label>
-						<input name='postnr' placeholder='6400'			/>
-					</div><div>
-						<label>By:</label>
-						<input name='by' placeholder='Sønderborg'			/>
-					</div>
-					<p>&nbsp;</p>
-					
-					<h2>Mailing-lister</h2>
-					<script src='https://kartoteket.alslug.dk/api/mailinglister.js'>
-
+					<p>
+						<h2>Mailing-lister</h2>
+						<script src='https://kartoteket.alslug.dk/api/mailinglister.js'>
+					</p>
 					<input type='submit' name='continue' value='Forts&aelig;t'	/>
 				</form>
 			</section>
