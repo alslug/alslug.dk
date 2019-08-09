@@ -21,12 +21,16 @@
 				<form method='post' action='https://kartoteket.alslug.dk/medlemskab/indmeldelse.php'>
 					<h1>Medlemskab</h1>
 					<p>Medlemskab er gratis.</p>
-
+					<p>Vi deler ikke dine oplysninger med andre, med følgende undtagelser:</p>
+					<ul>
+						<li>Din mail-adresse videregives til andre medlemmer når du skriver på vore mailing-lister.</li>
+						<li>Vores forskellige udbydere, kan se de nødvende data når de benyttes (mail, navn,.</li>
+					</ul>
 					<p>
 						<h2>Personlige oplysninger:</h2>
 						<div>
-							<div>Navn:</div>
-							<input id='navn' placeholder='Linus Thorvald'	class='required' />
+							<div>Navn:<span title='Navn skal oplyses.'>&#128712;</span></div>
+							<input name='navn' placeholder='Linus Thorvald'	class='required' />
 						</div><div>
 							<div>Email:<span title='
 Adressen skal bekræftes.
@@ -48,7 +52,8 @@ Dit mobil-nummer deles ikke med andre.'>&#128712;
 						</div>
 					</p>
 					<p>
-						<h2>Adresse:</h2>
+						<h2>Adresse:<span title='Adressen bruges til statistik på vores oversigtskort'>&#128712;
+							</span></h2>
 						<div>
 							<div>Land:</div>
 							<input name='land' value='DK'	/>
