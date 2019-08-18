@@ -8,7 +8,7 @@ var streets	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/st
 			attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
 osmap = L.map('openstreetmap',{
-				maxZoom: 13+3,
+				maxZoom: 13+3+2,
 				layers:[streets]
 				});
 osmap.setView([55.05,9.36],7);
