@@ -11,7 +11,7 @@ osmap = L.map('openstreetmap',{
 				maxZoom: 13+3+2,
 				layers:[streets]
 				});
-osmap.setView([55.05,9.36],7);
+//osmap.setView([55.05,9.36],7);
 new L.control.layers({
 			'Sat': sat,
 			'Kort': streets
