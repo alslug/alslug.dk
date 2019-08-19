@@ -18,39 +18,38 @@
 			<header w3-include-html="/header.include"></header>
 			<noscript><a href="/header.include">Menu</a></noscript>
 			<section>
-<h1>Oversigt over medlemmer</h1>
-<p>Her bor nogle af vore 160 medlemmer:</p>
-<p>Placeringerne er af cirklen dækker et område på mindst 1000 adresser.</p>
-<div id='openstreetmap' style='width:100%; height: 400px'>
-	<div id='interlude' style='text-align: center; line-height: 400px; font-weight: bold; border: 1px dotted grey; background-color: #eee;'>
-		Map currently unavailable.
-	</div>
-</div>
-<p>Den orange marker er hvor vi holder til i Ullerup.
-<br>Den røde marker er hvor vi udstiller i fremtiden.
-<br>De grå er hvor vi tidligere har haft aktiviteter eller har deltaget i udstillinger.</p>
+				<h1>Oversigt over medlemmer</h1>
+				<p>Her bor nogle af vore 160 medlemmer:</p>
+				<p>Placeringerne er af cirklen dækker et område på mindst 1000 adresser.</p>
+				<div id='openstreetmap' style='width:100%; height: 400px'>
+					<div id='interlude' style='text-align: center; line-height: 400px; font-weight: bold; border: 1px dotted grey; background-color: #eee;'>
+						Map currently unavailable.
+					</div>
+				</div>
+				<p>Den orange marker er hvor vi holder til i Ullerup.
+				<br>Den røde marker er hvor vi udstiller i fremtiden.
+				<br>De grå er hvor vi tidligere har haft aktiviteter eller har deltaget i udstillinger.</p>
 
-<style type='text/css'>
-//              #map { width: 700px; height: 433px; }
-.fullscreen-icon { background-image: url(/icon-fullscreen.png); }
-// on selector per rule as explained here : http://www.sitepoint.com/html5-full-screen-api/
-#map:-webkit-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
-#map:-moz-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
-#map:full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
-.leaflet-pseudo-fullscreen { position: fixed !important; width: 100% !important; height: 100% !important; top: 0px !important; left: 0px !important; z-index: $
-</style>
+				<style type='text/css'>
+				//              #map { width: 700px; height: 433px; }
+				.fullscreen-icon { background-image: url(/icon-fullscreen.png); }
+				// on selector per rule as explained here : http://www.sitepoint.com/html5-full-screen-api/
+				#map:-webkit-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
+				#map:-moz-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
+				#map:full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
+				.leaflet-pseudo-fullscreen { position: fixed !important; width: 100% !important; height: 100% !important; top: 0px !important; left: 0px !important; z-index: $
+				</style>
 
-<!-- leaflet -->
-<script			src='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.js'		></script>
-<link rel='stylesheet'	href='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.css'	/>
-<!-- marker cluster
-<script			src='/js/MarkerCluster/leaflet.markercluster-src.js'			></script>
-<link rel='stylesheet'	href='/js/MarkerCluster/MarkerCluster.css'				/>
-<link rel='stylesheet'	href='/js/MarkerCluster/MarkerCluster.Default.css'			/>
--->
-<script			src='https://kartoteket.alslug.dk/javascripts/basic_map.js'		></script>
-<script			src='https://kartoteket.alslug.dk/api/aktivitets-steder.js'		></script>
-<script			src='https://kartoteket.alslug.dk/api/memberdata_v2.js'			></script>
+				<!-- leaflet -->
+				<script			src='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.js'		></script>
+				<link rel='stylesheet'	href='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.css'	/>
+				<!-- fullscreen -->
+				<script			src='https://kartoteket.alslug.dk/proxy.php/leaflet/fullscreen.js'		></script>
+				<link rel='stylesheet'	href='https://kartoteket.alslug.dk/proxy.php/leaflet/fullscreen.css'	/>
+				<script			src='https://kartoteket.alslug.dk/javascripts/basic_map.js'		></script>
+				<!-- -->
+				<script			src='https://kartoteket.alslug.dk/api/aktivitets-steder.js'		></script>
+				<script			src='https://kartoteket.alslug.dk/api/memberdata_v2.js'			></script>
 
 			</section>
 			<footer>
