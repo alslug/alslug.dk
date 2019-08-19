@@ -18,71 +18,67 @@
 			<header w3-include-html="/header.include"></header>
 			<noscript><a href="/header.include">Menu</a></noscript>
 			<section>
-<h1>TTN-beacons</h1>
-i samarbejde med Nucleon E.v.
+				<h1>TTN-beacons</h1>
+				i samarbejde med Nucleon E.v.
 
-<div id='openstreetmap' style='width:100%; height: 400px'>
-	<div id='interlude' style='text-align: center; line-height: 400px; font-weight: bold; border: 1px dotted grey; background-color: #eee;'>
-		Map currently unavailable.
-	</div>
-</div>
+				<div id='openstreetmap' style='width:100%; height: 400px'>
+					<div id='interlude' style='text-align: center; line-height: 400px; font-weight: bold; border: 1px dotted grey; background-color: #eee;'>
+					Map currently unavailable.
+					</div>
+				</div>
 
-<h2>Guide til kortet</h2>
-<div>Farver på streger</div>
-<ul>
-	<li>Grønne streger: SF7.</li>
-	<li>Orange streger: SF8.</li>
-	<li>Røde streger: SF9.</li>
-	<li>Violette streger: SF10.</li>
-	<li>Blå streger: SF11.</li>
-	<li>Sorte streger: SF12.</li>
-</ul>
-<div>Tykkelser på streger</div>
-<ul>
-	<li>20 pixel: Signal modtaget indenfor den seneste ca 1½ time.</li>
-	<li>10 pixel: Signal modtaget indenfor det seneste døgn.</li>
-	<li>3 pixel: Signal modtaget for over et døgn siden.</li>
-</ul>
-<h2>Markeringerne:</h2>
-<ul>
-	<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-blue.png'	>Beacon med kendt placering.</li>
-	<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-yellow.png'	>Beacon med ukendt placering. (placering beregnet ud fra de gateways der har hørt den)</li>
-	<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-green.png'	>Gateway</li>
-</ul>
-<h2>Software:</h2>
-<p>
-	<a href='https://gitlab.com/iotssl/nucleon-nodes/tree/master/NucleonBake'>Software</a>
-	til at indrette en beacon kan hentes 
-	<a href='https://gitlab.com/iotssl/nucleon-nodes/tree/master/NucleonBake'>her</a>.
-</p>
-<p>
-	Derudover skal de bruge diverse koder til at koble din beacon på Nucleons TTN-app. De kan fåes ved at kontakte
-	<a href='/om/kontakt.html'>Henning</a>.
-</p>
-<p>
-	Denne side henter data ud af MQTT-streamen for Nucleons TTN-app, og præsenterer dem på kortet.
-</p>
+				<h2>Guide til kortet</h2>
+				<div>Farver på streger</div>
+				<ul>
+					<li>Grønne streger: SF7.</li>
+					<li>Orange streger: SF8.</li>
+					<li>Røde streger: SF9.</li>
+					<li>Violette streger: SF10.</li>
+					<li>Blå streger: SF11.</li>
+					<li>Sorte streger: SF12.</li>
+				</ul>
+				<div>Tykkelser på streger</div>
+				<ul>
+					<li>20 pixel: Signal modtaget indenfor den seneste ca 1½ time.</li>
+					<li>10 pixel: Signal modtaget indenfor det seneste døgn.</li>
+					<li>3 pixel: Signal modtaget for over et døgn siden.</li>
+				</ul>
+				<h2>Markeringerne:</h2>
+				<ul>
+					<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-blue.png'	/>Beacon med kendt placering.</li>
+					<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-yellow.png'	/>Beacon med ukendt placering. (placering beregnet ud fra de gateways der har hørt den)</li>
+					<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-green.png'	/>Gateway</li>
+				</ul>
+				<h2>Software:</h2>
+				<p>
+					<a href='https://gitlab.com/iotssl/nucleon-nodes/tree/master/NucleonBake'>Software</a>
+					til at indrette en beacon kan hentes 
+					<a href='https://gitlab.com/iotssl/nucleon-nodes/tree/master/NucleonBake'>her</a>.
+				</p>
+				<p>
+					Derudover skal de bruge diverse koder til at koble din beacon på Nucleons TTN-app. De kan fåes ved at kontakte
+					<a href='/om/kontakt.html'>Henning</a>.
+				</p>
+				<p>
+					Denne side henter data ud af MQTT-streamen for Nucleons TTN-app, og præsenterer dem på kortet.
+				</p>
 
-<style type='text/css'>
-//              #map { width: 700px; height: 433px; }
-.fullscreen-icon { background-image: url(/icon-fullscreen.png); }
-// on selector per rule as explained here : http://www.sitepoint.com/html5-full-screen-api/
-#map:-webkit-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
-#map:-moz-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
-#map:full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
-.leaflet-pseudo-fullscreen { position: fixed !important; width: 100% !important; height: 100% !important; top: 0px !important; left: 0px !important; z-index: $
-</style>
+				<style type='text/css'>
+				//              #map { width: 700px; height: 433px; }
+				.fullscreen-icon { background-image: url(/icon-fullscreen.png); }
+				// on selector per rule as explained here : http://www.sitepoint.com/html5-full-screen-api/
+				#map:-webkit-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
+				#map:-moz-full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
+				#map:full-screen { width: 100% !important; height: 100% !important; z-index: 99999; }
+				.leaflet-pseudo-fullscreen { position: fixed !important; width: 100% !important; height: 100% !important; top: 0px !important; left: 0px !important; z-index: $
+				</style>
 
-<!-- leaflet -->
-<script			src='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.js'		></script>
-<link rel='stylesheet'	href='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.css'	/>
-<!-- marker cluster
-<script			src='/js/MarkerCluster/leaflet.markercluster-src.js'			></script>
-<link rel='stylesheet'	href='/js/MarkerCluster/MarkerCluster.css'				/>
-<link rel='stylesheet'	href='/js/MarkerCluster/MarkerCluster.Default.css'			/>
--->
-<script			src='https://kartoteket.alslug.dk/javascripts/basic_map.js'		></script>
-<script			src='https://kartoteket.alslug.dk/api/ttn/beacons.js'			></script>
+				<!-- leaflet -->
+				<script			src='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.js'		></script>
+				<link rel='stylesheet'	href='https://kartoteket.alslug.dk/proxy.php/leaflet/leaflet.css'	/>
+				<script			src='https://kartoteket.alslug.dk/javascripts/basic_map.js'		></script>
+				<script			src='https://kartoteket.alslug.dk/api/ttn/beacons.js'			></script>
+			</section>
 			<footer>
 				<p><small>
 					Hosted on GitHub Pages
