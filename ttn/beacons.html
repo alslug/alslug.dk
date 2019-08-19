@@ -25,39 +25,43 @@ i samarbejde med Nucleon E.v.
 	<div id='interlude' style='text-align: center; line-height: 400px; font-weight: bold; border: 1px dotted grey; background-color: #eee;'>
 		Map currently unavailable.
 	</div>
-	<h2>Guide til kortet</h2>
-	<div>Farver på streger</div>
-	<ul>
-		<li>Grønne streger: SF7.</li>
-		<li>Orange streger: SF8.</li>
-		<li>Røde streger: SF9.</li>
-		<li>Violette streger: SF10.</li>
-		<li>Blå streger: SF11.</li>
-		<li>Sorte streger: SF12.</li>
-	</ul>
-	<div>Tykkelser på streger</div>
-	<ul>
-		<li>20 pixel: Signal modtaget indenfor den seneste ca 1½ time.</li>
-		<li>10 pixel: Signal modtaget indenfor det seneste døgn.</li>
-		<li>3 pixel: Signal modtaget for over et døgn siden.</li>
-	</ul>
-	<div>Markeringerne:</div>
-	<ul>
-		<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-blue.png'	>Beacon med kendt placering.</li>
-		<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-yellow.png'	>Beacon med ukendt placering. (placering beregnet ud fra de gateways der har hørt den)</li>
-		<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-green.png'	>Gateway</li>
-	</ul>
 </div>
-<h2>Software</h2>
-<div>
+
+<h2>Guide til kortet</h2>
+<div>Farver på streger</div>
+<ul>
+	<li>Grønne streger: SF7.</li>
+	<li>Orange streger: SF8.</li>
+	<li>Røde streger: SF9.</li>
+	<li>Violette streger: SF10.</li>
+	<li>Blå streger: SF11.</li>
+	<li>Sorte streger: SF12.</li>
+</ul>
+<div>Tykkelser på streger</div>
+<ul>
+	<li>20 pixel: Signal modtaget indenfor den seneste ca 1½ time.</li>
+	<li>10 pixel: Signal modtaget indenfor det seneste døgn.</li>
+	<li>3 pixel: Signal modtaget for over et døgn siden.</li>
+</ul>
+<h2>Markeringerne:</h2>
+<ul>
+	<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-blue.png'	>Beacon med kendt placering.</li>
+	<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-yellow.png'	>Beacon med ukendt placering. (placering beregnet ud fra de gateways der har hørt den)</li>
+	<li><img src='https://kartoteket.alslug.dk/proxy.php/leaflet/marker-icon-2x-green.png'	>Gateway</li>
+</ul>
+<h2>Software:</h2>
+<p>
 	<a href='https://gitlab.com/iotssl/nucleon-nodes/tree/master/NucleonBake'>Software</a>
 	til at indrette en beacon kan hentes 
 	<a href='https://gitlab.com/iotssl/nucleon-nodes/tree/master/NucleonBake'>her</a>.
-</div>
-<div>
+</p>
+<p>
 	Derudover skal de bruge diverse koder til at koble din beacon på Nucleons TTN-app. De kan fåes ved at kontakte
 	<a href='/om/kontakt.html'>Henning</a>.
-</div>
+</p>
+<p>
+	Denne side henter data ud af MQTT-streamen for Nucleons TTN-app, og præsenterer dem på kortet.
+</p>
 
 <style type='text/css'>
 //              #map { width: 700px; height: 433px; }
