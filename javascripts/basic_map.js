@@ -9,8 +9,13 @@ var streets	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/st
 		});
 osmap = L.map('openstreetmap',{
 				maxZoom: 13+3+2,
-				layers:[streets]
+				layers:[streets],
+				fullscreenControl: true
+//				fullscreenControl: {
+//					pseudoFullscreen: false // if true, fullscreen to page width and height
 				});
+//map.addControl(new L.Control.Fullscreen());
+
 //osmap.setView([55.05,9.36],7);
 new L.control.layers({
 			'Sat': sat,
