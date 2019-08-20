@@ -8,13 +8,14 @@ var streets	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/st
 			attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
 osmap = L.map('openstreetmap',{
+				measureControl:true,
+//				fullscreenControl: true,
+				fullscreenControl: {
+						pseudoFullscreen: true // if true, fullscreen to page width and height
+					},
 				maxZoom: 13+3+2,
-				layers:[streets],
-				fullscreenControl: true
-//				fullscreenControl: {
-//					pseudoFullscreen: false // if true, fullscreen to page width and height
+				layers:[streets]
 				});
-//map.addControl(new L.Control.Fullscreen());
 
 //osmap.setView([55.05,9.36],7);
 new L.control.layers({
