@@ -8,7 +8,7 @@ var streets	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/st
 			attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
 osmap = L.map('openstreetmap',{
-				measureControl:true,
+//				measureControl:true,
 //				fullscreenControl: true,
 				fullscreenControl: {
 						pseudoFullscreen: true // if true, fullscreen to page width and height
