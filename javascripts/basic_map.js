@@ -27,7 +27,7 @@ osmap = L.map('openstreetmap',{
 new L.control.scale({ imperial: false }).addTo(osmap);
 
 //osmap.setView([55.05,9.36],7);
-new L.control.layers({
+var layers = new L.control.layers({
 			'Sat': sat,
 			'Kort': streets,
 			'Vandfarver': watercolor,
