@@ -20,7 +20,7 @@ osmap = L.map('openstreetmap',{
 				maxZoom: 13+3+2,
 				layers:[streets]
 				});
-var fullscreen = L.control.fullscreenControl({ pseudoFullscreen: true }).addTo(osmap);
+var fullscreen = L.control.fullscreen({ pseudoFullscreen: true }).addTo(osmap);
 new L.control.scale({ imperial: false }).addTo(osmap);
 
 //osmap.setView([55.05,9.36],7);
