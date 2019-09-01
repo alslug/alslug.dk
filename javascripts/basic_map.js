@@ -17,13 +17,10 @@ var terrain	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/te
 		});
 osmap = L.map('openstreetmap',{
 //				measureControl:true,
-//				fullscreenControl: true,
-				fullscreenControl: {
-						pseudoFullscreen: true // if true, fullscreen to page width and height
-					},
 				maxZoom: 13+3+2,
 				layers:[streets]
 				});
+var fullscreen = L.control.fullscreenControl({ pseudoFullscreen: true }).addTo(osmap);
 new L.control.scale({ imperial: false }).addTo(osmap);
 
 //osmap.setView([55.05,9.36],7);
