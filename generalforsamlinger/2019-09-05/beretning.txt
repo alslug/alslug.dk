@@ -1,0 +1,90 @@
+Formandens beretning 2017/2018
+==============================
+
+Det generelle aktivitets-niveauet i Alslug er rimeligt højt.
+Faktisk går det derudaf med 150 i timen.
+
+Vi har som i de sidste mange på haft 12 installfester og hele 14 gange linuxaften.
+
+Derudover har vi traditionen tro deltaget i Kulturnatten (Både i 2018 som
+denne beretning handler om og i 2019)
+Vi har været en tur til Radioamatørernes Forårsmarked i Agerskov i marts.
+
+
+Vi er ikke kommet helt så langt med at få ryddet op, så vi får plads på bordet 
+ved vinduerne. Men det kommer forhåbentligt, da vi igen har været lidt presset på
+bordpladsen til besøgende på et par af vore installfester.
+
+Installation via vores netboot-server giver nogle udfordinger med diverse
+ubuntu 18.04-varianter, men der arbejdes på sagen.
+Fremover bliver vi nød til
+delvis at skift væk fra Ubuntu, de den fra april 2020 ikke mere vil understøtte
+32bit hardware, som vi stadigvæk ser rigtigt mange af.
+
+
+Det kommende år forventer vi et tilsvarende aktivitets-niveau.
+
+
+Vi søger stadigvæk efter steder hvor vi kan demonstrere linux i nye
+geografiske områder. F.eks. hobby-udstillinger eller lignede.
+Der blev på et tidspunkt nævnt muligheden for at udstille på en af forårets
+livstils-messer, men dem jeg har haft kontakt til, har end ikke
+tilnærmelsesvis været indenfor økonomisk rækkevide for foreningen.
+
+
+Det sidste men største skete i foråret da vi stod for LugCamp.de i
+Kr Himmelfarts ferien.
+I februar var der nogle på deres liste som efterlyste om det blev til noget,
+da der var tavshed fra den oprindelig arrangør. Jeg fik afklaret om hele 
+Bakkensbro var ledig, og vi gik i gang med at stable en lejr på benene.
+
+Målet var at alle skulle hygge sig, og hvis bare det løb rundt, ville det
+være fint.
+Det lykkedes ikke helt. Vi fik et ernormt overskud fra arrangementet.
+
+Der var mange som sidst på lejren spurgte om hvornår vi igen holdt LugCamp,
+så noget må vi have gjort rigtigt.
+Det er også mit indtryk at os der lavede arbejdet på lejeren er med igen
+på et senere tidspunkt. Men de næste 2 år ligger fast. En LUG i Ruhr-distriktet
+har lagt billet ind for 2020 og Flensborg i 2021.
+Da vores LugCamp var den 20. LugCamp var der flere der mente at vi også
+kunne lave nummer 25.
+Jeg har tænkt på 2025, for at markere AlsLUGs 25 års jubilæum. Men der er jo
+lang tid til endnu, så den tid den glæde.
+
+
+
+Hvad med fremtiden?
+
+Da vi havde 18 år fødselsdag, fejrede vi foreningens fødselsdag, ved at
+tage en bid aftensmad på dagen.
+
+I 2020 hvor vi bliver 20, er det søndag d. 3. maj.
+Skal vi gentage succesen?
+Hvor skal vi tage hen?
+
+Som nævnt er vi med til Kulturnattet i 2020 igen.
+
+Derudover har vi fået en forspørgsel om vi vil udstille til Land & Fritids
+høstmarked 5. oktober i Ullerup.
+Jeg har sagt ja til at deltage.
+
+
+Jeg har længe grublet over hvordan vi får gjort vores udstillingsstand
+forbedret Den er hverken lys eller vandtæt, så vi bøvler hver gang med at
+sætte presenninger op for lukke vand, vind og lys ude.. 
+En mere stabil overdel, som er ordentligt vand-, vind- og lys-tæt ville
+være en stor fordel.
+Under en lille snak med vores nabo på årets kulturnat, fik jeg et tip.
+De havde nemlig en god stabil pavilion, som er tæt og mørk, og ikke
+vejer meget mere end vores gamle pavilion.
+Den ville være fin at "kopiere"
+Den er godt nok 8 gange så dyr som den gamle (~350 svjh kontra 2.0-2.5k),
+men med en bid af overskudet fra LugCamp går det vist nok.
+
+
+Allerede under LugCamp kunne vi se at det ville blive svært ikke at få
+overskud, og allerde på det tidspunkt bliv ideen om en lille køkkensektion i
+vores lokale luftet, med lutter positive kommentarer.
+Vi har allerede indkøbt vndvarmer, vask og vandhaner. Vi har brug for en
+ordentlig varmluftsovn, og noget skabsplads.
