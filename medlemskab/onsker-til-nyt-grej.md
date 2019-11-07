@@ -17,8 +17,8 @@ Hvis du har mulighed for at hjælpe med noget af nedenstående grej, beder vi di
 
 
 - 2 nye mini-itx bundkort til vores demo-maskiner.
-	Vi har i juli 17 indkøbt 2 stk bundkort til opgradering af to ud af fire maskiner.
-	Den ene maskine er desværre i mellemtiden defekt.
+Vi har i juli 17 indkøbt 2 stk bundkort til opgradering af to ud af fire maskiner.
+Den ene maskine er desværre i mellemtiden defekt.
 - 24 eller 48 port switch med PoE på alle porte til 19&quot; rack-montage.
 	Vi har brug for mindst 2 stk 1000BASE‑T, men helst på alle porte.
 
