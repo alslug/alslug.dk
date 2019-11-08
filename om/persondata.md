@@ -96,6 +96,13 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 
 
 
+### Ved donation via iZettel kortbetaling i lokalet
+Ved betaling via iZettle modtager vi de sidste 4 cifre fra dit betalingskort. Ikke noget navn eller andre data om dig.
+
+
+
+
+
 ### Ved donation i kaffekassen.
 Donationer til grisen er i sagens natur 100% anonyme.
 
