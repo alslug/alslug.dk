@@ -117,13 +117,18 @@ Vi har brugt PrivacyKompassets test til at kigge på vor GDPR compliance. Testen
 <a href='/om/PrivacyKompasset_testresultat.pdf'>PrivacyKompasset - testresultat</a>
 
 Vore kommentarer til testen, da den ikke helt passe ind i vores case:
+
 - Spørgsmål 6: Der har ikke tidligere været beskrevet hvad vi bruger medlemsdata (på nær email-adresser) til.
+
 - Spørgsmål 7: Vi skal have checket grundlaget.
+
 - Spørgsmål 9: Vi gør ikke noget aktivt for at opdatere oplysningerne, men hvis vi bliver gjort opmærksomme på forkerte bliver de selvfølgelig rettet.
 
 - Spørgsmål 11: Vi videregiver ikke person-oplysninger til andre.
- Hvis et medlem skriver en mail på en mailingliste, bliver de sendte til andre medlemmer. Hvor disse mails havner har vi ingen kontrol over.
+Hvis et medlem skriver en mail på en mailingliste, bliver de sendte til andre medlemmer. Hvor disse mails havner har vi ingen kontrol over.
 
 - Spørgsmål 19: Hvem skulle det være?
+
 - Spørgsmål 20: Adgang til medlemsdata er kun tilgængeligt via VPN fra specifikke maskiner
+
 - Spørgsmål 21: Ingen udpeget DPO
