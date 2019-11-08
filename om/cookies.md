@@ -2,14 +2,16 @@
 
 ## Cookies mv på hjemmesiden
 
-### Cookies
+### Cookies og eksternt indhold
 Som udgangspunkt bruger vi ikke cookies på vores hjemmeside, og vi henter som udgangspunkt ikke eksternt indhold
 ind på hjemmesiden-siden som kan bruges til at andre kan spore dig.
 
-     
-Der er dog nogel undtagelser hvor du bliver bedt om at tillade cookies, og/eller at der hentes informationer fra andre websites:
+Der er dog nogle undtagelser hvor du bliver bedt om at tillade cookies, og/eller at der hentes informationer fra andre websites:
 
 - Hvis du vil bruge kort-betaling på hjemmesiden, er det nødvendigt at hente funktioner fra Stripe.com (vores kort-udbyder)
+
+### Logning
+Din brug af hejmmesiden logges med med de normale tilgangs-log fra webserveren.
 
 
 ## Persondata ifb med medlemskab
@@ -17,13 +19,17 @@ Jfr vores vedtægter skal vi kende din e-mail-adresse, når du skal være medlem
 
 Men vi vil meget gerne vide lidt mere om dig:
 
-- Din adresse bruger vi til at markere på vores oversigtskort, hvor vi har medlemmer. Markeringen er KUN en gov markering af hvor du bor.
+- Din adresse bruger vi til at markere på vores <a href='/om/kort.html'>oversigtskort</a>, hvor vi har medlemmer. Markeringen er KUN en gov markering af hvor du bor.
 
 - Telefon-numre og evt alternative mail-adresser, så bestyrelsen kan kontakte dig i forbindelse med
  arrangementer eller problemløsning.
 
 Medlems-kartoteket er kun tilgængeligt for bestyrelsen.
 
+### Se dine data
+Du kan få adgang til hvilke data vi har registreret <a href='/medlemskab/indtast_email.html'>her</a>.
+
+Siden er under udvikling.
 
 
 
@@ -48,7 +54,6 @@ Det er pt ikke mulig af få slettet besked som ligger hos gmane.org, og alle bes
 
 ## Overvågning i vores lokale.
 ### Billeder
-
 Der tages løbende billeder som kan bruges til PR i forbindelse med annoncer, plancer etc.
 
 Der optages hverken video eller lyd.
@@ -70,7 +75,7 @@ Vi registerer hvem der låser dører op hvornår.
 
 
 ## Hvilke data får vi/gemmer vi når du donerer penge til os?
-### Ved donation via MobilePay
+### Ved donation via MobilePay *(ER BLEVET LUKKET NED OKT 2019)*
 Vi modtager dit navn og de sidste 4 cifre i dit telefon-nummer, samt den besked du evt skriver på overførslen.
 
 Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
@@ -87,7 +92,8 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 
 
 
-###cVed donation i kaffekassen.
+
+### Ved donation i kaffekassen.
 Donationer til grisen er i sagens natur 100% anonyme.
 
 
@@ -96,8 +102,8 @@ Donationer til grisen er i sagens natur 100% anonyme.
 
 ## Hvor ligger dine data?
 - Hjemmesiden ligger på en VPS hos <a href='https://hetzner.com'>Hetzner</a> i Falkenstein i sydtyskland.
-- Medlemsdatabase på foreningens nextcloud instance hos <a href='https://ocloud.de'>ocloud.de</a>
-- Postlisterne kører hos Mailgun.com, og ligger på deres europæiske site.
+- Medlemsdatabase ligger på foreningens nextcloud instance hos <a href='https://ocloud.de'>ocloud.de</a>
+- Postlisterne kører hos <a href=https://mailgun.com'>Mailgun.com</a>, og ligger på deres europæiske site.
 - Postlisterne arkiveres hos <a href='gmane.org'>GMane.org</a>
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
 - Netværksstatistikken ligger på formandens private VPS hos <a href='linode.com'>Linode</a> i London.
