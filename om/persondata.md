@@ -88,7 +88,7 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 
 
 ### Ved donation via bank-overførsel
-Vi modtager teksten som du angiver i overførslen. (Typisk &quote;Fra Dit Navn&quote; hvis ikke du angiver andet.
+Vi modtager teksten som du angiver i overførslen. (Typisk "Fra Dit Navn" hvis ikke du angiver andet.
 
 Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 
