@@ -2,7 +2,7 @@
 
 ## Cookies mv på hjemmesiden
 
-###Cookies
+### Cookies
 Som udgangspunkt bruger vi ikke cookies på vores hjemmeside, og vi henter som udgangspunkt ikke eksternt indhold
 ind på hjemmesiden-siden som kan bruges til at andre kan spore dig.
 
@@ -17,8 +17,7 @@ Jfr vores vedtægter skal vi kende din e-mail-adresse, når du skal være medlem
 
 Men vi vil meget gerne vide lidt mere om dig:
 
-- Din adresse bruger vi til at markere på vores oversigtskort, hvor vi har medlemmer.
- Markeringen er KUN en gov markering af hvor du bor.
+- Din adresse bruger vi til at markere på vores oversigtskort, hvor vi har medlemmer. Markeringen er KUN en gov markering af hvor du bor.
 
 - Telefon-numre og evt alternative mail-adresser, så bestyrelsen kan kontakte dig i forbindelse med
  arrangementer eller problemløsning.
@@ -57,8 +56,8 @@ Der optages hverken video eller lyd.
 
 ### Netværket
 Når du kobler på vores netværk (Både trådløst og kabel-netværk) registreres din MAC-adresse og tidspunkt.
-Dette bruges til statistik af hvor mange besøgende vi har til arrangementer, og statistik på hvor mange
-nye og returnerende gæster vi har. MAC-adressen vil normalt ikke være registreret med en ejer af enhedem.
+
+Dette bruges til statistik af hvor mange besøgende vi har til arrangementer, og statistik på hvor mange nye og returnerende gæster vi har. MAC-adressen vil normalt ikke være registreret med en ejer af enhedem.
 <!-- HVOR -->
 
 #### Hvis du han en nøgle-brik til døren
@@ -114,10 +113,11 @@ Vi har brugt PrivacyKompassets test til at kigge på vor GDPR compliance. Testen
 Vore kommentarer til testen, da den ikke helt passe ind i vores case:
 - Spørgsmål 6: Der har ikke tidligere været beskrevet hvad vi bruger medlemsdata (på nær email-adresser) til.
 - Spørgsmål 7: Vi skal have checket grundlaget.
-- Spørgsmål 9: Vi gør ikke noget aktivt for at opdatere oplysningerne, men hvis vi bliver gjort opmærksomme på
-	forkerte bliver de selvfølgelig rettet.
+- Spørgsmål 9: Vi gør ikke noget aktivt for at opdatere oplysningerne, men hvis vi bliver gjort opmærksomme på forkerte bliver de selvfølgelig rettet.
+
 - Spørgsmål 11: Vi videregiver ikke person-oplysninger til andre.
-	Hvis et medlem skriver en mail på en mailingliste, bliver de sendte til andre medlemmer. Hvr disse mails havner har i ingen kontrol over
+ Hvis et medlem skriver en mail på en mailingliste, bliver de sendte til andre medlemmer. Hvor disse mails havner har vi ingen kontrol over.
+
 - Spørgsmål 19: Hvem skulle det være?
 - Spørgsmål 20: Adgang til medlemsdata er kun tilgængeligt via VPN fra specifikke maskiner
 - Spørgsmål 21: Ingen udpeget DPO
