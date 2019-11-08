@@ -1,4 +1,4 @@
-# Hvad bruger vi dine persondata til?
+# Hvad bruger vi dine data til?
 
 ## Cookies mv på hjemmesiden
 
