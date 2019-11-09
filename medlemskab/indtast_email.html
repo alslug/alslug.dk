@@ -1,46 +1,21 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<title>AlsLUG.dk - Alssund Linux Brugergruppe</title>
-
-		<link rel="stylesheet" href="/stylesheets/styles.css">
-		<link rel="stylesheet" href="/stylesheets/github-light.css">
-		<meta name="viewport" content="width=device-width">
-		<!--[if lt IE 9]>
-			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<script src="/javascripts/w3data.js"></script>
-	</head>
-	<body>
-		<div class="wrapper">
-			<header w3-include-html="/header.include"></header>
-			<noscript><a href="/header.include"></a></noscript>
-			<section>
-				<form method='post' action='https://kartoteket.alslug.dk/medlemskab/indtast_email.php'>
-					<h1>Se dine data.</h1>
-					<p>Hvis dine mail/mobil-nummer er i vores medmels-database, sender vi en link, til en side hvor du kan se
-            alle oplysninger vi har registreret om dig.</p>
-          <p>Hvis vi ikke kan finde det indtastede mail/mobil-nummer vil du <strong>IKKE</strong> få besked her på siden.</p>
-					<p>
-						<div>
-							<div>Email eller mobil-nummer:</div>
-							<input name='contact' placeholder='min@email.dk eller +45 60789889'	class='required' />
-						</div>
-					</p>
-					<input type='submit' name='continue' value='Send forespørgsel' style='width:100%'	/>
-				</form>
-			</section>
-			<footer>
-				<p><small>
-					Hosted on GitHub Pages
-					<br>
-					Theme based on <a href="https://github.com/orderedlist">orderedlist</a>
-				</small></p>
-			</footer>
-		</div>
-		<script src="/javascripts/scale.fix.js"></script>
-		<script>w3IncludeHTML();</script>
-	</body>
+<body>
+<section>
+	<form method='post' action='/medlemskab/indtast_email.php'>
+		<h1>Se dine data.</h1>
+		<p>Hvis dine mail/mobil-nummer er i vores medmels-database, sender vi en link, til en side hvor du kan se
+					alle oplysninger vi har registreret om dig.</p>
+		<p>Hvis vi ikke kan finde det indtastede mail/mobil-nummer vil du <strong>IKKE</strong> få besked
+					her på siden.</p>
+		<p>
+			<div>
+				<div>Email eller mobil-nummer:</div>
+				<input name='contact' placeholder='min@email.dk eller +45 60789889'	class='required' />
+			</div>
+		</p>
+		<input type='submit' name='continue' value='Send forespørgsel' style='width:100%'	/>
+	</form>
+</section>
+</body>
 </html>
