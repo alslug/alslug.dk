@@ -64,10 +64,11 @@ Vi registerer hvem der låser dører op hvornår.
 
 
 ## Hvilke data får vi/gemmer vi når du donerer penge til os?
-### Ved donation via MobilePay *(ER BLEVET LUKKET NED OKT 2019)*
-Vi modtager dit navn og de sidste 4 cifre i dit telefon-nummer, samt den besked du evt skriver på overførslen.
 
-Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
+### Ved donation via MobilePay *(ER BLEVET LUKKET NED OKT 2019)* {.strikeout}
+Vi modtager dit navn og de sidste 4 cifre i dit telefon-nummer, samt den besked du evt skriver på overførslen. {.strikeout}
+
+Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt. {.strikeout}
 
 
 
