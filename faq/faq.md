@@ -8,7 +8,7 @@ Nogle af dem, vil vi på disse sider forsøge at komme med løsninger på.
 * [Ny USB Wifi](/faq/ny-wifi-usb.html)	Oversigt over USB-wifi-sticks son er supporteret af Linux, og virker uden ekstra arbejde.
 * [Adgang til BIOS](/faq/bios.html)	Hvordan får man adgnag til BIOSen i diverse computere
 * [Diverse tips](/faq/diverse.html)
-* [Terminalen](/faq/terminal.html)
-* [Nyttige links](/faq/links.html)
+* [Terminalen](/faq/terminal.md)
+* [Nyttige links](/faq/links.md)
 
 * [TODO-liste](/faq/todo.html)
