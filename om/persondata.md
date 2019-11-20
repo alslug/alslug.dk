@@ -70,7 +70,7 @@ Vi registerer hvem der låser dører op hvornår.
 Vi modtager dit navn og de sidste 4 cifre i dit telefon-nummer, samt den besked du evt skriver på overførslen.
 
 Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
-</a>
+</div>
 
 
 
