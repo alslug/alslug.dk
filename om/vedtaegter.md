@@ -23,7 +23,7 @@ Foreningens CVR-nummer er [37741175](https://datacvr.virk.dk/data/visenhed?enhed
 ### §1. stk. 2
 Foreningens webadresse er http://www.alslug.dk.
 
-### §1. stk. 3<
+### §1. stk. 3
 Hvis foreningen har fast lokale, hvor der kan modtages post, er foreningens postadresse:
 
 ALSLUG - Alssund Linux User Group<br>c/o (lokale-adresse)
