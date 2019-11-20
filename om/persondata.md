@@ -100,7 +100,7 @@ Donationer til grisen er i sagens natur 100% anonyme.
 
 ## Hvor ligger dine data?
 - Hjemmesiden ligger på en VPS hos [Hetzner](https://hetzner.com) i Falkenstein i sydtyskland.
-- Medlemsdatabase ligger på foreningens nextcloud instance hos [oCloud.dk](https://ocloud.de) - som også benytter [Hetzner](https://hetzner.com) i Falkenstein.
+- Medlemsdatabase ligger på foreningens nextcloud instance hos [oCloud.de](https://ocloud.de) - som også benytter [Hetzner](https://hetzner.com) i Falkenstein.
 - Postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
 - Postlisterne arkiveres hos [GMane](https://gmane.org).
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
