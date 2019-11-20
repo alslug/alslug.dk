@@ -87,9 +87,12 @@ Bestyrelsen kan indbyde gæster til at overvære generalforsamlingen. Indbudte g
 Generalforsamlingen vælger 1 formand, 2 menige bestyrelsesmedlemmer.
 
 Kan der på generalforsamlingen ikke opstilles 3 kandidater, vælger man det på generalforsamlingen
-antal mulige medlemmer til bestyrelsen. De på generalforsamlingen  valgte bestyrelsesmedlemmer
-har efter den ordinære generalforsamling ret til at optage fuldgyldige bestyrelsesmedlemmer op
-til rammen på 3 personer. Heraf følger, at der ikke findes suppleanter.
+antal mulige medlemmer til bestyrelsen.
+
+De på generalforsamlingen  valgte bestyrelsesmedlemmer har efter den ordinære generalforsamling ret til
+at optage fuldgyldige bestyrelsesmedlemmer op til rammen på 3 personer.
+
+Heraf følger, at der ikke findes suppleanter.
 
 ### §4. stk. 7
 Generalforsamlingen vælger 1 revisor. Revisoren kan ikke være medlem af bestyrelsen.
@@ -105,13 +108,13 @@ Forslag til punkter på dagsordenen skal være bestyrelsen i hænde senest 2 uge
 ### §4. stk. 10
 Generalforsamlingens dagsorden skal mindst indeholde følgende punkter:
 
-1 Valg af ordstyrer.
-2 Formandens beretning.
-3 Fremlæggelse af regnskab.
-4 Indkomne forslag.
-5 Valg af 3 bestyrelsesmedlemmer.
-6 Valg af revisor.
-7 Eventuelt.
+1. Valg af ordstyrer.
+2. Formandens beretning.
+3. Fremlæggelse af regnskab.
+4. Indkomne forslag.
+5. Valg af 3 bestyrelsesmedlemmer.
+6. Valg af revisor.
+7. Eventuelt.
 
 
 ### §4. stk. 11
