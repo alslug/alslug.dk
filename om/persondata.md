@@ -1,6 +1,6 @@
 # Hvad bruger vi dine data til?
 
-## Cookies mv når du besøger hjemmesiden hjemmesiden
+## Cookies mv når du besøger hjemmesiden.
 Du kan se hvad vi bruger [cookies](cookies.md) etc til på [cookies-siden](cookies.md).
 
 ## Persondata ifb med medlemskab
