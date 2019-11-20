@@ -22,7 +22,7 @@ Jfr vores vedtægter skal vi kende din e-mail-adresse, når du skal være medlem
 
 Men vi vil meget gerne vide lidt mere om dig:
 
-- Din adresse bruger vi til at markere på vores <a href='/om/kort.html'>oversigtskort</a>, hvor vi har medlemmer. Markeringen er KUN en gov markering af hvor du bor.
+- Din adresse bruger vi til at markere på vores [oversigtskort](/om/kort.html), hvor vi har medlemmer. Markeringen er KUN en gov markering af hvor du bor.
 
 - Telefon-numre og evt alternative mail-adresser, så bestyrelsen kan kontakte dig i forbindelse med
  arrangementer eller problemløsning.
@@ -30,7 +30,7 @@ Men vi vil meget gerne vide lidt mere om dig:
 Medlems-kartoteket er kun tilgængeligt for bestyrelsen.
 
 ### Se dine data
-Du kan få adgang til hvilke data vi har registreret <a href='/medlemskab/indtast_email.html'>her</a>.
+Du kan få adgang til hvilke data vi har registreret [her](/medlemskab/indtast_email.html).
 
 Siden er under udvikling.
 
@@ -111,12 +111,12 @@ Donationer til grisen er i sagens natur 100% anonyme.
 
 
 ## Hvor ligger dine data?
-- Hjemmesiden ligger på en VPS hos <a href='https://hetzner.com'>Hetzner</a> i Falkenstein i sydtyskland.
-- Medlemsdatabase ligger på foreningens nextcloud instance hos <a href='https://ocloud.de'>ocloud.de</a>
-- Postlisterne kører hos <a href=https://mailgun.com'>Mailgun.com</a>, og ligger på deres europæiske site.
-- Postlisterne arkiveres hos <a href='gmane.org'>GMane.org</a>
+- Hjemmesiden ligger på en VPS hos [Hetzner](https://hetzner.com) i Falkenstein i sydtyskland.
+- Medlemsdatabase ligger på foreningens nextcloud instance hos [oCloud.dk](https://ocloud.de) - som også benytter [Hetzner](https://hetzner.com) i Falkenstein.
+- Postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
+- Postlisterne arkiveres hos [GMane](https://gmane.org).
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
-- Netværksstatistikken ligger på formandens private VPS hos <a href='linode.com'>Linode</a> i London.
+- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://linode.com) i London.
 
 
 
@@ -124,7 +124,7 @@ Donationer til grisen er i sagens natur 100% anonyme.
 
 ## Test fra privacy kompasset
 Vi har brugt PrivacyKompassets test til at kigge på vor GDPR compliance. Testen kan du hente som pdf:
-<a href='/om/PrivacyKompasset_testresultat.pdf'>PrivacyKompasset - testresultat</a>
+[PrivacyKompasset - testresultat](/om/PrivacyKompasset_testresultat.pdf).
 
 Vore kommentarer til testen, da den ikke helt passe ind i vores case:
 
