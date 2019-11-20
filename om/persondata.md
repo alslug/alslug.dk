@@ -8,7 +8,7 @@ Jfr vores vedtægter skal vi kende din e-mail-adresse, når du skal være medlem
 
 Men vi vil meget gerne vide lidt mere om dig:
 
-- Din adresse bruger vi til at markere på vores [oversigtskort](/om/kort.html), hvor vi har medlemmer. Markeringen er KUN en gov markering af hvor du bor.
+- Din adresse bruger vi til at markere på vores [oversigtskort](/om/kort.html), hvor vi har medlemmer. Markeringen er KUN en grov markering af hvor du bor. Typisk baseret på det sogn du bor i. (Sogneopdelinger er tilpas finkornet til at vi kan se i hvilket område du bor i, men samtidig så grovkornet at du er rimelig anonym)
 
 - Telefon-numre og evt alternative mail-adresser, så bestyrelsen kan kontakte dig i forbindelse med
  arrangementer eller problemløsning.
