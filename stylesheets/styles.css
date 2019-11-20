@@ -346,3 +346,7 @@ div.one-liner:before {
   font-style: normal;
   content:'One-liner som gør arbejdet for dig:';
 }
+
+.strikeout {
+  text-decoration: line-through; 
+}
