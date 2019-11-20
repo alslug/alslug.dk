@@ -348,5 +348,5 @@ div.one-liner:before {
 }
 
 .strikeout {
-  text-decoration: line-through; 
+  text-decoration: line-through; background:#ffcccc;
 }
