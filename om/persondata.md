@@ -65,16 +65,6 @@ Vi registerer hvem der låser dører op hvornår.
 
 ## Hvilke data får vi/gemmer vi når du donerer penge til os?
 
-<div class='strikeout'>
-### Ved donation via MobilePay *(ER BLEVET LUKKET NED OKT 2019)*
-Vi modtager dit navn og de sidste 4 cifre i dit telefon-nummer, samt den besked du evt skriver på overførslen.
-
-Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
-</div>
-
-
-
-
 ### Ved donation via bank-overførsel
 Vi modtager teksten som du angiver i overførslen. (Typisk "Fra Dit Navn" hvis ikke du angiver andet.
 
@@ -94,6 +84,16 @@ Ved betaling via iZettle modtager vi de sidste 4 cifre fra dit betalingskort. Ik
 ### Ved donation i kaffekassen.
 Donationer til grisen er i sagens natur 100% anonyme.
 
+
+
+
+
+<div class='strikeout'>
+### Ved donation via MobilePay *(ER BLEVET LUKKET NED OKT 2019)*
+Vi modtager dit navn og de sidste 4 cifre i dit telefon-nummer, samt den besked du evt skriver på overførslen.
+
+Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
+</div>
 
 
 
