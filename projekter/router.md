@@ -1,9 +1,12 @@
 # Opsætning af linux-router fra bunden
 
 ## Basis maskine
-Vores nye server er en "tilfældig" doneret pc som har god plads til en masse harddisks.
-Den er blevet installeret med en standard 18.04 ubuntu-server. Eller rettere via et ubuntu-mini
-image serveret fra vores gamle boot-server, hvorpå resten manuelt bliver lagt ovenpå.
+Vores nye router/server er en "tilfældig" doneret pc. I vores tilfælde har den god plads til en masse harddisks, da den senere skal udvides til at bruges som netboot-server, hvilket kræver en masse disk-plads.
+
+Maskinen er blevet installeret med en standard 18.04 ubuntu-server. Eller rettere via et ubuntu-mini
+image serveret fra vores gamle boot-server.
+
+Resten bliver manuelt bliver lagt ovenpå.
 
 
 ## Netplan: Opsætning af dit network-layout
@@ -28,7 +31,7 @@ Da vi har en del udstyr som sidder på nettet med fast IP vil vi bruge de samme 
 På grund af tidligere problemer med dns-opslag via husets router, benytter vi 4.2.2.2, som er en
 af level3.net's offentlige dns-servere, som default dns-resolver.
 
-Det kunne for så vidt lige så godt være 8.8.8.8 fra google eller 1.1.1.1 fra cloudflare.com.
+Det kunne for så vidt lige så godt være 8.8.8.8 fra google eller 1.1.1.1 fra cloudflare.com eller dns-serveren fra din udbyder.
 
 
 
