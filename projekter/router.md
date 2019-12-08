@@ -66,16 +66,13 @@ Omkring linie 28 finde du denne linie:
 Den ændres til:
 
 ~~~
-net.ipv4.ip_forward=1 </pre>
+net.ipv4.ip_forward=1 
 ~~~
 
-<div class='one-liner'>
-
+One-liner:
 ~~~
 sudo sed "s/#net\.ipv4\.ip_forward=1/net\.ipv4\.ip_forward=1/" -i /etc/sysctl.conf</pre>
 ~~~
-
-</div>
 
 ### Opsætning af NAT:
 
