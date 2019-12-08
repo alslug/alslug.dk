@@ -4,7 +4,22 @@
 Vores nye server er en "tilfældig" doneret pc som har god plads til en masse harddisks.
 Den er blevet installeret med en standard 18.04 ubuntu-server. Eller rettere via et ubuntu-mini
 image serveret fra vores gamle boot-server, hvorpå resten manuelt bliver lagt ovenpå.
+
+
 ## Netplan: Opsætning af dit network-layout
+
+
+### Generel opsætning
+Du har som udgangspunkt brug for to ethernet-interfaces. Et til WAN (forbindelsen til verden udenfor) og et til LAN (som er det lokale net)
+
+
+### Vores opsætning
+Vores opsætninger er en del mere komplekst, da vores router har 2 LAN interfaces, og et VLAN på WAN-siden som er samlet i en bridge.
+Desuden at vi har en WAN-forbindelse til husets netværk, har vi en internet-forbindelse til en mobil bredbåndsforbindelse som backup.
+
+Vi kobler os på udvalgte enheder af husets wifi-enheder, hvor vi kører vores eget wifi-netværk.
+
+
 Vi har vores net LAN kørende på 192.168.201.1/24, hvor vores router kører på 192.168.201.1
 og vores gamle netboot-server kører indtil videre på 192.168.201.4.
 
@@ -14,6 +29,7 @@ På grund af tidligere problemer med dns-opslag via husets router, benytter vi 4
 af level3.net's offentlige dns-servere, som default dns-resolver.
 
 Det kunne for så vidt lige så godt være 8.8.8.8 fra google eller 1.1.1.1 fra cloudflare.com.
+
 
 
 ## DHCP-server
@@ -71,7 +87,7 @@ net.ipv4.ip_forward=1
 
 One-liner:
 ~~~
-sudo sed "s/#net\.ipv4\.ip_forward=1/net\.ipv4\.ip_forward=1/" -i /etc/sysctl.conf</pre>
+sudo sed "s/#net\.ipv4\.ip_forward=1/net\.ipv4\.ip_forward=1/" -i /etc/sysctl.conf
 ~~~
 
 ### Opsætning af NAT:
