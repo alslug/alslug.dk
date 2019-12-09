@@ -18,7 +18,7 @@ digraph xxx {
   switch_48p [ label="48port switdh\n\n10/100\n1000 uplink"];
   switch_48p_poe [ label="48port switdh\n\n10/100"];
 
-  node [ style= ];
+  node [ style=normal ];
   // Internet forbindelser
   stofa_fiber      -> husets_router [ fillcolor=black style=filled ];
   mobilt_bredbaand -> alslug_router [ fillcolor=black style=filled ];
