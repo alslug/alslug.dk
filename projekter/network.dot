@@ -24,6 +24,11 @@ digraph xxx {
   alslug_router -> { alslug_wifi_stick alslug_backbone_switch alslug_lan_port2 };
   alslug_backbone_switch -> { bord_1 bord_2 switch_48p switch_48p_poe }
   
+  bord_1 [ label="Bord 1\n\n10/100/1000"];
+  bord_2 [ label="Bord 1\n\n10/100/1000"];
+  switch_48p [ label="48port switdh\n\n10/100\n1000 uplink"];
+  switch_48p_poe [ label="48port switdh\n\n10/100"];
+
   node [ shape=point ];
   bord_1 -> {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4
