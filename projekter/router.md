@@ -17,33 +17,26 @@ Du har som udgangspunkt brug for to ethernet-interfaces. Et til WAN (forbindelse
 
 
 ### Vores opsætning
-Vores opsætninger er en del mere komplekst, da vores router har 2 LAN interfaces, og et VLAN på WAN-siden som er samlet i en bridge.
-Desuden at vi har en WAN-forbindelse til husets netværk, har vi en internet-forbindelse til en mobil bredbåndsforbindelse som backup.
+Vi har et lidt mere (komplekst setup)[network.md], Se mere (her)[network.md]. Men det har grundlæggende ikke så meget med opsætningen af routeren at gøre, når selve netværket på forhånd er sat korrekt op.
 
-Vi kobler os på udvalgte enheder af husets wifi-enheder, hvor vi kører vores eget wifi-netværk.
-
-
-Vi har vores net LAN kørende på 192.168.201.1/24, hvor vores router kører på 192.168.201.1
-og vores gamle netboot-server kører indtil videre på 192.168.201.4.
-
-Da vi har en del udstyr som sidder på nettet med fast IP vil vi bruge de samme LAN-opsætninger på vores nye setup.
-
-På grund af tidligere problemer med dns-opslag via husets router, benytter vi 4.2.2.2, som er en
-af level3.net's offentlige dns-servere, som default dns-resolver.
-
-Det kunne for så vidt lige så godt være 8.8.8.8 fra google eller 1.1.1.1 fra cloudflare.com eller dns-serveren fra din udbyder.
-
+Vores LAN-side er 192.168.201.1/24, og WAN-adresse(r) henter vi DHCP
 
 
 ## DHCP-server
+Først er der brug for en DHCP-server, så den skal installeres:
 
 ~~~
 sudo apt-get install isc-dhcp-server
 ~~~
 
+... og konfigureres:
+
 ~~~
 sudo nano /etc/dhcp/dhcpd.conf
 ~~~
+
+Vors konfiguration er følgende:
+Husk at ændre adresserne på LAN-netværket og DNS til dine opsætninger.
 
 ~~~
 ddns-update-style none;
@@ -64,13 +57,23 @@ subnet 192.168.201.0 netmask 255.255.255.0 {
 }
 ~~~
 
+DHCP-serveren startes med:
+
+~~~
+sudo invoke-rc.d isc-dhcp-server start
+~~~
+
+hhv status af serveren:
+
 ~~~
 sudo invoke-rc.d isc-dhcp-server status
 ~~~
 
+
 ## IPTABLES
 
 ### Opsætning af routing:
+For at aktivere routen, så pakker kan flyde mellem de to sider af routen skal routing aktivrres:
 
 ~~~
 sudo nano /etc/sysctl.conf
@@ -94,6 +97,7 @@ sudo sed "s/#net\.ipv4\.ip_forward=1/net\.ipv4\.ip_forward=1/" -i /etc/sysctl.co
 ~~~
 
 ### Opsætning af NAT:
+Derefter følger opsætning af NAT:
 
 ~~~
 sudo nano /etc/rc.local
