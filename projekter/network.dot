@@ -38,8 +38,11 @@ digraph xxx {
   
   // Interne forbindelser
   edge [ color=green style=solid ];
-  alslug_router -> { alslug_wifi_stick alslug_backbone_switch alslug_lan_port2 };
-  alslug_backbone_switch -> { bord_1 bord_2 switch_48p switch_48p_poe }
+  alslug_router -> { alslug_backbone_switch };
+  alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
+  alslug_router -> alslug_lan_port2 [ penwidth=1 ];
+  alslug_backbone_switch -> { bord_1 bord_2 switch_48p }
+  alslug_backbone_switch -> switch_48p_poe [ penwidth=1 ];
   
   node [ shape=point ];
   bord_1 -> {
