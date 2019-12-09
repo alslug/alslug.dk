@@ -7,8 +7,9 @@ digraph xxx {
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_router -> husets_switch_1 -> { husets_switch_2 wifi_2 wifi_3 };
+  husets_router -> husets_switch_1 -> { husets_switch_2 festlokale_switch wifi_2 wifi_3 };
   husets_switch_2 -> { wifi_4 wifi_6 alslug_router};
+  festlokale_switch -> { wifi_1 wifi_8 };
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
