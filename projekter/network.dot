@@ -2,7 +2,6 @@ digraph xxx {
   link_12a [ shape=point ];
   link_12b [ shape=point ];
   link_12c [ shape=point ];
-  link_1fa [ shape=point ];
   edge [ dir=none penwidth=10 ];
   
   // Internet forbindelser
@@ -13,7 +12,7 @@ digraph xxx {
   edge  [ color=red style=solid ];
   husets_router -> husets_switch_1 -> { wifi_2 wifi_3 };
   husets_switch_1 -> link_12a -> link_12b -> link_12c -> husets_switch_2 -> { wifi_4 wifi_6 alslug_router};
-  husets_switch_1 -> link_1fa -> festlokale_switch -> { wifi_1 wifi_8 };
+  husets_switch_1 -> festlokale_switch -> { wifi_1 wifi_8 };
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
