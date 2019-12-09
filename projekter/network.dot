@@ -1,8 +1,19 @@
 digraph xxx {
   edge [ dir=none ];
+  
+  // Internet forbindelser
   stofa_fiber -> husets_router;
-  husets_router -> husets_switch -> alslug_router [ color=red weigth=10 ];
   mobilt_bredbaand -> alslug_router;
-  alslug_router -> { alslug_wifi_stick alslug_lan_port1 alslug_lan_port2 } [ color=green weight=10 ];
-  husets_switch -> { alslug_router husets_wifi } [ color=green style=dashed ];
+  
+  // Husets forbindelser
+  husets_router -> husets_switch_1 -> { husets_switch_2 wifi_2 wifi_3 };
+  husets_switch_2 -> { wifi_4 wifi_6 alslug_router} [ color=red weigth=10 ];
+
+  // VLAN forbindelser over bakkensbros netværk
+  husets_switch -> { alslug_router wifi_4 } [ color=green style=dashed ];
+  
+  // Interne forbindelser
+  edge [ color=green weight=10 ];
+  alslug_router -> { alslug_wifi_stick alslug_lan_port1 alslug_lan_port2 };
+  alslug_lan_port1 -> alslug_backbone_switch -> { bord_1 bord_2 48p_switch 48p_switch_poe }
 }
