@@ -28,8 +28,8 @@ digraph xxx {
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_router -> husets_switch_1 -> { wifi_2 wifi_3 };
-  husets_switch_1 -> husets_switch_2 -> { wifi_4 wifi_5 wifi_6 wifi_7 alslug_router};
+  husets_router -> husets_switch_1 -> { wifi_2 wifi_3 wifi_6 wifi_7 };
+  husets_switch_1 -> husets_switch_2 -> { wifi_4 wifi_5 alslug_router};
   husets_switch_1 -> festlokale_switch -> { wifi_1 wifi_8 };
 
   // VLAN forbindelser over bakkensbros netværk
