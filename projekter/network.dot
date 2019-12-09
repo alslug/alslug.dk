@@ -19,7 +19,7 @@ digraph xxx {
   bord_2 [ label="Bord 1\n\n10/100/1000"];
   switch_48p [ label="48port switdh\n\n10/100\n1000 uplink"];
   switch_48p_poe [ label="48port switdh\n\n10/100"];
-  alslug_wifi_stick alslug_lan_port_2;
+  alslug_wifi_stick alslug_lan_port2;
   
   node [ style=normal ];
   // Internet forbindelser
