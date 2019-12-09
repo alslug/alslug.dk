@@ -1,14 +1,17 @@
 # Vores netværk
 Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
-<img src="/dot-compiler/dot/projekter/network.dot/image.png" alt="Vores netværk" style="max-width=100%"/>
+<img src="/dot-compiler/dot/projekter/network.dot/image.png" alt="Vores netværk" style="width:100%" />
+
+* De røde dele er husets netværk.
+* De grønne dele er vores eget netværk.
+
+Vi har vores net LAN kørende på 192.168.201.1/24, hvor vores router kører på 192.168.201.1
+og vores gamle netboot-server kører indtil videre på 192.168.201.4.
 
 * udover at vi har en WAN-forbindelse til husets netværk, har vi en internet-forbindelse til en mobil bredbåndsforbindelse som backup.
 * vores router har 2 LAN interfaces, en wifi-stick og et VLAN på WAN-siden som er samlet i en bridge.
 * vi kobler os på udvalgte enheder af husets wifi-enheder via VLAN på WAN-siden, hvor vi kører vores eget wifi-netværk.
-
-Vi har vores net LAN kørende på 192.168.201.1/24, hvor vores router kører på 192.168.201.1
-og vores gamle netboot-server kører indtil videre på 192.168.201.4.
 
 Da vi har en del udstyr som sidder på nettet med fast IP vil vi bruge de samme LAN-opsætninger på vores nye setup.
 
