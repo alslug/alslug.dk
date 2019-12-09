@@ -12,7 +12,7 @@ digraph xxx {
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
-  husets_switch -> { alslug_router wifi_4 };
+  husets_switch_2 -> { alslug_router wifi_4 };
   
   // Interne forbindelser
   edge [ color=green style=solid ];
