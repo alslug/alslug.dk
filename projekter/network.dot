@@ -1,4 +1,5 @@
 digraph xxx {
+  edge [ dir=none ];
   stofa_fiber -> husets_router;
   husets_router -> husets_switch -> alslug_router [ color=red weigth=10 ];
   mobilt_bredbaand -> alslug_router;
