@@ -1,0 +1,7 @@
+digraph xxx () {
+  stofa_fiber -> husets_router;
+  husets_router -> husets_switch -> alslug_router [ color=red weigth=10 ];
+  mobilt_bredbaand -> alslug_router;
+  alslug_router -> { alslug_wifi_stick alslug_lan_port1 alslug_lan_port2 } [ color=green weight=10 ];
+  husets_switch -> { alslug_router husets_wifi } [ color=green style=dashed ];
+}
