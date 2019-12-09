@@ -1,7 +1,7 @@
 # Vores netværk
 Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
-![Netværket](/dot-compiler/dot/projekter/network.png "Vores netværk")
+![Netværket](https://www.alslug.dk/dot-compiler/dot/projekter/network.png "Vores netværk")
 
 * udover at vi har en WAN-forbindelse til husets netværk, har vi en internet-forbindelse til en mobil bredbåndsforbindelse som backup.
 * vores router har 2 LAN interfaces, en wifi-stick og et VLAN på WAN-siden som er samlet i en bridge.
