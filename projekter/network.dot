@@ -3,7 +3,22 @@ digraph xxx {
 #  link_12b [ shape=point ];
 #  link_12c [ shape=point ];
   edge [ dir=none penwidth=10 ];
+
+  node [ style=filled fillcolor=red ];
+  husets_router [ label="Husets router" ];
+  husets_switch_1 [ label="Switch ved biblioteket\n\n 10/100/1000" ];
+  husets_switch_2 [ label="Switch ved AlsLUG\n\n 10/100/1000" ];
+  festlokale_switch [ label="Switch under festlokalet\n\n 10/100/1000" ];
   
+  node [ style=filled fillcolor=green ];
+  alslug_router [ label="AlsLUG router" ];
+  alslug_backbone_switch [ label="AlsLUG Backbone\n\n10/100/1000"];
+  bord_1 [ label="Bord 1\n\n10/100/1000"];
+  bord_2 [ label="Bord 1\n\n10/100/1000"];
+  switch_48p [ label="48port switdh\n\n10/100\n1000 uplink"];
+  switch_48p_poe [ label="48port switdh\n\n10/100"];
+
+  node [ style= ];
   // Internet forbindelser
   stofa_fiber      -> husets_router [ fillcolor=black style=filled ];
   mobilt_bredbaand -> alslug_router [ fillcolor=black style=filled ];
@@ -11,8 +26,7 @@ digraph xxx {
   // Husets forbindelser
   edge  [ color=red style=solid ];
   husets_router -> husets_switch_1 -> { wifi_2 wifi_3 };
-  husets_switch_1 -> #link_12a -> link_12b -> link_12c -> 
-                                                          husets_switch_2 -> { wifi_4 wifi_6 alslug_router};
+  husets_switch_1 -> husets_switch_2 -> { wifi_4 wifi_6 alslug_router};
   husets_switch_1 -> festlokale_switch -> { wifi_1 wifi_8 };
 
   // VLAN forbindelser over bakkensbros netværk
@@ -24,12 +38,6 @@ digraph xxx {
   alslug_router -> { alslug_wifi_stick alslug_backbone_switch alslug_lan_port2 };
   alslug_backbone_switch -> { bord_1 bord_2 switch_48p switch_48p_poe }
   
-  alslug_backbone_switch [ label="AlsLUG Backbone\n\n10/100/1000"];
-  bord_1 [ label="Bord 1\n\n10/100/1000"];
-  bord_2 [ label="Bord 1\n\n10/100/1000"];
-  switch_48p [ label="48port switdh\n\n10/100\n1000 uplink"];
-  switch_48p_poe [ label="48port switdh\n\n10/100"];
-
   node [ shape=point ];
   bord_1 -> {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4
