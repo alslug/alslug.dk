@@ -1,4 +1,8 @@
 digraph xxx {
+  link_12a [ shape=point ];
+  link_12b [ shape=point ];
+  link_12c [ shape=point ];
+  link_1fa [ shape=point ];
   edge [ dir=none penwidth=10 ];
   
   // Internet forbindelser
@@ -7,9 +11,9 @@ digraph xxx {
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_router -> husets_switch_1 -> { husets_switch_2 festlokale_switch wifi_2 wifi_3 };
-  husets_switch_2 -> { wifi_4 wifi_6 alslug_router};
-  festlokale_switch -> { wifi_1 wifi_8 };
+  husets_router -> husets_switch_1 -> { fest_lokale_switch wifi_2 wifi_3 };
+  husets_switch_1 -> link_12a -> link_12b -> link_12c -> husets_switch_2 -> { wifi_4 wifi_6 alslug_router};
+  husets_switch_1 -> link_1fa -> festlokale_switch -> { wifi_1 wifi_8 };
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
@@ -19,4 +23,5 @@ digraph xxx {
   edge [ color=green style=solid ];
   alslug_router -> { alslug_wifi_stick alslug_lan_port1 alslug_lan_port2 };
   alslug_lan_port1 -> alslug_backbone_switch -> { bord_1 bord_2 48p_switch 48p_switch_poe }
+  
 }
