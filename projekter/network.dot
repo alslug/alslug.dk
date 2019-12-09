@@ -22,6 +22,6 @@ digraph xxx {
   // Interne forbindelser
   edge [ color=green style=solid ];
   alslug_router -> { alslug_wifi_stick alslug_lan_port1 alslug_lan_port2 };
-  alslug_lan_port1 -> alslug_backbone_switch -> { bord_1 bord_2 48p_switch 48p_switch_poe }
+  alslug_lan_port1 -> alslug_backbone_switch -> { bord_1 bord_2 switch_48p switch_48p_poe }
   
 }
