@@ -9,6 +9,7 @@ digraph xxx {
   husets_switch_1 [ label="Switch ved biblioteket\n\n 10/100/1000" ];
   husets_switch_2 [ label="Switch ved AlsLUG\n\n 10/100/1000" ];
   festlokale_switch [ label="Switch under festlokalet\n\n 10/100/1000" ];
+  wifi_1 wifi_2 wifi_3 wifi_4 wifi_5 wifi_6 wifi_7 wifi_8;
   
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
@@ -17,7 +18,8 @@ digraph xxx {
   bord_2 [ label="Bord 1\n\n10/100/1000"];
   switch_48p [ label="48port switdh\n\n10/100\n1000 uplink"];
   switch_48p_poe [ label="48port switdh\n\n10/100"];
-
+  alslug_wifi_stick alslug_lan_port_2;
+  
   node [ style=normal ];
   // Internet forbindelser
   stofa_fiber      -> husets_router [ fillcolor=black style=filled ];
