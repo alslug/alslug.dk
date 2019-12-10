@@ -38,7 +38,8 @@ Da vi endnu ikke har implementeret betalinger via PayPal sættes der ingen cooki
 
 De vil i givet fald først blive sat efter at du giver os lov til at dele oplysninger med PayPal.
 
-## andre cookies
+## Andre cookies
 Vi er ikke bekendt med at der sættes cookies fra andre sites, og da vi generelt ikke henter data fra andre sites, burde der ikke være andre cokkies.
+
 Hvis vi vi har overset noget, er du meget velommen til at (give os besked)[/om/kontakt.html] om at der er noget vi har overset.
 
