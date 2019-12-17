@@ -1,17 +1,17 @@
 var osmap;
-var sat		= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/sat/{z}/{y}/{x}', {
+var sat		= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/sat/{z}/{y}/{x}', {
 			maxZoom: 19,
 			attribution: 'Tiles &copy; Esri '//&mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GI$
 		});
-var streets	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/street/{z}/{x}/{y}', {
+var streets	= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/street/{z}/{x}/{y}', {
 			maxZoom: 19,
 			attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
-var watercolor	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/watercolor/{z}/{x}/{y}', {
+var watercolor	= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/watercolor/{z}/{x}/{y}', {
 			maxZoom: 14//,
 			//attribution: 'Tiles &copy; Esri '//&mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GI$
 		});
-var terrain	= L.tileLayer('https://kartoteket.alslug.dk/proxy.php/leaflet/map/terrain/{z}/{x}/{y}', {
+var terrain	= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/terrain/{z}/{x}/{y}', {
 			maxZoom: 14//,
 			//attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
@@ -36,5 +36,5 @@ var layers = new L.control.layers({
 //                                      //maxClusterRadius:40,
 //                                      disableClusteringAtZoom: 10
 //                                      });
-var icon_url	= 'https://kartoteket.alslug.dk/proxy.php/leaflet/';
-var shadow_url	= 'https://kartoteket.alslug.dk/proxy.php/leaflet/marker-shadow.png';
+var icon_url	= 'https://www.alslug.dk/proxy.php/leaflet/';
+var shadow_url	= 'https://www.alslug.dk/proxy.php/leaflet/marker-shadow.png';
