@@ -1,6 +1,8 @@
 # FAQ - Ofte stillede spørgsmål
 Vi har i tidens løb haft en masse spørgsmål og udfordringer som dukker op igen og igen.
 
+Hvis du du har nogle tips som du synes skal med her på siden, kan du sende en mail til [bestyrelsen](/om/kontakt.html) med dit tip.
+
 Nogle af dem, vil vi på disse sider forsøge at komme med løsninger på.
 
 * [Netboot fix](/faq/netboot-fix.md)	Løsning på problem med netværksopsætning efter installation via netværks-boot
