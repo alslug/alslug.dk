@@ -24,8 +24,8 @@ digraph xxx {
   
   node [ style=normal ];
   // Internet forbindelser
-  stofa_fiber      -> husets_router [ fillcolor=black style=filled ];
-  mobilt_bredbaand -> alslug_router [ fillcolor=black style=filled ];
+  stofa_fiber      -> husets_router [ penwidth=1 fillcolor=black style=filled ];
+  mobilt_bredbaand -> alslug_router [ penwidth=1 fillcolor=black style=filled ];
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
@@ -36,11 +36,13 @@ digraph xxx {
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
   husets_switch_2 -> { alslug_router wifi_4 };
-  
+
+  alslug_wifi_stick [ fillcolor=gray style=filled ];
+
   // Interne forbindelser
   edge [ color=green style=solid ];
   {alslug_router,alslug_gl_bootserver} -> alslug_backbone_switch -> { bord_1 bord_2 switch_48p }
-  alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" fillcolor=gray ];
+  alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   alslug_router -> alslug_lan_port2 [ penwidth=1 ];
   alslug_backbone_switch -> switch_48p_poe [ penwidth=1 ];
   
