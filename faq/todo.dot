@@ -17,7 +17,7 @@ digraph xxx {
 
     udvid_borde [ label="Udvid bord(e), \n med en plads \n mellem bordene." ];
     bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik." ];
-    kabler_på_gulv [ labek="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
+    kabler_på_gulv [ label="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
     udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
     upgrade_demomaskiner [ label="En upgrade af \n hardware  på \n de sidste to \n demo-maskiner \n kunne være en ide" ];
