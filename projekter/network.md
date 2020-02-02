@@ -5,6 +5,8 @@ Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
   <img src="/dot-compiler/dot/projekter/network.dot/image.png" alt="Vores netværk" style="width:100%" id='myimage' />
 </div>
 <style> 
+* {box-sizing: border-box;}
+
 .img-magnifier-container {
   position: relative;
 }
