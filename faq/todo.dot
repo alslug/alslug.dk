@@ -1,23 +1,26 @@
 digraph xxx {
     rankdir=LR;
     nyt_dørskilt [ label="Nyt skilt til indgangsdøren." ];
-    skilteholdere [ label="Skilte-holdere og skilte \n til at sætte på demo-maskinerne \n med lidt tekst om den \n pågældende distro/maskine" ];
+    skilteholdere [ label="Skilte-holdere \n og skilte til \n at sætte på \n demo-maskinerne \n med lidt tekst \n om den pågældende \n distro/maskine" ];
     registerer_udstyr [ label="Registrering af \n effekter vi \n har liggende" ];
     ny_bootserver [ label="Opsætning af \n doneret maskine \n som ekstern server." ];
     
     indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" ];
+    montage_af_varmtvandsbeholder [ label="Montage af \n varmtvandsbeholder \n i højskab" ];
+    montage_af_ny_bordplade [ label="Udskæring og \n montage af \n ny bordplade" ];
     indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv
 
-    lav_keyboard_holdere [ label="Holdere til tastaturer \n (og evt mus) under \n demo-maskinerne." ];
+    lav_keyboard_holdere [ label="Holdere til \n tastaturer (og evt mus) \n under demo-maskinerne." ];
     hylde_til_demomaskiner [ label="Ny hylde til \n demo-maskiner" ];
     {lav_keyboard_holdere,hylde_til_demomaskiner} -> ny_opstilling_af_demomaskiner;
 
     udvid_borde [ label="Udvid bord(e), \n med en plads \n mellem bordene." ];
-    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere netværksstik \n og evt også flere strømstik." ];
+    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik." ];
     kabler_på_gulv [ labek="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
     udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
     upgrade_demomaskiner [ label="En upgrade af hardware \n på de sidste to demo-maskiner \n kunne være en ide" ];
+    rep_af_demomaskine [ label="Rep af \n den en \n demo-maskine" ];
     cd_brænder [ label="Automatisk \n CD/DVD \n brænder-robot." ];
     upgrade_demomaskiner -> cd_brænder;
 }
