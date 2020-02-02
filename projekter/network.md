@@ -1,8 +1,8 @@
 # Vores netværk
 Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
-<div class="img-magnifier-container">
-  <img id='myimage' src="/dot-compiler/dot/projekter/network.dot/image.png" alt="Vores netværk" style="width:100%" />
+<div class='img-magnifier-container'>
+  <img src="/dot-compiler/dot/projekter/network.dot/image.png" alt="Vores netværk" style="width:100%" id='myimage' />
 </div>
 <style> 
 .img-magnifier-container {
