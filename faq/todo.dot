@@ -21,7 +21,7 @@ digraph xxx {
     udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
     upgrade_demomaskiner [ label="En upgrade af \n hardware  på \n de sidste to \n demo-maskiner \n kunne være en ide" ];
-    rep_af_demomaskine [ label="Rep af \n den en \n demo-maskine" ];
+    rep_af_demomaskine [ label="Rep af \n den ene \n demo-maskine" ];
     cd_brænder [ label="Automatisk \n CD/DVD \n brænder-robot." ];
     upgrade_demomaskiner -> cd_brænder;
 }
