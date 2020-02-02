@@ -82,7 +82,8 @@ function magnify(imgID, zoom) {
     return {x : x, y : y};
   }
 }
-magnify("myimage", 3);
+
+//magnify("myimage", 3);
 
 </script>
 
