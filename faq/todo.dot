@@ -8,7 +8,8 @@ digraph xxx {
     indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" ];
     montage_af_varmtvandsbeholder [ label="Montage af \n varmtvandsbeholder \n i højskab" ];
     montage_af_ny_bordplade [ label="Udskæring og \n montage af \n ny bordplade" ];
-    indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv
+    montage_og_tilslutning_af_vandhane_mv [ label="Montage og \n tilslutning af \n vandhane m.v." ];
+    indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv;
 
     lav_keyboard_holdere [ label="Holdere til \n tastaturer (og evt mus) \n under demo-maskinerne." ];
     hylde_til_demomaskiner [ label="Ny hylde til \n demo-maskiner" ];
@@ -19,7 +20,7 @@ digraph xxx {
     kabler_på_gulv [ labek="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
     udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
-    upgrade_demomaskiner [ label="En upgrade af hardware \n på de sidste to demo-maskiner \n kunne være en ide" ];
+    upgrade_demomaskiner [ label="En upgrade af \n hardware  på \n de sidste to \n demo-maskiner \n kunne være en ide" ];
     rep_af_demomaskine [ label="Rep af \n den en \n demo-maskine" ];
     cd_brænder [ label="Automatisk \n CD/DVD \n brænder-robot." ];
     upgrade_demomaskiner -> cd_brænder;
