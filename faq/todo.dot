@@ -1,22 +1,22 @@
 digraph xxx {
     nyt_dørskilt [ label="Nyt skilt til indgangsdøren." ];
-    skilteholdere [ label="Skilte-holdere og skilte tilat sætte på demo-maskinerne med lidt tekst om den pågældende distro/maskine" ];
-    registerer_udstyr [ label="Registrering af effekter vi har liggende" ];
-    ny_bootserver [ label="Opsætning af doneret maskine som ekstern server." ];
+    skilteholdere [ label="Skilte-holdere og skilte \n til at sætte på demo-maskinerne \n med lidt tekst om den \n pågældende distro/maskine" ];
+    registerer_udstyr [ label="Registrering af \n effekter vi \n har liggende" ];
+    ny_bootserver [ label="Opsætning af \n doneret maskine \n som ekstern server." ];
     
-    indkøb_hos_ikea [ label="Indkøb og afhentning af diverse stumper fra IKEA" ];
+    indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" ];
     indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv
 
-    lav_keyboard_holdere [ label="Få lavet holdere til tastaturer (og evt mus) under maskinerne." ];
-    hylde til demomaskiner [ label="Ny hylde til demomaskiner" ];
-    {lav_keyboard_holdere,hylde til demomaskiner} -> ny_opstilling_af_demomaskiner;
+    lav_keyboard_holdere [ label="Holdere til tastaturer \n (og evt mus) under \n demo-maskinerne." ];
+    hylde_til_demomaskiner [ label="Ny hylde til \n demo-maskiner" ];
+    {lav_keyboard_holdere,hylde_til_demomaskiner} -> ny_opstilling_af_demomaskiner;
 
-    udvid_borde [ label="Udvid bord(e), med en plads mellem bordene." ];
-    bord_instalationer [ label="Ny installation på de runde borde med flere netværksstik og evt også flere strømstik." ];
-    kabler_på_gulv [ labek="Kabler til bordet ved projektoren skal lægges ned på gulvet i kabelkanal." ];
+    udvid_borde [ label="Udvid bord(e), \n med en plads \n mellem bordene." ];
+    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere netværksstik \n og evt også flere strømstik." ];
+    kabler_på_gulv [ labek="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
     udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
-    upgrade_demomaskiner [ label="En mindre upgrade af hardware på de sidste to demo-maskiner kunne være en ide" ];
-    cd_brænder [ label="Automatisk CD/DVD brænder-robot." ];
+    upgrade_demomaskiner [ label="En upgrade af hardware \n på de sidste to demo-maskiner \n kunne være en ide" ];
+    cd_brænder [ label="Automatisk \n CD/DVD \n brænder-robot." ];
     upgrade_demomaskiner -> cd_brænder;
 }
