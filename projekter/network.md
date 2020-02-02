@@ -7,6 +7,10 @@ Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
 * De røde dele er husets netværk.
 * De grønne dele er vores eget netværk.
+* De grå dele er ting der skal udbygges i fremtiden.
+
+* TyKke streger er 1Gbit forbindelser.
+* Tynde streger er 100Mbit forbindelser.
 
 Vi har vores net LAN kørende på 192.168.201.1/24, hvor vores router kører på 192.168.201.1
 og vores gamle netboot-server kører indtil videre på 192.168.201.4.
