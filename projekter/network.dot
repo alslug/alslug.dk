@@ -14,6 +14,7 @@ digraph xxx {
   
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
+  alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\n10/100/1000"];
   bord_1 [ label="Bord 1\n\n10/100/1000"];
   bord_2 [ label="Bord 2\n\n10/100/1000"];
@@ -38,10 +39,9 @@ digraph xxx {
   
   // Interne forbindelser
   edge [ color=green style=solid ];
-  alslug_router -> { alslug_backbone_switch };
-  alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
+  {alslug_router,alslug_gl_bootserver} -> alslug_backbone_switch -> { bord_1 bord_2 switch_48p }
+  alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" fillcolor=gray ];
   alslug_router -> alslug_lan_port2 [ penwidth=1 ];
-  alslug_backbone_switch -> { bord_1 bord_2 switch_48p }
   alslug_backbone_switch -> switch_48p_poe [ penwidth=1 ];
   
   node [ shape=point ];
