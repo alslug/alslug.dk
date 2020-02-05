@@ -59,10 +59,18 @@ digraph xxx {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4
                   bord_1_5 bord_1_6 bord_1_7
                 };
+  bord_1 -> {
+                  bord_1_8 bord_1_9 bord_1_10 bord_1_11
+                  bord_1_12 bord_1_13 bord_1_14 bord_1_15 bord_1_16
+                } [ style=dotted color=gray ];
   bord_2 -> {
                   bord_2_1 bord_2_2 bord_2_3 bord_2_4
                   bord_2_5 bord_2_6 bord_2_7
                 };
+  bord_2 -> {
+                  bord_2_8 bord_2_9 bord_2_10 bord_2_11
+                  bord_2_12 bord_2_13 bord_2_14 bord_2_15 bord_2_16
+                } [ style=dotted color=gray ];
                 
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
