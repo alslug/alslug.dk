@@ -77,7 +77,8 @@ digraph xxx {
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
 
-  rank = same;
+  subgraph {
+    rank = same;
                   vindue_left_12;   vindue_left_11;   vindue_left_10;   vindue_left_9;
                   vindue_center_8;  vindue_center_7;  vindue_center_6;  vindue_center_5;
                   vindue_right_4;   vindue_right_3;   vindue_right_2;   vindue_right_1;
@@ -85,4 +86,5 @@ digraph xxx {
                   bord_1_9;   bord_1_10;  bord_1_11;  bord_1_12;  bord_1_13;  bord_1_14;  bord_1_15;  bord_1_16;
                   bord_2_1;   bord_2_2;   bord_2_3;   bord_2_4;   bord_2_5;   bord_2_6;   bord_2_7;   bord_2_8;
                   bord_2_9;   bord_2_10;  bord_2_11;  bord_2_12;  bord_2_13;  bord_2_14;  bord_2_15;  bord_2_16;
+  }
 }
