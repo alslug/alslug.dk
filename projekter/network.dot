@@ -15,7 +15,7 @@ digraph xxx {
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE"];
+  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE\n2x SPF"];
   bord_1 [ label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
   bord_2 [ label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
   alslug_wifi_stick alslug_lan_port2;
@@ -23,8 +23,8 @@ digraph xxx {
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
   switch_24p      [ label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
-  switch_48p      [ label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000"];
-  switch_48p_poe  [ label="Cisco Catalyst 3360\n48 porte 10/100"];
+  switch_48p      [ label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/SPF"];
+  switch_48p_poe  [ label="Cisco Catalyst 3360\n48 porte 10/100\n2x SPF"];
   switch_5p       [ label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
   switch_8p       [ label="Noname\n8 porte 10/100/1000"];
   
