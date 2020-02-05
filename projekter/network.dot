@@ -15,12 +15,16 @@ digraph xxx {
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\n10/100/1000 PoE"];
+  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n\n10/100/1000 PoE"];
   bord_1 [ label="Bord 1\n\n10/100/1000"];
   bord_2 [ label="Bord 2\n\n10/100/1000"];
-  switch_48p [ label="48port switch\n\n10/100\n1000 uplink"];
-  switch_48p_poe [ label="48port switch\n\n10/100"];
   alslug_wifi_stick alslug_lan_port2;
+  
+  // Udstyr som pt ikke bruges
+  node [ style=filled fillcolor=yellow ];
+  switch_24p      [ label="24port switch\n\n10/100"];
+  switch_48p      [ label="48port switch\n\n10/100\n1000 uplink"];
+  switch_48p_poe  [ label="48port switch\n\n10/100"];
   
   node [ style=normal ];
   // Internet forbindelser
@@ -50,7 +54,7 @@ digraph xxx {
  
   alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   alslug_router -> alslug_lan_port2 [ penwidth=1 ];
-  alslug_backbone_switch -> switch_48p_poe [ penwidth=1 ];
+  alslug_backbone_switch -> {switch_48p_poe switch_48p} [ penwidth=1 ];
   
   bord_1 -> {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4
