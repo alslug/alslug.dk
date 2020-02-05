@@ -28,7 +28,7 @@ digraph xxx {
   switch_5p       [ label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
   switch_8p       [ label="Noname\n8 porte 10/100/1000"];
   
-  switch_24p -> switch_48p -> switch_48p_poe -> switch_5p -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 [ color=invis ];
+  switch_24p -> switch_48p -> switch_48p_poe -> switch_5p -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 -> bord_1 [ color=invis ];
   
   
   node [ style=normal ];
