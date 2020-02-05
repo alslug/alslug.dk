@@ -6,25 +6,25 @@ digraph xxx {
 
   node [ style=filled fillcolor=red ];
   husets_router [ label="Husets router" ];
-  husets_switch_1 [ label="Switch ved biblioteket\n\n 10/100/1000" ];
-  husets_switch_2 [ label="Switch ved AlsLUG\n\n 10/100/1000" ];
-  festlokale_switch [ label="Switch under festlokalet\n\n 10/100/1000" ];
+  husets_switch_1 [ label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
+  husets_switch_2 [ label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
+  festlokale_switch [ label="Switch under festlokalet\n\nHP\n10/100/1000" ];
   wifi_1 wifi_2 wifi_3 wifi_4 wifi_5 wifi_6 wifi_7;
   wifi_8 [ fillcolor=gray ];
   
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\n8 port 10/100/1000\n\n Erstattes af\n\nZyxel GS1900-24HP\n\n10/100/1000 PoE"];
-  bord_1 [ label="Bord 1\n\n8 port 10/100/1000\n\n WErstattes af\n\n24 port 10/100/1000"];
-  bord_2 [ label="Bord 2\n\n8 port 10/100/1000\n\n WErstattes af\n\n16 port 10/100/1000"];
+  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nnoname\n8 port 10/100/1000\n\n Erstattes af\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE"];
+  bord_1 [ label="Bord 1\n\nJense\n8 port 10/100/1000\n\n WErstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
+  bord_2 [ label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n WErstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
   alslug_wifi_stick alslug_lan_port2;
   
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=yellow ];
-  switch_24p      [ label="24port switch\n\n10/100\n\n(kabel-holder)"];
-  switch_48p      [ label="Gammel HP switch\n\n48 port 10/100\n2 port 10/100/1000"];
-  switch_48p_poe  [ label="Gammel HP PoE switch\n\n48 porte 10/100"];
+  switch_24p      [ label="24port switch\n10/100\n\n(kabel-holder)"];
+  switch_48p      [ label="Gammel HP switch\n48 port 10/100\n2 port 10/100/1000"];
+  switch_48p_poe  [ label="Gammel HP PoE switch\n48 porte 10/100"];
   
   switch_24p -> switch_48p_poe [ color=invis ];
   
