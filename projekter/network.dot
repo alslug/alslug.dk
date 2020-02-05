@@ -56,13 +56,8 @@ digraph xxx {
                   vindue_left_12  vindue_left_11  vindue_left_10  vindue_left_9
                   vindue_center_8 vindue_center_7 vindue_center_6 vindue_center_5
                   vindue_right_4  vindue_right_3  vindue_right_2  vindue_right_1
-                  } [ color=gray ];
-   switch_48p -> {
-                  vindue_left_12  vindue_left_11  vindue_left_10  vindue_left_9
-                  vindue_center_8 vindue_center_7 vindue_center_6 vindue_center_5
-                  vindue_right_4  vindue_right_3  vindue_right_2  vindue_right_1
-                  } [ color=green penwidth=1]
- 
+                  }
+
   alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   alslug_router -> alslug_lan_port2 [ penwidth=1 ];
   
