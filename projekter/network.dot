@@ -25,8 +25,10 @@ digraph xxx {
   switch_24p      [ label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
   switch_48p      [ label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000"];
   switch_48p_poe  [ label="Cisco Catalyst 3360\n48 porte 10/100"];
+  switch_5p       [ label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
+  switch_8p       [ label="Noname\n8 porte 10/100/1000"];
   
-  switch_24p -> switch_48p -> switch_48p_poe [ color=invis ];
+  switch_24p -> switch_48p -> switch_48p_poe -> switch_5p -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 [ color=invis ];
   
   
   node [ style=normal ];
