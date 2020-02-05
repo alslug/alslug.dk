@@ -26,7 +26,7 @@ digraph xxx {
   switch_48p      [ label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000"];
   switch_48p_poe  [ label="Cisco Catalyst 3360\n48 porte 10/100"];
   
-  switch_24p -> switch_48p_poe [ color=invis ];
+  switch_24p -> switch_48p -> switch_48p_poe [ color=invis ];
   
   
   node [ style=normal ];
@@ -50,9 +50,6 @@ digraph xxx {
   edge [ color=green style=solid ];
   node [ shape=point ];
   {alslug_router alslug_gl_bootserver} -> alslug_backbone_switch -> { bord_1 bord_2 
-                  switch_48p
-                  }
-   alslug_backbone_switch -> {
                   vindue_left_12  vindue_left_11  vindue_left_10  vindue_left_9
                   vindue_center_8 vindue_center_7 vindue_center_6 vindue_center_5
                   vindue_right_4  vindue_right_3  vindue_right_2  vindue_right_1
