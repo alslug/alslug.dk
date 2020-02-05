@@ -22,9 +22,9 @@ digraph xxx {
   
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=yellow ];
-  switch_24p      [ label="24port switch\n10/100\n\n(kabel-holder)"];
-  switch_48p      [ label="Gammel HP switch\n48 port 10/100\n2 port 10/100/1000"];
-  switch_48p_poe  [ label="Gammel HP PoE switch\n48 porte 10/100"];
+  switch_24p      [ label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
+  switch_48p      [ label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000"];
+  switch_48p_poe  [ label="Cisco Catalyst 3360\n48 porte 10/100"];
   
   switch_24p -> switch_48p_poe [ color=invis ];
   
