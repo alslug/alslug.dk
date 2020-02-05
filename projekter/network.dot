@@ -10,7 +10,7 @@ digraph xxx {
   husets_switch_2 [ label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
   festlokale_switch [ label="Switch under festlokalet\n\nHP\n10/100/1000" ];
   wifi_1 wifi_2 wifi_3 wifi_4 wifi_5 wifi_6 wifi_7 wifi_8;
-  wifi_9 [ fillcolor=cyan ];
+  wifi_9 [ fillcolor=yellow ];
   
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
@@ -46,7 +46,7 @@ digraph xxx {
   edge  [ color=green style=dashed ];
   husets_switch_2 -> { alslug_router wifi_4 };
 
-  alslug_wifi_stick [ fillcolor=cyan style=filled ];
+  alslug_wifi_stick [ fillcolor=yellow style=filled ];
 
   // Interne forbindelser
   edge [ color=green style=solid ];
@@ -66,13 +66,13 @@ digraph xxx {
                 };
   bord_1 -> {
                   bord_1_8 bord_1_9 bord_1_10 bord_1_11 bord_1_12 bord_1_13 bord_1_14 bord_1_15 bord_1_16
-                } [ style=dashed color=cyan ];
+                } [ style=dashed color=yellow ];
   bord_2 -> {
                   bord_2_1 bord_2_2 bord_2_3 bord_2_4 bord_2_5 bord_2_6 bord_2_7
                 };
   bord_2 -> {
                   bord_2_8 bord_2_9 bord_2_10 bord_2_11 bord_2_12 bord_2_13 bord_2_14 bord_2_15 bord_2_16
-                } [ style=dashed color=cyan ];
+                } [ style=dashed color=yellow ];
                 
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
