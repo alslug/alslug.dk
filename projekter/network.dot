@@ -54,7 +54,6 @@ digraph xxx {
  
   alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   alslug_router -> alslug_lan_port2 [ penwidth=1 ];
-  alslug_backbone_switch -> {switch_48p_poe switch_48p} [ penwidth=1 ];
   
   bord_1 -> {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4
