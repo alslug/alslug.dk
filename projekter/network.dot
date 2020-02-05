@@ -64,12 +64,7 @@ digraph xxx {
                   bord_2_1 bord_2_2 bord_2_3 bord_2_4
                   bord_2_5 bord_2_6 bord_2_7
                 };
-  switch_48p -> {
-                  switch_48p_1 switch_48p_2 switch_48p_3 switch_48p_4
-                  switch_48p_5 switch_48p_6 switch_48p_7 switch_48p_8
-                  switch_48p_9 switch_48p_10 switch_48p_11 switch_48p_12
-                } [ penwidth=1 ];
-  
+                
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
 }
