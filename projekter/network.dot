@@ -15,7 +15,7 @@ digraph xxx {
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nnoname\n8 port 10/100/1000\n\n Erstattes af\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE"];
+  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE"];
   bord_1 [ label="Bord 1\n\nJense\n8 port 10/100/1000\n\n WErstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
   bord_2 [ label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n WErstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
   alslug_wifi_stick alslug_lan_port2;
