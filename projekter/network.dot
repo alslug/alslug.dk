@@ -41,17 +41,17 @@ digraph xxx {
 
   // Interne forbindelser
   edge [ color=green style=solid ];
+  node [ shape=point ];
   {alslug_router alslug_gl_bootserver} -> alslug_backbone_switch -> { bord_1 bord_2 
                   vindue_left_12  vindue_left_11  vindue_left_10  vindue_left_9
                   vindue_center_8 vindue_center_7 vindue_center_6 vindue_center_5
                   vindue_right_4  vindue_right_3  vindue_right_2  vindue_right_1
                   }
  
- alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
+  alslug_router -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   alslug_router -> alslug_lan_port2 [ penwidth=1 ];
   alslug_backbone_switch -> switch_48p_poe [ penwidth=1 ];
   
-  node [ shape=point ];
   bord_1 -> {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4
                   bord_1_5 bord_1_6 bord_1_7
