@@ -7,7 +7,8 @@ Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
 * De røde dele er husets netværk.
 * De grønne dele er vores eget netværk.
-* De grå dele er ting der skal udbygges i fremtiden.
+* De gule dele er ting der skal udbygges i fremtiden.
+* De grå dele er ting som pt ikke bliver brugt.
 
 * TyKke streger er 1Gbit forbindelser.
 * Tynde streger er 100Mbit forbindelser.
