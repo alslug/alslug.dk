@@ -84,6 +84,10 @@ digraph xxx {
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
 
+  vindue [ shape=record label="{{ {{<12>12|<11>11|<10>10|<9>9}  | Venstre }|
+                                  {{<8>8|<7>7|<6>6|<5>5}        | Center  }|
+                                  {{<4>4|<3>3|<2>2|<1>1}        | Højre   }}| Kabel-kanal under vinuderne }}" ];
+
   subgraph {
     rank = same;
                   vindue_left_12;   vindue_left_11;   vindue_left_10;   vindue_left_9;
