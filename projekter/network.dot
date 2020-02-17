@@ -9,8 +9,15 @@ digraph xxx {
   husets_switch_1 [ label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
   husets_switch_2 [ label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
   festlokale_switch [ label="Switch under festlokalet\n\nHP\n10/100/1000" ];
-  wifi_1 wifi_2 wifi_3 wifi_4 wifi_5 wifi_6 wifi_7 wifi_8;
-  wifi_9 [ fillcolor=yellow ];
+  wifi_1 [ label="wifi_1\nFestlokalet" ];
+  wifi_2 [ label="wifi_2\nUkendt placering" ];
+  wifi_3 [ label="wifi_3\nArkiv"];
+  wifi_4 [ label="wifi_4\nBibliotek" ];
+  wifi_5 [ label="wifi_5\nModelfly" ];
+  wifi_6 [ label="wifi_6\nAlsLUG" ];
+  wifi_7 [ label="wifi_7\nEDR" ];
+  wifi_8 [ label="wifi_\8nNydam" ];
+  wifi_9 [ label="wifi_\nBakkehuset" fillcolor=yellow ];
   
   node [ style=filled fillcolor=green ];
   alslug_router [ label="AlsLUG router" ];
@@ -38,9 +45,9 @@ digraph xxx {
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_switch_1 -> festlokale_switch -> { wifi_1 wifi_9 };
-  husets_router -> husets_switch_1 -> { wifi_2 wifi_3 wifi_6 wifi_7 };
-  husets_switch_1 -> husets_switch_2 -> { wifi_4 wifi_5 wifi_8 alslug_router};
+  husets_switch_1 -> festlokale_switch -> {             wifi_1                                                  wifi_9 };
+  husets_router -> husets_switch_1 -> {                        wifi_2 wifi_3 wifi_4               wifi_7               };
+  husets_switch_1 -> husets_switch_2 -> { alslug_router                             wifi_5 wifi_6        wifi_8        };
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
