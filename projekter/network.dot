@@ -9,18 +9,18 @@ digraph xxx {
   husets_switch_1 [ label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
   husets_switch_2 [ label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
   festlokale_switch [ label="Switch under festlokalet\n\nHP\n10/100/1000" ];
-  wifi_1 [ label="wifi_1\nFestlokalet" ];
-  wifi_2 [ label="wifi_2\nUkendt placering" ];
-  wifi_3 [ label="wifi_3\nArkiv"];
-  wifi_4 [ label="wifi_4\nBibliotek" ];
-  wifi_5 [ label="wifi_5\nModelfly" ];
-  wifi_6 [ label="wifi_6\nAlsLUG" ];
-  wifi_7 [ label="wifi_7\nEDR" ];
-  wifi_8 [ label="wifi_\8nNydam" ];
-  wifi_9 [ label="wifi_\nBakkehuset" fillcolor=yellow ];
+  wifi_1 [ label=" wifi_1 \n\n Festlokalet "                ];
+  wifi_2 [ label=" wifi_2 \n\n Ukendt \n placering "        ];
+  wifi_3 [ label=" wifi_3 \n\n Arkiv "                      ];
+  wifi_4 [ label=" wifi_4 \n\n Bibliotek "                  ];
+  wifi_5 [ label=" wifi_5 \n\n Modelfly "                   ];
+  wifi_6 [ label=" wifi_6 \n\n AlsLUG "                     ];
+  wifi_7 [ label=" wifi_7 \n\n EDR "                        ];
+  wifi_8 [ label=" wifi_8 \n\n Nydam "                      ];
+  wifi_9 [ label=" wifi_9 \n\n Bakkehuset" fillcolor=yellow ];
   
   node [ style=filled fillcolor=green ];
-  alslug_router [ type=record label="[[<wan_1> wan_1|<wan_2> wan_2]|AlsLUG router|[<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb]]" ];
+  alslug_router [ shape=record label="[[<wan_1> wan_1|<wan_2> wan_2]|AlsLUG router|[<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb]]" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE\n2x SPF"];
   bord_1 [ label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
