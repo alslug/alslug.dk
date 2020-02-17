@@ -51,7 +51,7 @@ digraph xxx {
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
-  husets_switch_2 -> { alslug_router wifi_4 };
+  husets_switch_2 -> { alslug_router wifi_6 };
 
   alslug_wifi_stick [ fillcolor=yellow style=filled ];
 
