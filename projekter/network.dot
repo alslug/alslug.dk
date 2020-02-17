@@ -24,12 +24,7 @@ digraph xxx {
                                         AlsLUG router
                                       |{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ shape=record label="{AlsLUG Backbone Switch|
-                                                Zyxel GS1900-24HP * 24 port 10/100/1000 PoE + 2x SPF|
-                                                {<1>|<2>|<3>|<4>|<5>|<6>|<7>|<8>|
-                                                <9>|<10>|<11>|<12>|<13>|<14>|<15>|
-                                                <16>|<17>|<18>|<19>|<20>|<21>|<22>|<23>|<24>
-                                                }}"];
+  alslug_backbone_switch [ shape=record label="AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF"];
   bord_1 [ shape=box label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
   bord_2 [ shape=box label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
  
@@ -82,18 +77,18 @@ digraph xxx {
                   bord_2_8 bord_2_9 bord_2_10 bord_2_11 bord_2_12 bord_2_13 bord_2_14 bord_2_15 bord_2_16
                 } [ style=dashed color=yellow ];
                 
-  alslug_backbone_switch:1 -> vindue:1;
-  alslug_backbone_switch:2 -> vindue:2;
-  alslug_backbone_switch:3 -> vindue:3;
-  alslug_backbone_switch:4 -> vindue:4;
-  alslug_backbone_switch:5 -> vindue:5;
-  alslug_backbone_switch:6 -> vindue:6;
-  alslug_backbone_switch:7 -> vindue:7;
-  alslug_backbone_switch:8 -> vindue:8;
-  alslug_backbone_switch:9 -> vindue:9;
-  alslug_backbone_switch:10 -> vindue:10;
-  alslug_backbone_switch:11 -> vindue:11;
-  alslug_backbone_switch:12 -> vindue:12;
+  alslug_backbone_switch -> vindue:1;
+  alslug_backbone_switch -> vindue:2;
+  alslug_backbone_switch -> vindue:3;
+  alslug_backbone_switch -> vindue:4;
+  alslug_backbone_switch -> vindue:5;
+  alslug_backbone_switch -> vindue:6;
+  alslug_backbone_switch -> vindue:7;
+  alslug_backbone_switch -> vindue:8;
+  alslug_backbone_switch -> vindue:9;
+  alslug_backbone_switch -> vindue:10;
+  alslug_backbone_switch -> vindue:11;
+  alslug_backbone_switch -> vindue:12;
 
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
