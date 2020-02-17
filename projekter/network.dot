@@ -98,6 +98,10 @@ digraph xxx {
   xxxxx3 -> vindue:3;
   xxxxx4 -> vindue:4;
   xxxxx5 -> vindue:5;
+  xxxxx5 -> vindue:6;
+  xxxxx5 -> vindue:7;
+  xxxxx5 -> vindue:8;
+  xxxxx5 -> vindue:9;
 
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
