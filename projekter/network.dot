@@ -5,10 +5,10 @@ digraph xxx {
   edge [ dir=none penwidth=10 ];
 
   node [ style=filled fillcolor=red ];
-  husets_router [ label="Husets router" ];
-  husets_switch_1 [ label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
-  husets_switch_2 [ label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
-  festlokale_switch [ label="Switch under festlokalet\n\nHP\n10/100/1000" ];
+  husets_router [ shape=box label="Husets router" ];
+  husets_switch_1 [ shape=box label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
+  husets_switch_2 [ shape=box label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
+  festlokale_switch [ shape=box label="Switch under festlokalet\n\nHP\n10/100/1000" ];
   wifi_1 [ label=" wifi_1 \n\n Festlokalet "                ];
   wifi_2 [ label=" wifi_2 \n\n Ukendt \n placering "        ];
   wifi_3 [ label=" wifi_3 \n\n Arkiv "                      ];
@@ -22,18 +22,18 @@ digraph xxx {
   node [ style=filled fillcolor=green ];
   alslug_router [ shape=record label="{{<wan_1> wan_1|<wan_2> wan_2}|AlsLUG router|{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE\n2x SPF"];
+  alslug_backbone_switch [ shape=box label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE\n2x SPF"];
   bord_1 [ label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
   bord_2 [ label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
-  alslug_wifi_stick alslug_lan_port2;
+  alslug_wifi_sti
   
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
-  switch_24p      [ label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
-  switch_48p      [ label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/SPF"];
-  switch_48p_poe  [ label="Cisco Catalyst 3360\n48 porte 10/100\n2x SPF"];
-  switch_5p       [ label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
-  switch_8p       [ label="Noname\n8 porte 10/100/1000"];
+  switch_24p      [ shape=box label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
+  switch_48p      [ shape=box label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/SPF"];
+  switch_48p_poe  [ shape=box label="Cisco Catalyst 3360\n48 porte 10/100\n2x SPF"];
+  switch_5p       [ shape=box label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
+  switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000"];
   
   switch_24p -> switch_48p -> switch_48p_poe -> switch_5p -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 -> bord_1 [ color=invis ];
   
@@ -62,7 +62,6 @@ digraph xxx {
   {alslug_router:lan_1000 alslug_gl_bootserver} -> alslug_backbone_switch -> { bord_1 bord_2 }
 
   alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" ];
-  alslug_router:lan_100 -> alslug_lan_port2 [ penwidth=1 ];
   
   bord_1 -> {
                   bord_1_1 bord_1_2 bord_1_3 bord_1_4 bord_1_5 bord_1_6 bord_1_7
