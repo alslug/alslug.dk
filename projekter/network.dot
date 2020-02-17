@@ -20,7 +20,7 @@ digraph xxx {
   wifi_9 [ label=" wifi_9 \n\n Bakkehuset" fillcolor=yellow ];
   
   node [ style=filled fillcolor=green ];
-  alslug_router [ shape=record label="[[<wan_1> wan_1|<wan_2> wan_2]|AlsLUG router|[<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb]]" ];
+  alslug_router [ shape=record label="{{<wan_1> wan_1|<wan_2> wan_2}|AlsLUG router|{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_backbone_switch [ label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE\n2x SPF"];
   bord_1 [ label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
