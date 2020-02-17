@@ -25,8 +25,7 @@ digraph xxx {
   alslug_backbone_switch [ shape=box label="AlsLUG Backbone Switch\n\nZyxel GS1900-24HP\n24 port 10/100/1000 PoE\n2x SPF"];
   bord_1 [ label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
   bord_2 [ label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
-  alslug_wifi_sti
-  
+ 
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
   switch_24p      [ shape=box label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
@@ -98,9 +97,6 @@ digraph xxx {
   subgraph {
     rank = same;
                   vindue;
-                  vindue_left_12;   vindue_left_11;   vindue_left_10;   vindue_left_9;
-                  vindue_center_8;  vindue_center_7;  vindue_center_6;  vindue_center_5;
-                  vindue_right_4;   vindue_right_3;   vindue_right_2;   vindue_right_1;
                   bord_1_1;   bord_1_2;   bord_1_3;   bord_1_4;   bord_1_5;   bord_1_6;   bord_1_7;   bord_1_8;
                   bord_1_9;   bord_1_10;  bord_1_11;  bord_1_12;  bord_1_13;  bord_1_14;  bord_1_15;  bord_1_16;
                   bord_2_1;   bord_2_2;   bord_2_3;   bord_2_4;   bord_2_5;   bord_2_6;   bord_2_7;   bord_2_8;
