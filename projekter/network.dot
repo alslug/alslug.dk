@@ -93,9 +93,14 @@ digraph xxx {
                   bord_2_8 bord_2_9 bord_2_10 bord_2_11 bord_2_12 bord_2_13 bord_2_14 bord_2_15 bord_2_16
                 } [ style=dashed color=yellow ];
                 
+  xxxxx1 -> vindue:1;
+  xxxxx2 -> vindue:2;
+  xxxxx3 -> vindue:3;
+  xxxxx4 -> vindue:4;
+  xxxxx5 -> vindue:5;
+
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
-
   vindue [ shape=record label="{{ {{<12> 12|<11> 11|<10> 10|<9> 9}  | Venstre }||
                                   {{<8> 8|<7> 7|<6> 6|<5> 5}        | Center  }||
                                   {{<4> 4|<3> 3|<2> 2|<1> 1}        | Højre   }}| Kabel-kanal under vinuderne }}" ];
