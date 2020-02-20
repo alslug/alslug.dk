@@ -2,7 +2,6 @@
 
 Medlemskab hos AlsLUG er gratis.
 
-
 Men vi har stadigvæk løbende udgifter, udgifter til udstyr, PR og andet.
 Hvis du skulle være i besiddelse af noget grej du eller dit firma ikke bruger mere,
 modtager vi gerne donation i form af diverse hardware.
@@ -19,12 +18,11 @@ Hvis du har mulighed for at hjælpe med noget af nedenstående grej, beder vi di
 - 2 nye mini-itx bundkort til vores demo-maskiner.
 Vi har i juli 17 indkøbt 2 stk bundkort til opgradering af to ud af fire maskiner.
 Den ene maskine er desværre i mellemtiden defekt.
-- 24 eller 48 port switch med PoE på alle porte til 19&quot; rack-montage.
-	Vi har brug for mindst 2 stk 1000BASE‑T, men helst på alle porte.
 
 
 ## Diverse andet grej.
 Vi modtager af og til computere, skærme, kabler og andet grej. Alt brugbart grej modtages med tak.
+
 
 ## Betingelser for modtagelse.
 Vi forbeholder os ret til at give grej videre til andre som kan bruge det. 
@@ -33,6 +31,7 @@ skoler eller projekter i ind- og udland.
 
 I tilfælde af at vi ikke finde et nyt hjem til det donerede grej, eller det viser sig at være fejlbehæftet,
 forbeholder vi os ret til at kassere det donerede grej.
+
 
 ## Specielt vedr donation af computere og harddiske.
 Alle computere vil blive renset for alle data inden vi begynder at rode med maskinerne,
