@@ -10,7 +10,7 @@ digraph xxx {
   husets_switch_2 [ shape=box label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
   festlokale_switch [ shape=box label="Switch under festlokalet\n\nHP\n10/100/1000" ];
   wifi_1 [ label=" wifi_1 \n\n Festlokalet "                ];
-  wifi_2 [ label=" wifi_2 \n\n Ukendt \n placering "        ];
+  wifi_2 [ label=" wifi_2 \n\n BOBS "                       ];
   wifi_3 [ label=" wifi_3 \n\n Arkiv "                      ];
   wifi_4 [ label=" wifi_4 \n\n Bibliotek "                  ];
   wifi_5 [ label=" wifi_5 \n\n Modelfly "                   ];
