@@ -1,7 +1,4 @@
 digraph xxx {
-#  link_12a [ shape=point ];
-#  link_12b [ shape=point ];
-#  link_12c [ shape=point ];
   edge [ dir=none penwidth=10 ];
 
   node [ style=filled fillcolor=red ];
@@ -24,9 +21,33 @@ digraph xxx {
                                         AlsLUG router
                                       |{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch [ shape=record label="AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF"];
-  bord_1 [ shape=box label="Bord 1\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000"];
-  bord_2 [ shape=box label="Bord 2\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000"];
+  alslug_backbone_switch [ shape=record label="{<any> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF|{Kabelkanal \n under \n vinuderne
+		|{
+			{Højre	|{	<1> 1	|	<2> 2	|	<3> 3	|	<4> 4	}}|
+			{Midten	|{	<5> 5	|	<6> 6	|	<7> 7	|	<8>8	}}|
+			{Venstre|{	<9> 9	|	<10>10	|	<11>11	|	<12>12	}}
+		}}|{{{
+			{<17>17|<18>19|<21>21|<23>23}
+			|Andre \n porte|
+			{<18>18|<20>20|<22>22|<24>24}
+		}}}}"];
+  alslug_projektor [ label="Projektor" ]
+  alslug_hp5180 [ label="HP 5180 \n printer" ]
+  RPi_camera [ label="RPi \n kamera" ]
+  bord_1 [ shape=record label="{<24> Port 24|
+		Bord vest\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000
+		|{
+			{1|2|3|4|5|6|7|(8)|(9)|(10)|(11)}
+			|Porte \n\n\n faste \n kabler \n ved \n bordet|
+			{(12)|(13)|(14)|(15)|(16)|(17)|(18)|(19)|(20)|(21)|(22)|(23)}
+		}}"];
+  bord_2 [ shape=record label="{<16> Port 16|
+		Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000
+		|{
+			{1|2|3|4|5|6|7}
+			|Porte \n\n\n faste \n kabler \n ved \n bordet|
+			{(8)|(9)|(10)|(11)|(12)|(13)|(14)|(15)}
+		}}"];
  
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
@@ -36,12 +57,12 @@ digraph xxx {
   switch_5p       [ shape=box label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
   switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000"];
   
-  switch_24p -> switch_48p -> switch_48p_poe -> switch_5p -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 -> bord_1 [ color=invis ];
+  switch_24p -> switch_48p -> switch_48p_poe -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 -> x -> alslug_router [ color=invis ];
   
   
   node [ style=normal ];
   // Internet forbindelser
-  stofa_fiber      -> husets_router:wan_1 [ penwidth=1 fillcolor=black style=filled ];
+  stofa_fiber      -> husets_router [ penwidth=1 fillcolor=black style=filled ];
   mobilt_bredbaand -> alslug_router:wan_2 [ penwidth=1 fillcolor=black style=filled ];
   
   // Husets forbindelser
@@ -60,48 +81,24 @@ digraph xxx {
   edge [ color=green style=solid ];
   node [ shape=point ];
   
-  {alslug_router:lan_1000 alslug_gl_bootserver} -> alslug_backbone_switch -> { bord_1 bord_2 }
+  {alslug_router:lan_1000 alslug_gl_bootserver} -> alslug_backbone_switch:any;
+  alslug_backbone_switch:12 -> alslug_hp5180;
+  alslug_backbone_switch:20 -> switch_5p -> { demo_1 demo_2 demo_3 demo_4 } [ color=gray ];
+  alslug_backbone_switch:21 -> alslug_projektor;
+  alslug_backbone_switch:22 -> RPi_camera;
+  alslug_backbone_switch:23 -> bord_1:24;
+  alslug_backbone_switch:24 -> bord_2:16;
 
   alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   
-  bord_1 -> {
-                  bord_1_1 bord_1_2 bord_1_3 bord_1_4 bord_1_5 bord_1_6 bord_1_7
-                };
-  bord_1 -> {
-                  bord_1_8 bord_1_9 bord_1_10 bord_1_11 bord_1_12 bord_1_13 bord_1_14 bord_1_15 bord_1_16
-                } [ style=dashed color=yellow ];
-  bord_2 -> {
-                  bord_2_1 bord_2_2 bord_2_3 bord_2_4 bord_2_5 bord_2_6 bord_2_7
-                };
-  bord_2 -> {
-                  bord_2_8 bord_2_9 bord_2_10 bord_2_11 bord_2_12 bord_2_13 bord_2_14 bord_2_15 bord_2_16
-                } [ style=dashed color=yellow ];
-                
-  alslug_backbone_switch -> vindue:1;
-  alslug_backbone_switch -> vindue:2;
-  alslug_backbone_switch -> vindue:3;
-  alslug_backbone_switch -> vindue:4;
-  alslug_backbone_switch -> vindue:5;
-  alslug_backbone_switch -> vindue:6;
-  alslug_backbone_switch -> vindue:7;
-  alslug_backbone_switch -> vindue:8;
-  alslug_backbone_switch -> vindue:9;
-  alslug_backbone_switch -> vindue:10;
-  alslug_backbone_switch -> vindue:11;
-  alslug_backbone_switch -> vindue:12;
-
   edge [ color=invis ];
   husets_switch_1 -> wifi_2 -> festlokale_switch -> wifi_1 -> husets_switch_2;
-  vindue [ shape=record label="{{ {{<12> 12|<11> 11|<10> 10|<9> 9}  | Venstre }||
-                                  {{<8> 8|<7> 7|<6> 6|<5> 5}        | Center  }||
-                                  {{<4> 4|<3> 3|<2> 2|<1> 1}        | Højre   }}| Kabel-kanal under vinuderne }}" ];
 
   subgraph {
     rank = same;
-                  vindue;
-                  bord_1_1;   bord_1_2;   bord_1_3;   bord_1_4;   bord_1_5;   bord_1_6;   bord_1_7;   bord_1_8;
-                  bord_1_9;   bord_1_10;  bord_1_11;  bord_1_12;  bord_1_13;  bord_1_14;  bord_1_15;  bord_1_16;
-                  bord_2_1;   bord_2_2;   bord_2_3;   bord_2_4;   bord_2_5;   bord_2_6;   bord_2_7;   bord_2_8;
-                  bord_2_9;   bord_2_10;  bord_2_11;  bord_2_12;  bord_2_13;  bord_2_14;  bord_2_15;  bord_2_16;
+#    alslug_projektor;
+#    alslug_hp5180;
+    alslug_backbone_switch;
   }
 }
+
