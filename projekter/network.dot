@@ -83,12 +83,14 @@ digraph xxx {
   
   {alslug_router:lan_1000 alslug_gl_bootserver} -> alslug_backbone_switch:any;
   alslug_backbone_switch:12 -> alslug_hp5180;
+  alslug_backbone_switch:11 -> alslug_display_procjetor;
   alslug_backbone_switch:20 -> switch_5p -> { demo_1 demo_2 demo_3 demo_4 } [ color=gray ];
   alslug_backbone_switch:21 -> alslug_projektor;
   alslug_backbone_switch:22 -> RPi_camera;
   alslug_backbone_switch:23 -> bord_1:24;
   alslug_backbone_switch:24 -> bord_2:16;
 
+  alslug_display_procjetor -> alslug_projektor [ color=black label="VGA" ];
   alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" ];
   
   edge [ color=invis ];
