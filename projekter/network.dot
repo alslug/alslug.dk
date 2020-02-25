@@ -91,7 +91,7 @@ digraph xxx {
   alslug_backbone_switch:23 -> bord_1:24;
   alslug_backbone_switch:24 -> bord_2:16;
 
-  alslug_display_procjetor bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
+  alslug_display_procjetor -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" dir=forward ];
   
