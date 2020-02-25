@@ -17,10 +17,10 @@ digraph xxx {
   wifi_18 [ label=" wifi_18 \n\n Nydam "                      ];
   
   node [ style=filled fillcolor=green ];
-  bakkensbro_info_doer	[ label="Bakkensbro \n Info \n display \n i hoveddøren"		];
-  bakkensbro_info_stuen	[ label="Bakkensbro \n Info \n display \n på stue-etagen"	];
-  bakkensbro_info_1_sal	[ label="Bakkensbro \n Info \n display \n på første sal"	];
-  info_server		[ label="Info-server \n trækker diverse \n infoskærme"		];
+  bakkensbro_info_doer	[ label="Bakkensbro \n Info display \n\n i hoveddøren"		];
+  bakkensbro_info_stuen	[ label="Bakkensbro \n Info display \n\n på stue-etagen"	];
+  bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
+  info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
   alslug_router [ shape=record label="{{<wan_1> wan_1|<wan_2> wan_2}|
                                         AlsLUG router
                                       |{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
