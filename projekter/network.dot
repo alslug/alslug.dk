@@ -36,14 +36,14 @@ digraph xxx {
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
   bord_1 [ shape=record label="{<24> Port 24|
-		Bord vest\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000
+		<bord> Bord vest\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000
 		|{
 			{1|2|3|4|5|6|7|(8)|(9)|(10)|(11)}
 			|Porte \n\n\n faste \n kabler \n ved \n bordet|
 			{(12)|(13)|(14)|(15)|(16)|(17)|(18)|(19)|(20)|(21)|(22)|(23)}
 		}}"];
   bord_2 [ shape=record label="{<16> Port 16|
-		Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000
+		<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000
 		|{
 			{1|2|3|4|5|6|7}
 			|Porte \n\n\n faste \n kabler \n ved \n bordet|
@@ -91,8 +91,9 @@ digraph xxx {
   alslug_backbone_switch:23 -> bord_1:24;
   alslug_backbone_switch:24 -> bord_2:16;
 
-  alslug_display_procjetor -> alslug_projektor [ color=black penwidth=1 label="VGA" ];
-  alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" ];
+  alslug_display_procjetor bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
+  bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
+  alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" dir=forward ];
   
   edge [ color=invis ];
   husets_switch_1 -> wifi_12 -> festlokale_switch -> wifi_11 -> husets_switch_2;
