@@ -17,6 +17,10 @@ digraph xxx {
   wifi_18 [ label=" wifi_18 \n\n Nydam "                      ];
   
   node [ style=filled fillcolor=green ];
+  bakkensbro_info_doer	[ label="Bakkensbro \n Info \n display \n i hoveddøren"		];
+  bakkensbro_info_stuen	[ label="Bakkensbro \n Info \n display \n på stue-etagen"	];
+  bakkensbro_info_1_sal	[ label="Bakkensbro \n Info \n display \n på første sal"	];
+  info_server		[ label="Info-server \n trækker diverse \n infoskærme"		];
   alslug_router [ shape=record label="{{<wan_1> wan_1|<wan_2> wan_2}|
                                         AlsLUG router
                                       |{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
@@ -71,6 +75,9 @@ digraph xxx {
   husets_switch_1 -> festlokale_switch -> {     wifi_10 wifi_11                                                        };
   husets_router -> husets_switch_1 -> {                        wifi_12 wifi_13 wifi_14                 wifi_17         };
   husets_switch_1 -> husets_switch_2 -> { alslug_router                                wifi_15 wifi_16         wifi_18 };
+
+  husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen };
+  husets_switch_2 -> { bakkensbro_info_1_sal info_server };
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
