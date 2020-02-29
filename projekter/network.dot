@@ -17,6 +17,7 @@ digraph xxx {
   wifi_18 [ label=" wifi_18 \n\n Nydam "                      ];
   
   node [ style=filled fillcolor=green ];
+  AlsLUG_TTIG		[ label="TTN gateway \n\n TTIG"					];
   bakkensbro_info_doer	[ label="Bakkensbro \n Info display \n\n i hoveddøren"		];
   bakkensbro_info_stuen	[ label="Bakkensbro \n Info display \n\n på stue-etagen"	];
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
@@ -101,6 +102,7 @@ digraph xxx {
   alslug_display_procjetor -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" dir=forward ];
+  wifi_16 -> AlsLUG_TTIG [ style=dashed ];
   
   edge [ color=invis ];
   husets_switch_1 -> wifi_12 -> festlokale_switch -> wifi_11 -> husets_switch_2;
