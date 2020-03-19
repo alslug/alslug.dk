@@ -26,7 +26,7 @@ digraph xxx {
                                         AlsLUG router
                                       |{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_display_procjetor [ label="Display client \n til info på \n projektoren" ];
+  alslug_prokjetor_client [ label="Display client \n til info på \n projektoren" ];
   alslug_backbone_switch [ shape=record label="{<any> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF|{Kabelkanal \n under \n vinuderne
 		|{
 			{Højre	|{	<1> 1	|	<2> 2	|	<3> 3	|	<4> 4	}}|
