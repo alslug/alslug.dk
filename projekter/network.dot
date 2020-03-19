@@ -39,6 +39,7 @@ digraph xxx {
 		}}}}"];
   alslug_projektor [ label="Projektor" ]
   alslug_hp5180 [ label="HP 5180 \n printer" ]
+  alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
   bord_1 [ shape=record label="{<24> Port 24|
 		<bord> Bord vest\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000
@@ -92,14 +93,15 @@ digraph xxx {
   
   {alslug_router:lan_1000 alslug_gl_bootserver} -> alslug_backbone_switch:any;
   alslug_backbone_switch:12 -> alslug_hp5180;
-  alslug_backbone_switch:11 -> alslug_display_procjetor;
+  alslug_backbone_switch:11 -> alslug_zebra;
+  alslug_backbone_switch:10 -> alslug_projektor_client;
   alslug_backbone_switch:20 -> switch_5p -> { demo_1 demo_2 demo_3 demo_4 } [ color=gray ];
   alslug_backbone_switch:21 -> alslug_projektor;
   alslug_backbone_switch:22 -> RPi_camera;
   alslug_backbone_switch:23 -> bord_1:24;
   alslug_backbone_switch:24 -> bord_2:16;
 
-  alslug_display_procjetor -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
+  alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" dir=forward ];
   wifi_16 -> AlsLUG_TTIG [ penwidth=1 style=dashed ];
