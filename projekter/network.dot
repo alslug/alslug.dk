@@ -62,9 +62,10 @@ digraph xxx {
   switch_48p      [ shape=box label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/SPF"];
   switch_48p_poe  [ shape=box label="Cisco Catalyst 3360\n48 porte 10/100\n2x SPF"];
   switch_5p       [ shape=box label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
-  switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000"];
+  switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000\nTidligere backbone" ];
+  switch_8p_nord    [ shape=box label="Jensen\n8 port 10/100/1000\nTidligere bord nord" ];
   
-  switch_24p -> switch_48p -> switch_48p_poe -> switch_8p -> ny_switch_til_bord_1 -> ny_switch_til_bord_2 -> x -> alslug_router [ color=invis ];
+  switch_24p -> switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_nord -> ny_switch_til_bord_2 -> x -> alslug_router [ color=invis ];
   
   
   node [ style=normal ];
