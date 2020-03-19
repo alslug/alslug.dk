@@ -41,14 +41,14 @@ digraph xxx {
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
-  bord_1 [ shape=record label="{<24> Port 24|
-		<bord> Bord vest\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n24 port 10/100/1000
+  bord_1 [ shape=record label="{<uplink> Port 12|
+		<bord> Bord vest\n\nD-Link\n24 port 10/100/1000
 		|{
-			{1|2|3|4|5|6|7|(8)|(9)|(10)|(11)}
+			{1|2|3|4|5|6|7|8|9|10}
 			|Porte \n\n\n faste \n kabler \n ved \n bordet|
-			{(12)|(13)|(14)|(15)|(16)|(17)|(18)|(19)|(20)|(21)|(22)|(23)}
+			{15|16|17|18|19|20|21|33|23|24}
 		}}"];
-  bord_2 [ shape=record label="{<16> Port 16|
+  bord_2 [ shape=record label="{<uplink> Port 8|
 		<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000
 		|{
 			{1|2|3|4|5|6|7}
@@ -98,8 +98,8 @@ digraph xxx {
   alslug_backbone_switch:20 -> switch_5p -> { demo_1 demo_2 demo_3 demo_4 } [ color=gray ];
   alslug_backbone_switch:21 -> alslug_projektor;
   alslug_backbone_switch:22 -> RPi_camera;
-  alslug_backbone_switch:23 -> bord_1:24;
-  alslug_backbone_switch:24 -> bord_2:16;
+  alslug_backbone_switch:23 -> bord_1:uplink
+  alslug_backbone_switch:24 -> bord_2:uplink;
 
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
