@@ -6,7 +6,7 @@ digraph xxx {
   husets_switch_1 [ shape=box label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
   husets_switch_2 [ shape=box label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
   festlokale_switch [ shape=box label="Switch under festlokalet\n\nHP\n10/100/1000" ];
-  wifi_10 [ label=" wifi_10 \n\n Bakkehuset" fillcolor=yellow ];
+  wifi_10 [ label=" wifi_10 \n\n Bakkehuset"                  ];
   wifi_11 [ label=" wifi_11 \n\n Festlokalet "                ];
   wifi_12 [ label=" wifi_12 \n\n BOBS "                       ];
   wifi_13 [ label=" wifi_13 \n\n Arkiv "                      ];
