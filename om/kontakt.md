@@ -11,7 +11,7 @@ Bakkensbro 6, Ullerup
 
 6400 Sønderborg
 
-## Kontakt til bestyrelsen:##
+## Kontakt til bestyrelsen: ##
 <table>
 <tr><td>  Bestyrelsen	</td><td>		              	      </td><td>   bestyrelse(på)alslug.dk	</td></tr>
 <tr><td>  Formand:	  </td><td>   Henning Wangerin	    </td><td>   wangerin(på)alslug.dk		</td></tr>
