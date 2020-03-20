@@ -3,7 +3,7 @@ CVR-nummer: [37741175](https://datacvr.virk.dk/data/visenhed?enhedstype=virksomh
 
 ## Aktivitets- og post-adresse: ##
 
-**** AlsLUG - Alssund Linux User Group ****
+AlsLUG - Alssund Linux User Group
 
 c/o Bakkensbro Aktivitets og Kultur Center (Den gamle skole i Ullerup)
 
