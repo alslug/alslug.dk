@@ -34,7 +34,7 @@ Hvis foreningen ikke har fast lokale eller der ikke kan modtages post, er foreni
 ALSLUG - Alssund Linux User Group<br>c/o (formandens adresse)
 
 ### §1. stk. 4
-[Foreningens post-adresse](kontakt.html)  skal oplyses på foreningens webside.
+[Foreningens post-adresse](kontakt.md)  skal oplyses på foreningens webside.
 
 
 
