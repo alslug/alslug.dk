@@ -7,12 +7,12 @@ Hvis du skulle være i besiddelse af noget grej du eller dit firma ikke bruger m
 modtager vi gerne donation i form af diverse hardware.
 
 
-Du er altid meget velkommen til at <a href='/om/kontakt.html'>kontakte bestyrelsen</a>,
+Du er altid meget velkommen til at <a href='/om/kontakt.md'>kontakte bestyrelsen</a>,
 eller komme forbi til et af vore arrangementer.
 
 ## Ønsker til nyt (eller fungerende brugt) grej:
 Hvis du har mulighed for at hjælpe med noget af nedenstående grej, beder vi dig om at 
-<a href='/om/kontakt.html'>kontakte bestyrelsen</a>.
+<a href='/om/kontakt.md'>kontakte bestyrelsen</a>.
 
 
 - 2 nye mini-itx bundkort til vores demo-maskiner.
