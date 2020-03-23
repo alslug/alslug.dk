@@ -41,7 +41,7 @@ digraph xxx {
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
-  bord_1 [ shape=record label="{{
+  bord_1 [ shape=record label="{{{
   		<11> Port 11|
 		<12> Port 12
   		}|Uplink\n/\nekstra|{
@@ -53,7 +53,7 @@ digraph xxx {
 			{1|2|3|4|5|6|7|8|9|10}
 			|Porte \n\n\n faste \n kabler \n ved \n bordet|
 			{15|16|17|18|19|20|21|33|23|24}
-		}}"];
+		}}}"];
   bord_2 [ shape=record label="{<uplink> Port 8|
 		<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000
 		|{
