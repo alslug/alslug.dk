@@ -57,13 +57,13 @@ digraph xxx {
   bord_2 [ shape=record label="{
   		{
   			{<7> Port 7|<8> Port 8}
-			|
+			|Uplink\n/\nekstra|
   			{<9> (Port 9)|<10> (Port 10)}
 		}
 		|<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000|
 		{
 			{Port 1|Port 2|Port 3|Port 4|Port 5|Port 6}
-			|Porte \n\n\n faste \n kabler \n ved \n bordet|
+			|Faste \n kabler \n ved \n bordet|
 			{(Port 11)|(Port 12)|(Port 13)|(Port 14)|(Port 15)|(Port 16)}
 		}
 		}"];
