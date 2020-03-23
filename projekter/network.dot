@@ -41,26 +41,32 @@ digraph xxx {
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
-  bord_1 [ shape=record label="{{{
-  		<11> Port 11|
-		<12> Port 12
-  		}|Uplink\n/\nekstra|{
-  		<13> Port 13|
-		<14> Port 14
-		}}|
-		<bord> Bord vest\n\nD-Link\n24 port 10/100/1000
-		|{
-			{1|2|3|4|5|6|7|8|9|10}
+  bord_1 [ shape=record label="{
+  		{
+  			{<11> Port 11|<12> Port 12}
+			|Uplink\n/\nekstra|
+			{<13> Port 13|<14> Port 14}
+		}
+		|<bord> Bord vest\n\nD-Link\n24 port 10/100/1000|
+		{
+			{Port 1|Port 2|Port 3|Port 4|Port 5|Port 6|Port 7|Port 8|Port 9|Port 10}
+			|Faste \n kabler \n ved \n bordet|
+			{Port 15|Port 16|Port 17|Port 18|Port 19|Port 20|Port 21|Port 22|Port 23|Port 24}
+		}
+		}"];
+  bord_2 [ shape=record label="{
+  		{
+  			{<7> Port 7|<8> Port 8}
+			|
+  			{<9> (Port 9)|<10> (Port 10)}
+		}
+		|<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000|
+		{
+			{Port 1|Port 2|Port 3|Port 4|Port 5|Port 6}
 			|Porte \n\n\n faste \n kabler \n ved \n bordet|
-			{15|16|17|18|19|20|21|33|23|24}
-		}}}"];
-  bord_2 [ shape=record label="{<uplink> Port 8|
-		<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000
-		|{
-			{1|2|3|4|5|6|7}
-			|Porte \n\n\n faste \n kabler \n ved \n bordet|
-			{(8)|(9)|(10)|(11)|(12)|(13)|(14)|(15)}
-		}}"];
+			{(Port 11)|(Port 12)|(Port 13)|(Port 14)|(Port 15)|(Port 16)}
+		}
+		}"];
  
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
@@ -106,7 +112,7 @@ digraph xxx {
   alslug_backbone_switch:21 -> alslug_projektor;
   alslug_backbone_switch:22 -> RPi_camera;
   alslug_backbone_switch:23 -> bord_1:12;
-  alslug_backbone_switch:24 -> bord_2:uplink;
+  alslug_backbone_switch:24 -> bord_2:8;
 
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
