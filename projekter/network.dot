@@ -41,7 +41,7 @@ digraph xxx {
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
-  bord_1 [ shape=record label="{<uplink> Port 12|
+  bord_1 [ shape=record label="{{<11> Port 11 |<uplink> Port 12|<13> Port 13|<14> Port 14|
 		<bord> Bord vest\n\nD-Link\n24 port 10/100/1000
 		|{
 			{1|2|3|4|5|6|7|8|9|10}
