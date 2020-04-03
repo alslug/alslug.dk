@@ -4,7 +4,9 @@
 ## 5. Maj 2020 18:00 Fødselsdagsmiddag
 Foreningen fylder 20 år i morgen (3. maj).
 
-Derfor vil vi fejre os selv med en hyggelig middag og aften
+Derfor vil vi fejre os selv med en hyggelig middag og aften. Billeter kan købes her på siden, eller til vore møder i AlsLUG. 
+
+<!-- TICKETS -->
 
 Vi serverer en buffet-menu fra Kværs Kro.
 
