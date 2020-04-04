@@ -7,7 +7,7 @@ Foreningen fylder 20 år i morgen (3. maj).
 
 Derfor vil vi fejre os selv med en hyggelig middag og aften.
 
-<!-- TICKETS -->
+*****TICKETS*****
 
 Vi serverer en buffet-menu fra Kværs Kro.
 
