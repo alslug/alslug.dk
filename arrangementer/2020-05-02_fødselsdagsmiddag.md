@@ -1,5 +1,6 @@
 <!-- ticket_id c02def6fbadcbfaff5d5831830ad3dce -->
-<!-- ticket_count 20 -->
+<!-- ticket_min 10 -->
+<!-- ticket_max 20 -->
 <!-- ticket_price 150 -->
 <!-- ticket_deadline 2020-04-15 -->
 ## 5. Maj 2020 18:00 Fødselsdagsmiddag
