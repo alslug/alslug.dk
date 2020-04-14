@@ -1,10 +1,11 @@
 <!-- ticket_id c02def6fbadcbfaff5d5831830ad3dce -->
 <!-- ticket_min 10 -->
 <!-- ticket_max 20 -->
-<!-- ticket_price 150 -->
-<!-- ticket_deadline 2020-06-05 -->
-## 20. Juni 2020 18:00 Fødselsdagsmiddag
-Foreningen fyldte 20 år midt i corona-kaoset. Derfor valgte vi flytte fødselsdagsmiddagen til forsommeren. Det blev så til den 20/6.
+<!-- ticket_price 50 -->
+<!-- ticket_deadline 2020-05-05 -->
+## 20. Maj 2020 18:00 Test-event
+<!-- Foreningen fyldte 20 år midt i corona-kaoset. Derfor valgte vi flytte fødselsdagsmiddagen til forsommeren. Det blev så til den 20/5. -->
+Dette er en test af vores billet-system.
 
 Derfor vil vi fejre os selv med en hyggelig middag og aften.
 
