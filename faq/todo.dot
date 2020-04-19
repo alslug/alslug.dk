@@ -5,18 +5,12 @@ digraph xxx {
     registerer_udstyr [ label="Registrering af \n effekter vi \n har liggende" ];
     ny_bootserver [ label="Opsætning af \n doneret maskine \n som ekstern server." ];
     
-    indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" color=green ];
-    montage_af_varmtvandsbeholder [ label="Montage af \n varmtvandsbeholder \n i højskab" color=green ];
-    montage_af_ny_bordplade [ label="Udskæring og \n montage af \n ny bordplade" color=green ];
-    montage_og_tilslutning_af_vandhane_mv [ label="Montage og \n tilslutning af \n vandhane m.v." color=green ];
     indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv;
 
     lav_keyboard_holdere [ label="Holdere til \n tastaturer (og evt mus) \n under demo-maskinerne." ];
     hylde_til_demomaskiner [ label="Ny hylde til \n demo-maskiner" ];
     {lav_keyboard_holdere,hylde_til_demomaskiner} -> ny_opstilling_af_demomaskiner;
 
-    udvid_borde [ label="Udvid det andet bord, \n med en plads \n mellem bordene." color=lightgray ];
-    bord_instalationer [ label="Ny installation \n på det sidste runde borde \n med flere \n netværksstik og evt \n også flere strømstik." ];
     kabler_på_gulv [ label="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
     udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
@@ -24,4 +18,18 @@ digraph xxx {
     rep_af_demomaskine [ label="Rep af \n den ene \n demo-maskine" ];
     cd_brænder [ label="Automatisk \n CD/DVD \n brænder-robot." ];
     upgrade_demomaskiner -> cd_brænder;
+    
+    nodes [ style=filled ];
+    ////////////////////////////////////////////////////////////////////////////
+    // Påbegyndt
+    nodes [ fillcolor=yellow ];
+    udvid_borde [ label="Udvide borde, \n med en plads \n mellem bordene." ];
+    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik." ];
+    ////////////////////////////////////////////////////////////////////////////
+    // Afsluttet
+    nodes [ fillcolor=green ];
+    indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" style=filled fillcolor=green ];
+    montage_af_varmtvandsbeholder [ label="Montage af \n varmtvandsbeholder \n i højskab" style=filled fillcolor=green ];
+    montage_af_ny_bordplade [ label="Udskæring og \n montage af \n ny bordplade" style=filled fillcolor=green ];
+    montage_og_tilslutning_af_vandhane_mv [ label="Montage og \n tilslutning af \n vandhane m.v." style=filled fillcolor=green ];
 }
