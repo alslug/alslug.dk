@@ -19,15 +19,15 @@ digraph xxx {
     cd_brænder [ label="Automatisk \n CD/DVD \n brænder-robot." ];
     upgrade_demomaskiner -> cd_brænder;
     
-    nodes [ style=filled ];
+    node [ style=filled ];
     ////////////////////////////////////////////////////////////////////////////
     // Påbegyndt
-    nodes [ fillcolor=yellow ];
+    node [ fillcolor=yellow ];
     udvid_borde [ label="Udvide borde, \n med en plads \n mellem bordene." ];
     bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik." ];
     ////////////////////////////////////////////////////////////////////////////
     // Afsluttet
-    nodes [ fillcolor=green ];
+    node [ fillcolor=green ];
     indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" style=filled fillcolor=green ];
     montage_af_varmtvandsbeholder [ label="Montage af \n varmtvandsbeholder \n i højskab" style=filled fillcolor=green ];
     montage_af_ny_bordplade [ label="Udskæring og \n montage af \n ny bordplade" style=filled fillcolor=green ];
