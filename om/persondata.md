@@ -31,9 +31,11 @@ Hvis du skriver til vore postlister, vil dine mails blive videresendt til de and
 
 Vi har selvfølgelig ingen mulighed for at slette mails som ligger i din mailbox. Ej heller fra andre medlemmers mailbox.
 
+<div class='strikeout'>
 Alle mails som sendes via vore postlister, arkiveres hos gmane.org, som leverer et nntp-interface af alle listens beskeder.
 
 Det er pt ikke mulig af få slettet besked som ligger hos gmane.org, og alle besked ligger offentligt tilgængelige.
+</div>
 
 *Undlad derfor at skrive ting som du ikke ønske at andre skal se.*
 
@@ -102,9 +104,11 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 - Hjemmesiden ligger på en VPS hos [Hetzner](https://hetzner.com) i Falkenstein i sydtyskland.
 - Medlemsdatabase ligger på foreningens nextcloud instance hos [oCloud.de](https://ocloud.de) - som også benytter [Hetzner](https://hetzner.com) i Falkenstein.
 - Postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
+<div class='strikeout'>
 - Postlisterne arkiveres hos GMane ( https://gmane.org virker ikke for øjeblikket ).
+</div>
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
-- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://linode.com) i London.
+- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foerningens egen/egne server(e) hos [Hetzner](https://hetzner.com) og i vores lokale.
 
 
 
