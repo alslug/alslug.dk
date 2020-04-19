@@ -112,7 +112,7 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 
 ## Test fra privacy kompasset
 Vi har brugt PrivacyKompassets test til at kigge på vor GDPR compliance. Testen kan du hente som pdf:
-[PrivacyKompasset - testresultat](/om/PrivacyKompasset_testresultat.pdf).
+[PrivacyKompasset - testresultat](/PrivacyKompasset_testresultat.pdf).
 
 Vore kommentarer til testen, da den ikke helt passe ind i vores case:
 
