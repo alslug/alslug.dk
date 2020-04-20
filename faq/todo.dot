@@ -23,8 +23,8 @@ digraph xxx {
     ////////////////////////////////////////////////////////////////////////////
     // Påbegyndt
     node [ fillcolor=yellow ];
-    udvid_borde [ label="Udvide borde, \n med en plads \n mellem bordene." ];
-    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik." ];
+    udvid_borde [ label="Udvide borde, \n med en plads \n mellem bordene.\n\n(1 af 2 lavet)" ];
+    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik.\n\n1 af 2 lavet" ];
     ////////////////////////////////////////////////////////////////////////////
     // Afsluttet
     node [ fillcolor=green ];
