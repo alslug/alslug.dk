@@ -3,14 +3,17 @@
 <!-- ticket_max 20 -->
 <!-- ticket_price 50 -->
 <!-- ticket_deadline 2020-05-18 -->
-## 20. Maj 2020 18:00 Test-event
+## 21. Maj 2020 18:00 Test-event
 <!-- Foreningen fyldte 20 år midt i corona-kaoset. Derfor valgte vi flytte fødselsdagsmiddagen til forsommeren. Det blev så til den 20/5. -->
 Dette er en test af vores billet-system.
 
+<!--
 Derfor vil vi fejre os selv med en hyggelig middag og aften.
+-->
 
 *****TICKETS*****
 
+<!--
 Vi serverer en buffet-menu fra Kværs Kro.
 
 * Flere forskellige slags kød 
@@ -20,5 +23,6 @@ Vi serverer en buffet-menu fra Kværs Kro.
 * is til dessert.
 
 Senere på aftenen er der kaffe på kanden og vand til the og kakao. 
+-->
 
 Vi har diverse sodavand på lager til de normale priser. Andre drikkevarer medbringer du selv.
