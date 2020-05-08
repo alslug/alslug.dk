@@ -3,7 +3,7 @@
 <!-- ticket_max 20 -->
 <!-- ticket_price 50 -->
 <!-- ticket_deadline 2020-05-18 -->
-## 21. Maj 2020 18:00 Test-event
+## 22. Maj 2020 18:00 Test-event
 <!-- Foreningen fyldte 20 år midt i corona-kaoset. Derfor valgte vi flytte fødselsdagsmiddagen til forsommeren. Det blev så til den 20/5. -->
 Dette er en test af vores billet-system.
 
