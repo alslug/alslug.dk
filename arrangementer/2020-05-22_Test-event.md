@@ -23,6 +23,6 @@ Vi serverer en buffet-menu fra Kværs Kro.
 * is til dessert.
 
 Senere på aftenen er der kaffe på kanden og vand til the og kakao. 
--->
 
 Vi har diverse sodavand på lager til de normale priser. Andre drikkevarer medbringer du selv.
+-->
