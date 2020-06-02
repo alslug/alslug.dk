@@ -102,11 +102,12 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 
 ## Hvor ligger dine data?
 - Hjemmesiden ligger på en VPS hos [Hetzner](https://hetzner.com) i Falkenstein i sydtyskland.
-- <div class='strikeout'>Medlemsdatabase ligger på foreningens nextcloud instance hos [oCloud.de](https://ocloud.de) - som også benytter [Hetzner](https://hetzner.com) i Falkenstein.</div>
-- Alle oplysningerne ligger i forbindelse med postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
+- <div class='strikeout'>Medlemsdatabase ligger på foreningens nextcloud instance hos oCloud.de - som også benytter [Hetzner](https://hetzner.com) i Falkenstein. ** LUKKET ultimo maj 2020 **</div>
+- Alle medlems-oplysninger ligger i forbindelse med postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
 - <div class='strikeout'>Postlisterne blev tidligere arkiveres hos GMane ( https://gmane.org virker ikke for øjeblikket ).</div>
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
 - Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foerningens egen/egne server(e) hos [Hetzner](https://hetzner.com) og i vores lokale.
+- Diverse statistik- og administrations-funktioner ligger på formandens private VPS hos [Linode.com](https://linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foerningens egen/egne server(e) hos [Hetzner](https://hetzner.com) og i vores lokale.
 
 
 
