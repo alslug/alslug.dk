@@ -1,0 +1,1 @@
+## Forholdsregler om Corena
