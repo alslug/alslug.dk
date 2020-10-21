@@ -18,7 +18,7 @@ var terrain	= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/terrain/{
 osmap = L.map('openstreetmap',{
 //				measureControl:true,
 				fullscreenControl: { pseudoFullscreen: true },
-				maxZoom: 13+3+2,
+				maxZoom: 13+3+2+1,
 				layers:[streets]
 				});
 //var fullscreen = L.control.Fullscreen({ pseudoFullscreen: true }).addTo(osmap);
