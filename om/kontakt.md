@@ -3,21 +3,18 @@ CVR-nummer: [37741175](https://datacvr.virk.dk/data/visenhed?enhedstype=virksomh
 
 ## Aktivitets- og post-adresse: ##
 
-AlsLUG - Alssund Linux User Group
-
-c/o Bakkensbro Aktivitets og Kultur Center (Den gamle skole i Ullerup)
-
-Bakkensbro 6, Ullerup
-
-6400 Sønderborg
+ AlsLUG - Alssund Linux User Group
+ c/o Bakkensbro Aktivitets og Kultur Center (Den gamle skole i Ullerup)
+ Bakkensbro 6, 1.sal, Ullerup
+ 6400 Sønderborg
 
 ## Kontakt til bestyrelsen: ##
 
 Bestyrelsen	&nbsp;              bestyrelse(på)alslug.dk
 ----------- ------------------- ---------------------
 Formand:	  Henning Wangerin	  wangerin(på)alslug.dk
-Sekretær:	  Jørgen Rubæk		    jorgen(på)alslug.dk
 Kasserer:	  Poul Erik Lauridsen	pel(på)alslug.dk
+Sekretær:	  Jørgen Rubæk		    jorgen(på)alslug.dk
 
 Du skal selvfølgelig udskift (på) med @ for at få en mail-adresse.
 
