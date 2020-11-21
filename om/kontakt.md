@@ -12,12 +12,14 @@ Bakkensbro 6, Ullerup
 6400 Sønderborg
 
 ## Kontakt til bestyrelsen: ##
-<table>
-<tr><td colspan=2> Bestyrelsen		                        	      </td><td>   bestyrelse(på)alslug.dk	</td></tr>
-<tr><td>           Formand:	    </td><td>   Henning Wangerin	    </td><td>   wangerin(på)alslug.dk		</td></tr>
-<tr><td>           Sekretær:	  </td><td>   Jørgen Rubæk		      </td><td>   jorgen(på)alslug.dk		  </td></tr>
-<tr><td>           Kasserer:	  </td><td>   Poul Erik Lauridsen	  </td><td>   pel(på)alslug.dk		    </td></tr>
-</table>
+
+Bestyrelsen	&nbsp;              bestyrelse(på)alslug.dk
+----------- ------------------- ---------------------
+Formand:	  Henning Wangerin	  wangerin(på)alslug.dk
+Sekretær:	  Jørgen Rubæk		    jorgen(på)alslug.dk
+Kasserer:	  Poul Erik Lauridsen	pel(på)alslug.dk
+
+Du skal selvfølgelig udskift (på) med @ for at få en mail-adresse.
 
 Der ydes IKKE supprt/hjælp via ovenstående mail-adresser, men der henvises til postlisten novice@alslug.dk, hvor medlemmer kan få gratis hjælp.
 
