@@ -13,10 +13,10 @@ Bakkensbro 6, Ullerup
 
 ## Kontakt til bestyrelsen: ##
 <table>
-<tr><td>  Bestyrelsen	</td><td>		              	      </td><td>   bestyrelse(på)alslug.dk	</td></tr>
-<tr><td>  Formand:	  </td><td>   Henning Wangerin	    </td><td>   wangerin(på)alslug.dk		</td></tr>
-<tr><td>  Sekretær:	  </td><td>   Jørgen Rubæk		      </td><td>   jorgen(på)alslug.dk		  </td></tr>
-<tr><td>  Kasserer:	  </td><td>   Poul Erik Lauridsen	  </td><td>   pel(på)alslug.dk		    </td></tr>
+<tr><td colspan=2> Bestyrelsen		                        	      </td><td>   bestyrelse(på)alslug.dk	</td></tr>
+<tr><td>           Formand:	    </td><td>   Henning Wangerin	    </td><td>   wangerin(på)alslug.dk		</td></tr>
+<tr><td>           Sekretær:	  </td><td>   Jørgen Rubæk		      </td><td>   jorgen(på)alslug.dk		  </td></tr>
+<tr><td>           Kasserer:	  </td><td>   Poul Erik Lauridsen	  </td><td>   pel(på)alslug.dk		    </td></tr>
 </table>
 
 Der ydes IKKE supprt/hjælp via ovenstående mail-adresser, men der henvises til postlisten novice@alslug.dk, hvor medlemmer kan få gratis hjælp.
