@@ -20,3 +20,7 @@ Vores lokale er ca 49m², om med 4m² per person, må vi være 12 personer i lok
 Der skal være mindst 2 meter mellem personer som sidder stille ved borde face-to-face. Da bordene er 2 meter på tværs er det ingen problem. Sideværts skal det være 1 meter imellem, så vi bruger kun hver anden plads.
 
 Der en normalt plads til 10 hhv 8  personer ved de runde borde, og 3 personer ud mod vinduet.
+
+## Check af tiltag/tilladelser på coronasmitte.dk
+
+*****CORONASMITTE.DK*****
