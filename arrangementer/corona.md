@@ -1,5 +1,8 @@
 # Forholdsregler om Corena
 
+## Status i forhold til coronasmitte.dk
+*****CORONASMITTE.DK-complience*****
+
 ## Håndhygiejne
 Vi har mulighed for håndvask, og har selvfølgelig også håndsprit til rådighed.
 
