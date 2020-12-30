@@ -12,7 +12,7 @@ Nedenfor kan du se hvilke sider, og faneblade vi henter data fra.
  
  * <span style='background:#ff8888'>Rød baggrund betyder at teksten forbyder os at have fysiske aktiviteter.</span>
  * <span style='background:#ffff88'>Gul baggrund betyder at der er begrænsninger på fysiske aktiviteter.</span>
- * <span style='background:#ffff88'>Gulgrøn baggrund betyder at der er undtagelser på begrænsningerne.</span>
+ * <span style='background:#ccff88'>Gulgrøn baggrund betyder at der er undtagelser på begrænsningerne.</span>
  * <span style='background:#88ff88'>Grøn baggrund betyder at teksten tillader os at have fysiske aktiviteter under visse forudsætninger.</span>
  * <span style='background:white'>Hvid baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os.</span>
 
