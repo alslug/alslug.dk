@@ -6,16 +6,16 @@ Om vi må holde åbent i vores lokale eller ej kommer an på vurderinger af info
 
 Vores server checker løbende op mod de respektive side på https://coronasmitte.dk og checker at diverse relevante tekster ikke er blevet ændret.
 
-Vi har funder diverse citater på siderne som vedrører os, og afhænngig af om de siger vi må holde åbent eller bliver de markeret om det **tillader** eller **forbyder** os at holde åbent.
+Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken betydning det har for vore aktiviteter.
 
-Nedenfor kan du se hvilke sider, og faneblade vi henter data fra.
- 
  * <span style='*****CORONASMITTE.DK-forbudt-color*****'   >Rød     </span> baggrund betyder at teksten forbyder os at have fysiske aktiviteter.
- * <span style='*****CORONASMITTE.DK-required-color*****' >Gul     </span> baggrund betyder at der er begrænsninger på fysiske aktiviteter.
+ * <span style='*****CORONASMITTE.DK-required-color*****'  >Gul     </span> baggrund betyder at der er begrænsninger på fysiske aktiviteter.
  * <span style='*****CORONASMITTE.DK-undtagelse-color*****'>Gulgrøn </span> baggrund betyder at der er undtagelser på begrænsningerne.
  * <span style='*****CORONASMITTE.DK-tilladt-color*****'   >Grøn    </span> baggrund betyder at teksten tillader os at have fysiske aktiviteter under visse forudsætninger.
  * <span style='*****CORONASMITTE.DK-unknown-color*****'   >Hvid    </span> baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os.
 
+Nedenfor kan du se hvilke sider, og faneblade vi henter data fra.
+ 
 ## Samlet vurdeing
 *****CORONASMITTE.DK-complience*****
 
