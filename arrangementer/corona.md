@@ -3,7 +3,7 @@
 ## Status i forhold til coronasmitte.dk
 *****CORONASMITTE.DK-complience*****
 
-Se alle detaljer på (coronasmitte-dk.md)
+Se alle detaljer på [denne side](coronasmitte-dk.md)
 
 ## Håndhygiejne
 Vi har mulighed for håndvask, og har selvfølgelig også håndsprit til rådighed.
