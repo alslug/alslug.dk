@@ -3,7 +3,7 @@
 ## Status i forhold til coronasmitte.dk
 *****CORONASMITTE.DK-complience*****
 
-Se alle detaljer længere nede på siden.
+Se alle detaljer længere nede på [coronasmitte-dk.md]
 
 ## Håndhygiejne
 Vi har mulighed for håndvask, og har selvfølgelig også håndsprit til rådighed.
@@ -25,14 +25,3 @@ Vores lokale er ca 49m², om med 4m² per person, må vi være 12 personer i lok
 Der skal være mindst 2 meter mellem personer som sidder stille ved borde face-to-face. Da bordene er 2 meter på tværs er det ingen problem. Sideværts skal det være 1 meter imellem, så vi bruger kun hver anden plads.
 
 Der en normalt plads til 10 hhv 8  personer ved de runde borde, og 3 personer ud mod vinduet.
-
-## Check af tiltag/tilladelser på coronasmitte.dk
-Vores server checker løbende op mod de respektive side på https://coronasmitte.dk og checker at diverse relevante tekster ikke er blevet ændret.
-
-Nedenfor kan du se hvilke sider, og faneblade vi henter data fra.
- 
- * Rød baggrund betyder at teksten forbyder os at have fysiske aktiviteter. 
- * Grøn baggrund betyder at teksten tillader os at have fysiske aktiviteter under visse forudsætninger.
- * Hvis baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os.
-
-*****CORONASMITTE.DK*****
