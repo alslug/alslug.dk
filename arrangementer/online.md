@@ -21,23 +21,18 @@ Der er en integreret chat-funktion i Jitsi, men husk at tage en kopi af det du s
 
 
 ### Download jitsi til din telefon
-<div>
-    <button class="btn btn-link"><a href="https://apps.apple.com/us/app/jitsi-meet/id1165103905" target="_blank" rel="noopener">
-          App Store <img loading="lazy" src="https://jitsi.org/wp-content/uploads/2020/04/download-apple.png" alt="" width="29" height="35" /></a><br />
-    </button>
-</div>
-<div class="col-sm">
-    <button class="btn btn-link"> <a href="https://play.google.com/store/apps/details?id=org.jitsi.meet" target="_blank" rel="noopener">
-        Google Play <img loading="lazy" src="https://jitsi.org/wp-content/uploads/2020/04/35-google-play-icon.png" alt="" width="35" height="35" /></a><br />
-    </button>
-</div>
-<div class="col-sm">
-    <button class="btn btn-link">
-        <a href="https://f-droid.org/en/packages/org.jitsi.meet/" target="_blank" rel="noopener">
-            F-Droid <img loading="lazy" class="alignnone size-full wp-image-1777" src="https://jitsi.org/wp-content/uploads/2020/04/35-FDroid-icon-blue.png" alt="" width="35" height="35" /></a><br />
-    </button>
-</div>
 
+[App Store](https://apps.apple.com/us/app/jitsi-meet/id1165103905)
+!(https://jitsi.org/wp-content/uploads/2020/04/download-apple.png)
+" alt="" width="29" height="35"
+
+[Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)
+!(https://jitsi.org/wp-content/uploads/2020/04/35-google-play-icon.png)
+" alt="" width="35" height="35"
+
+[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)
+!(https://jitsi.org/wp-content/uploads/2020/04/35-FDroid-icon-blue.png
+" alt="" width="35" height="35"
 
 
 
