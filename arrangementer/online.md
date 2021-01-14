@@ -20,7 +20,7 @@ Der er en integreret chat-funktion i Jitsi, men husk at tage en kopi af det du s
 
 
 
-### Download jitsi til din telefon
+### Download jitsi til din telefon eller tablet.
 
 [App Store   ](https://apps.apple.com/us/app/jitsi-meet/id1165103905)         ![App Store  ](https://www.alslug.dk/img/jitsi-download/apple.png)
 &nbsp; &nbsp;
