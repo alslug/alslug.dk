@@ -37,6 +37,9 @@ På mange linux-maskiner findes Pidgin, som kan bruges til rigtigt mange forskel
 
 Vælg IRC, ubuntus servere og rummet **#AlsLUG**, og du er kørende.
 
+Og husk lidt tålmodighed. Forvent ikke øjeblikkelige svar.
+Der er folk som er online 24/7 da maskinen er tændt 24/7, men ikke sidder ved maskinen.
+
 
 
 
