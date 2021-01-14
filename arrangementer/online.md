@@ -13,5 +13,5 @@ Der er oprettet en IRC-kanal på freenode.
 
 > #AlsLUG
 
-Du kan bruger [Freenodes webchat][https://webchat.freenode.org#AlsLUG) eller et hvilket som helst IRC-klient.
+Du kan bruger [Freenodes webchat på https://webchat.freenode.org#AlsLUG](https://webchat.freenode.org#AlsLUG) eller et hvilket som helst IRC-klient.
 På de fleste linux-maskiner findes Pidgin, som kan bruges til rigtigt mange forskellige chat-platforme.
