@@ -22,14 +22,12 @@ Der er en integreret chat-funktion i Jitsi, men husk at tage en kopi af det du s
 
 ### Download jitsi til din telefon
 
-[App Store](https://apps.apple.com/us/app/jitsi-meet/id1165103905)
-![App Store](https://jitsi.org/wp-content/uploads/2020/04/download-apple.png){ height=35 }
+[App Store   ](https://apps.apple.com/us/app/jitsi-meet/id1165103905)         ![App Store  ](https://www.alslug.dk/img/download-jitsi/apple.png)
 &nbsp; &nbsp;
-[Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)
-![Google Play](https://jitsi.org/wp-content/uploads/2020/04/35-google-play-icon.png){ height=35 }
+[Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)  ![Google Play](https://www.alslug.dk/img/download-jitsi/google.png)
 &nbsp; &nbsp;
-[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)
-![F-Droid](https://jitsi.org/wp-content/uploads/2020/04/35-FDroid-icon-blue.png){ height=35 }
+[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)                   ![F-Droid    ](https://www.alslug.dk/img/download-jitsi/dfroid.png)
+
 
 
 
