@@ -12,10 +12,6 @@ Vi har sat et par maskiner op med kameraer op i lokalet, så du kan følge med, 
 
 Du kan deltager både med din browser eller med JitSi-appen på din telefon/tablet.
 
-Vi benytter den offentlige demo-server fra Jitsi, så vi kan ikke garantere for at det virker, ej heller om der er andre som lytter med på forbindelsen.
-
-Der er en integreret chat-funktion i Jitsi, men husk at tage en kopi af det du skal bruge inden du forlader mødet. Det bliver ikke gemt.
-
 
 
 
@@ -38,3 +34,26 @@ Der er oprettet en IRC-kanal på freenode som meget belejligende hedder **#AlsLU
 Du kan bruger [Freenodes webchat](https://webchat.freenode.org#AlsLUG) eller et hvilket som helst IRC-klient.
 
 På de fleste linux-maskiner findes Pidgin, som kan bruges til rigtigt mange forskellige chat-platforme.
+
+
+
+
+
+## Mail
+Alle medlemmer kan skrive til vore [mail-lister](https://www.alslug.dk/medlemskab/indmeldelse.html)
+
+
+
+
+## Sikkerhed
+### Drift
+Vi benytter den offentlige demo-server fra Jitsi, så vi kan ikke garantere for at det virker.
+
+Freenode er et offentligt IRC_netværk, med mange forskellige operatører.
+Vi kan ikke garantere for at det virker, men da det er et distrubueret netværk skulle det være mærkeligt hvis ikke det virker.
+
+### Privacy
+Alle vore online-aktiviteter skel på offentlige platforme, så forvent at der er andre der lytter med på forbindelsen.
+
+### Logging
+Husk at tage en kopi af den integrerede chat-funktion i Jitsi inden du forlader mødet. Når den sidste deltager logger ud, er historikken væk.
