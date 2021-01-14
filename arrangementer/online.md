@@ -26,7 +26,7 @@ Der er en integreret chat-funktion i Jitsi, men husk at tage en kopi af det du s
 &nbsp; &nbsp;
 [Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)  ![Google Play](https://www.alslug.dk/img/jitsi-download/google.png)
 &nbsp; &nbsp;
-[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)                   ![F-Droid    ](https://www.alslug.dk/img/jitsi.download/fdroid.png)
+[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)                   ![F-Droid    ](https://www.alslug.dk/img/jitsi-download/fdroid.png){ height:1em height=1em }
 
 
 
