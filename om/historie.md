@@ -3,8 +3,8 @@
 ## Før stiftende generalforsamling
 
 AlsLUG blev startet af [Steen Suder](https://www.linkedin.com/in/steensuder)
-og (Allan Jensen](https://www.linkedin.com/in/jensendk") 21.dec 1998, og
-Steen [annoncerede det dagen efter i dk.edb.unix](https://groups.google.com/g/dk.edb.unix/c/ttpONWjdlME/m/SrWhu1JBYN8J
+og [Allan Jensen](https://www.linkedin.com/in/jensendk") 21.dec 1998, og
+Steen [annoncerede det dagen efter i dk.edb.unix](https://groups.google.com/g/dk.edb.unix/c/ttpONWjdlME/m/SrWhu1JBYN8J)
 
 ~~~~~~~~~
 Jeg kan med glæde offentligøre at ALSLUG - Als Linux User Group er
