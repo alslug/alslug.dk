@@ -2,11 +2,32 @@
 
 ## Før stiftende generalforsamling
 
-AlsLUG blev startet af <a href="https://www.linkedin.com/in/steensuder">Steen Suder</a>
-og <a href="https://www.linkedin.com/in/jensendk">Allan Jensen</a> 21.dec 1998,og
-Steen <a href='https://groups.google.com/g/dk.edb.unix/c/ttpONWjdlME/m/SrWhu1JBYN8J'>
-annoncerede det dagen efter i dk.edb.unix
-</a>
+AlsLUG blev startet af [Steen Suder](https://www.linkedin.com/in/steensuder)
+og (Allan Jensen](https://www.linkedin.com/in/jensendk") 21.dec 1998, og
+Steen [annoncerede det dagen efter i dk.edb.unix](https://groups.google.com/g/dk.edb.unix/c/ttpONWjdlME/m/SrWhu1JBYN8J
+
+~~~~~~~~~
+Jeg kan med glæde offentligøre at ALSLUG - Als Linux User Group er
+dannet.
+Det indledende etablerende arbejde er gjort her til aften, den 21.
+december.
+
+Vores URL er (indtil videre):
+http://www.kollegie6400.dk/~ALSLUG
+
+På denne side kan du melde dig til vores mailinglister for at blive
+medlem.
+
+ALSLUG er for alle interesserede, men er dannet med sigte på Als,
+Sønderjylland og "omegn".
+
+-- 
+Best regards / Mvh.,
+Steen Suder
+sysadm kollegie6400.dk
+
+"Don't fear Microsoft; fear the ignorance!"
+~~~~~~~~~
 
 Til at starte med var det en mere uformel samling af Linux interesserede, dog ikke mere uformel 
 end at Steen og Allan fik sat en server på nettet med en postliste, og en webside.
@@ -32,8 +53,8 @@ På denne webside skrev Steen
 Der kom et par foredrag og en række hyggemøder op at stå.
 
 Der kom hurtigt flere medlemmer, og på et tidspunkt i starten af 2000, var der nogle stykker,
-bl.a. Flemming Sørensen (fleso), Jesper G. Poulsen og 
-<a href="https://www.linkedin.com/in/martinOtzen">Martin Hansen (mah)</a>, der mente at det 
+bl.a. Flemming Sørensen (fleso), Jesper G. Poulsen og
+[Martin Hansen (mah)](https://www.linkedin.com/in/martinOtzen), der mente at det 
 frivillige arbejde skulle i mere strukturerede rammer. De fornemmede at der sad en del der 
 gerne ville gøre noget for AlsLUG, men at alle sad og ventede på at de andre tog initiativet, 
 bl.a. fordi der ikke var nogen officiel formand, bestyrelse og den slags. Så selvom man ville 
