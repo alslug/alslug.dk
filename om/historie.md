@@ -81,17 +81,12 @@ i bestyrelsen. Og derved være med til at præge ALSLUG i fremtiden.
 /Fleso
 ~~~~~~~~~
 
+
+
+
+
 ## Stiftenden generalforsamling
 AlsLUG blev en officiel forening 3. maj 2000.
-
-## Livet som officiel forening
-
-Aktiviteterne i foreningen er gået op og ned i gennem de mange år den har eksisteret, mest markant er nok
-at aktiviteterne har flyttet fokus fra at være meget teknisk orienterede **mest for nørder**, til 
-at være mere alment orienterede **mest for almindelige brugere** der gerne vil prøve det der Linux noget.
-
-Selvom  aktiviteterne har skiftet en smule fokus er foreningen i skrivende stund mindst lige så aktiv som
-da den blev stiftet
 
 
 
@@ -99,3 +94,15 @@ da den blev stiftet
 
 ## Bestyrelse og generalforsamlinger
 #####IMPORT-GF#####
+
+
+
+
+
+## Livet som officiel forening
+Aktiviteterne i foreningen er gået op og ned i gennem de mange år den har eksisteret, mest markant er nok
+at aktiviteterne har flyttet fokus fra at være meget teknisk orienterede **mest for nørder**, til 
+at være mere alment orienterede **mest for almindelige brugere** der gerne vil prøve det der Linux noget.
+
+Selvom  aktiviteterne har skiftet en smule fokus er foreningen i skrivende stund mindst lige så aktiv som
+da den blev stiftet
