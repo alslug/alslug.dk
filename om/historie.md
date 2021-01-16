@@ -93,3 +93,9 @@ at være mere alment orienterede **mest for almindelige brugere** der gerne vil 
 Selvom  aktiviteterne har skiftet en smule fokus er foreningen i skrivende stund mindst lige så aktiv som
 da den blev stiftet
 
+
+
+
+
+## Bestyrelse og generalforsamlinger
+#####IMPORT-GF#####
