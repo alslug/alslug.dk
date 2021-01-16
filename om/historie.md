@@ -34,21 +34,23 @@ end at Steen og Allan fik sat en server på nettet med en postliste, og en websi
 På denne webside skrev Steen
 
 ~~~~~~~~~
-Jeg synes at vi mangler en Linux User Group her i Sønderjylland. Derfor har jeg 
-taget initiativ til at danne ALSLUG, Alssund Linux User Group.
+Jeg synes at vi mangler en Linux User Group her i
+Sønderjylland. Derfor har jeg  taget initiativ til at
+danne ALSLUG, Alssund Linux User Group.
 
-Det var min tanke at vi engang i starten af det nye år, skal starte møder en
-gang om måneden.\
-Møder med hjælp til nybegyndere, små foredrag, erfaringsudveksling og hvad I
-ellers har lyst til.
+Det var min tanke at vi engang i starten af det nye år, 
+skal starte møder en gang om måneden.
+Møder med hjælp til nybegyndere, små foredrag,
+erfaringsudveksling og hvad I ellers har lyst til.
 
-Det du skal gøre nu, er at melde dig til mailinglisten **alslug-announce** og evt. **alslug-teknik<**,
-så vi kan få noget snak i gang.
+Det du skal gøre nu, er at melde dig til mailinglisten
+**alslug-announce** og evt. **alslug-teknik<**, så vi kan 
+få noget snak i gang.
 
 
-Denne side er lavet for at have en repræsentation på Webbet, og er derfor ikke
-
-videre pæn. Hvis folk vil, kan der ske alt her...
+Denne side er lavet for at have en repræsentation på 
+Webbet, og er derfor ikke videre pæn. Hvis folk vil, 
+kan der ske alt her...
 
 Venlig hilsen,
 Steen Suder
@@ -82,8 +84,8 @@ AlsLUG blev en officiel forening 3. maj 2000.
 ## Livet som officiel forening
 
 Aktiviteterne i foreningen er gået op og ned i gennem de mange år den har eksisteret, mest markant er nok
-at aktiviteterne har flyttet fokus fra at være meget teknisk orienterede <i>mest for nørder</i>, til 
-at være mere alment orienterede <i>mest for almindelige brugere</i> der gerne vil prøve det der Linux noget.
+at aktiviteterne har flyttet fokus fra at være meget teknisk orienterede **mest for nørder**, til 
+at være mere alment orienterede **mest for almindelige brugere** der gerne vil prøve det der Linux noget.
 
 Selvom  aktiviteterne har skiftet en smule fokus er foreningen i skrivende stund mindst lige så aktiv som
 da den blev stiftet
