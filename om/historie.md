@@ -69,11 +69,14 @@ tage initiativ, vidste man ikke hvor man skulle gå hen med det.
 Så dette opslag kom på hjemmesiden:
 
 ~~~~~~~~~
-Vi er nogle stykker, der mener at ALSLUG har behov for at have en bestyrelse,
-der har det overordnede ansvar for den daglige drift af ALSLUG.
-Vi vil derfor afholde stiftende generalforsamling i ALSLUG den 3. maj kl. 19.00
-Reserver aftenen allerede nu og tænk over om du vil være med i bestyrelsen.
-Og derved være med til at præge ALSLUG i fremtiden.
+Vi er nogle stykker, der mener at ALSLUG har behov for at have en
+bestyrelse, der har det overordnede ansvar for den daglige drift
+af ALSLUG.
+
+Vi vil derfor afholde stiftende generalforsamling i ALSLUG den
+3. maj kl. 19.00
+Reserver aftenen allerede nu og tænk over om du vil være med
+i bestyrelsen. Og derved være med til at præge ALSLUG i fremtiden.
 
 /Fleso
 ~~~~~~~~~
