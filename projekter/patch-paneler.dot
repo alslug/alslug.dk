@@ -81,6 +81,12 @@ digraph xxx {
 					{{x|x}|{x|x}||||||||||}
 					|\n\n\n\n|Router:|
 					{WAN|LAN}
+					|\n\n\n\n|BAKC switch:|
+					{
+						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
+						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
+						|<switch_25> 25|<switch_26> 26|27|<switch_fiber> 28|
+					}
 					|\n\n\n\n|Fiber-panel:|
 					{{x|x}|{x|x}||||||||||}
 				   }" ];
@@ -137,5 +143,6 @@ digraph xxx {
                                       }" ];
   bib_patch -> alslug_patch;
   bib_patch:xa_p1_2 -> bib_patch:kom_switch [ color=cyan ];
-  bib_patch:xa_p1_24 -> alslug_patch:24 [ color=green penwidth=10 ];
+  bib_patch:switch_25 -> bib_patch:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=green penwidth=10 ];
+  bib_patch:switch_26 -> bib_patch:router_lan [ color=green penwidth=10 ];
 }
