@@ -1,13 +1,13 @@
 digraph xxx {
   bib_patch [ shape=record label="{
   					{
-						{x|x|x|x}|
-						{x|x|x|x}|
-						{x|x|x|x}|
-						{x|x|x|x}|
+						{x|x|x|x}||
+						{x|x|x|x}||
+						{x|x|x|x}||
+						{x|x|x|x}||
 						{x|x|x|x}
-					}|
-					{x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x}
+					}|||
+					{|x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x||x|}
 					}" ];
   alslug_patch [ shape=record label="{
 					{ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | }|
