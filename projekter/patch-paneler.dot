@@ -129,7 +129,7 @@ digraph xxx {
 					|
 					{{x|x}|{x|x}||||||||||}
 					|
-					{<kom_fiber>{x|x}|<festlokale_fiber>{x|x}||||||||||}
+					{{<kom_fiber>x|x}|{<festlokale_fiber>x|x}||||||||||}
 					|
 					{{x|x}|{x|x}||||||||||}
 					|\n\n\n\n|Router:|
