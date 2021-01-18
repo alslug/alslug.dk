@@ -2,7 +2,7 @@ digraph xxx {
   bib_patch [ shape=record label="{
   					{
 						{HK-P01-S01|HK-P01-S02|HK-P01-S03 x|HK-P01-S04x}|
-						{HK-P01-S05|HK-P01-S06|HK-P01-S07|HK-P01-S08}||
+						{HK-P01-S05|HK-P01-S06|{HK-P01-S07|? Bibliotek ?}|{HK-P01-S08|Bibliotek}}||
 						
 						{HK-P01-S09|HK-P01-S10|HK-P01-S11|HK-P01-S12}|
 						{HK-P01-S13|HK-P01-S14|HK-P01-S15|HK-P01-S16}||
