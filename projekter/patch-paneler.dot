@@ -2,7 +2,7 @@ digraph xxx {
   bib_patch [ shape=record label="{
   					{
 						{HK-P01-S01|HK-P01-S02|HK-P01-S03 x|HK-P01-S04x}|
-						{HK-P01-S05|HK-P01-S06|HK-P01-S07\n? Bibliotek ?|HK-P01-S08\nBibliotek}||
+						{HK-P01-S05|HK-P01-S06|HK-P01-S07\n\n? Bibliotek ?|HK-P01-S08\n\nBibliotek}||
 						
 						{HK-P01-S09|HK-P01-S10|HK-P01-S11|HK-P01-S12}|
 						{HK-P01-S13|HK-P01-S14|HK-P01-S15|HK-P01-S16}||
@@ -14,33 +14,125 @@ digraph xxx {
 						{HK-P01-S29|HK-P01-S30|HK-P01-S31|HK-P01-S32}||
 						
 						{HK-P01-S33|HK-P01-S34 x|HK-P01-S35|HK-P01-S36}|
-						{HK-P01-S37|HK-P01-S38|HK-P01-S39|HK-P01-S40\nInfoskærm stuen}||
+						{HK-P01-S37|HK-P01-S38|HK-P01-S39|HK-P01-S40\n\nSystue\n\nInfoskærm stuen}||
 						
 						{HK-P01-S41|HK-P01-S42|HK-P01-S42|HK-P01-S44}|
 						{HK-P01-S45|HK-P01-S46||}
 					}
-					|||XA/P1/|
-					{|1||<xa_p1_2> 2 T||3||4||5||6||7||8||9||10||11||12||13||14 x||15||16||17\n\nInfoskærm\nDør||18 x||19 x||20 x||21||22||23||<xa_p1_24> 24\n\nLink\ntil\nAlsLUG|}
-					|||
+					|\n\n\n\n|XA/P1/|
+					{|
+							<xa_p1_1> 1
+						||
+							<xa_p1_2> 2 \nKommunen\nteknik
+						||
+							<xa_p1_3> 3
+						||
+							<xa_p1_4> 4
+						||
+							<xa_p1_5> 5
+						||
+							<xa_p1_6> 6
+						||
+							<xa_p1_7> 7
+						||
+							<xa_p1_8> 8
+						||
+							<xa_p1_9> 9
+						||
+							<xa_p1_10> 10
+						||
+							<xa_p1_11> 11
+						||
+							<xa_p1_12> 12
+						||
+							<xa_p1_13> 13
+						||
+							<xa_p1_14> 14 \n\nWIFI\nEDR
+						||
+							<xa_p1_15> 15
+						||
+							<xa_p1_16> 16
+						||
+							<xa_p1_15> 17 \n\nArkiv\nkontor\n\nInfoskærm\nDør
+						||
+							<xa_p1_18> 18 \n\nWIFI\nBOBS
+						||
+							<xa_p1_19> 19 \n\nWIFI\nArkiv
+						||
+							<xa_p1_20> 20 \n\nWIFI\nBiblioteket
+						||
+							<xa_p1_21> 21
+						||
+							<xa_p1_22> 22
+						||
+							<xa_p1_23> 23
+						||
+							<xa_p1_24> 24\n\nLink\ntil\nAlsLUG
+						|}
+					|\n\n\n\n|
 					<kom_switch>Kommunens teknik-switch
-					|||
-					Fiber-paneler:
+					|\n\n\n\n|Fiber-paneler:
 					|
 					{{x|x}|{x|x}||||||||||}
 					|
 					{{x|x}|{x|x}||||||||||}
 					|
 					{{x|x}|{x|x}||||||||||}
-					||||
-					Router:|
-					{WAN|LAN}|
-					{}
-					||||
-					Fiber-panel:|
+					|\n\n\n\n|Router:|
+					{WAN|LAN}
+					|\n\n\n\n|Fiber-panel:|
 					{{x|x}|{x|x}||||||||||}
 				   }" ];
   alslug_patch [ shape=record label="{
-					|{ |1| |2| |3| |4| |5| |6| |7| |8| |9| |10| |11| |12| |13| |14| |15| |16| |17| |18| |19| |20| |21| |22| |23| |<24> 24| }|
+					|{|
+						<1> 1 \n\nKabelkanal\nvindue
+					||
+						<2> 2 \n\nKabelkanal\nvindue
+					||
+						<3> 3 \n\nKabelkanal\nvindue
+					||
+						<4> 4 \n\nKabelkanal\nvindue
+					||
+						<5> 5 \n\nKabelkanal\nvindue
+					||
+						<6> 6 \n\nKabelkanal\nvindue
+					||
+						<7> 7 \n\nKabelkanal\nvindue
+					||
+						<8> 8 \n\nKabelkanal\nvindue
+					||
+						<9> 9 \n\nKabelkanal\nvindue
+					||
+						<10> 10 \n\nKabelkanal\nvindue
+					||
+						<11> 11 \n\nKabelkanal\nvindue
+					||
+						<12> 12 \n\nKabelkanal\nvindue
+					||
+						<13> 13 \n\nKabelkanal\ngang
+					||
+						<14> 14 \n\nKabelkanal\ngang
+					||
+						<15> 15 \n\nKabelkanal\ngang
+					||
+						<16> 16 \n\nKabelkanal\ngang
+					||
+						<17> 17 \n\nKabelkanal\ngang
+					||
+						<18> 18 \n\nKabelkanal\ngang
+					||
+						<19> 19 \n\nKabelkanal\ngang
+					||
+						<20> 20 \n\nKabelkanal\ngang
+					||
+						<21> 21 \n\nWIFI\n?
+					||
+						<22> 22 \n\nWIFI\n?
+					||
+						<23> 23 \n\nWIFI\n?
+					||
+						<24> 24 \n\nLink\ntil\nBiblioteket
+					|}|
                                       }" ];
   bib_patch -> alslug_patch;
   bib_patch:xa_p1_2 -> bib_patch:kom_switch [ color=green ];
