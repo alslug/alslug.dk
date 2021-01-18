@@ -21,11 +21,27 @@ digraph xxx {
 					}
 					|||XA/P1/|
 					{|1||<xa_p1_2> 2 T||3||4||5||6||7||8||9||10||11||12||13||14 x||15||16||17 x||18 x||19 x||20 x||21||22||23||24 x|}
-					|||<kom_switch>Kommunens teknik-switch
+					|||
+					<kom_switch>Kommunens teknik-switch
+					|||
+					Fiber-paneler:
+					|
+					{{x|x}|{x|x}||||||||||}
+					|
+					{{x|x}|{x|x}||||||||||}
+					|
+					{{x|x}|{x|x}||||||||||}
+					||||
+					Router:|
+					{WAN|LAN}|
+					{}
+					||||
+					Fiber-panel:|
+					{{x|x}|{x|x}||||||||||}
 				   }" ];
   alslug_patch [ shape=record label="{
 					|{ |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| |x| }|
                                       }" ];
   bib_patch -> alslug_patch;
-  xa_p1_2 -> bib_patch:kom_switch;
+  bib_patch:xa_p1_2 -> bib_patch:kom_switch [ color=green ];
 }
