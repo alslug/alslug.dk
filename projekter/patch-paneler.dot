@@ -14,7 +14,7 @@ digraph xxx {
 						{HK-P01-S29|HK-P01-S30|HK-P01-S31|HK-P01-S32}||
 						
 						{HK-P01-S33|HK-P01-S34 x|HK-P01-S35|HK-P01-S36}|
-						{HK-P01-S37|HK-P01-S38|HK-P01-S39|HK-P01-S40 x}||
+						{HK-P01-S37|HK-P01-S38|HK-P01-S39|{HK-P01-S40|Infoskærm stuen}}||
 						
 						{HK-P01-S41|HK-P01-S42|HK-P01-S42|HK-P01-S44}|
 						{HK-P01-S45|HK-P01-S46||}
