@@ -1,14 +1,4 @@
 digraph xxx {
-  bib_patch [ shape=record label="{
-  					{
-						{x|x|x|x}|
-						{x|x|x|x}|
-						{x|x|x|x}|
-						{x|x|x|x}|
-						{x|x|x|x}
-					}|
-					{x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x|x}
-					}" ];
   edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
