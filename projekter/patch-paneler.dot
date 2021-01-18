@@ -145,45 +145,45 @@ digraph xxx {
 				}" ];
   alslug_patch [ shape=record label="{
 					|{|
-						<1> 1 \n\nKabelkanal\nvindue
+						<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
 					||
-						<2> 2 \n\nKabelkanal\nvindue
+						<2> 2 \n\nKabel-\nkanal\nvindue\nhøjre
 					||
-						<3> 3 \n\nKabelkanal\nvindue
+						<3> 3 \n\nKabel-\nkanal\nvindue\nhøjre
 					||
-						<4> 4 \n\nKabelkanal\nvindue
+						<4> 4 \n\nKabel-\nkanal\nvindue\nhøjre
 					||
-						<5> 5 \n\nKabelkanal\nvindue
+						<5> 5 \n\nKabel-\nkanal\nvindue\nmidten
 					||
-						<6> 6 \n\nKabelkanal\nvindue
+						<6> 6 \n\nKabel-\nkanal\nvindue\nmidten
 					||
-						<7> 7 \n\nKabelkanal\nvindue
+						<7> 7 \n\nKabel-\nkanal\nvindue\nmidten
 					||
-						<8> 8 \n\nKabelkanal\nvindue
+						<8> 8 \n\nKabel-\nkanal\nvindue\nmidten
 					||
-						<9> 9 \n\nKabelkanal\nvindue
+						<9> 9 \n\nKabel-\nkanal\nvindue\nvenstre
 					||
-						<10> 10 \n\nKabelkanal\nvindue
+						<10> 10 \n\nKabel-\nkanal\nvindue\nvenstre
 					||
-						<11> 11 \n\nKabelkanal\nvindue
+						<11> 11 \n\nKabel-\nkanal\nvindue\nvenstre
 					||
-						<12> 12 \n\nKabelkanal\nvindue
+						<12> 12 \n\nKabel-\nkanal\nvindue\nvenstre
 					||
-						<13> 13 \n\nKabelkanal\ngang
+						<13> 13 \n\nKabel-\nkanal\nkøkken
 					||
-						<14> 14 \n\nKabelkanal\ngang
+						<14> 14 \n\nKabel-\nkanal\nkøkken
 					||
-						<15> 15 \n\nKabelkanal\ngang
+						<15> 15 \n\nKabel-\nkanal\nkøkken
 					||
-						<16> 16 \n\nKabelkanal\ngang
+						<16> 16 \n\nKabel-\nkanal\nkøkken
 					||
-						<17> 17 \n\nKabelkanal\ngang
+						<17> 17 \n\nKabel-\nkanal\nu/ skab
 					||
-						<18> 18 \n\nKabelkanal\ngang
+						<18> 18 \n\nKabel-\nkanal\nu/ skab
 					||
-						<19> 19 \n\nKabelkanal\ngang
+						<19> 19 \n\nKabel-\nkanal\nu/ skab
 					||
-						<20> 20 \n\nKabelkanal\ngang
+						<20> 20 \n\nKabel-\nkanal\nu/ skab
 					||
 						<21> 21 \n\nWIFI\nNydam
 					||
