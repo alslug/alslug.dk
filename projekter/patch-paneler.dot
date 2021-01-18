@@ -2,7 +2,7 @@ digraph xxx {
   bib_patch [ shape=record label="{
   					{
 						{HK-P01-S01|HK-P01-S02|HK-P01-S03 x|HK-P01-S04x}|
-						{HK-P01-S05|HK-P01-S06|{HK-P01-S07|? Bibliotek ?}|{HK-P01-S08|Bibliotek}}||
+						{HK-P01-S05|HK-P01-S06|HK-P01-S07\n? Bibliotek ?|HK-P01-S08\nBibliotek}||
 						
 						{HK-P01-S09|HK-P01-S10|HK-P01-S11|HK-P01-S12}|
 						{HK-P01-S13|HK-P01-S14|HK-P01-S15|HK-P01-S16}||
@@ -14,13 +14,13 @@ digraph xxx {
 						{HK-P01-S29|HK-P01-S30|HK-P01-S31|HK-P01-S32}||
 						
 						{HK-P01-S33|HK-P01-S34 x|HK-P01-S35|HK-P01-S36}|
-						{HK-P01-S37|HK-P01-S38|HK-P01-S39|{HK-P01-S40|Infoskærm stuen}}||
+						{HK-P01-S37|HK-P01-S38|HK-P01-S39|HK-P01-S40\nInfoskærm stuen}||
 						
 						{HK-P01-S41|HK-P01-S42|HK-P01-S42|HK-P01-S44}|
 						{HK-P01-S45|HK-P01-S46||}
 					}
 					|||XA/P1/|
-					{|1||<xa_p1_2> 2 T||3||4||5||6||7||8||9||10||11||12||13||14 x||15||16||17 x||18 x||19 x||20 x||21||22||23||24 x|}
+					{|1||<xa_p1_2> 2 T||3||4||5||6||7||8||9||10||11||12||13||14 x||15||16||17\nInfoskærm\nDør||18 x||19 x||20 x||21||22||23||24 x|}
 					|||
 					<kom_switch>Kommunens teknik-switch
 					|||
