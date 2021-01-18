@@ -1,4 +1,5 @@
 digraph xxx {
+  edge [ dir=none ];
   bib_patch [ shape=record label="{
   					{
 						{HK-P01-S01|HK-P01-S02|HK-P01-S03 x|HK-P01-S04x}|
@@ -135,6 +136,6 @@ digraph xxx {
 					|}|
                                       }" ];
   bib_patch -> alslug_patch;
-  bib_patch:xa_p1_2 -> bib_patch:kom_switch [ color=green ];
-  bib_patch:xa_p1_24 -> alslug_patch:24 [ color=green ];
+  bib_patch:xa_p1_2 -> bib_patch:kom_switch [ color=cyan ];
+  bib_patch:xa_p1_24 -> alslug_patch:24 [ color=green penwidth=10 ];
 }
