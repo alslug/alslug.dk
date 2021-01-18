@@ -22,9 +22,9 @@ digraph xxx {
   bakkensbro_info_stuen	[ label="Bakkensbro \n Info display \n\n på stue-etagen"	];
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
-  alslug_router [ shape=record label="{{<wan_1> wan_1|<wan_2> wan_2}|
+  alslug_router [ shape=record label="{<wan> WAN (100Mbit)|
                                         AlsLUG router
-                                      |{<lan_1000> lan_1000|<lan_100> lan_100|<usb> usb}}" ];
+                                      |<lan> LAN (1Gbit)}" ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
   alslug_backbone_switch [ shape=record label="{<any> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF|{Kabelkanal \n under \n vinuderne
@@ -83,20 +83,19 @@ digraph xxx {
   node [ style=normal ];
   // Internet forbindelser
   stofa_fiber      -> husets_router [ penwidth=1 fillcolor=black style=filled ];
-  mobilt_bredbaand -> alslug_router:wan_2 [ penwidth=1 fillcolor=black style=filled ];
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
   husets_switch_1 -> festlokale_switch -> {     wifi_10 wifi_11                                                        };
   husets_router -> husets_switch_1 -> {                        wifi_12 wifi_13 wifi_14                 wifi_17         };
-  husets_switch_1 -> husets_switch_2 -> { alslug_router                                wifi_15 wifi_16         wifi_18 };
+  husets_switch_1 -> husets_switch_2 -> { alslug_router:wan                            wifi_15 wifi_16         wifi_18 };
 
   husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen };
   husets_switch_2 -> { bakkensbro_info_1_sal info_server };
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
-  husets_switch_2 -> { alslug_router:wan_1 wifi_16 };
+  husets_switch_2 -> { alslug_router:wan wifi_16 };
 
   alslug_wifi_stick [ fillcolor=yellow style=filled ];
 
@@ -104,7 +103,7 @@ digraph xxx {
   edge [ color=green style=solid ];
   node [ shape=point ];
   
-  {alslug_router:lan_1000 alslug_gl_bootserver} -> alslug_backbone_switch:any;
+  {alslug_router:lan alslug_gl_bootserver} -> alslug_backbone_switch:any;
   alslug_backbone_switch:12 -> alslug_hp5180;
   alslug_backbone_switch:11 -> alslug_zebra;
   alslug_backbone_switch:10 -> alslug_projektor_client;
@@ -116,7 +115,6 @@ digraph xxx {
 
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   bord_1 -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
-  alslug_router:usb -> alslug_wifi_stick [ penwidth=1 label="USB" dir=forward ];
   wifi_16 -> AlsLUG_TTIG [ penwidth=1 style=dashed ];
   
   edge [ color=invis ];
