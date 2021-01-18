@@ -97,8 +97,6 @@ digraph xxx {
   edge  [ color=green style=dashed ];
   husets_switch_2 -> { alslug_router:wan wifi_16 };
 
-  alslug_wifi_stick [ fillcolor=yellow style=filled ];
-
   // Interne forbindelser
   edge [ color=green style=solid ];
   node [ shape=point ];
