@@ -1,5 +1,5 @@
 digraph xxx {
-  edge [ dir=none penwidth=10 ];
+  edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
   husets_router [ shape=box label="Husets router" ];
@@ -86,19 +86,23 @@ digraph xxx {
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_switch_1 -> festlokale_switch -> {     wifi_10 wifi_11                                                        };
-  husets_router -> husets_switch_1 -> {                        wifi_12 wifi_13 wifi_14                 wifi_17         };
-  husets_switch_1 -> husets_switch_2 -> { alslug_router:wan                            wifi_15 wifi_16         wifi_18 };
+  husets_switch_1 -> festlokale_switch                                                                                [ penwidth=10 ];
+                     festlokale_switch -> { wifi_10 wifi_11                                                         } [ penwidth=10 label="Fiber" ];
+  husets_router -> husets_switch_1                                                                                    [ penwidth=10 ];
+                   husets_switch_1 -> {                     wifi_12 wifi_13 wifi_14                 wifi_17         } [ penwidth=1 ];
+  husets_switch_1 -> husets_switch_2                                                                                  [ penwidth=1 style=dashed ];
+                     husets_switch_2 -> alslug_router:wan                                                             [ penwidth=1 style=dashed ];
+                     husets_switch_2 -> {                                           wifi_15 wifi_16         wifi_18 } [ penwidth=1 ];
 
-  husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen };
-  husets_switch_2 -> { bakkensbro_info_1_sal info_server };
+  husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen }                                                   [ penwidth=1 ];
+  husets_switch_2 -> { bakkensbro_info_1_sal info_server }                                                            [ penwidth=1 ];
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
-  husets_switch_2 -> { alslug_router:wan wifi_16 };
+  husets_switch_2 -> { alslug_router:wan wifi_16 }                                                                    [ penwidth=1 ];
 
   // Interne forbindelser
-  edge [ color=green style=solid ];
+  edge [ color=green style=solid penwidth=10 ];
   node [ shape=point ];
   
   {alslug_router:lan alslug_gl_bootserver} -> alslug_backbone_switch:any;
