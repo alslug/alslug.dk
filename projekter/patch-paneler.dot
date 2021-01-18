@@ -122,7 +122,7 @@ digraph xxx {
 							<xa_p1_23> 23
 						||
 							<xa_p1_24> 24\n\nLink\ntil\nAlsLUG
-						|}
+					|}
 					|\n\n\n\n|
 					<kom_switch>Kommunens teknik-switch
 					|\n\n\n\n|Fiber-paneler:
@@ -142,7 +142,7 @@ digraph xxx {
 					}
 					|\n\n\n\n|Fiber-panel:|
 					{{x|x}|{x|x}||||||||||}
-				   }" ];
+				}" ];
   alslug_patch [ shape=record label="{
 					|{|
 						<1> 1 \n\nKabelkanal\nvindue
