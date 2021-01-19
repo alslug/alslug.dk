@@ -291,7 +291,7 @@ digraph xxx {
 				|<sfp_1> SFP 1
 				|<sfp_2> SFP 2
 				" ];
-    alslug_switch_bord_v [ shape=record label="AlsLUG\nswitch\npå bord\nved dør:
+    alslug_switch_bord_v [ shape=record label="AlsLUG \n switch \n på bord \n ved dør:
 				|<1> 1
 				|<2> 2
 				|<3> 3
@@ -317,7 +317,7 @@ digraph xxx {
 				|<23> 23
 				|<24> 24
 				" ];
-    alslug_switch_bord_o [ shape=record label="AlsLUG\nswitch\npå bord\nved dør:
+    alslug_switch_bord_o [ shape=record label="AlsLUG \n switch på \n bord ved \n storskærm:
 				|<1> 1
 				|<2> 2
 				|<3> 3
