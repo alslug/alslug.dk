@@ -364,6 +364,18 @@ digraph xxx {
 				|
 				<sfp_2> SFP 2
 				" ];
+    alslug_patch:1 -> alslug_switch_skab:1;
+    alslug_patch:2 -> alslug_switch_skab:2;
+    alslug_patch:3 -> alslug_switch_skab:3;
+    alslug_patch:4 -> alslug_switch_skab:4;
+    alslug_patch:5 -> alslug_switch_skab:5;
+    alslug_patch:6 -> alslug_switch_skab:6;
+    alslug_patch:7 -> alslug_switch_skab:7;
+    alslug_patch:8 -> alslug_switch_skab:8;
+    alslug_patch:9 -> alslug_switch_skab:9;
+    alslug_patch:10 -> alslug_switch_skab:10;
+    alslug_patch:11 -> alslug_switch_skab:11;
+    alslug_patch:12 -> alslug_switch_skab:12;
     alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   }
   xa_p1:02 -> kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_1 [ color=cyan ];
