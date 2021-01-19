@@ -409,9 +409,17 @@ digraph xxx {
 
  
 
+  edge [ color=red penwidth=1 style=dashed ];  
+  subgraph cluster_bib {
+  	label="Udtag i Bibliotek";
+	//node [ shape=point ];
+	hk_p01_s07 -> hk_p01:07;
+	hk_p01_s08 -> hk_p01:08;
+	{}
+  }
   
   node [ color=invis shape=point ];
-  edge [ color=invis penwidth=50 style=dotted ];
+  edge [ color=invis penwidth=50 style=dotted ];  
   bakc_festlokale_switch
 		-> _10 -> _9 ->
   	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> _8 -> bakc_bib_switch -> _7 -> stofa_box -> _6 -> stofa_fiberpanel
