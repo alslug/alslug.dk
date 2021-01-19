@@ -2,7 +2,7 @@ digraph xxx {
   edge [ dir=none ];
   {
     node [ style=filled fillcolor=cyan ];
-    bakc_festsal_switch [ shape=record label="BAKC\Nswitch:
+    bakc_festsal_switch [ shape=record label="BAKC\nswitch:
 				|
 				{x|x}
 				|
@@ -183,7 +183,7 @@ digraph xxx {
 				|
 				<lan> LAN
 				" ];
-    bakc_bib_switch [ shape=record label="BAKC\Nswitch:
+    bakc_bib_switch [ shape=record label="BAKC\nswitch:
 				|
 				{x|x}
 				|
@@ -246,7 +246,7 @@ digraph xxx {
   }
   {
     node [ style=filled fillcolor=violet ];
-    bakc_alslug_switch [ shape=record label="BAKC\Nswitch:
+    bakc_alslug_switch [ shape=record label="BAKC\nswitch:
 				|
 				{x|x}
 				|
@@ -333,32 +333,55 @@ digraph xxx {
 				|
 				<24> 24 \n\nLink\ntil\nBiblioteket
 			      	" ];
-    alslug_switch_skab [ shape=record label="AlsLUG\Nswitch:
+    alslug_switch_skab [ shape=record label="AlsLUG\nswitch:
 				|
-				{<1> 1|<2> 2}
+				<1> 1
 				|
-				{<3> 3|<4> 4}
+				<2> 2
 				|
-				{<5> 5|<6> 6}
+				<3> 3
 				|
-				{<7> 7|<8> 8}
+				<4> 4
 				|
-				{<9> 9|<10> 10}
+				<5> 5
 				|
-				{<11> 11|<12> 12}
+				<6> 6
 				|
-				{<13> 13|<14> 14}
+				<7> 7
 				|
-				{<15> 15|<16> 16}
+				<8> 8
 				|
-				{<17> 17|<18> 18}
+				<9> 9
 				|
-				{<19> 19|<20> 20}
+				<10> 10
 				|
-				{<21> 21|<22> 22}
+				<11> 11
 				|
-				{<23> 23|<24> 24}
+				<12> 12
 				|
+				<13> 13
+				|
+				<14> 14
+				|
+				<15> 15
+				|
+				<16> 16
+				|
+				<17> 17
+				|
+				<18> 18
+				|
+				<19> 19
+				|
+				<20> 20
+				|
+				<21> 21
+				|
+				<22> 22
+				|
+				<23> 23
+				|
+				<24> 24
 				|
 				<sfp_1> SFP 1
 				|
