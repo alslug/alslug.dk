@@ -129,13 +129,12 @@ digraph xxx {
 							<24> 24\n\nLink\ntil\nAlsLUG
 					|}
     				}" ];
+    kommunens_teknikswitch [ shape=record label="{\nKommunens teknik-switch}" ];
     node [ shape=point ];
-    hk_p01 -> _1 -> xa_p1 -> _2 -> bib_skab [ penwidth=50];
+    hk_p01 -> _1 -> xa_p1 -> _2 -> bib_skab -> kommunens_teknikswitch [ penwidth=50];
     bib_skab;
   }
   bib_skab [ shape=record label="{
-					|\n\n\n\n|
-					<kom_switch>Kommunens teknik-switch
 					|\n\n\n\n|Fiber-paneler:
 					|
 					{{x|x}|{x|x}||||||||||}
@@ -208,7 +207,7 @@ digraph xxx {
 					|}|
                                       }" ];
   
-  xa_p1:02 -> bib_skab:kom_switch -> bib_skab:kom_fiber [ color=cyan ];
+  xa_p1:02 -> kommunens_teknikswitch -> bib_skab:kom_fiber [ color=cyan ];
   bib_skab:stofabox_ethernet -> bib_skab:stofabox_fiber [ color=red penwidth=10 ];
 
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
