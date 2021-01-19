@@ -131,7 +131,7 @@ digraph xxx {
     				}" ];
     kommunens_teknikswitch [ shape=record label="{\nKommunens teknik-switch}" ];
     node [ shape=point ];
-    hk_p01 -> _1 -> xa_p1 -> _2 -> bib_skab -> kommunens_teknikswitch [ penwidth=50];
+    hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> bib_skab [ penwidth=50];
     bib_skab;
   }
   bib_skab [ shape=record label="{
