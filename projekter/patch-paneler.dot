@@ -410,10 +410,11 @@ digraph xxx {
  
 
   
+  node [ shape=point color=invis ];
+  edge [ color=black penwidth=50 style=dotted ];
   bakc_festlokale_switch
 		-> _10 -> _9 ->
   	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> _8 -> bakc_bib_switch -> _7 -> stofa_box -> _6 -> stofa_fiberpanel
 		-> _5 -> _4 -> _3 ->
-	bakc_alslug_switch -> _2 -> alslug_patch -> _1 -> alslug_switch_skab -> _0 -> { alslug_switch_bord_v alslug_switch_bord_o }
-		[ color=black penwidth=50 style=dotted ];
+	bakc_alslug_switch -> _2 -> alslug_patch -> _1 -> alslug_switch_skab -> _0 -> _00 -> { alslug_switch_bord_v alslug_switch_bord_o };
 }
