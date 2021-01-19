@@ -143,7 +143,7 @@ digraph xxx {
 					\nBAKC router:|
 					{<wan> WAN|<lan> LAN}
 				}" ];
-    bib_switch [ shape=record label="{\n|BAKC switch:|
+    bib_switch [ shape=record label="{\nBAKC switch:|
 					{
 						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
 						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
