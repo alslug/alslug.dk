@@ -265,9 +265,9 @@ digraph xxx {
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   
   bakc_router:wan -> stofa_box:ethernet [ color=red penwidth=10 ];
-  bakc_router:lan -> a -> bib_switch:26 [ color=red penwidth=10 ];
-  bib_fiberpaneler_1:festlokale_fiber_1 -> b -> bib_switch:fiber_1 [ color=red penwidth=10 ];
-  bib_fiberpaneler_1:festlokale_fiber_2 -> c -> bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bakc_router:lan -> bib_switch:26 [ color=red penwidth=10 ];
+  bib_fiberpaneler_1:festlokale_fiber_1 -> bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bib_fiberpaneler_1:festlokale_fiber_2 -> bib_switch:fiber_1 [ color=red penwidth=10 ];
  
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
