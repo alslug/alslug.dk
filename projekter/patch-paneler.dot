@@ -189,7 +189,7 @@ digraph xxx {
 					|
 						<21> 21 \n\nWIFI\nNydam
 					|
-						<22> 22 \n\nWIFI\n?AlsLUG
+						<22> 22 \n\nWIFI\nAlsLUG
 					|
 						<23> 23 \n\nWIFI\nModelfly
 					|
@@ -202,5 +202,11 @@ digraph xxx {
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   bib_patch:stofabox_ethernet -> bib_patch:route_wan [ color=red penwidth=10 ];
   bib_patch:router_lan -> bib_patch:switch_26 [ color=red penwidth=10 ];
+  wifi_nydam [ shape=triangle style=filled fillcolor=red label="WIFI\nNydam" ];
+  wifi_nydam -> alslug_patch:21 [ color=red penwidth=1 ];
+  wifi_alslug [ shape=triangle style=filled fillcolor=red label="WIFI\nAlsLUG" ];
+  wifi_alslug -> alslug_patch:22 [ color=red penwidth=1 ];
+  wifi_modelfly [ shape=triangle style=filled fillcolor=red label="WIFI\nModelfly" ];
+  wifi_modelfly -> alslug_patch:23 [ color=red penwidth=1 ];
   bib_patch:switch_25 -> bib_patch:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=red penwidth=10 ];
 }
