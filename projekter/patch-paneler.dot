@@ -218,7 +218,7 @@ digraph xxx {
 
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
-    edge [ color=red penwidth=1 ];
+    edge [ color=red penwidth=1 style=dashed ];
     wifi_bakkehuset -> festlokale_switch;  wifi_bakkehuset [ label="WIFI\n10\nBakkehuset" ];
     wifi_festlokale -> festlokale_switch;  wifi_festlokale [ label="WIFI\n11\nFestlokale" ];
 
@@ -233,6 +233,7 @@ digraph xxx {
   }
 
   bib_skab:switch_25 -> xa_p1:24 -> alslug_patch:24 -> alslug_router:wan [ color=red penwidth=10 ];
+  xa_p1:24 -> alslug_patch:24 [ style=dashed ];
   
   bib_skab -> { wifi_alslug wifi_nydam wifi_modelfly} -> alslug_patch -> { alslug_router };
 }
