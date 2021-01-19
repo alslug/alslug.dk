@@ -1,7 +1,8 @@
 digraph xxx {
   edge [ dir=none ];
-  subgraph bi_skab_cluster {
+  subgraph cluster_bi_skab {
   	label = "Skab ved biblioteket";
+	
   	bib_skab;
   }
   bib_skab [ shape=record label="{
@@ -206,13 +207,28 @@ digraph xxx {
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   bib_skab:stofabox_ethernet -> bib_skab:route_wan [ color=red penwidth=10 ];
   bib_skab:router_lan -> bib_skab:switch_26 [ color=red penwidth=10 ];
-  wifi_nydam [ shape=triangle style=filled fillcolor=red label="WIFI\nNydam" ];
-  wifi_nydam -> alslug_patch:21 [ color=red penwidth=1 ];
-  wifi_alslug [ shape=triangle style=filled fillcolor=red label="WIFI\nAlsLUG" ];
-  wifi_alslug -> alslug_patch:22 [ color=red penwidth=1 ];
-  wifi_modelfly [ shape=triangle style=filled fillcolor=red label="WIFI\nModelfly" ];
-  wifi_modelfly -> alslug_patch:23 [ color=red penwidth=1 ];
-  bib_skab:switch_25 -> bib_skab:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=red penwidth=10 ];
+
+  {
+    node [shape=star];
+    edge [];
+    wifi_bobs [ style=filled fillcolor=red label="WIFI\nBOBS" ];
+    wifi_bobs -> bib_skab:xa_p1_14 [ color=red penwidth=1 ];
+    wifi_arkiv [ style=filled fillcolor=red label="WIFI\nArkiv" ];
+    wifi_arkiv -> bib_skab:xa_p1_19 [ color=red penwidth=1 ];
+    wifi_modelfly [ style=filled fillcolor=red label="WIFI\nModelfly" ];
+    wifi_modelfly -> alslug_patch:23 [ color=red penwidth=1 ];
+    wifi_edr [ style=filled fillcolor=red label="WIFI\nEDR" ];
+    wifi_edr -> bib_skab:xa_p1_20 [ color=red penwidth=1 ];
+
+    wifi_bib [ shape=triangle style=filled fillcolor=red label="WIFI\nBibliotek" ];
+    wifi_bib -> bib_skab:xa_p1_14 [ color=red penwidth=1 ];
+    wifi_alslug [ shape=triangle style=filled fillcolor=red label="WIFI\nAlsLUG" ];
+    wifi_alslug -> alslug_patch:22 [ color=red penwidth=1 ];
+    wifi_nydam [ shape=triangle style=filled fillcolor=red label="WIFI\nNydam" ];
+    wifi_nydam -> alslug_patch:21 [ color=red penwidth=1 ];
+  }
+
+bib_skab:switch_25 -> bib_skab:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=red penwidth=10 ];
   
   bib_skab -> { wifi_alslug wifi_nydam wifi_modelfly} -> alslug_patch -> { alslug_router };
 }
