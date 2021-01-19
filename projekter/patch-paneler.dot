@@ -367,6 +367,6 @@ digraph xxx {
 	      			bakc_alslug_switch:25 -> alslug_router:wan [ color=red penwidth=10 ];
   
   bakc_festsal_switch -> 
-  	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bakc_bib_switch -> stofa_box -> stofa_fiberpanel -> 
-	bib_skab -> alslug_patch -> _1 -> bakc_alslug_switch [ color=black penwidth=50 style=dotted ];
+  	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bakc_bib_switch -> stofa_box -> stofa_fiberpanel ->
+	bakc_alslug_switch -> alslug_patch [ color=black penwidth=50 style=dotted ];
 }
