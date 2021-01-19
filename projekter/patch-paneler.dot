@@ -1,5 +1,9 @@
 digraph xxx {
   edge [ dir=none ];
+  subgraph bi_skab_cluster {
+  	label = "Skab ved biblioteket";
+  	bib_skab;
+  }
   bib_skab [ shape=record label="{
   					{
 						{
