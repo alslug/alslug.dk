@@ -445,7 +445,7 @@ digraph xxx {
   }
 
                      stofa_box:fiber -> stofa_fiberpanel:fiber [ color=cyan penwidth=10 ];
-  bakc_router:wan -> stofa_box:ethernet [ color=red penwidth=10 ];
+  bakc_router:wan -> stofa_box:ethernet [ color=red penwidth=1 ];
   bakc_router:lan -> bakc_bib_switch:26 [ color=red penwidth=10 ];
   xa_p1:24 -> bakc_bib_switch:25                                                                    [ color=red penwidth=10 ];
   xa_p1:24 -> alslug_patch:24                                                                       [ color=red penwidth=10 style=dashed ];
@@ -462,6 +462,6 @@ digraph xxx {
 
   
   bakc_festlokale_switch -> 
-  	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bakc_bib_switch -> stofa_box -> stofa_fiberpanel ->
+  	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> _6 -> bakc_bib_switch -> _5 -> stofa_box -> _4 -> stofa_fiberpanel -> _3 ->
 	bakc_alslug_switch -> _2 -> alslug_patch -> _1 -> alslug_switch_skab [ color=black penwidth=50 style=dotted ];
 }
