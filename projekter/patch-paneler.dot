@@ -1,10 +1,7 @@
 digraph xxx {
   edge [ dir=none ];
-//  subgraph cluster_bi_skab
-{
-//  	label = "Skab ved biblioteket";
-	
-	hk_p01 [ shape=record label="{\nHP-P01-sxx Patchpanel|
+  {
+    hk_p01 [ shape=record label="{\nHP-P01-sxx Patchpanel|
   					{
 						{
 							<01> HK-P01-S01|
