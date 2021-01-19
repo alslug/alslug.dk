@@ -76,7 +76,7 @@ digraph xxx {
 							|
 						}
 					}
-				" ];
+				}" ];
   	bib_skab;
   }
   bib_skab [ shape=record label="{
@@ -139,7 +139,7 @@ digraph xxx {
 							HK-P01-S38|
 							HK-P01-S39|
 							HK-P01-S40\n\nSystue\n\nInfoskærm stuen
-						}
+					}
 						||
 						{
 							HK-P01-S41|
@@ -275,6 +275,8 @@ digraph xxx {
 						<24> 24 \n\nLink\ntil\nBiblioteket
 					|}|
                                       }" ];
+  hk_p01 -> bib_skab [ penwidth=50];
+  
   bib_skab:xa_p1_2 -> bib_skab:kom_switch -> bib_skab:kom_fiber [ color=cyan ];
   bib_skab:stofabox_ethernet -> bib_skab:stofabox_fiber [ color=red penwidth=10 ];
 
