@@ -142,16 +142,17 @@ digraph xxx {
 					\nBAKC router:|
 					{<wan> WAN|<lan> LAN}
 				}" ];
-    node [ shape=point ];
-    hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> _3 -> bib_fiberpaneler_1 -> _4 -> bakc_router -> _5 -> bib_skab [ penwidth=50 style=dotted ];
-  }
-  bib_skab [ shape=record label="{
-					|\n\n\n\n|BAKC switch:|
+    bib_switch [ shape=record label="{\n|BAKC switch:|
 					{
 						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
 						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
-						|<switch_25> 25|<switch_26> 26|27|<switch_fiber> 28|
+						|<25> 25|<26> 26||<fiber_1> 27|<fiber_2> 28|
 					}
+				}" ];
+    node [ shape=point ];
+    hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> _3 -> bib_fiberpaneler_1 -> _4 -> bakc_router -> _5 -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
+  }
+  bib_skab [ shape=record label="{
 					|\n\n\n\n|Fiber-box:|
 					{<stofabox_fiber> fiber|<stofabox_ethernet> Ethernet}
 					|\n\n\n\n|Fiber-panel:|
@@ -216,8 +217,10 @@ digraph xxx {
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   
   bib_skab:stofabox_ethernet -> bakc_router:wan [ color=red penwidth=10 ];
-  bakc_router:lan -> bib_skab:switch_26 [ color=red penwidth=10 ];
-
+  bakc_router:lan -> bib_switch:26 [ color=red penwidth=10 ];
+  bib_fiberpaneler_1:festlokale_fiber_1 -> bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bib_fiberpaneler_1:festlokale_fiber_2 -> bib_switch:fiber_1 [ color=red penwidth=10 ];
+ 
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
     edge [ color=red penwidth=1 style=dashed ];
