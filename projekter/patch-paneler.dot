@@ -1,7 +1,7 @@
 digraph xxx {
   edge [ dir=none ];
   {
-    node [ color=yellow ];
+    node [ style=filled fillcolor=yellow ];
     hk_p01 [ shape=record label="{\nHP-P01-sxx Patchpanel|
   					{
 						{
@@ -151,9 +151,6 @@ digraph xxx {
 					}
 				}" ];
     node [ shape=point ];
-    hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
-    hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
-    hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
     hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
   }
   bib_skab [ shape=record label="{
