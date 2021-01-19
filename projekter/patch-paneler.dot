@@ -408,15 +408,13 @@ digraph xxx {
                                     bib_fiberpaneler_1:festlokale_fiber -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 label="fiber" ];
 
  
-  subgraph cluster_udtag_i_bibliotek {
-    node [ shape=point ];
-    label="Udtag i Bibliotek";
-    bib_stik_top;
-    bib_stik_bund;
-  }
   edge [ color=red penwidth=1 style=dashed ];  
-  bib_stik_top -> hk_p01:07;
-  bib_stik_bund -> hk_p01:08;
+  node [ shape=point ];
+
+  subgraph cluster_udtag_i_bibliotek { label="Udtag i Bibliotek"; bib_stik_top;    bib_stik_bund;    }  bib_stik_top    -> hk_p01:07; bib_stik_bund    -> hk_p01:08;
+  subgraph cluster_udtag_arkiv1      { label="Udtag i Arkiv1";    arkiv1_stik_top; arkiv1_stik_bund; }  arkiv1_stik_top -> hk_p01:03; arkiv1_stik_bund -> hk_p01:04;
+  subgraph cluster_udtag_arkiv2      { label="Udtag i Arkiv2";    arkiv2_stik_top; arkiv2_stik_bund; }  arkiv2_stik_top -> hk_p01:33; arkiv1_stik_bund -> hk_p01:34;
+  subgraph cluster_udtag_systue      { label="Udtag i Svstue";    systue_stik_top; systue_stik_bund; }  systue_stik_top -> hk_p01:39; systue_stik_bund -> hk_p01:40;
 
   node [ color=invis shape=point ];
   edge [ color=invis penwidth=50 style=dotted ];  
