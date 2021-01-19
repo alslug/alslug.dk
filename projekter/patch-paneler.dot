@@ -209,7 +209,8 @@ digraph xxx {
 					|}|
                                       }" ];
   
-  xa_p1:02 -> kommunens_teknikswitch -> { bib_fiberpaneler_1:kommune_fiber_1 bib_fiberpaneler_1:kommune_fiber_2 } [ color=cyan ];
+  xa_p1:02 -> kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_1 [ color=cyan ];
+              kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_2 [ color=cyan ];
   bib_skab:stofabox_ethernet -> bib_skab:stofabox_fiber [ color=red penwidth=10 ];
 
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
