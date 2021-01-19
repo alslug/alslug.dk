@@ -196,12 +196,11 @@ digraph xxx {
 						<24> 24 \n\nLink\ntil\nBiblioteket
 					|}|
                                       }" ];
+  bib_patch:xa_p1_2 -> bib_patch:kom_switch -> bib_patch:kom_fiber [ color=cyan ];
+  bib_patch:stofabox_ethernet -> bib_patch:stofabox_fiber [ color=red penwidth=10 ];
+
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   bib_patch:stofabox_ethernet -> bib_patch:route_wan [ color=red penwidth=10 ];
   bib_patch:router_lan -> bib_patch:switch_26 [ color=red penwidth=10 ];
   bib_patch:switch_25 -> bib_patch:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=red penwidth=10 ];
-
-  bib_patch -> alslug_patch;
-  bib_patch:xa_p1_2 -> bib_patch:kom_switch -> bib_patch:kom_fiber [ color=cyan ];
-  bib_patch:stofabox_ethernet -> bib_patch:stofabox_fiber [ color=red penwidth=10 ];
 }
