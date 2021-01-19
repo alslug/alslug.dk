@@ -283,57 +283,56 @@ digraph xxx {
 				|
 				<fiber_2> 28
 				" ];
-    alslug_patch [ shape=record label="{
-					|{|
-						<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
-					|
-						<2> 2 \n\nKabel-\nkanal\nvindue\nhøjre
-					|
-						<3> 3 \n\nKabel-\nkanal\nvindue\nhøjre
-					|
-						<4> 4 \n\nKabel-\nkanal\nvindue\nhøjre
-					|
-						<5> 5 \n\nKabel-\nkanal\nvindue\nmidten
-					|
-						<6> 6 \n\nKabel-\nkanal\nvindue\nmidten
-					|
-						<7> 7 \n\nKabel-\nkanal\nvindue\nmidten
-					|
-						<8> 8 \n\nKabel-\nkanal\nvindue\nmidten
-					|
-						<9> 9 \n\nKabel-\nkanal\nvindue\nvenstre
-					|
-						<10> 10 \n\nKabel-\nkanal\nvindue\nvenstre
-					|
-						<11> 11 \n\nKabel-\nkanal\nvindue\nvenstre
-					|
-						<12> 12 \n\nKabel-\nkanal\nvindue\nvenstre
-					|
-						<13> 13 \n\nKabel-\nkanal\nkøkken
-					|
-						<14> 14 \n\nKabel-\nkanal\nkøkken
-					|
-						<15> 15 \n\nKabel-\nkanal\nkøkken
-					|
-						<16> 16 \n\nKabel-\nkanal\nkøkken
-					|
-						<17> 17 \n\nKabel-\nkanal\nu/ skab
-					|
-						<18> 18 \n\nKabel-\nkanal\nu/ skab
-					|
-						<19> 19 \n\nKabel-\nkanal\nu/ skab
-					|
-						<20> 20 \n\nKabel-\nkanal\nu/ skab
-					|
-						<21> 21 \n\nWIFI\nNydam
-					|
-						<22> 22 \n\nWIFI\nAlsLUG
-					|
-						<23> 23 \n\nWIFI\nModelfly
-					|
-						<24> 24 \n\nLink\ntil\nBiblioteket
-					|}|
-                                      }" ];
+    alslug_patch [ shape=record label="AlsLUG\nPatch\panek
+    				|
+				<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
+				|
+				<2> 2 \n\nKabel-\nkanal\nvindue\nhøjre
+				|
+				<3> 3 \n\nKabel-\nkanal\nvindue\nhøjre
+				|
+				<4> 4 \n\nKabel-\nkanal\nvindue\nhøjre
+				|
+				<5> 5 \n\nKabel-\nkanal\nvindue\nmidten
+				|
+				<6> 6 \n\nKabel-\nkanal\nvindue\nmidten
+				|
+				<7> 7 \n\nKabel-\nkanal\nvindue\nmidten
+				|
+				<8> 8 \n\nKabel-\nkanal\nvindue\nmidten
+				|
+				<9> 9 \n\nKabel-\nkanal\nvindue\nvenstre
+				|
+				<10> 10 \n\nKabel-\nkanal\nvindue\nvenstre
+				|
+				<11> 11 \n\nKabel-\nkanal\nvindue\nvenstre
+				|
+				<12> 12 \n\nKabel-\nkanal\nvindue\nvenstre
+				|
+				<13> 13 \n\nKabel-\nkanal\nkøkken
+				|
+				<14> 14 \n\nKabel-\nkanal\nkøkken
+				|
+				<15> 15 \n\nKabel-\nkanal\nkøkken
+				|
+				<16> 16 \n\nKabel-\nkanal\nkøkken
+				|
+				<17> 17 \n\nKabel-\nkanal\nu/ skab
+				|
+				<18> 18 \n\nKabel-\nkanal\nu/ skab
+				|
+				<19> 19 \n\nKabel-\nkanal\nu/ skab
+				|
+				<20> 20 \n\nKabel-\nkanal\nu/ skab
+				|
+				<21> 21 \n\nWIFI\nNydam
+				|
+				<22> 22 \n\nWIFI\nAlsLUG
+				|
+				<23> 23 \n\nWIFI\nModelfly
+				|
+				<24> 24 \n\nLink\ntil\nBiblioteket
+			      	" ];
     alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   }
   xa_p1:02 -> kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_1 [ color=cyan ];
