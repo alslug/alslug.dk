@@ -408,17 +408,17 @@ digraph xxx {
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
     edge [ color=red penwidth=1 style=dashed ];
-                wifi_bakkehuset -> festlokale_switch;  wifi_bakkehuset [ label="WIFI\n10\nBakkehuset" ];
-                wifi_festlokale -> festlokale_switch;  wifi_festlokale [ label="WIFI\n11\nFestlokale" ];
+                wifi_bakkehuset -> bakc_festlokale_switch:1;  wifi_bakkehuset [ label="WIFI\n10\nBakkehuset" ];
+                wifi_festlokale -> bakc_festlokale_switch:3;  wifi_festlokale [ label="WIFI\n11\nFestlokale" ];
 
-    xa_p1:18 -> wifi_bobs;                             wifi_bobs      [ label="WIFI\n12\nBOBS"       ];
-    xa_p1:19 -> wifi_arkiv;                            wifi_arkiv     [ label="WIFI\n13\nArkiv"      ];
-                wifi_modelfly   -> alslug_patch:23;    wifi_modelfly  [ label="WIFI\n14\nModelfly"   ];
-    xa_p1:14 -> wifi_edr;                              wifi_edr       [ label="WIFI\n15\nEDR"        ];
+    xa_p1:18 -> wifi_bobs;                                    wifi_bobs       [ label="WIFI\n12\nBOBS"       ];
+    xa_p1:19 -> wifi_arkiv;                                   wifi_arkiv      [ label="WIFI\n13\nArkiv"      ];
+                wifi_modelfly   -> alslug_patch:23;           wifi_modelfly   [ label="WIFI\n14\nModelfly"   ];
+    xa_p1:14 -> wifi_edr;                                     wifi_edr        [ label="WIFI\n15\nEDR"        ];
 
-    xa_p1:20 -> wifi_bib;                              wifi_bib       [ label="WIFI\n16\nBibliotek"  ];
-                wifi_alslug     -> alslug_patch:22;    wifi_alslug    [ label="WIFI\n17\nAlsLUG"     ];
-                wifi_nydam      -> alslug_patch:21;    wifi_nydam     [ label="WIFI\n18\nNydam"      ];
+    xa_p1:20 -> wifi_bib;                                     wifi_bib        [ label="WIFI\n16\nBibliotek"  ];
+                wifi_alslug     -> alslug_patch:22;           wifi_alslug     [ label="WIFI\n17\nAlsLUG"     ];
+                wifi_nydam      -> alslug_patch:21;           wifi_nydam      [ label="WIFI\n18\nNydam"      ];
   }
 
                      stofa_box:fiber -> stofa_fiberpanel:fiber [ color=cyan penwidth=10 ];
@@ -430,8 +430,11 @@ digraph xxx {
 	      			bakc_alslug_switch:25 -> alslug_router:wan                          [ color=red penwidth=1 ];
                                                          alslug_router:lan -> alslug_switch_skab:24 [ color=red penwidth=10 ];
   
-  bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
-  bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bakc_festsal_switch:feber_1 -> bib_fiberpaneler_1:festlokale_fiber_1                            [ color=red penwidth=10 style=dashed ];
+  bakc_festsal_switch:feber_1 -> bib_fiberpaneler_1:festlokale_fiber_2                            [ color=red penwidth=10 style=dashed ];
+                                 bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+                                 bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+
  
 
   
