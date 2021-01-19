@@ -135,7 +135,7 @@ digraph xxx {
 					|
 					{{x|x}|{x|x}||||||||||}
 					|
-					{{<kommune_fiber_1>x|<kommune_fiber_1>}|{<festlokale_fiber_1>x|<festlokale_fiber_2> x}||||||||||}
+					{{<kommune_fiber_1> x|<kommune_fiber_2> x}|{<festlokale_fiber_1> x|<festlokale_fiber_2> x}||||||||||}
 					|
 					{{x|x}|{x|x}||||||||||}
     				}" ];
