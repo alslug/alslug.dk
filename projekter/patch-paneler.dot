@@ -3,64 +3,36 @@ digraph xxx {
   {
     node [ style=filled fillcolor=cyan ];
     bakc_festlokale_switch [ shape=record label="BAKC\nswitch:
+				|<1> 1
+				|<2> 2
+				|<3> 3
+				|<4> 4
+				|<5> 5
+				|<6> 6
+				|<7> 7
+				|<8> 8
+				|<9> 9
+				|<10> 10
+				|<11> 11
+				|<12> 12
+				|<13> 13
+				|<14> 14
+				|<15> 15
+				|<16> 16
+				|<17> 17
+				|<18> 18
+				|<19> 19
+				|<20> 20
+				|<21> 21
+				|<22> 22
+				|<23> 23
+				|<24> 24
 				|
-				<1> 1
+				|<25> 25
+				|<26> 26
 				|
-				<2> 2
-				|
-				<3> 3
-				|
-				<4> 4
-				|
-				<5> 5
-				|
-				<6> 6
-				|
-				<7> 7
-				|
-				<8> 8
-				|
-				<9> 9
-				|
-				<10> 10
-				|
-				<11> 11
-				|
-				<12> 12
-				|
-				<13> 13
-				|
-				<14> 14
-				|
-				<15> 15
-				|
-				<16> 16
-				|
-				<17> 17
-				|
-				<18> 18
-				|
-				<19> 19
-				|
-				<20> 20
-				|
-				<21> 21
-				|
-				<22> 22
-				|
-				<23> 23
-				|
-				<24> 24
-				|
-				|
-				<25> 25
-				|
-				<26> 26
-				|
-				|
-				<fiber_1> 27
-				|
-				<fiber_2> 28
+				|<fiber_1> 27
+				|<fiber_2> 28
 				" ];
   }
   {
@@ -140,114 +112,79 @@ digraph xxx {
 					}
 				}" ];
     xa_p1 [ shape=record label="XA/P1/xx\nPatchpanel:
-    				|
-				<01> 1
-				|
-				<02> 2 \nKommunen\nteknik
-				|
-				<03> 3
-				|
-				<04> 4
-				|
-				<05> 5
-				|
-				<06> 6
-				|
-				<07> 7
-				|
-				<08> 8
-				|
-				<09> 9
-				|
-				<10> 10
-				|
-				<11> 11
-				|
-				<12> 12
-				|
-				<13> 13
-				|
-				<14> 14 \n\nWIFI\nEDR
-				|
-				<15> 15
-				|
-				<16> 16
-				|
-				<17> 17 \n\nArkiv\nkontor\n\nInfoskærm\nDør
-				|
-				<18> 18 \n\nWIFI\nBOBS
-				|
-				<19> 19 \n\nWIFI\nArkiv
-				|
-				<20> 20 \n\nWIFI\nBiblioteket
-				|
-				<21> 21
-				|
-				<22> 22
-				|
-				<23> 23
-				|
-				<24> 24\n\nLink\ntil\nAlsLUG
+    				|<01> 1
+				|<02> 2 \nKommunen\nteknik
+				|<03> 3
+				|<04> 4
+				|<05> 5
+				|<06> 6
+				|<07> 7
+				|<08> 8
+				|<09> 9
+				|<10> 10
+				|<11> 11
+				|<12> 12
+				|<13> 13
+				|<14> 14 \n\nWIFI\nEDR
+				|<15> 15
+				|<16> 16
+				|<17> 17 \n\nArkiv\nkontor\n\nInfoskærm\nDør
+				|<18> 18 \n\nWIFI\nBOBS
+				|<19> 19 \n\nWIFI\nArkiv
+				|<20> 20 \n\nWIFI\nBiblioteket
+				|<21> 21
+				|<22> 22
+				|<23> 23
+				|<24> 24\n\nLink\ntil\nAlsLUG
     				" ];
-    bib_fiberpaneler_1 [ shape=record label="{
-					\nFiber-paneler:
-					|
-					{{x|x}|{x|x}||||||||||}
-					|
-					{{<kommune_fiber_1> x|<kommune_fiber_2> x}|{<festlokale_fiber_1> x|<festlokale_fiber_2> x}||||||||||}
-					|
-					{{x|x}|{x|x}||||||||||}
+    bib_fiberpaneler_1 [ shape=record label="Fiber-paneler:|{
+				{x|x||||||||||}
+				|
+				{<kommune_fiber> x|<festlokale_fiber||||||||||}
+				|
+				{x|x||||||||||}
     				}" ];
     kommunens_teknikswitch [ shape=box label="Kommunens\nteknik-switch" ];
 
     bakc_router [ shape=record label="BAKC\nrouter:
-    				|
-				<wan> WAN
-				|
-				<lan> LAN
+    				|<wan> WAN
+				|<lan> LAN
 				" ];
     bakc_bib_switch [ shape=record label="BAKC\nswitch:
+				|<1> 1
+				|<2> 2
+				|<3> 3
+				|<4> 4
+				|<5> 5
+				|<6> 6
+				|<7> 7
+				|<8> 8
+				|<9> 9
+				|<10> 10
+				|<11> 11
+				|<12> 12
+				|<13> 13
+				|<14> 14
+				|<15> 15
+				|<16> 16
+				|<17> 17
+				|<18> 18
+				|<19> 19
+				|<20> 20
+				|<21> 21
+				|<22> 22
+				|<23> 23
+				|<24> 24
 				|
-				{x|x}
+				|<25> 25
+				|<26> 26
 				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				|
-				<25> 25
-				|
-				<26> 26
-				|
-				|
-				<fiber_1> 27
-				|
-				<fiber_2> 28
+				|<fiber_1> 27
+				|<fiber_2> 28
 				" ];
-    stofa_box [ shape=record label="Fiber-box:
-    				|
-				<fiber> fiber
-				|
-				<ethernet> Ethernet
+    stofa_box [ shape=record label="Stofa\nfiber\nbox:
+    				|<fiber> fiber
+				|<ethernet> Ethernet
 				" ];
     stofa_fiberpanel [ shape=record label="Fiber-panel:
     				|
@@ -270,145 +207,91 @@ digraph xxx {
   {
     node [ style=filled fillcolor=violet ];
     bakc_alslug_switch [ shape=record label="BAKC\nswitch:
+				|<1> 1
+				|<2> 2
+				|<3> 3
+				|<4> 4
+				|<5> 5
+				|<6> 6
+				|<7> 7
+				|<8> 8
+				|<9> 9
+				|<10> 10
+				|<11> 11
+				|<12> 12
+				|<13> 13
+				|<14> 14
+				|<15> 15
+				|<16> 16
+				|<17> 17
+				|<18> 18
+				|<19> 19
+				|<20> 20
+				|<21> 21
+				|<22> 22
+				|<23> 23
+				|<24> 24
 				|
-				{x|x}
+				|<25> 25
+				|<26> 26
 				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				{x|x}
-				|
-				|
-				<25> 25
-				|
-				<26> 26
-				|
-				|
-				<fiber_1> 27
-				|
-				<fiber_2> 28
+				|<fiber_1> 27
+				|<fiber_2> 28
 				" ];
     alslug_patch [ shape=record label="AlsLUG\nPatch\panek
-    				|
-				<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
-				|
-				<2> 2 \n\nKabel-\nkanal\nvindue\nhøjre
-				|
-				<3> 3 \n\nKabel-\nkanal\nvindue\nhøjre
-				|
-				<4> 4 \n\nKabel-\nkanal\nvindue\nhøjre
-				|
-				<5> 5 \n\nKabel-\nkanal\nvindue\nmidten
-				|
-				<6> 6 \n\nKabel-\nkanal\nvindue\nmidten
-				|
-				<7> 7 \n\nKabel-\nkanal\nvindue\nmidten
-				|
-				<8> 8 \n\nKabel-\nkanal\nvindue\nmidten
-				|
-				<9> 9 \n\nKabel-\nkanal\nvindue\nvenstre
-				|
-				<10> 10 \n\nKabel-\nkanal\nvindue\nvenstre
-				|
-				<11> 11 \n\nKabel-\nkanal\nvindue\nvenstre
-				|
-				<12> 12 \n\nKabel-\nkanal\nvindue\nvenstre
-				|
-				<13> 13 \n\nKabel-\nkanal\nkøkken
-				|
-				<14> 14 \n\nKabel-\nkanal\nkøkken
-				|
-				<15> 15 \n\nKabel-\nkanal\nkøkken
-				|
-				<16> 16 \n\nKabel-\nkanal\nkøkken
-				|
-				<17> 17 \n\nKabel-\nkanal\nu/ skab
-				|
-				<18> 18 \n\nKabel-\nkanal\nu/ skab
-				|
-				<19> 19 \n\nKabel-\nkanal\nu/ skab
-				|
-				<20> 20 \n\nKabel-\nkanal\nu/ skab
-				|
-				<21> 21 \n\nWIFI\nNydam
-				|
-				<22> 22 \n\nWIFI\nAlsLUG
-				|
-				<23> 23 \n\nWIFI\nModelfly
-				|
-				<24> 24 \n\nLink\ntil\nBiblioteket
+    				|<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
+				|<2> 2 \n\nKabel-\nkanal\nvindue\nhøjre
+				|<3> 3 \n\nKabel-\nkanal\nvindue\nhøjre
+				|<4> 4 \n\nKabel-\nkanal\nvindue\nhøjre
+				|<5> 5 \n\nKabel-\nkanal\nvindue\nmidten
+				|<6> 6 \n\nKabel-\nkanal\nvindue\nmidten
+				|<7> 7 \n\nKabel-\nkanal\nvindue\nmidten
+				|<8> 8 \n\nKabel-\nkanal\nvindue\nmidten
+				|<9> 9 \n\nKabel-\nkanal\nvindue\nvenstre
+				|<10> 10 \n\nKabel-\nkanal\nvindue\nvenstre
+				|<11> 11 \n\nKabel-\nkanal\nvindue\nvenstre
+				|<12> 12 \n\nKabel-\nkanal\nvindue\nvenstre
+				|<13> 13 \n\nKabel-\nkanal\nkøkken
+				|<14> 14 \n\nKabel-\nkanal\nkøkken
+				|<15> 15 \n\nKabel-\nkanal\nkøkken
+				|<16> 16 \n\nKabel-\nkanal\nkøkken
+				|<17> 17 \n\nKabel-\nkanal\nu/ skab
+				|<18> 18 \n\nKabel-\nkanal\nu/ skab
+				|<19> 19 \n\nKabel-\nkanal\nu/ skab
+				|<20> 20 \n\nKabel-\nkanal\nu/ skab
+				|<21> 21 \n\nWIFI\nNydam
+				|<22> 22 \n\nWIFI\nAlsLUG
+				|<23> 23 \n\nWIFI\nModelfly
+				|<24> 24 \n\nLink\ntil\nBiblioteket
 			      	" ];
     alslug_switch_skab [ shape=record label="AlsLUG\nswitch:
+				|<1> 1
+				|<2> 2
+				|<3> 3
+				|<4> 4
+				|<5> 5
+				|<6> 6
+				|<7> 7
+				|<8> 8
+				|<9> 9
+				|<10> 10
+				|<11> 11
+				|<12> 12
+				|<13> 13
+				|<14> 14
+				|<15> 15
+				|<16> 16
+				|<17> 17
+				|<18> 18
+				|<19> 19
+				|<20> 20
+				|<21> 21
+				|<22> 22
+				|<23> 23
+				|<24> 24
 				|
-				<1> 1
-				|
-				<2> 2
-				|
-				<3> 3
-				|
-				<4> 4
-				|
-				<5> 5
-				|
-				<6> 6
-				|
-				<7> 7
-				|
-				<8> 8
-				|
-				<9> 9
-				|
-				<10> 10
-				|
-				<11> 11
-				|
-				<12> 12
-				|
-				<13> 13
-				|
-				<14> 14
-				|
-				<15> 15
-				|
-				<16> 16
-				|
-				<17> 17
-				|
-				<18> 18
-				|
-				<19> 19
-				|
-				<20> 20
-				|
-				<21> 21
-				|
-				<22> 22
-				|
-				<23> 23
-				|
-				<24> 24
-				|
-				<sfp_1> SFP 1
-				|
-				<sfp_2> SFP 2
+				|<sfp_1> SFP 1
+				|<sfp_2> SFP 2
 				" ];
     edge [ color=red ];
     alslug_patch:1 -> alslug_switch_skab:1;
@@ -425,8 +308,8 @@ digraph xxx {
     alslug_patch:12 -> alslug_switch_skab:12;
     alslug_router [ shape=record label="AlsLUG\nrouter:|{<wan> WAN|<lan> LAN}" ];
   }
-  xa_p1:02 -> kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_1 [ color=cyan ];
-              kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_2 [ color=cyan ];
+  xa_p1:02 -> kommunens_teknikswitch                                     [ color=cyan ];
+              kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber [ color=cyan label="fiber" ];
   
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
@@ -444,7 +327,7 @@ digraph xxx {
                 wifi_nydam      -> alslug_patch:21;           wifi_nydam      [ label="WIFI\n18\nNydam"      ];
   }
 
-                     stofa_box:fiber -> stofa_fiberpanel:fiber [ color=cyan penwidth=10 ];
+                     stofa_box:fiber -> stofa_fiberpanel:fiber [ color=cyan penwidth=10 label="fiber" ];
   bakc_router:wan -> stofa_box:ethernet [ color=red penwidth=1 ];
   bakc_router:lan -> bakc_bib_switch:26 [ color=red penwidth=10 ];
   xa_p1:24 -> bakc_bib_switch:25                                                                    [ color=red penwidth=10 ];
@@ -453,10 +336,8 @@ digraph xxx {
 	      			bakc_alslug_switch:25 -> alslug_router:wan                          [ color=red penwidth=1 ];
                                                          alslug_router:lan -> alslug_switch_skab:24 [ color=red penwidth=10 ];
   
-  bakc_festlokale_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_1                            [ color=red penwidth=10 style=dashed ];
-  bakc_festlokale_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_2                            [ color=red penwidth=10 style=dashed ];
-                                    bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
-                                    bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bakc_festlokale_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber                            [ color=red penwidth=10 label="fiber" style=dashed ];
+                                    bib_fiberpaneler_1:festlokale_fiber -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 label="fiber" ];
 
  
 
