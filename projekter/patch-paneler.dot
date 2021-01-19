@@ -3,6 +3,80 @@ digraph xxx {
   subgraph cluster_bi_skab {
   	label = "Skab ved biblioteket";
 	
+	hk_p01 [ shape=record label="{\nHP-P01-sxx Patchpanel|
+  					{
+						{
+							<01> HK-P01-S01|
+							<02> HK-P01-S02|
+							<03> HK-P01-S03 x|
+							<04> HK-P01-S04x
+						}|{
+							<05> HK-P01-S05|
+							<06> HK-P01-S06|
+							<07> HK-P01-S07\n\n? Bibliotek ?|
+							<08> HK-P01-S08\n\nBibliotek
+						}
+						||
+						{
+							<09> HK-P01-S09|
+							<10> HK-P01-S10|
+							<11> HK-P01-S11|
+							<12> HK-P01-S12
+						}|{
+							<13> HK-P01-S13|
+							<14> HK-P01-S14|
+							<15> HK-P01-S15|
+							<16> HK-P01-S16
+						}
+						||
+						{
+							<17> HK-P01-S17|
+							<18> HK-P01-S18|
+							<19> HK-P01-S19|
+							<20> HK-P01-S20
+						}|{
+							<21> HK-P01-S21|
+							<22> HK-P01-S22|
+							<23> HK-P01-S23|
+							<24> HK-P01-S24
+						}
+						||
+						{
+							<25> HK-P01-S25|
+							<26> HK-P01-S26|
+							<27> HK-P01-S27|
+							<28> HK-P01-S28
+						}|{
+							<29> HK-P01-S29|
+							<30> HK-P01-S30|
+							<31> HK-P01-S31|
+							<32> HK-P01-S32
+						}
+						||
+						{
+							<33> HK-P01-S33|
+							<34> HK-P01-S34 x|
+							<35> HK-P01-S35|
+							<36> HK-P01-S36
+						}|{
+							<37> HK-P01-S37|
+							<38> HK-P01-S38|
+							<39> HK-P01-S39|
+							<40> HK-P01-S40\n\nSystue\n\nInfoskærm stuen
+						}
+						||
+						{
+							<41> HK-P01-S41|
+							<42> HK-P01-S42|
+							<43> HK-P01-S42|
+							<44> HK-P01-S44
+						}|{
+							<45> HK-P01-S45|
+							<46> HK-P01-S46|
+							|
+						}
+					}
+				" ];
   	bib_skab;
   }
   bib_skab [ shape=record label="{
