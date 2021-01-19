@@ -211,17 +211,17 @@ digraph xxx {
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
     edge [ color=red penwidth=1 ];
-    wifi_bakkekuset -> bib_skab:xa_p1_99;  wifi_bakkehuset [ label="WIFI\nBakkehuset" ];
-    wifi_festlokale -> bib_skab:xa_p1_99;  wifi_festlokale [ label="WIFI\nFestlokale" ];
+    wifi_bakkehuset -> festlokale_switch;  wifi_bakkehuset [ label="WIFI\n10\nBakkehuset" ];
+    wifi_festlokale -> festlokale_switch;  wifi_festlokale [ label="WIFI\n11\nFestlokale" ];
 
-    wifi_bobs       -> bib_skab:xa_p1_18;  wifi_bobs       [ label="WIFI\nBOBS"       ];
-    wifi_arkiv      -> bib_skab:xa_p1_19;  wifi_arkiv      [ label="WIFI\nArkiv"      ];
-    wifi_modelfly   -> alslug_patch:23;    wifi_modelfly   [ label="WIFI\nModelfly"   ];
-    wifi_edr        -> bib_skab:xa_p1_14;  wifi_edr        [ label="WIFI\nEDR"        ];
+    wifi_bobs       -> bib_skab:xa_p1_18;  wifi_bobs       [ label="WIFI\n12\nBOBS"       ];
+    wifi_arkiv      -> bib_skab:xa_p1_19;  wifi_arkiv      [ label="WIFI\n13\nArkiv"      ];
+    wifi_modelfly   -> alslug_patch:23;    wifi_modelfly   [ label="WIFI\n14\nModelfly"   ];
+    wifi_edr        -> bib_skab:xa_p1_14;  wifi_edr        [ label="WIFI\n15\nEDR"        ];
 
-    wifi_bib        -> bib_skab:xa_p1_20;  wifi_bib        [ label="WIFI\nBibliotek"  ];
-    wifi_alslug     -> alslug_patch:22;    wifi_alslug     [ label="WIFI\nAlsLUG"     ];
-    wifi_nydam      -> alslug_patch:21;    wifi_nydam      [ label="WIFI\nNydam"      ];
+    wifi_bib        -> bib_skab:xa_p1_20;  wifi_bib        [ label="WIFI\n16\nBibliotek"  ];
+    wifi_alslug     -> alslug_patch:22;    wifi_alslug     [ label="WIFI\n17\nAlsLUG"     ];
+    wifi_nydam      -> alslug_patch:21;    wifi_nydam      [ label="WIFI\n18\nNydam"      ];
   }
 
   bib_skab:switch_25 -> bib_skab:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=red penwidth=10 ];
