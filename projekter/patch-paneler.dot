@@ -291,6 +291,32 @@ digraph xxx {
 				|<sfp_1> SFP 1
 				|<sfp_2> SFP 2
 				" ];
+    alslug_switch_bord_v [ shape=record label="AlsLUG\nswitch\npå bord\nved dør:
+				|<1> 1
+				|<2> 2
+				|<3> 3
+				|<4> 4
+				|<5> 5
+				|<6> 6
+				|<7> 7
+				|<8> 8
+				|<9> 9
+				|<10> 10
+				|<11> 11
+				|<12> 12
+				|<13> 13
+				|<14> 14
+				|<15> 15
+				|<16> 16
+				|<17> 17
+				|<18> 18
+				|<19> 19
+				|<20> 20
+				|<21> 21
+				|<22> 22
+				|<23> 23
+				|<24> 24
+				" ];
     alslug_router [ shape=record label="AlsLUG\nrouter:|{<wan> WAN|<lan> LAN}" ];
   }
   xa_p1:02 -> kommunens_teknikswitch                                     [ color=cyan ];
@@ -334,6 +360,30 @@ digraph xxx {
     alslug_patch:10 -> alslug_switch_skab:10;
     alslug_patch:11 -> alslug_switch_skab:11;
     alslug_patch:12 -> alslug_switch_skab:12;
+    
+    alslug_switch_skab:23 -> alslug_switch_bord_v:11;
+    node [shape=point ]
+    alslug_switch_bord_v:1 -> stik_v_1;
+    alslug_switch_bord_v:2 -> stik_v_2;
+    alslug_switch_bord_v:3 -> stik_v_3;
+    alslug_switch_bord_v:4 -> stik_v_4;
+    alslug_switch_bord_v:5 -> stik_v_5;
+    alslug_switch_bord_v:6 -> stik_v_6;
+    alslug_switch_bord_v:7 -> stik_v_7;
+    alslug_switch_bord_v:8 -> stik_v_8;
+    alslug_switch_bord_v:9 -> stik_v_9;
+    alslug_switch_bord_v:14 -> stik_v_10;
+
+    alslug_switch_bord_v:15 -> stik_v_15;
+    alslug_switch_bord_v:16 -> stik_v_16;
+    alslug_switch_bord_v:17 -> stik_v_17;
+    alslug_switch_bord_v:18 -> stik_v_18;
+    alslug_switch_bord_v:19 -> stik_v_19;
+    alslug_switch_bord_v:20 -> stik_v_20;
+    alslug_switch_bord_v:21 -> stik_v_21;
+    alslug_switch_bord_v:22 -> stik_v_22;
+    alslug_switch_bord_v:23 -> stik_v_23;
+    alslug_switch_bord_v:24 -> stik_v_24;
   }
   
   bakc_festlokale_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber                            [ color=red penwidth=10 label="fiber" style=dashed ];
