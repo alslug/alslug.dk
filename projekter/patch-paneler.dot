@@ -2,7 +2,7 @@ digraph xxx {
   edge [ dir=none ];
   {
     node [ style=filled fillcolor=cyan ];
-    bakc_festsal_switch [ shape=record label="BAKC\nswitch:
+    bakc_festlokale_switch [ shape=record label="BAKC\nswitch:
 				|
 				{x|x}
 				|
@@ -430,15 +430,15 @@ digraph xxx {
 	      			bakc_alslug_switch:25 -> alslug_router:wan                          [ color=red penwidth=1 ];
                                                          alslug_router:lan -> alslug_switch_skab:24 [ color=red penwidth=10 ];
   
-  bakc_festsal_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_1                            [ color=red penwidth=10 style=dashed ];
-  bakc_festsal_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_2                            [ color=red penwidth=10 style=dashed ];
-                                 bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
-                                 bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bakc_festlokale_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_1                            [ color=red penwidth=10 style=dashed ];
+  bakc_festlokale_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_2                            [ color=red penwidth=10 style=dashed ];
+                                    bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+                                    bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
 
  
 
   
-  bakc_festsal_switch -> 
+  bakc_festlokale_switch -> 
   	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bakc_bib_switch -> stofa_box -> stofa_fiberpanel ->
 	bakc_alslug_switch -> _2 -> alslug_patch -> _1 -> alslug_switch_skab [ color=black penwidth=50 style=dotted ];
 }
