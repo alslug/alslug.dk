@@ -186,11 +186,9 @@ digraph xxx {
     				|<fiber> fiber
 				|<ethernet> Ethernet
 				" ];
-    stofa_fiberpanel [ shape=record label="Fiber-panel:
-    				|
-				{{<fiber> x|x}
-				|
-				{x|x}
+    stofa_fiberpanel [ shape=record label="Stofa\nFiber-panel:
+    				|{<fiber> x|x}
+				|{x|x}
 				|
 				|
 				|
