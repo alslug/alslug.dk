@@ -1,7 +1,8 @@
 digraph xxx {
   edge [ dir=none ];
-  subgraph cluster_bi_skab {
-  	label = "Skab ved biblioteket";
+//  subgraph cluster_bi_skab
+{
+//  	label = "Skab ved biblioteket";
 	
 	hk_p01 [ shape=record label="{\nHP-P01-sxx Patchpanel|
   					{
