@@ -236,5 +236,5 @@ digraph xxx {
                         xa_p1:24-> alslug_patch:24                     [ color=red penwidth=10 style=dashed ];
 			           alslug_patch:24-> alslug_router:wan [ color=red penwidth=10 ];
   
-  bib_skab -> { wifi_alslug wifi_nydam wifi_modelfly} -> alslug_patch -> { alslug_router };
+  bib_skab -> _99 -> alslug_patch;
 }
