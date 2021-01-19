@@ -138,11 +138,11 @@ digraph xxx {
 				|<24> 24\n\nLink\ntil\nAlsLUG
     				" ];
     bib_fiberpaneler_1 [ shape=record label="Fiber-paneler:|{
-				{x|x||||||||||}
+				{x\nx|x\nx||||||||||}
 				|
-				{<kommune_fiber> x|<festlokale_fiber||||||||||}
+				{<kommune_fiber> x\nx|<festlokale_fiber> x\nx||||||||||}
 				|
-				{x|x||||||||||}
+				{x\nx|x\nx||||||||||}
     				}" ];
     kommunens_teknikswitch [ shape=box label="Kommunens\nteknik-switch" ];
 
