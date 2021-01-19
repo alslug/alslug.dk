@@ -77,7 +77,9 @@ digraph xxx {
 						}
 					}
 				}" ];
-  	bib_skab;
+    node [ shape=point ];
+    hk_p01 -> _1 -> bib_skab [ penwidth=50];
+    bib_skab;
   }
   bib_skab [ shape=record label="{
 					|\n\n\n\n|XA/P1/|
@@ -203,7 +205,6 @@ digraph xxx {
 						<24> 24 \n\nLink\ntil\nBiblioteket
 					|}|
                                       }" ];
-  hk_p01 -> bib_skab [ penwidth=50];
   
   bib_skab:xa_p1_2 -> bib_skab:kom_switch -> bib_skab:kom_fiber [ color=cyan ];
   bib_skab:stofabox_ethernet -> bib_skab:stofabox_fiber [ color=red penwidth=10 ];
