@@ -408,13 +408,12 @@ digraph xxx {
                                     bib_fiberpaneler_1:festlokale_fiber -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 label="fiber" ];
 
  
-
-  edge [ color=red penwidth=1 style=dashed ];  
-  subgraph cluster_bib {
-  	label="Udtag i Bibliotek";
-	//node [ shape=point ];
-	hk_p01_s07 -> hk_p01:07;
-	hk_p01_s08 -> hk_p01:08;
+  {
+    edge [ color=red penwidth=1 style=dashed ];  
+    node [ shape=record ];
+    bib_stik [ label="{Udtag i Bibliotek|{<top> Top|<bund> Bund}}" ];
+    bib_stik:top -> hk_p01:07;
+    bib_stik:bund -> hk_p01:08;
   }
   
   node [ color=invis shape=point ];
