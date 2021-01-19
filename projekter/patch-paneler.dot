@@ -415,7 +415,6 @@ digraph xxx {
 	//node [ shape=point ];
 	hk_p01_s07 -> hk_p01:07;
 	hk_p01_s08 -> hk_p01:08;
-	{}
   }
   
   node [ color=invis shape=point ];
