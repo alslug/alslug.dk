@@ -1,6 +1,46 @@
 digraph xxx {
   edge [ dir=none ];
   {
+    node [ style=filled fillcolor=cyan ];
+    bakc_festsal_switch [ shape=record label="BAKC\Nswitch:
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				|
+				<25> 25
+				|
+				<26> 26
+				|
+				|
+				<fiber_1> 27
+				|
+				<fiber_2> 28
+				" ];
+  }
+  {
     node [ style=filled fillcolor=yellow ];
     hk_p01 [ shape=record label="{\nHP-P01-sxx Patchpanel|
   					{
@@ -143,7 +183,7 @@ digraph xxx {
 				|
 				<lan> LAN
 				" ];
-    bib_switch [ shape=record label="BAKC\Nswitch:
+    bakc_bib_switch [ shape=record label="BAKC\Nswitch:
 				|
 				{x|x}
 				|
@@ -203,10 +243,47 @@ digraph xxx {
 				|
 				" ];
     node [ shape=point ];
-    hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch ->
-    								stofa_box -> stofa_fiberpanel -> bib_skab [ penwidth=50 style=dotted ];
   }
-  alslug_patch [ shape=record label="{
+  {
+    node [ style=filled fillcolor=violet ];
+    bakc_alslug_switch [ shape=record label="BAKC\Nswitch:
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				|
+				<25> 25
+				|
+				<26> 26
+				|
+				|
+				<fiber_1> 27
+				|
+				<fiber_2> 28
+				" ];
+    alslug_patch [ shape=record label="{
 					|{|
 						<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
 					|
@@ -257,17 +334,16 @@ digraph xxx {
 						<24> 24 \n\nLink\ntil\nBiblioteket
 					|}|
                                       }" ];
-  
+    alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
+  }
   xa_p1:02 -> kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_1 [ color=cyan ];
               kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_2 [ color=cyan ];
   stofa_box:fiber -> stofa_fiberpanel:fiber [ color=cyan penwidth=10 ];
 
-  alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
-  
   bakc_router:wan -> stofa_box:ethernet [ color=red penwidth=10 ];
-  bakc_router:lan -> bib_switch:26 [ color=red penwidth=10 ];
-  bib_fiberpaneler_1:festlokale_fiber_1 -> bib_switch:fiber_1 [ color=red penwidth=10 ];
-  bib_fiberpaneler_1:festlokale_fiber_2 -> bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bakc_router:lan -> bakc_bib_switch:26 [ color=red penwidth=10 ];
+  bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
+  bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
  
   { # Ruckus accesspoints
     node [shape=star style=filled fillcolor=red ];
@@ -285,9 +361,11 @@ digraph xxx {
     alslug_patch:21 -> wifi_nydam;    wifi_nydam      [ label="WIFI\n18\nNydam"      ];
   }
 
-  xa_p1:24 -> bib_switch:25                       [ color=red penwidth=10 ];
+  xa_p1:24 -> bakc_bib_switch:25                  [ color=red penwidth=10 ];
   xa_p1:24 -> alslug_patch:24                     [ color=red penwidth=10 style=dashed ];
               alslug_patch:24-> alslug_router:wan [ color=red penwidth=10 ];
   
-  bib_skab -> _99 -> alslug_patch [ penwidth=50 style=dotted ];
+  bakc_festsal_switch -> 
+  	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bakc_bib_switch -> stofa_box -> stofa_fiberpanel -> 
+	bib_skab -> alslug_patch -> bakc_alslug_switch [ color=black penwidth=50 style=dotted ];
 }
