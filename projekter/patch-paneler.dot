@@ -368,5 +368,5 @@ digraph xxx {
   
   bakc_festsal_switch -> 
   	hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bakc_bib_switch -> stofa_box -> stofa_fiberpanel -> 
-	bib_skab -> alslug_patch -> bakc_alslug_switch [ color=black penwidth=50 style=dotted ];
+	bib_skab -> alslug_patch -> _1 -> bakc_alslug_switch [ color=black penwidth=50 style=dotted ];
 }
