@@ -387,6 +387,7 @@ digraph xxx {
 				|
 				<sfp_2> SFP 2
 				" ];
+    edge [ color=red ];
     alslug_patch:1 -> alslug_switch_skab:1;
     alslug_patch:2 -> alslug_switch_skab:2;
     alslug_patch:3 -> alslug_switch_skab:3;
