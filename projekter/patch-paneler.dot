@@ -76,58 +76,56 @@ digraph xxx {
 						}
 					}
 				}" ];
-    xa_p1 [ shape=record label="{
-					\nXA/P1/xx Patchpanel:|
-					{|
-							<01> 1
-						||
-							<02> 2 \nKommunen\nteknik
-						||
-							<03> 3
-						||
-							<04> 4
-						||
-							<05> 5
-						||
-							<06> 6
-						||
-							<07> 7
-						||
-							<08> 8
-						||
-							<09> 9
-						||
-							<10> 10
-						||
-							<11> 11
-						||
-							<12> 12
-						||
-							<13> 13
-						||
-							<14> 14 \n\nWIFI\nEDR
-						||
-							<15> 15
-						||
-							<16> 16
-						||
-							<15> 17 \n\nArkiv\nkontor\n\nInfoskærm\nDør
-						||
-							<18> 18 \n\nWIFI\nBOBS
-						||
-							<19> 19 \n\nWIFI\nArkiv
-						||
-							<20> 20 \n\nWIFI\nBiblioteket
-						||
-							<21> 21
-						||
-							<22> 22
-						||
-							<23> 23
-						||
-							<24> 24\n\nLink\ntil\nAlsLUG
-					|}
-    				}" ];
+    xa_p1 [ shape=record label="XA/P1/xx\nPatchpanel:
+    				|
+				<01> 1
+				|
+				<02> 2 \nKommunen\nteknik
+				|
+				<03> 3
+				|
+				<04> 4
+				|
+				<05> 5
+				|
+				<06> 6
+				|
+				<07> 7
+				|
+				<08> 8
+				|
+				<09> 9
+				|
+				<10> 10
+				|
+				<11> 11
+				|
+				<12> 12
+				|
+				<13> 13
+				|
+				<14> 14 \n\nWIFI\nEDR
+				|
+				<15> 15
+				|
+				<16> 16
+				|
+				<17> 17 \n\nArkiv\nkontor\n\nInfoskærm\nDør
+				|
+				<18> 18 \n\nWIFI\nBOBS
+				|
+				<19> 19 \n\nWIFI\nArkiv
+				|
+				<20> 20 \n\nWIFI\nBiblioteket
+				|
+				<21> 21
+				|
+				<22> 22
+				|
+				<23> 23
+				|
+				<24> 24\n\nLink\ntil\nAlsLUG
+    				" ];
     bib_fiberpaneler_1 [ shape=record label="{
 					\nFiber-paneler:
 					|
@@ -137,25 +135,73 @@ digraph xxx {
 					|
 					{{x|x}|{x|x}||||||||||}
     				}" ];
-    kommunens_teknikswitch [ shape=record label="{\nKommunens teknik-switch}" ];
+    kommunens_teknikswitch [ shape=box label="Kommunens\nteknik-switch" ];
 
-    bakc_router [ shape=record label="{
-					\nBAKC router:|
-					{<wan> WAN|<lan> LAN}
-				}" ];
-    bib_switch [ shape=record label="{\nBAKC switch:|
-					{
-						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
-						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
-						|<25> 25|<26> 26||<fiber_1> 27|<fiber_2> 28|
-					}
-				}" ];
-    stofa_box [ shape=record label="{\nFiber-box:|
-					{<fiber> fiber|<ethernet> Ethernet}
-				}" ];
-    stofa_fiberpanel [ shape=record label="{\nFiber-panel:|
-					{{<fiber> x|x}|{x|x}||||||||||}
-				}" ];
+    bakc_router [ shape=record label="BAKC\nrouter:
+    				|
+				<wan> WAN
+				|
+				<lan> LAN
+				" ];
+    bib_switch [ shape=record label="BAKC\Nswitch:
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				{x|x}
+				|
+				|
+				<25> 25
+				|
+				<26> 26
+				|
+				|
+				<fiber_1> 27
+				|
+				<fiber_2> 28
+				" ];
+    stofa_box [ shape=record label="Fiber-box:
+    				|
+				<fiber> fiber
+				|
+				<ethernet> Ethernet
+				" ];
+    stofa_fiberpanel [ shape=record label="Fiber-panel:
+    				|
+				{{<fiber> x|x}
+				|
+				{x|x}
+				|
+				|
+				|
+				|
+				|
+				|
+				|
+				|
+				|
+				|
+				" ];
     node [ shape=point ];
     hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch ->
     								stofa_box -> stofa_fiberpanel -> bib_skab [ penwidth=50 style=dotted ];
