@@ -150,15 +150,16 @@ digraph xxx {
 						|<25> 25|<26> 26||<fiber_1> 27|<fiber_2> 28|
 					}
 				}" ];
-    node [ shape=point ];
-    hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
-  }
-  bib_skab [ shape=record label="{
-					|\n\n\n\n|Fiber-box:|
-					{<stofabox_fiber> fiber|<stofabox_ethernet> Ethernet}
-					|\n\n\n\n|Fiber-panel:|
-					{{<stofabox_ethernet> x|x}|{x|x}||||||||||}
+    stofa_box [ shape=record label="{\nFiber-box:|
+					{<fiber> fiber|<ethernet> Ethernet}
 				}" ];
+    stofa_fiberpanel [ shape=record label="{\nFiber-panel:|
+					{{<fiber> x|x}|{x|x}||||||||||}
+				}" ];
+    node [ shape=point ];
+    hk_p01 -> xa_p1 -> kommunens_teknikswitch -> bib_fiberpaneler_1 -> bakc_router -> bib_switch ->
+    								stofa_box -> stofa_fiberpanel -> bib_skab [ penwidth=50 style=dotted ];
+  }
   alslug_patch [ shape=record label="{
 					|{|
 						<1> 1 \n\nKabel-\nkanal\nvindue\nhøjre
@@ -213,11 +214,11 @@ digraph xxx {
   
   xa_p1:02 -> kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_1 [ color=cyan ];
               kommunens_teknikswitch -> bib_fiberpaneler_1:kommune_fiber_2 [ color=cyan ];
-  bib_skab:stofabox_ethernet -> bib_skab:stofabox_fiber [ color=red penwidth=10 ];
+  stofa_box:fiber -> stofa_fiberpanel:fiber [ color=cyan penwidth=10 ];
 
   alslug_router [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
   
-  bib_skab:stofabox_ethernet -> bakc_router:wan [ color=red penwidth=10 ];
+  bakc_router:wan -> stofa_box:ethernet [ color=red penwidth=10 ];
   bakc_router:lan -> a -> bib_switch:26 [ color=red penwidth=10 ];
   bib_fiberpaneler_1:festlokale_fiber_1 -> b -> bib_switch:fiber_1 [ color=red penwidth=10 ];
   bib_fiberpaneler_1:festlokale_fiber_2 -> c -> bib_switch:fiber_1 [ color=red penwidth=10 ];
