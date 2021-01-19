@@ -430,8 +430,8 @@ digraph xxx {
 	      			bakc_alslug_switch:25 -> alslug_router:wan                          [ color=red penwidth=1 ];
                                                          alslug_router:lan -> alslug_switch_skab:24 [ color=red penwidth=10 ];
   
-  bakc_festsal_switch:feber_1 -> bib_fiberpaneler_1:festlokale_fiber_1                            [ color=red penwidth=10 style=dashed ];
-  bakc_festsal_switch:feber_1 -> bib_fiberpaneler_1:festlokale_fiber_2                            [ color=red penwidth=10 style=dashed ];
+  bakc_festsal_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_1                            [ color=red penwidth=10 style=dashed ];
+  bakc_festsal_switch:fiber_1 -> bib_fiberpaneler_1:festlokale_fiber_2                            [ color=red penwidth=10 style=dashed ];
                                  bib_fiberpaneler_1:festlokale_fiber_1 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
                                  bib_fiberpaneler_1:festlokale_fiber_2 -> bakc_bib_switch:fiber_1 [ color=red penwidth=10 ];
 
