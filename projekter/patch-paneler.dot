@@ -133,15 +133,17 @@ digraph xxx {
 					|
 					{{x|x}|{x|x}||||||||||}
 					|\n\n\n\n|Router:|
-					{WAN|LAN}
+					{<route_wan> WAN|<router_lan> LAN}
 					|\n\n\n\n|BAKC switch:|
 					{
 						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
 						|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|{x|x}|
 						|<switch_25> 25|<switch_26> 26|27|<switch_fiber> 28|
 					}
+					|\n\n\n\n|Fiber-box:|
+					{<stofabox_fiber> fiber|<stofabox_ethernet> Ethernet}
 					|\n\n\n\n|Fiber-panel:|
-					{{x|x}|{x|x}||||||||||}
+					{{<stofabox_ethernet> x|x}|{x|x}||||||||||}
 				}" ];
   alslug_patch [ shape=record label="{
 					|{|
@@ -194,8 +196,12 @@ digraph xxx {
 						<24> 24 \n\nLink\ntil\nBiblioteket
 					|}|
                                       }" ];
+  alslug_route [ shape=record label="{AlsLUG router:|{<wan> WAN|<lan> LAN}}" ];
+  bib_patch:stofabox_ethernet -> bib_patch:route_wan [ color=red penwidth=10 ];
+  bib_patch:router_lan -> bib_patch:switch_26 [ color=green penwidth=10 ];
+  bib_patch:switch_25 -> bib_patch:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=green penwidth=10 ];
+
   bib_patch -> alslug_patch;
   bib_patch:xa_p1_2 -> bib_patch:kom_switch -> bib_patch:kom_fiber [ color=cyan ];
-  bib_patch:switch_25 -> bib_patch:xa_p1_24 -> alslug_patch:24 -> alslug_router:wan [ color=green penwidth=10 ];
-  bib_patch:switch_26 -> bib_patch:router_lan [ color=green penwidth=10 ];
+  bib_patch:stofabox_ethernet -> bib_patch:stofabox_fiber [ color=red penwidth=10 ];
 }
