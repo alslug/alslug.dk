@@ -151,6 +151,9 @@ digraph xxx {
 				}" ];
     node [ shape=point ];
     hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> _3 -> bib_fiberpaneler_1 -> _4 -> bakc_router -> _5 -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
+    hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> _3 -> bib_fiberpaneler_1 -> _4 -> bakc_router -> _5 -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
+    hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> _3 -> bib_fiberpaneler_1 -> _4 -> bakc_router -> _5 -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
+    hk_p01 -> _1 -> xa_p1 -> _2 -> kommunens_teknikswitch -> _3 -> bib_fiberpaneler_1 -> _4 -> bakc_router -> _5 -> bib_switch -> _6 -> bib_skab [ penwidth=50 style=dotted ];
   }
   bib_skab [ shape=record label="{
 					|\n\n\n\n|Fiber-box:|
