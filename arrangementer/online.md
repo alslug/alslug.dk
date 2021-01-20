@@ -6,11 +6,11 @@ På grund af corona-nedlukningen har vi arbejdet med at kunne holde aktivitetern
 
 
 ## Video møder
-Nogle af vore møder vil blive transmiteret online via [JitSi](https://meet.jit.si/AlsLUG), så du kan deltage hjemmefra.
+Nogle af vore møder vil blive transmiteret online via [Jitsi](https://meet.jit.si/AlsLUG), så du kan deltage hjemmefra.
 
 Vi har sat et par maskiner op med kameraer op i lokalet, så du kan følge med, men decideret support vil være svært.
 
-Du kan deltager både med din browser eller med JitSi-appen på din telefon/tablet.
+Du kan deltager både med din browser eller med Jitsi-appen på din telefon/tablet.
 
 
 
@@ -31,7 +31,7 @@ Du kan deltager både med din browser eller med JitSi-appen på din telefon/tabl
 ## IRC chat
 Der er oprettet en IRC-kanal på freenode som meget belejligende hedder **#AlsLUG**.
 
-Du kan bruger [Freenodes webchat](https://webchat.freenode.org#AlsLUG) eller et hvilket som helst IRC-klient.
+Du kan bruger [freenodes webchat](https://webchat.freenode.org#AlsLUG) eller et hvilket som helst IRC-klient.
 
 På mange linux-maskiner findes Pidgin, som kan bruges til rigtigt mange forskellige chat-platforme.
 
@@ -61,4 +61,4 @@ Vi kan ikke garantere for at det virker, men da det er et distrubueret netværk 
 Alle vore online-aktiviteter skel på offentlige platforme, så forvent at der er andre der lytter med på forbindelsen.
 
 ### Logging
-Husk at tage en kopi af den integrerede chat-funktion i Jitsi inden du forlader mødet. Når den sidste deltager logger ud, er historikken væk.
+Husk at tage en kopi af den integrerede chat-funktion i Jitsi inden du forlader mødet. Når den sidste deltager logger ud, er chatten væk.
