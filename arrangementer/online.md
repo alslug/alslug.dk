@@ -55,10 +55,13 @@ Alle medlemmer kan skrive til vore [mail-lister](https://www.alslug.dk/medlemska
 Vi benytter den offentlige demo-server fra Jitsi, så vi kan ikke garantere for at det virker.
 
 Freenode er et offentligt IRC_netværk, med mange forskellige operatører.
-Vi kan ikke garantere for at det virker, men da det er et distrubueret netværk skulle det være mærkeligt hvis ikke det virker.
+Vi kan ikke garantere for at det virker, men da det er et distribueret netværk skulle det være mærkeligt hvis ikke det virker.
 
-### Privacy
-Alle vore online-aktiviteter skel på offentlige platforme, så forvent at der er andre der lytter med på forbindelsen.
+### Privatliv / fortrolighed / logning
+Alle vore online-aktiviteter sker på offentlige platforme, så forvent at der er andre der lytter med på forbindelsen.
 
-### Logging
+Alt hvad der bliver skrevet/snakket om, bliver som udgangspunkt logget på andre brugeres klienter, og der er ingen mulighed for at få det slettet senere.
+
+Så forvent at der logges et eller andet sted.
+
 Husk at tage en kopi af den integrerede chat-funktion i Jitsi inden du forlader mødet. Når den sidste deltager logger ud, er chatten væk.
