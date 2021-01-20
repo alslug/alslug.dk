@@ -12,7 +12,7 @@ Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken b
  * *****CORONASMITTE.DK-krav-color*****       baggrund betyder at der er krav til avikling af fysiske aktiviteter.
  * *****CORONASMITTE.DK-undtagelse-color***** baggrund betyder at der er undtagelser på kravene.
  * *****CORONASMITTE.DK-tilladt-color*****    baggrund betyder at teksten tillader os at have fysiske aktiviteter. (Evt med krav der skal overholdes)
- * *****CORONASMITTE.DK-unknown-color*****    baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os, eller at vi forventer at de bliver aktuelle igen på et senre tidspunkt.
+ * *****CORONASMITTE.DK-unknown-color*****    baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os, eller at vi forventer at de bliver aktuelle igen på et senere tidspunkt.
 
 Nedenfor kan du se hvilke sider, og faneblade vi henter data fra.
  
