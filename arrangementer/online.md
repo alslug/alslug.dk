@@ -6,7 +6,7 @@ På grund af corona-nedlukningen har vi arbejdet med at kunne holde aktivitetern
 
 
 ## Video møder
-Nogle af vore møder vil blive transmiteret online via [Jitsi](https://meet.jit.si/AlsLUG), så du kan deltage hjemmefra.
+Vi vil forsøge at få alle vore møder transmitteret online via [Jitsi](https://meet.jit.si/AlsLUG), så du kan deltage hjemmefra.
 
 Vi har sat et par maskiner op med kameraer op i lokalet, så du kan følge med, men decideret support vil være svært.
 
