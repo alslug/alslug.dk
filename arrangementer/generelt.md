@@ -24,7 +24,7 @@ Der findes også spil til Linux såsom 7-kabale, Hjerter-fri, Wolfenstein, Quake
 Det er meget titi muligt at køre både Linux og Windows på samme PC. Kom og se og lær hvordan.
 
 Linux er i kraft af sin åbenhed meget fleksibelt.
-Linux kører på alt fra helt små computere indlejret i apperater, til store super computere hos NASA og andre.
+Linux kører på alt fra helt små computere indlejret i apparater, til store super computere hos NASA og andre.
 Eksempelvis kører de fleste routere, smart-tv og smartphones. Medmindre du bruger et Apple-produkter.
 
 Derfor findes der også en udgave der kan køre på din gamle PC, og stadig nyde fordelen af nye programmer
