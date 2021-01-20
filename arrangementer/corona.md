@@ -1,4 +1,4 @@
-# Forholdsregler om Corena
+# Forholdsregler om Corona
 
 ## Status i forhold til coronasmitte.dk
 *****CORONASMITTE.DK-complience*****
@@ -24,10 +24,10 @@ Sørg derfor for at tilmelde dig på forhånd, for at sikre dig en plads.
 Vores lokale er ca 49m², om med 4m² per person, må vi være 12 personer i lokalet.
 
 ### Borde
-Der skal være mindst 2 meter mellem personer som sidder stille ved borde face-to-face.
-Da bordene er 2 meter på tværs er det ingen problem.
+Der skal være mindst 2 meter mellem personer som sidder stille ved borde over for hinanden.
+Da bordene er 2 meter på tværs er det ingen problem at overholde.
 Sideværts skal det være 1 meter imellem, så vi bruger kun hver anden plads.
 
-Der en normalt plads til 10 hhv 8  personer ved de runde borde, og 3 personer ud mod vinduet.
+Der en normalt plads til henholdsvis 10 og 8 personer ved de runde borde, og 3 personer ud mod vinduet.
 
 Men vi reducerer antallet af pladser til at det overholder de gældende afstandskrav.
