@@ -31,4 +31,4 @@ _mest for almindelige brugere_ der gerne vil prøve det der Linux noget.
 
 Selvom aktiviteterne har skiftet en smule fokus er foreningen i skrivende stund mindst lige så aktiv som da den blev stiftet.
 
-Læs også den <a href='/om/historie.html'>lange histore om foreningens historie</a>.
+Læs også den <a href='/om/historie.md'>lange histore om foreningens historie</a>.
