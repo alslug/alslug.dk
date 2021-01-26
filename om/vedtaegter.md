@@ -78,7 +78,7 @@ Generalforsamlingen mødes ordinært en gang årligt i september.
 Generalforsamlingen består af foreningens medlemmer.
 
 ### §4. stk 4
-temmeret har medlemmer som har været medlem i mindst 3 måneder op til generalforsamlingen.
+Stemmeret har medlemmer som har været medlem i mindst 3 måneder op til generalforsamlingen.
 
 ### §4. stk. 5
 Bestyrelsen kan indbyde gæster til at overvære generalforsamlingen. Indbudte gæster er dog uden stemmeret.
