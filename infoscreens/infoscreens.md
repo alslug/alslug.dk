@@ -12,9 +12,9 @@ men vi håber at der er nogen som kan hjælpe med at skaffe det nødvendige grej
 
 ## Hvordan virker det?
 * De enkelte foreninger skal SELV holde styr på deres aktiviteter i en online-kalender.
-	* Fx en kalender på Google Kalender</li>
-	* Facebook-gruppe - Man kan ikke umiddelbart hente en kalender ud af en Facebook-gruppe, 
-men Bordbasserne har fundet en løsning på det. DENNE MULIGHED VIRKER DESVÆRRE IKKE MERE
+	* Fx en kalender på Google Kalender
+	* <span style='text-decoration: line-through wavy;'>Facebook-gruppe - Man kan ikke umiddelbart hente en kalender ud af en Facebook-gruppe, 
+men Bordbasserne har fundet en løsning på det.</span> DENNE MULIGHED VIRKER DESVÆRRE IKKE MERE
 * AlsLUG skal have adgang til at læse kalenderen (som et ical-feed - ikke som webside).
 * Når du opdaterer din kalender opdateres info-skærmene automatisk indenfor en times tid.
 
