@@ -8,7 +8,7 @@ Vores server checker løbende op mod de respektive side på [https://coronasmitt
 
 Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken betydning det har for vore aktiviteter.
 
- * *****CORONASMITTE.DK-forbudt-color*****    baggrund betyder at teksten forbyder os at have fysiske aktiviteter.
+ * *****CORONASMITTE.DK-forbud-color*****     baggrund betyder at teksten forbyder os at have fysiske aktiviteter.
  * *****CORONASMITTE.DK-krav-color*****       baggrund betyder at der er krav til afvikling af fysiske aktiviteter.
  * *****CORONASMITTE.DK-undtagelse-color***** baggrund betyder at der er undtagelser på kravene.
  * *****CORONASMITTE.DK-tilladt-color*****    baggrund betyder at teksten tillader os at have fysiske aktiviteter. (Eventuelt med krav der skal overholdes)
