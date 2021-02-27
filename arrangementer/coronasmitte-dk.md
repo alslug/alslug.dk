@@ -4,7 +4,7 @@ Om vi må holde åbent i vores lokale eller ej kommer blandt andet an på vurder
 
 ## Check af tiltag/tilladelser/forbud på coronasmitte.dk
 
-Vores server checker løbende op mod de respektive side på [https://coronasmitte.dk](https://coronasmitte.dk) og [Sønderborg kommune](https://sonderborgkommune.dk/delvis-nedlukning), og checker at diverse relevante tekster ikke er blevet ændret.
+Vores server checker løbende op mod de respektive side på [coronasmitte.dk](https://coronasmitte.dk) og [Sønderborg kommune](https://sonderborgkommune.dk/delvis-nedlukning), og checker at diverse relevante tekster ikke er blevet ændret.
 
 Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken betydning det har for vore aktiviteter.
 
@@ -14,7 +14,7 @@ Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken b
  * *****CORONASMITTE.DK-tilladt-color*****    baggrund betyder at teksten tillader os at have fysiske aktiviteter. (Eventuelt med krav der skal overholdes)
  * *****CORONASMITTE.DK-unknown-color*****    baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os, eller at vi forventer at de bliver aktuelle igen på et senere tidspunkt.
 
-Nedenfor kan du se hvilke sider, og faneblade vi henter data fra.
+Nedenfor kan du se hvilke sider, og faneblade vi henter data fra, og hvilke citater vi checker.
  
 ## Samlet vurdering
 *****CORONASMITTE.DK-complience*****
