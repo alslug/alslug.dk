@@ -1,10 +1,10 @@
 # Coronasmitte.dk
 
-Om vi må holde åbent i vores lokale eller ej kommer an på vurderinger af informationerne på [https://coronasmitte.dk](https://coronasmitte.dk)
+Om vi må holde åbent i vores lokale eller ej kommer blandt andet an på vurderinger af informationerne på [https://coronasmitte.dk](https://coronasmitte.dk) og på Sønderborg kommune.
 
 ## Check af tiltag/tilladelser/forbud på coronasmitte.dk
 
-Vores server checker løbende op mod de respektive side på [https://coronasmitte.dk](https://coronasmitte.dk) og checker at diverse relevante tekster ikke er blevet ændret.
+Vores server checker løbende op mod de respektive side på [https://coronasmitte.dk](https://coronasmitte.dk) og [https://sonderborgkommune.dk/delvis-nedlukning](Sønderborg kommune), og checker at diverse relevante tekster ikke er blevet ændret.
 
 Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken betydning det har for vore aktiviteter.
 
