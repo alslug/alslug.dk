@@ -17,7 +17,7 @@ Du har som udgangspunkt brug for to ethernet-interfaces. Et til WAN (forbindelse
 
 
 ### Vores opsætning
-Vi har et lidt mere (komplekst setup)[network.md], Se mere (her)[network.md]. Men det har grundlæggende ikke så meget med opsætningen af routeren at gøre, når selve netværket på forhånd er sat korrekt op.
+Vi har et lidt mere [komplekst setup](network.md), Se mere [her](network.md). Men det har grundlæggende ikke så meget med opsætningen af routeren at gøre, når selve netværket på forhånd er sat korrekt op.
 
 Vores LAN-side er 192.168.201.1/24, og WAN-adresse(r) henter vi DHCP
 
