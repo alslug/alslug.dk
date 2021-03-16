@@ -8,11 +8,11 @@ Vores server checker løbende op mod de respektive side på [coronasmitte.dk](ht
 
 Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken betydning det har for vore aktiviteter.
 
- * XXXXXCORONASMITTE.DK-forbud-colorXXXXX     baggrund betyder at teksten forbyder os at have fysiske aktiviteter.
- * XXXXXCORONASMITTE.DK-krav-colorXXXXX       baggrund betyder at der er krav til afvikling af fysiske aktiviteter.
- * XXXXXCORONASMITTE.DK-undtagelse-colorXXXXX baggrund betyder at der er undtagelser på kravene.
- * XXXXXCORONASMITTE.DK-tilladt-colorXXXXX    baggrund betyder at teksten tillader os at have fysiske aktiviteter. (Eventuelt med krav der skal overholdes)
- * XXXXXCORONASMITTE.DK-unknown-colorXXXXX    baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os, eller at vi forventer at de bliver aktuelle igen på et senere tidspunkt.
+ * XXXXX CORONASMITTE.DK-forbud-color XXXXX     baggrund betyder at teksten forbyder os at have fysiske aktiviteter.
+ * XXXXX CORONASMITTE.DK-krav-color XXXXX       baggrund betyder at der er krav til afvikling af fysiske aktiviteter.
+ * XXXXX CORONASMITTE.DK-undtagelse-color XXXXX baggrund betyder at der er undtagelser på kravene.
+ * XXXXX CORONASMITTE.DK-tilladt-color XXXXX    baggrund betyder at teksten tillader os at have fysiske aktiviteter. (Eventuelt med krav der skal overholdes)
+ * XXXXX CORONASMITTE.DK-unknown-color XXXXX    baggrund betyder at teksten er blevet ændret eller slettet og vi endnu ikke har vurderet hvad det betyder for os, eller at vi forventer at de bliver aktuelle igen på et senere tidspunkt.
 
 Nedenfor kan du se hvilke sider, og faneblade vi henter data fra, og hvilke citater vi checker.
  
