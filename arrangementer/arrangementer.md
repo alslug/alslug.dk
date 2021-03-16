@@ -47,6 +47,6 @@ Vi har planlagt aktiviteter på følgende datoer.
 
 Vi forbeholder os ret til at justere datoerne på arrangementer som ligger mere end et par måneder ude i fremtiden.
 
-XXXXXKALENDER-YEARXXXXX
+XXXXX KALENDER-YEAR XXXXX
 
 XXXXX END XXXXX
