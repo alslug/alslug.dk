@@ -4,7 +4,7 @@
 	## Corona forbehold
 	XXXXXCORONASMITTE.DK-complienceXXXXX
 	[Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
-/div>
+</div>
 				
 ## Kalender
 Nogle af vore møder vil blive transmitteret online. Se mere på
