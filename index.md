@@ -5,7 +5,7 @@ XXXXX FIRST 1/2 XXXXX
 <div style='background:#FFAA66'>
 ## Corona forbehold
 	
-XXXXXCORONASMITTE.DK-complienceXXXXX
+XXXXX CORONASMITTE.DK-complience XXXXX
 	
 [Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
 </div>
