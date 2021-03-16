@@ -1,8 +1,9 @@
 # Login på AlsLUG.dk
 
-## Accept at cookies er nødvendig, og deling af data
-Ved at bruger disse login-udbydere, acceterer du at dele data med den valgte udbyder.
-
-Samtidig accepterer du at AlsLUG sætter en sessin-cookie på din computer.
+## Deling af data og accept at cookies er nødvendig.
+Ved at bruger disse login-udbydere, acceterer du ....
+- at dele data med den valgte udbyder
+- at dele data med Auth0.com som laver arbejder for os
+- at AlsLUG sætter en sessin-cookie på din computer, med dine login-informationer
 
 #####LOGIN-OPTIONS#####
