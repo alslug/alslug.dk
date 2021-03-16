@@ -1,5 +1,7 @@
 # Kalender
 
+XXXXX FIRST 1/2 XXXXX
+
 <div style='background:#FFAA66'>
 ## Corona forbehold
 	
@@ -19,6 +21,8 @@ XXXXXKALENDER-MONTHXXXXX
 Hvis du vil have vores kalender vist i din egen kalender, kan du bruge
 [dette iCal-link](https://www.alslug.dk/kalender/alt.ics)
 
+
+XXXXX NEXT 1/2 XXXXX
 
 ## Aktivitetsadresse:
 Bakkensbro Aktivitets- og Kultur Center
@@ -64,3 +68,5 @@ Medlemsskab af AlsLUG er gratis, og du får mulighed for at få hjælp og stille
 
 ## Frivillige donationer ...
 ... modtages [her](/oekonomi/donationer.html). Både i form af kontanter og grej.
+
+XXXXX END XXXXX
