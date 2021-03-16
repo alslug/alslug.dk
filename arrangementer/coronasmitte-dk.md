@@ -17,6 +17,6 @@ Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken b
 Nedenfor kan du se hvilke sider, og faneblade vi henter data fra, og hvilke citater vi checker.
  
 ## Samlet vurdering
-XXXXXCORONASMITTE.DK-complienceXXXXX
+XXXXX CORONASMITTE.DK-complience XXXXX
 
-XXXXXCORONASMITTE.DKXXXXX
+XXXXX CORONASMITTE.DK XXXXX
