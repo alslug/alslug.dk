@@ -1,5 +1,6 @@
 # Arrangementer
 
+XXXXXFIRST6XXXXX
 ## Installfest
 Anden lørdag i (næsten) hver måned holder vi installfest.
 
@@ -38,6 +39,7 @@ ved Radioamatørernes Forårsmarked i Agerskov.
 Hvis du ved hvor der er et arrangement hvor foreninger gratis kan vise hvad de laver, vil 
 [bestyrelsen](/om/kontakt.md) meget gerne høre nærmere.
 
+XXXXXNEXT6XXXXX
 
 ## Den lange kalender:
 Vi har planlagt aktiviteter på følgende datoer.
@@ -45,3 +47,5 @@ Vi har planlagt aktiviteter på følgende datoer.
 Vi forbeholder os ret til at justere datoerne på arrangementer som ligger mere end et par måneder ude i fremtiden.
 
 XXXXXKALENDER-YEARXXXXX
+
+XXXXXENDXXXXX
