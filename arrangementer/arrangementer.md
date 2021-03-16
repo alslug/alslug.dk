@@ -1,14 +1,14 @@
 # Arrangementer
 
 ## Installfest
-2. lørdag i (næsten) hver måned holder vi installfest.
+Anden lørdag i (næsten) hver måned holder vi installfest.
 
 En installfest (Installparty som er den internationale betegnelse) hjælper vi alle med at få installeret Linux på deres
 medbragte computere, samt hjælper med de problemer der opstår undervejs.
 
 Derudover hjælper vi selvfølgelig med de problemstillinger som vore gæster kommer med.
 			
-## Linuxaften<
+## Linuxaften
 Ca 1½ uger efter vores installfest, har vi som regel en linuxaften på en hverdags aften. Ugedage skifter, så vi ikke
 udelukker nogen fra at deltage hver gang.
 		 
