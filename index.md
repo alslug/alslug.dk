@@ -15,8 +15,8 @@ Nogle af vore møder vil blive transmitteret online. Se mere på
 [oversigten over vore online-aktiviteter.](/arrangementer/online.md)
 
 
-			
-XXXXXKALENDER-MONTHXXXXX			
+
+XXXXX KALENDER-MONTH XXXXX			
 				
 Hvis du vil have vores kalender vist i din egen kalender, kan du bruge
 [dette iCal-link](https://www.alslug.dk/kalender/alt.ics)
