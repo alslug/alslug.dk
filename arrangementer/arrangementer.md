@@ -17,15 +17,6 @@ og nu har en masse spørgsmål om de nye programmer de har fået installeret.
 		 
 Men der er altid mulighed for at få installeret linux på en maskine eller tre.
 
-## Udstillinger
-Vi har i en del år deltaget i <a href='http://kulturnat.info'>Kultur- og idrætsnatten i Sønderborg</a>, og vil også i 2018 deltage.
-
-Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
-ved Radioamatørernes Forårsmarked i Agerskov.
-
-Hvis du ved hvor der er et arrangement hvor foreninger gratis kan vise hvad de laver, vil 
-[bestyrelsen](/om/kontakt.md) meget gerne høre nærmere.
-
 ## Python-gruppen
 En flok af vore medlemmer mødes hver tirsdag for at lære mere om programmering. Under corona-nelukningen mådes de virtuelt på
 [Jitsi](https://meet.jit.si/AlsLUG)
@@ -37,6 +28,15 @@ Gruppen har en intern mail-liste på python-gruppen@alslug.dk, hvor medlemmer ha
 [Meld dig ind](https://www.alslug.dk/medlemskab/indmeldelse.html) og kryds af af du vil modtage mail på Python-gruppens mailinglistem og du er kørende.
 
 Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det en fordel at lufte det på mailinglisten, så der er nogen som kan forberede sig en lille smule.
+
+## Udstillinger
+Vi har i en del år deltaget i <a href='http://kulturnat.info'>Kultur- og idrætsnatten i Sønderborg</a>, og vil også i 2018 deltage.
+
+Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
+ved Radioamatørernes Forårsmarked i Agerskov.
+
+Hvis du ved hvor der er et arrangement hvor foreninger gratis kan vise hvad de laver, vil 
+[bestyrelsen](/om/kontakt.md) meget gerne høre nærmere.
 
 
 ## Den lange kalender:
