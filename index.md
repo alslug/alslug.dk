@@ -1,9 +1,11 @@
 # Kalender
 
 <div style='background:#FFAA66'>
-	## Corona forbehold
-	XXXXXCORONASMITTE.DK-complienceXXXXX
-	[Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
+## Corona forbehold
+	
+XXXXXCORONASMITTE.DK-complienceXXXXX
+	
+[Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
 </div>
 				
 ## Kalender
