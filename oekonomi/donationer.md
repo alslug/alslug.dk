@@ -73,10 +73,12 @@ XXXXX FIRST 1/3 XXXXX
 
 <i class="fab fa-paypal"></i> &nbsp; PayPal:
 
-Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores PayPal.me adresse: [https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
+Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores [PayPal.me adresse](https://paypal.me/AlsLUG?locale.x=da_DK):
+
+[https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
 
 <div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees gebyr på donationer via PayPal,
-med mindre du fjerner markeringen i "Paying for goods or a service?".
+med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
 
 XXXXX NEXT 1/3 XXXXX
 
@@ -97,6 +99,8 @@ Brug derfor kort eller paypal i stedet for.
 
 XXXXX NEXT 1/3 XXXXX
 
+XXXXX STRIKEOUT START XXXXX
+
 <span class='strikeout'>
 
 <i class="fas fa-mobile-alt"></i> &nbsp; MobilePay						<div class='cross'>&cross;</div>
@@ -108,6 +112,8 @@ MobilePay er blivet lukket ned, da vi fremover skal betale 49 kr/måned. Vi har 
 Det var sjov og let så længe det varede.
 
 </span>
+
+XXXXX STRIKEOUT END XXXXX
 
 XXXXX END XXXXX
 
