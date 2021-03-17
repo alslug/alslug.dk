@@ -2,19 +2,11 @@
 
 XXXXX FIRST 1/2 XXXXX
 
-XXXXX FIRST 1/2 XXXXX
-
 ## 2020
-
-XXXXX NEXT 1/2 XXXXX
 
 ## 2019
 
 [Søndeborg Ugeavis: Få liv i den gamle computer med Linux](https://www.ugeavisen-soenderborg.dk/soenderborg/Faa-liv-i-den-gamle-computer-med-Linux/artikel/406969)
-
-XXXXX END XXXXX
-
-XXXXX FIRST 1/2 XXXXX
 
 ## 2018
 
@@ -61,7 +53,5 @@ XXXXX NEXT 1/2 XXXXX
 2017-02-24: [Sønderborg Ugeavis: Få lagt Linux på computeren](https://ugeavisen.dk/soenderborg/Faa-lagt-Linux-paa-computeren/artikel/308338)
 
 2017-01-01: [Jyske Vestkysten: Få en hurtigere computer](https://www.jv.dk/soenderborg/Faa-en-hurtigere-computer/artikel/2455535)
-
-XXXXX END XXXXXX
 
 XXXXX END XXXXXX
