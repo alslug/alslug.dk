@@ -12,7 +12,7 @@ Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for 
 ## Muligheder for kontante donationer:
 
 <style>
-	.fees,no-fees	{ margin-left:3em; margin-right:3em; }
+	.fees, no-fees	{ margin-left:3em; margin-right:3em; }
 	.fees   	{ background:#ff8888; }
 	.no-fees   	{ background:#88ff88; }
 	.reg-nr:before		{ margin-right:1em;	content:'Reg-nr: ';	}
