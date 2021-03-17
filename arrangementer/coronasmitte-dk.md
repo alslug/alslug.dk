@@ -25,5 +25,7 @@ XXXXX CORONASMITTE.DK-complience XXXXX
 
 XXXXX END XXXXX
 
+## Grundlag for vurderingen
+
 XXXXX CORONASMITTE.DK XXXXX
 
