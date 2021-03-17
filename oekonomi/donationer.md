@@ -77,7 +77,7 @@ Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores
 
 [https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
 
-<div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees gebyr på donationer via PayPal,
+<div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees) gebyr på donationer via PayPal,
 med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
 
 XXXXX NEXT 1/3 XXXXX
