@@ -33,7 +33,7 @@ Bakkensbro 6, Ullerup
 
 6400 Sønderborg
 
-XXXXX KORT MANGLER XXXXX
+XXXXX BASIS KORT XXXXX
 
 ## Introduktion til foreningen
 Vi hjælper med installation og brugen af Linux på din computer, og er det lokale samlingspunkt for brugere af linux.
