@@ -28,8 +28,11 @@ XXXXX FIRST 1/3 XXXXX
 <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten		<div> class='check'>&check;</div>
 
 Vores sparegris ved kaffen er altid sulten.
+
 Den vil helst spise danske kroner og euro. Både som sedler og mønter.
+
 Andre slags kan nogle gange være lidt svære at fordøje.
+
 <div class='no-fees'>Sparegrise tager ikke noget gebyr for at blive fodret</div>
 
 XXXXX NEXT 1/3 XXXXX
@@ -37,7 +40,9 @@ XXXXX NEXT 1/3 XXXXX
 <i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838		<div class='check'>&check;</div>
 
 <div class='reg-nr'	>	8010		</div>
+
 <div class='konto-nr'	>	0001122838	</div>
+
 <div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 
 
@@ -45,47 +50,57 @@ XXXXX END XXXXX
 
 XXXXX FIRST 1/3 XXXXX
 
-### <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:		<div class='check'>&check;</div>
+<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:		<div class='check'>&check;</div>
 
 Vi har fået en iZettle kortlæser, så der kan betales med kort.
+
 Spørg bestyrelsen hvis du gerne vil betale med kort.
+
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle</div>
 	
 XXXXX NEXT 1/3 XXXXX
 
-### <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div>
+<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div>
 
 <div class='fees'>Grundet nye sikkerheds-tiltag virker kort-betalinger via nettet måske ikke</div>
+
 XXXXX STRIPE-DONATIONS XXXXX
+
 <div class='fees'>Vi betaler [1.4% + 1.80kr](https://stripe.com/en-dk/pricing) i gebyr på donation via Europæiske betalingskort</div>
+
 <div class='fees'>Vi kan ikke modtage fra rene DanKort</div>
 
 XXXXX NEXT 1/3 XXXXX
 
-### <i class="fab fa-paypal"></i> &nbsp; PayPal: 								<div class='check'>&check;</div>
+<i class="fab fa-paypal"></i> &nbsp; PayPal: 								<div class='check'>&check;</div>
 
-Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores PayPal.me adresse:
-[https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
+Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores PayPal.me adresse: [https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
+
 <div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees gebyr på donationer via PayPal,
 med mindre du fjerner markeringen i "Paying for goods or a service?".
 
 XXXXX NEXT 1/3 XXXXX
 
-### <img src='/images/bank-20.png' style='float:left;' /> &nbsp; Bankoverførsel fra udlandet:			<div class='cross'>&cross;</div>
+<img src='/images/bank-20.png' style='float:left;' /> &nbsp; Bankoverførsel fra udlandet:			<div class='cross'>&cross;</div>
 
 <div class='iban'	>	DK83 8010 0001122838	</div>
+
 <div class='swift'	>	SYBKDK22		</div>
+
 <div class='fees'>
-			Send venligst kun DKK - vi har oplevet at banken beholder mellem 20 og 50 kroner af
-			det du overfører, hvis det ikke er i DKK, så send ikke
-			små-beløb i udenlandsk valuta.
-			Brug derfor kort eller paypal i stedet for.
+
+Send venligst kun DKK - vi har oplevet at banken beholder mellem 20 og 50 kroner af det du overfører, hvis det ikke er i DKK, så send ikke
+små-beløb i udenlandsk valuta.
+	
+Brug derfor kort eller paypal i stedet for.
+
 </div>
 
 XXXXX NEXT 1/3 XXXXX
 
 <span class='strikeout'>
-### &#128241; &nbsp; MobilePay						<div class='cross'>&cross;</div>
+
+<i class="fas fa-mobile-alt"></i> &nbsp; MobilePay						<div class='cross'>&cross;</div>
 
 <div class='fees'>
 
