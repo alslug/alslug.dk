@@ -27,9 +27,11 @@ Du skal selvfølgelig udskift (på) med @ for at få en mail-adresse.
 
 Der ydes IKKE supprt/hjælp via ovenstående mail-adresser, men der henvises til postlisten novice@alslug.dk, hvor medlemmer kan få gratis hjælp.
 
-XXXXX END XXXXX
+XXXXX NEXT 1/2 XXXXX
 
 ## Frivillige bidrag ##
 På vores [donations-side](/oekonomi/donationer.html) finder du forskellige måder at donere kontanter på.
 
 Alle bidrag modtages med tak
+
+XXXXX END XXXXX
