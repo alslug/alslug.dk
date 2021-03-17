@@ -38,3 +38,5 @@ var layers = new L.control.layers({
 //                                      });
 var icon_url	= 'https://www.alslug.dk/proxy.php/leaflet/';
 var shadow_url	= 'https://www.alslug.dk/proxy.php/leaflet/marker-shadow.png';
+
+osmap.setView([54.9639,9.6546],13);
