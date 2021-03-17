@@ -45,22 +45,19 @@ XXXXX NEXT 1/3 XXXXX
 
 <div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 
-
 XXXXX NEXT 1/3 XXXXX
 
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
 
-Vi har fået en iZettle kortlæser, så der kan betales med kort.
+Vi har fået en iZettle kortlæser, så vi kan modtage betalinger med kort med de fleste kort.
 
 Spørg bestyrelsen hvis du gerne vil betale med kort.
 
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle</div>
 	
-XXXXX END XXXXX
+XXXXX NEXT 1/3 XXXXX
 
-XXXXX FIRST 1/3 XXXXX
-
-<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div>
+<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
 
 <div class='fees'>Grundet nye sikkerheds-tiltag virker kort-betalinger via nettet måske ikke</div>
 
@@ -70,9 +67,11 @@ XXXXX STRIPE-DONATIONS XXXXX
 
 <div class='fees'>Vi kan ikke modtage fra rene DanKort</div>
 
-XXXXX NEXT 1/3 XXXXX
+XXXXX END XXXXX
 
-<i class="fab fa-paypal"></i> &nbsp; PayPal: 								<div class='check'>&check;</div>
+XXXXX FIRST 1/3 XXXXX
+
+<i class="fab fa-paypal"></i> &nbsp; PayPal:
 
 Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores PayPal.me adresse: [https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
 
