@@ -27,17 +27,17 @@ XXXXX FIRST 1/3 XXXXX
 
 
 
-### <img src='/images/gris-20.png' style='float:left;' /> &nbsp; Kontant: Sparegrisen er altid sulten		<div class='check'>&check;</div>
+### <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten		<div class='check'>&check;</div>
 
 Vores sparegris ved kaffen er altid sulten.
 Den vil helst spise danske kroner og euro. Både som sedler og mønter.
 Andre slags kan nogle gange være lidt svære at fordøje.
 <div class='no-fees'>Sparegrise tager ikke noget gebyr for at blive fodret</div>
 
+XXXXX END XXXXX
+XXXXX FIRST 1/3 XXXXX
 
-XXXXX NEXT 1/3 XXXXX
-
-### <img src='/images/bank-20.png' style='float:left;' />  &nbsp; Bankoverførsel: 8010-0001122838		<div class='check'>&check;</div>
+### <i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838		<div class='check'>&check;</div>
 
 <div class='reg-nr'	>	8010		</div>
 <div class='konto-nr'	>	0001122838	</div>
@@ -46,7 +46,7 @@ XXXXX NEXT 1/3 XXXXX
 
 XXXXX NEXT 1/3 XXXXX
 
-### <img src='/images/izet-20.png' style='float:left;' /> &nbsp; Visa/Mastercard i vores lokale:		<div class='check'>&check;</div>
+### <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:		<div class='check'>&check;</div>
 
 Vi har fået en iZettle kortlæser, så der kan betales med kort.
 Spørg bestyrelsen hvis du gerne vil betale med kort.
@@ -54,7 +54,7 @@ Spørg bestyrelsen hvis du gerne vil betale med kort.
 	
 XXXXX NEXT 1/3 XXXXX
 
-### <img src='/images/card-20.png' style='float:left;' /> &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div>
+### <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div>
 
 <div class='fees'>Grundet nye sikkerheds-tiltag virker kort-betalinger via nettet måske ikke</div>
 XXXXX STRIPE-DONATIONS XXXXX
@@ -63,7 +63,7 @@ XXXXX STRIPE-DONATIONS XXXXX
 
 XXXXX NEXT 1/3 XXXXX
 
-### <img src='/images/PayPal.png' style='float:left;' /> &nbsp; PayPal: 					<div class='check'>&check;</div>
+### <i class="fab fa-paypal"></i> &nbsp; PayPal: 								<div class='check'>&check;</div>
 
 Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores PayPal.me adresse:
 [https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
