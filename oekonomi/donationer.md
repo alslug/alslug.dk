@@ -83,7 +83,7 @@ med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
 	
 XXXXX NEXT 1/3 XXXXX
 
-<img src='/images/bank-20.png' style='float:left;' /> &nbsp; Bankoverførsel fra udlandet:			<div class='cross'>&cross;</div>
+<i class="fas fa-university"></i> &nbsp; Bankoverførsel fra udlandet:
 
 <div class='iban'	>	DK83 8010 0001122838	</div>
 
@@ -98,9 +98,7 @@ XXXXX NEXT 1/3 XXXXX
 
 XXXXX STRIKEOUT START XXXXX
 
-<span class='strikeout'>
-
-<i class="fas fa-mobile-alt"></i> &nbsp; MobilePay						<div class='cross'>&cross;</div>
+<i class="fas fa-mobile-alt"></i> &nbsp; MobilePay
 
 <div class='fees'>MobilePay er blivet lukket ned, da vi fremover skal betale 49 kr/måned. Vi har modtaget ca 1200 kr/år via MobilePay.</div>
 
