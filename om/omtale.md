@@ -54,9 +54,9 @@ qqqqq 2019-06-28: [Søndeborg Ugeavis: Få liv i den gamle computer med Linux](h
 
 2019-06-03: [Jyske Vestkysten: Lad Linux styre din pc](https://jv.dk/artikel/lad-linux-styre-din-pc)
 
-Nordschleswiger
+2019-06-10: Nordschleswiger om LugCamp
 
-clasic fm
+2019-05-20: [Als Clasic FM: Linux kan redde din gamle PC eller Mac](https://soundcloud.com/radio-als/linux-kan-redde-din-gamle-pc-eller-mac)
 
 2019-05-08: [Jyske Vestkysten: Gamle computere kan få nyt liv med Linux](https://jv.dk/artikel/gamle-computere-kan-f%C3%A5-nyt-liv-med-linux)
 
@@ -160,7 +160,7 @@ XXXXX NEXT 1/2 XXXXX
 
 2017-01-01: [Jyske Vestkysten: Få en hurtigere computer](https://www.jv.dk/soenderborg/Faa-en-hurtigere-computer/artikel/2455535)
 
-XXXXX NEXT 1/2 XXXXXX
+XXXXX NEXT 1/2 XXXXX
 
 ## 2016
 
@@ -174,7 +174,7 @@ XXXXX NEXT 1/2 XXXXXX
 
 2016-01-18: [Jyske Vestkysten: Få Linux til din pc](https://jv.dk/artikel/f%C3%A5-linux-til-din-pc)
 
-XXXXX NEXT 1/2 XXXXXX
+XXXXX NEXT 1/2 XXXXX
 
 ## 2015
 
@@ -206,4 +206,4 @@ XXXXX NEXT 1/2 XXXXX
 
 2014-04-02: [Jyske Vestkysten: PC brugere hjælper med computeren](https://jv.dk/artikel/pc-brugere-hj%C3%A6lper-med-computeren)
 
-XXXXX END XXXXXX
+XXXXX END XXXXX
