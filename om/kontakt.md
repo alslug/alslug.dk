@@ -9,6 +9,8 @@ c/o Bakkensbro Aktivitets og Kultur Center (Den gamle skole i Ullerup)\
 Bakkensbro 6, 1.sal, Ullerup\
 6400 Sønderborg
 
+XXXXX BASIS KORT XXXXX
+
 CVR-nummer: [37741175](https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37741175&soeg=alslug&type=Alle)
 
 XXXXX NEXT 1/2 XXXXX
