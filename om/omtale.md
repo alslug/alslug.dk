@@ -54,7 +54,7 @@ qqqqq 2019-06-28: [Søndeborg Ugeavis: Få liv i den gamle computer med Linux](h
 
 2019-06-03: [Jyske Vestkysten: Lad Linux styre din pc](https://jv.dk/artikel/lad-linux-styre-din-pc)
 
-2019-06-10: Nordschleswiger om LugCamp
+2019-06-01: Nordschleswiger om LugCamp
 
 2019-05-20: [Als Clasic FM: Linux kan redde din gamle PC eller Mac](https://soundcloud.com/radio-als/linux-kan-redde-din-gamle-pc-eller-mac)
 
