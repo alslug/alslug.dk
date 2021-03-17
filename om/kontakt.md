@@ -16,7 +16,7 @@ XXXXX NEXT 1/2 XXXXX
 ## Kontakt til bestyrelsen: ##
 
 Bestyrelsen	&nbsp;                bestyrelse(på)alslug.dk
----------   -------------------   ---------------------
+----------- --------------------- ---------------------
 Formand:	  Henning Wangerin	    wangerin(på)alslug.dk
 Kasserer:	  Poul Erik Lauridsen	  pel(på)alslug.dk
 Sekretær:	  Jørgen Rubæk		      jorgen(på)alslug.dk
