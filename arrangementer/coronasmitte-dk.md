@@ -2,7 +2,7 @@
 
 Om vi må holde åbent i vores lokale eller ej kommer blandt andet an på vurderinger af informationerne på [https://coronasmitte.dk](https://coronasmitte.dk) og på Sønderborg kommune.
 
-XXXXX FIRST 1/2 XXXXXX
+XXXXX FIRST 1/2 XXXXX
 
 ## Check af tiltag/tilladelser/forbud
 
