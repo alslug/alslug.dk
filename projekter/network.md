@@ -1,8 +1,8 @@
 # Vores netværk
 Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
-<a href='/dot/dot/projekter/network.dot/bakkensbro-network.png' target='_blank'>
-  <img src="/dot/dot/projekter/network.dot/bakkensbro-network.png" alt="Vores netværk" style="width:100%" id='myimage' />
+<a href='/img/dot/projekter/network.dot/bakkensbro-network.png' target='_blank'>
+  <img src="/img/dot/projekter/network.dot/bakkensbro-network.png" alt="Vores netværk" style="width:100%" id='myimage' />
 </a>
 
 * De røde dele er husets netværk.
