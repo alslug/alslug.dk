@@ -4,9 +4,13 @@ XXXXX FIRST 1/2 XXXXX
 
 ## 2020
 
+XXXXX NEXT 1/2 XXXXX
+
 ## 2019
 
 [Søndeborg Ugeavis: Få liv i den gamle computer med Linux](https://www.ugeavisen-soenderborg.dk/soenderborg/Faa-liv-i-den-gamle-computer-med-Linux/artikel/406969)
+
+XXXXX NEXT 1/2 XXXXX
 
 ## 2018
 
