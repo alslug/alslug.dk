@@ -30,7 +30,7 @@ Der ydes IKKE supprt/hjælp via ovenstående mail-adresser, men der henvises til
 XXXXX NEXT 1/2 XXXXX
 
 ## Frivillige bidrag ##
-På vores [donations-side](/oekonomi/donationer.html) finder du forskellige måder at donere kontanter på.
+På vores [donations-side](/oekonomi/donationer.md) finder du forskellige måder at donere kontanter på.
 
 Alle bidrag modtages med tak
 
