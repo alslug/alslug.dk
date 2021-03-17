@@ -98,7 +98,7 @@ XXXXX NEXT 1/2 XXXXX
 
 2018-06-22: [Jyske Vestkysten: Få hjælp til at installere Linux](https://jv.dk/artikel/f%C3%A5-hj%C3%A6lp-til-at-installere-linux)
 
-2018-05-30: [Jyske Vestkysten: https://jv.dk/artikel/f%C3%A5-hj%C3%A6lp-til-at-installere-linux](https://jv.dk/artikel/pc-entusiaster-installerer)
+2018-05-30: [Jyske Vestkysten: PC-entusiaster installerer](https://jv.dk/artikel/pc-entusiaster-installerer)
 
 2018-04-23: [Jyske Vestkysten: Sig Linux til din pc](https://jv.dk/artikel/sig-linux-til-din-pc)
 
@@ -132,9 +132,11 @@ XXXXX NEXT 1/2 XXXXX
 
 2017-11-06 [Jyske Vestkysten: Giv din pc et gratis fix](https://www.jv.dk/soenderborg/Giv-din-pc-et-gratis-fix/artikel/2557307)
 
-2017-11-03: [Jyske Vestkysten: Få Linux på din computer](https://www.jv.dk/soenderborg/Faa-Linux-paa-din-computer/artikel/2555881)
+2017-11-02: [Jyske Vestkysten: Få Linux på din computer](https://www.jv.dk/soenderborg/Faa-Linux-paa-din-computer/artikel/2555881)
 
 2017-10-29: [Jyske Vestkysten: Få gratis hjælp til din pc](https://www.jv.dk/soenderborg/Faa-gratis-hjaelp-til-din-pc/artikel/2544386)
+
+2017-09-28: [Jyske Vestkysten: Få gratis hjælp til din pc](https://jv.dk/artikel/f%C3%A5-gratis-hj%C3%A6lp-til-din-pc)
 
 2017-08-25: [Jyske Vestkysten: Hør om Linux i kulturnatten](https://www.jv.dk/soenderborg/Hoer-om-Linux-i-kulturnatten/artikel/2533716)
 
@@ -157,5 +159,51 @@ XXXXX NEXT 1/2 XXXXX
 2017-02-24: [Sønderborg Ugeavis: Få lagt Linux på computeren](https://ugeavisen.dk/soenderborg/Faa-lagt-Linux-paa-computeren/artikel/308338)
 
 2017-01-01: [Jyske Vestkysten: Få en hurtigere computer](https://www.jv.dk/soenderborg/Faa-en-hurtigere-computer/artikel/2455535)
+
+XXXXX NEXT 1/2 XXXXXX
+
+## 2016
+
+2016-11-30: [Jyske Vestkysten: Prøv noget nyt med din pc](https://jv.dk/artikel/pr%C3%B8v-noget-nyt-med-din-pc)
+
+2016-03-01: [Jyske Vestkysten: Nyt tilbud om nyt styrestem](https://jv.dk/artikel/nyt-tilbud-om-nyt-styrestem)
+
+2016-02-08: [Jyske Vestkysten: Fra gammel til opdateret pc](https://jv.dk/artikel/fra-gammel-til-opdateret-pc)
+
+2016-01-28: [Jyske Vestkysten: Linux-folk har fået nyt sted](https://jv.dk/artikel/linux-folk-har-f%C3%A5et-nyt-sted)
+
+2016-01-18: [Jyske Vestkysten: Få Linux til din pc](https://jv.dk/artikel/f%C3%A5-linux-til-din-pc)
+
+XXXXX NEXT 1/2 XXXXXX
+
+## 2015
+
+2015-12-29: [Jyske Vestkysten: Giv din gamle pc nyt liv](https://jv.dk/artikel/giv-din-gamle-pc-nyt-liv)
+
+2015-12-17: [Jyske Vestkysten: Læg Linux på din pc](https://jv.dk/artikel/l%C3%A6g-linux-p%C3%A5-din-pc)
+
+2015-12-14: [Jyske Vestkysten: Få Linux til din pc](https://jv.dk/artikel/f%C3%A5-linux-til-din-pc)
+
+2015-11-26: [Jyske Vestkysten: Sig Linux til din pc](https://jv.dk/artikel/sig-linux-til-din-pc)
+
+2015-09-23: [Jyske Vestkysten: PC-hjælp fra Linuxfolket](https://jv.dk/artikel/pc-hj%C3%A6lp-fra-linuxfolket)
+
+2015-09-18: [Jyske Vestkysten: Et gratis styreprogram til computeren](https://jv.dk/artikel/et-gratis-styreprogram-til-computeren)
+
+2015-08-25: [Jyske Vestkysten: Gratis service på pc'ere](https://jv.dk/artikel/gratis-service-p%C3%A5-pc-ere)
+
+2015-07-21: [Jyske Vestkysten: Gør virus pc'en for langsom ?](https://jv.dk/artikel/g%C3%B8r-virus-pc-en-for-langsom)
+
+XXXXX NEXT 1/2 XXXXX
+
+## 2014
+
+2014-08-12: [Jyske Vestkysten: AlsLUG er med under Kulturnatten](https://jv.dk/artikel/alslug-er-med-under-kulturnatten)
+
+2014-07-15: [Jyske Vestkysten: Linux er vejen frem](https://jv.dk/artikel/linux-er-vejen-frem)
+
+2014-04-21: [Jyske Vestkysten: Linux-møde på biblioteket](https://jv.dk/artikel/linux-m%C3%B8de-p%C3%A5-biblioteket)
+
+2014-04-02: [Jyske Vestkysten: PC brugere hjælper med computeren](https://jv.dk/artikel/pc-brugere-hj%C3%A6lper-med-computeren)
 
 XXXXX END XXXXXX
