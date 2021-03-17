@@ -50,7 +50,7 @@ XXXXX NEXT 1/3 XXXXX
 
 Vi har fået en iZettle kortlæser, så der kan betales med kort.
 Spørg bestyrelsen hvis du gerne vil betale med kort.
-<div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle
+<div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle</div>
 	
 XXXXX NEXT 1/3 XXXXX
 
