@@ -15,7 +15,7 @@ Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for 
 	.fees, no-fees	{ margin-left:3em; margin-right:3em; }
 	.fees   	{ background:#ff8888; }
 	.no-fees   	{ background:#88ff88; }
-	.strikeout	{ text-decoration: line-through; text-decoration-style: wavy; }
+	.strikeout	{ background:silver; text-decoration: line-through; text-decoration-style: wavy; }
 	.reg-nr:before		{ margin-right:1em;	content:'Reg-nr: ';	}
 	.reg-nr:after		{ padding-left:2em;	content:'( Sydbank )';	}
 	.konto-nr:before	{ margin-right:1em;	content:'Konto-nr:';	}
