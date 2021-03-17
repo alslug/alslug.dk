@@ -25,26 +25,25 @@ Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for 
 
 XXXXX FIRST 1/3 XXXXX
 
-
-
-### <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten		<div class='check'>&check;</div>
+<i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten		<div> class='check'>&check;</div>
 
 Vores sparegris ved kaffen er altid sulten.
 Den vil helst spise danske kroner og euro. Både som sedler og mønter.
 Andre slags kan nogle gange være lidt svære at fordøje.
 <div class='no-fees'>Sparegrise tager ikke noget gebyr for at blive fodret</div>
 
-XXXXX END XXXXX
-XXXXX FIRST 1/3 XXXXX
+XXXXX NEXT 1/3 XXXXX
 
-### <i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838		<div class='check'>&check;</div>
+<i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838		<div class='check'>&check;</div>
 
 <div class='reg-nr'	>	8010		</div>
 <div class='konto-nr'	>	0001122838	</div>
 <div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 
 
-XXXXX NEXT 1/3 XXXXX
+XXXXX END XXXXX
+
+XXXXX FIRST 1/3 XXXXX
 
 ### <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:		<div class='check'>&check;</div>
 
