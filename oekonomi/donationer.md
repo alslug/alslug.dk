@@ -25,7 +25,7 @@ Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for 
 
 XXXXX FIRST 1/3 XXXXX
 
-<i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten		<div> class='check'>&check;</div>
+<i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten
 
 Vores sparegris ved kaffen er altid sulten.
 
@@ -37,7 +37,7 @@ Andre slags kan nogle gange være lidt svære at fordøje.
 
 XXXXX NEXT 1/3 XXXXX
 
-<i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838		<div class='check'>&check;</div>
+<i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838
 
 <div class='reg-nr'	>	8010		</div>
 
@@ -46,11 +46,9 @@ XXXXX NEXT 1/3 XXXXX
 <div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 
 
-XXXXX END XXXXX
+XXXXX NEXT 1/3 XXXXX
 
-XXXXX FIRST 1/3 XXXXX
-
-<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:		<div class='check'>&check;</div>
+<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
 
 Vi har fået en iZettle kortlæser, så der kan betales med kort.
 
@@ -58,7 +56,9 @@ Spørg bestyrelsen hvis du gerne vil betale med kort.
 
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle</div>
 	
-XXXXX NEXT 1/3 XXXXX
+XXXXX END XXXXX
+
+XXXXX FIRST 1/3 XXXXX
 
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):	<div class='check'>&check;</div>
 
