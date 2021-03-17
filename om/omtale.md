@@ -56,7 +56,7 @@ qqqqq 2019-06-28: [Søndeborg Ugeavis: Få liv i den gamle computer med Linux](h
 
 2019-06-01: Nordschleswiger om LugCamp
 
-2019-05-20: [Als Clasic FM: Linux kan redde din gamle PC eller Mac](https://soundcloud.com/radio-als/linux-kan-redde-din-gamle-pc-eller-mac)
+2019-05-20: [Als Classic FM: Linux kan redde din gamle PC eller Mac](https://soundcloud.com/radio-als/linux-kan-redde-din-gamle-pc-eller-mac)
 
 2019-05-08: [Jyske Vestkysten: Gamle computere kan få nyt liv med Linux](https://jv.dk/artikel/gamle-computere-kan-f%C3%A5-nyt-liv-med-linux)
 
