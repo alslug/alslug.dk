@@ -67,6 +67,6 @@ Medlemsskab af AlsLUG er gratis, og du får mulighed for at få hjælp og stille
 
 
 ## Frivillige donationer ...
-... modtages [her](/oekonomi/donationer.html). Både i form af kontanter og grej.
+... modtages [her](/oekonomi/donationer.md). Både i form af kontanter og grej.
 
 XXXXX END XXXXX
