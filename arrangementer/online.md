@@ -18,11 +18,11 @@ Du kan deltager både med din browser eller med Jitsi-appen på din telefon/tabl
 
 ### Download jitsi til din telefon eller tablet.
 
-[App Store   ](https://apps.apple.com/us/app/jitsi-meet/id1165103905)         ![App Store  ](https://www.alslug.dk/img/jitsi-download/apple.png)
+[App Store   ](https://apps.apple.com/us/app/jitsi-meet/id1165103905)         <i class="fab fa-app-store-ios"></i>
 &nbsp; &nbsp;
-[Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)  ![Google Play](https://www.alslug.dk/img/jitsi-download/google.png)
+[Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)  <i class="fab fa-google-play"></i>
 &nbsp; &nbsp;
-[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)                   ![F-Droid    ](https://www.alslug.dk/img/jitsi-download/fdroid.png)
+[F-Droid ](https://f-droid.org/en/packages/org.jitsi.meet/)                   
 
 
 
