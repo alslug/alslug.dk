@@ -93,7 +93,7 @@ AlsLUG blev en officiel forening 3. maj 2000.
 
 
 ## Bestyrelse og generalforsamlinger
-*****IMPORT-GF*****
+XXXXX IMPORT-GF XXXXX
 
 
 
