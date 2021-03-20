@@ -24,6 +24,12 @@ Hvis du vil have vores kalender vist i din egen kalender, kan du bruge
 
 XXXXX NEXT 1/2 XXXXX
 
+## Introduktion til foreningen
+Vi hjælper med installation og brugen af Linux på din computer, og er det lokale samlingspunkt for brugere af linux.
+
+Vi arbejder typisk med Lubuntu eller Ubuntu-mate, men har du spørgsmål om andre varianter, er du også meget velkommen på
+vores mailinglister eller til vore arrangementer i Ullerup udenfor Sønderborg.
+
 ## Aktivitetsadresse:
 Bakkensbro Aktivitets- og Kultur Center
 
@@ -34,13 +40,7 @@ Bakkensbro 6, Ullerup
 6400 Sønderborg
 
 XXXXX BASIS KORT XXXXX
-
-## Introduktion til foreningen
-Vi hjælper med installation og brugen af Linux på din computer, og er det lokale samlingspunkt for brugere af linux.
-
-Vi arbejder typisk med Lubuntu eller Ubuntu-mate, men har du spørgsmål om andre varianter, er du også meget velkommen på
-vores mailinglister eller til vore arrangementer i 
-[Ullerup](http://findvej.dk/Bakkensbro6,6400?zoom=11&maptype=6) udenfor Sønderborg.
+<script src='https://alslug.dk/api/aktiviteter/lokale.js'></script>
 
 ## Linux er....
 
