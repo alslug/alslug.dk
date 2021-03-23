@@ -6,5 +6,4 @@ Placeringerne markerer kun området. Ikke de konkrete adresser. Vi værker selvf
 
 XXXXX BASIS KORT XXXXX
 <script src='https://alslug.dk/api/aktiviteter/alle.js'   ></script>
-<script src='https://alslug.dk/api/medlems-fordeling.js'	></script>
 XXXXX KORT TEST XXXXX
