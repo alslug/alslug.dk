@@ -13,7 +13,7 @@ Alle danske adresser samles i automatisk efter følgende parametre ud fra fra ad
 1) Opstillingskreds
 2) Kommuner
 3) Afstemningsområde
-4) landsbyer/bydele etc med mindst 100 adresser (benyttes pt ikke på kortet)
+4) landsbyer/bydele etc med mindst 100 adresser
 
 Nogle kommuner består af flere opstillingskredse. Hvis det er tilfældet ombyttes de to parametre automatisk.
 
