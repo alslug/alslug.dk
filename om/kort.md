@@ -1,6 +1,6 @@
 # Oversigt over medlemmer
 
-Her bor nogle af vore XXXXX MEMBER COUNT XXXXX" medlemmer:
+Her bor nogle af vore XXXXX MEMBER COUNT XXXXX medlemmer:
 
 Placeringerne markerer kun området. Ikke de konkrete adresser. Vi værker selvfølgelig om vore medlemmers eksakte adresser.
 
