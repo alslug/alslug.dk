@@ -11,7 +11,7 @@ Dette er en test af vores billet-system.
 Derfor vil vi fejre os selv med en hyggelig middag og aften.
 -->
 
-*****TICKETS*****
+XXXXX TICKETS XXXXX
 
 <!--
 Vi serverer en buffet-menu fra Kværs Kro.
