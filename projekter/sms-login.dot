@@ -15,10 +15,10 @@ digraph xxx {
                     current_page;
 /////////////////////////////////////////////////////////////////////////////////////
         enter_phone_number ->                                                   /////
-              sms_sendt [ style= dotted label='SMS med link'];                  /////
+              sms_sendt [ style= dotted label="SMS med link"];                  /////
 /////////////////////////////////////////////////////////////////////////////////////
   sms_sendt ->
-        accept_login [ style=dotted label='Klik på link i SMS' ];
+        accept_login [ style=dotted label="Klik på link i SMS" ];
         accept_login ->
               login_accepted->
                     same_session;
