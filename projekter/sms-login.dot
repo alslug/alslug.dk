@@ -1,4 +1,12 @@
 digraph xxx {
+  {
+    rank = same;
+    wait_for_confirmation; check_for_remote_accept;
+/////////////////////////////////////////////////////////////////////////////////////
+              wait_for_confirmation ->                                          /////
+                    check_for_remote_accept [ dir=both ];                       /////
+/////////////////////////////////////////////////////////////////////////////////////
+  }
   current_page [ style=filled fillcolor=green ];
   current_page ->
         enter_phone_number ->
@@ -7,9 +15,6 @@ digraph xxx {
 /////////////////////////////////////////////////////////////////////////////////////
         enter_phone_number ->                                                   /////
               sms_sendt [ style= dotted ];                                      /////
-/////////////////////////////////////////////////////////////////////////////////////
-              wait_for_confirmation ->                                          /////
-                    check_for_remote_accept [ dir=both ];                       /////
 /////////////////////////////////////////////////////////////////////////////////////
   sms_sendt ->
         accept_login ->
