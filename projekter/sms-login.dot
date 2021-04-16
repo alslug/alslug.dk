@@ -29,11 +29,11 @@ digraph xxx {
   }
   subgraph cluster_telefon {
     label = "Telefon";
-    same_session [ shape=record label="{samesession ?|{<ja> ja\nredirect| &nbsp; |<nej> nej\n\ngem\nconfrmed}}" ];
+    same_session [ shape=record label="{same session ?|{<ja> ja\nredirect| &nbsp; |<nej> nej\n\ngem\nconfrmed}}" ];
     SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
            accept_login -> login_accepted-> same_session;
-                                            same_session:ja -> current_page;
                                             same_session:nej -> wait_for_confirmation [ style=dotted ];
+                            current_page -> same_session:ja [ dir=back ];
   }
   
   enter_phone_number -> SMS [ style= dotted label="SMS med link"];
