@@ -7,7 +7,7 @@ digraph xxx {
                     check_for_remote_accept [ dir=both ];                       /////
 /////////////////////////////////////////////////////////////////////////////////////
   }
-  same_session [ label='samesession|{<ja> ja|<nej> nej}' ];
+  same_session [ label="samesession|{<ja> ja|<nej> nej}" ];
   current_page [ style=filled fillcolor=green ];
   current_page ->
         enter_phone_number ->
