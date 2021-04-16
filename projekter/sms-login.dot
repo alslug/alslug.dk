@@ -1,28 +1,20 @@
 digraph xxx {
   {
-    edge [ color=red style=dotted ];
-////////////////////////////////////////////////////////////////////////////////////////////
+    edge [ style=dashed color=red ];
     enter_phone_number -> memcached [ label="Data gemt i \nmemcachd"]; /////
                           memcached [ color = red ];
                           memcached -> check_for_remote_accept;
                           memcached -> accept_login;
                           memcached -> same_session:ja [ label = "Slet data i \nmemcached" dir=both ];
                           memcached -> same_session:nej [ label = "Opdater data i \nmemcached" dir=both ];
-////////////////////////////////////////////////////////////////////////////////////////////
-  }
-  {
-    edge [ color=blue style=/
-    /];
-////////////////////////////////////////////////////////////////////////////////////////////
+    edge [ style=dashed color=blue ];
         enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
                               session [ color = blue ];
                               session -> wait_for_confirmation;
                               session -> same_session;
-////////////////////////////////////////////////////////////////////////////////////////////
   }
   subgraph cluster_browser {
     label = "Browser";
-
     current_page [ style=filled fillcolor=green ];
     current_page -> enter_phone_number -> wait_for_confirmation;
                                           wait_for_confirmation -> check_for_remote_accept [ dir=both ];
@@ -35,6 +27,5 @@ digraph xxx {
            accept_login -> login_accepted-> same_session;
                             current_page -> same_session:ja [ dir=back ];
   }
-  
   enter_phone_number -> SMS [ style= dotted label="SMS med link"];
 }
