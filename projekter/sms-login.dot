@@ -1,24 +1,27 @@
 digraph xxx {
   current_page [ style=filled fillcolor=green ];
   current_page ->
-        login ->
-              afvent_confirmation ->
+        enter_phone_number ->
+              wait_for_confirmation ->
                     current_page;
 /////////////////////////////////////////////////////////////////////////////////////
-        login -> sms_sendt [ style= dotted ];                                   /////
-              afvent_confirmation -> check_for_remote_accept [ dir=both ];      /////
+        enter_phone_number ->                                                   /////
+              sms_sendt [ style= dotted ];                                      /////
+/////////////////////////////////////////////////////////////////////////////////////
+              wait_for_confirmation ->                                          /////
+                    check_for_remote_accept [ dir=both ];                       /////
 /////////////////////////////////////////////////////////////////////////////////////
   sms_sendt ->
         accept_login ->
               login_accepted->
-                    er_det_samme_session;
-                    er_det_samme_session -> {ja,nej};
+                    same_session;
+                    same_session -> {ja,nej};
                           ja ->
                                 current_page;
                           nej ->
                                 gem_confirmed;
 /////////////////////////////////////////////////////////////////////////////////////
                                 gem_confirmed ->                                /////
-                                      afvent_confirmation [ style=dotted ];     /////
+                                      wait_for_confirmation [ style=dotted ];   /////
 /////////////////////////////////////////////////////////////////////////////////////
 }
