@@ -11,7 +11,8 @@ digraph xxx {
 ////////////////////////////////////////////////////////////////////////////////////////////
   }
   {
-    edge [ color=blue style=dotted ];
+    edge [ color=blue style=/
+    /];
 ////////////////////////////////////////////////////////////////////////////////////////////
         enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
                               session [ color = blue ];
@@ -29,10 +30,9 @@ digraph xxx {
   }
   subgraph cluster_telefon {
     label = "Telefon";
-    same_session [ shape=record label="{same session ?|{<ja> ja\nredirect| &nbsp; |<nej> nej\n\ngem\nconfrmed}}" ];
+    same_session [ shape=record label="{same session ?|{ <ja> ja \n \n redirect \n \n slet \n memcached | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
     SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
            accept_login -> login_accepted-> same_session;
-                                            same_session:nej -> wait_for_confirmation [ style=dotted ];
                             current_page -> same_session:ja [ dir=back ];
   }
   
