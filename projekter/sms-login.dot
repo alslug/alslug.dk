@@ -1,0 +1,6 @@
+digraph xxx {
+  current_page -> login -> {sms_sendt,afvent_confirmation};
+  afvent_confirmation -> check_for_remote_accept -> afvent_confirmation -> current_page;
+  
+  sms_sendt -> accept_login -> login_accepted-> er_det_samme_session -> ja -> current_page;
+}
