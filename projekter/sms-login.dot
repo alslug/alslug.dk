@@ -26,14 +26,8 @@ digraph xxx {
     current_page ->
           enter_phone_number ->
                 wait_for_confirmation ->
-                      current_page;
-                wait_for_confirmation ->
                       check_for_remote_accept [ dir=both ];
-    current_page -> enter_phone_number -> wait_for_confirmation;
-    current_page -> enter_phone_number -> wait_for_confirmation;
-    current_page -> enter_phone_number -> wait_for_confirmation;
-    current_page -> enter_phone_number -> wait_for_confirmation;
-    current_page -> enter_phone_number -> wait_for_confirmation;
+    current_page -> wait_for_confirmation [ dir=back ];
   }
   subgraph cluster_telefon {
     label = "Telefon";
