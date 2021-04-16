@@ -24,7 +24,7 @@ digraph xxx {
               wait_for_confirmation -> check_for_remote_accept [ dir=both ];           /////
 ////////////////////////////////////////////////////////////////////////////////////////////
   }
-  same_session [ shape=record label="samesession|{<ja> ja|<nej> nej}" ];
+  same_session [ shape=record label="{samesession ?|{<ja> ja| &nbsp; |<nej> nej}}" ];
   current_page [ style=filled fillcolor=green ];
   current_page ->
         enter_phone_number ->
@@ -38,14 +38,12 @@ digraph xxx {
         accept_login ->
               login_accepted->
                     same_session;
-
-                    same_session -> {ja,nej};
-                          ja ->
-                                current_page;
-                          nej ->
-                                gem_confirmed;
+                    same_session:ja ->
+                          current_page;
+                    same_session:nej ->
+                          gem_confirmed;
 ////////////////////////////////////////////////////////////////////////////////////////////
-                                gem_confirmed ->                                       /////
-                                      wait_for_confirmation [ style=dotted ];          /////
+                          gem_confirmed ->                                       /////
+                                wait_for_confirmation [ style=dotted ];          /////
 ////////////////////////////////////////////////////////////////////////////////////////////
 }
