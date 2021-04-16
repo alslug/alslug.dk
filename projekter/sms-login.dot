@@ -17,6 +17,7 @@ digraph xxx {
               sms_sendt [ style= dotted ];                                      /////
 /////////////////////////////////////////////////////////////////////////////////////
   sms_sendt ->
+        accept_login [ style=dotted ];
         accept_login ->
               login_accepted->
                     same_session;
