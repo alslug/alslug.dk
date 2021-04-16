@@ -18,7 +18,7 @@ digraph xxx {
                               session -> same_session;
 ////////////////////////////////////////////////////////////////////////////////////////////
   }
-  subgraph x_cluster {
+  subgraph cluster_x {
     current_page [ style=filled fillcolor=green ];
     current_page ->
           enter_phone_number ->
