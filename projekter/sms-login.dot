@@ -1,15 +1,16 @@
 digraph xxx {
+  node [ shape=box ];
   {
     edge [ style=dashed color=red ];
     enter_phone_number -> memcached [ label="Data gemt i \nmemcachd"]; /////
-                          memcached [ color = red ];
+                          memcached [ shape=ellipse color=red ];
                           memcached -> check_for_remote_accept;
                           memcached -> accept_login;
                           memcached -> same_session:ja [ label = "Slet data i \nmemcached" dir=both ];
                           memcached -> same_session:nej [ label = "Opdater data i \nmemcached" dir=both ];
     edge [ style=dashed color=blue ];
         enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
-                              session [ color = blue ];
+                              session [ shape=ellipse color=blue ];
                               session -> wait_for_confirmation;
                               session -> same_session;
   }
