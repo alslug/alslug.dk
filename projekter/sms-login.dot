@@ -30,7 +30,7 @@ digraph xxx {
   }
   subgraph cluster_telefon {
     label = "Telefon";
-    same_session [ shape=record label="{same session ?|{ <ja> ja \n \n redirect \n \n slet \n memcached | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
+    same_session [ shape=record label="{same session ?|{ <ja> ja \n \n slet \n memcached \n \n redirect | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
     SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
            accept_login -> login_accepted-> same_session;
                             current_page -> same_session:ja [ dir=back ];
