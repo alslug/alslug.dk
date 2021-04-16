@@ -27,6 +27,7 @@ digraph xxx {
     SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
            accept_login -> login_accepted-> same_session;
                             current_page -> same_session:ja [ dir=back ];
+                                            same_session:nej -> close_browser;
   }
   enter_phone_number -> SMS [ style= dotted label="SMS med link"];
 }
