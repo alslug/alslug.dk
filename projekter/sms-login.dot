@@ -23,23 +23,18 @@ digraph xxx {
     label = "Browser";
 
     current_page [ style=filled fillcolor=green ];
-    current_page ->
-          enter_phone_number ->
-                wait_for_confirmation ->
-                      check_for_remote_accept [ dir=both ];
+    current_page -> enter_phone_number -> wait_for_confirmation;
+                                          wait_for_confirmation -> check_for_remote_accept [ dir=both ];
     current_page -> wait_for_confirmation [ dir=back ];
   }
   subgraph cluster_telefon {
     label = "Telefon";
     same_session [ shape=record label="{samesession ?|{<ja> ja\nredirect| &nbsp; |<nej> nej\n\ngem\nconfrmed}}" ];
-    sms_sendt ->
-          accept_login [ style=dotted label="Klik på link i SMS" ];
-          accept_login ->
-                login_accepted->
-                      same_session;
-                      same_session:ja -> current_page;
-                      same_session:nej -> wait_for_confirmation [ style=dotted ];
+    SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
+           accept_login -> login_accepted-> same_session;
+                                            same_session:ja -> current_page;
+                                            same_session:nej -> wait_for_confirmation [ style=dotted ];
   }
   
-  enter_phone_number -> sms_sendt [ style= dotted label="SMS med link"];
+  enter_phone_number -> SMS [ style= dotted label="SMS med link"];
 }
