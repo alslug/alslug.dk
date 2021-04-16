@@ -6,28 +6,29 @@ digraph xxx {
                           memcached [ shape=ellipse color=red ];
                           memcached -> check_for_remote_accept;
                           memcached -> accept_login;
-                          memcached -> same_session:ja [ label = "Slet data i \nmemcached" dir=both ];
-                          memcached -> same_session:nej [ label = "Opdater data i \nmemcached" dir=both ];
+                          memcached -> login_accepted:ja [ label = "Slet data i \nmemcached" dir=both ];
+                          memcached -> login_accepted:nej [ label = "Opdater data i \nmemcached" dir=both ];
     edge [ style=dashed color=blue ];
         enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
                               session [ shape=ellipse color=blue ];
                               session -> wait_for_confirmation;
-                              session -> same_session;
+                              session -> login_accepted;
   }
   subgraph cluster_browser {
     label = "Browser";
     current_page [ style=filled fillcolor=green ];
     current_page -> enter_phone_number -> wait_for_confirmation;
-                                          wait_for_confirmation -> check_for_remote_accept [ dir=both ];
+                                          wait_for_confirmation -> check_for_remote_accept;
+                                          wait_for_confirmation -> check_for_remote_accept [ dir=back ];
     current_page -> wait_for_confirmation [ dir=back ];
   }
   subgraph cluster_telefon {
     label = "Telefon";
-    same_session [ shape=record label="{same session ?|{ <ja> ja \n \n slet \n memcached \n \n redirect | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
+    login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja \n \n slet \n memcached \n \n redirect | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
     SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
-           accept_login -> login_accepted-> same_session;
-                            current_page -> same_session:ja [ dir=back ];
-                                            same_session:nej -> close_browser;
+           accept_login -> login_accepted;
+           current_page -> login_accepted:ja [ dir=back ];
+                           login_accepted:nej -> close_browser;
   }
   enter_phone_number -> SMS [ style= dotted label="SMS med link"];
 }
