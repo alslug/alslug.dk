@@ -18,19 +18,16 @@ digraph xxx {
                               session -> same_session;
 ////////////////////////////////////////////////////////////////////////////////////////////
   }
-  {
-    rank = same;
-    wait_for_confirmation; check_for_remote_accept;
-////////////////////////////////////////////////////////////////////////////////////////////
-              wait_for_confirmation -> check_for_remote_accept [ dir=both ];           /////
-////////////////////////////////////////////////////////////////////////////////////////////
+  subgraph x_cluster {
+    current_page [ style=filled fillcolor=green ];
+    current_page ->
+          enter_phone_number ->
+                wait_for_confirmation ->
+                      current_page;
+                wait_for_confirmation ->
+                      check_for_remote_accept [ dir=both ];
   }
   same_session [ shape=record label="{samesession ?|{<ja> ja| &nbsp; |<nej> nej}}" ];
-  current_page [ style=filled fillcolor=green ];
-  current_page ->
-        enter_phone_number ->
-              wait_for_confirmation ->
-                    current_page;
 ////////////////////////////////////////////////////////////////////////////////////////////
         enter_phone_number -> sms_sendt [ style= dotted label="SMS med link"];         /////
 ////////////////////////////////////////////////////////////////////////////////////////////
