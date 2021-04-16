@@ -2,17 +2,19 @@ digraph xxx {
   {
     edge [ color=red style=dotted ];
 ////////////////////////////////////////////////////////////////////////////////////////////
-    enter_phone_number -> memcached [ label="Data gemt i memcachd"]; /////
+    enter_phone_number -> memcached [ label="Data gemt i \nmemcachd"]; /////
                           memcached [ color = red ];
-                          memcached -> check_for_remote_accept [ label = "Hent data i memcached"];
-                          memcached -> login_accepted [ label = "Opdater data i memcached" dir=both ];
+                          memcached -> check_for_remote_accept;
+                          memcached -> login_accepted [ label = "Opdater data i \nmemcached" dir=both ];
 ////////////////////////////////////////////////////////////////////////////////////////////
   }
   {
     edge [ color=blue style=dotted ];
 ////////////////////////////////////////////////////////////////////////////////////////////
-        enter_phone_number -> session [ label="Data gemt i session"];    /////
-                          session [ color = blue ];
+        enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
+                              session [ color = blue ];
+                              session -> wait_for_confirmation;
+                              session -> same_session;
 ////////////////////////////////////////////////////////////////////////////////////////////
   }
   {
