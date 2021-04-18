@@ -12,6 +12,7 @@ digraph xxx {
         enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
                               session [ shape=ellipse color=blue ];
                               session -> wait_for_confirmation;
+                              session -> check_for_remote_accept;
                               session -> login_accepted;
   }
   subgraph cluster_browser {
