@@ -19,7 +19,7 @@ digraph xxx {
   subgraph cluster_browser {
     label = "Browser";
     current_page [ style=filled fillcolor=green ];
-    node [
+    node [ style=filled fillcolor=yellow ];
     current_page -> enter_phone_number -> wait_for_confirmation;
                                           wait_for_confirmation -> check_for_remote_accept [ label="Ajax-call" ];
                                           wait_for_confirmation -> check_for_remote_accept [ dir=back ];
