@@ -29,9 +29,11 @@ digraph xxx {
     SMS;
     subgraph cluster_telefon_browser {
       label = "Browser på telefonen";
-      login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja | <nej> nej }}" ];
-      login_accepted_ja  [ label="slet \n memcached \n \n redirect"  ];
-      login_accepted_nej [ label="gem \n confrmed \n i \n memcached" ];
+      subgraph cluster_telefon_browser_accept {
+        login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja | <nej> nej }}" ];
+        login_accepted_ja  [ label="slet \n memcached \n \n redirect"  ];
+        login_accepted_nej [ label="gem \n confrmed \n i \n memcached" ];
+      }
       accept_login_side -> login_accepted [ label="Slider aktiveret" ];
                            login_accepted -> login_accepted_ja;
                            login_accepted -> login_accepted_nej;
