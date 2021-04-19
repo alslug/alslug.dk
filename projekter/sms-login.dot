@@ -6,8 +6,9 @@ digraph xxx {
                           memcached [ shape=ellipse color=red ];
                           memcached -> check_for_remote_accept;
                           memcached -> accept_login_side;
-                          memcached -> login_accepted:ja [ label = "Slet data i \nmemcached" dir=both ];
-                          memcached -> login_accepted:nej [ label = "Opdater data i \nmemcached" dir=both ];
+                          memcached -> login_accepted;
+                          memcached -> login_accepted_ja [ label = "Slet data i \nmemcached" dir=both ];
+                          memcached -> login_accepted_nej [ label = "Opdater data i \nmemcached" dir=both ];
     edge [ style=dashed color=blue ];
         enter_phone_number -> session [ label="Data gemt i \nsession"];    /////
                               session [ shape=ellipse color=blue ];
