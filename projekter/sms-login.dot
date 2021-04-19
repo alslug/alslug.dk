@@ -5,7 +5,7 @@ digraph xxx {
     enter_phone_number -> memcached [ label="Data gemt i \nmemcachd"]; /////
                           memcached [ shape=ellipse color=red ];
                           memcached -> check_for_remote_accept;
-                          memcached -> accept_login;
+                          memcached -> accept_login_side;
                           memcached -> login_accepted:ja [ label = "Slet data i \nmemcached" dir=both ];
                           memcached -> login_accepted:nej [ label = "Opdater data i \nmemcached" dir=both ];
     edge [ style=dashed color=blue ];
@@ -19,15 +19,15 @@ digraph xxx {
     label = "Browser";
     current_page [ style=filled fillcolor=green ];
     current_page -> enter_phone_number -> wait_for_confirmation;
-                                          wait_for_confirmation -> check_for_remote_accept;
+                                          wait_for_confirmation -> check_for_remote_accept [ label="Ajax-call" ];
                                           wait_for_confirmation -> check_for_remote_accept [ dir=back ];
     current_page -> wait_for_confirmation [ dir=back ];
   }
   subgraph cluster_telefon {
     label = "Telefon";
     login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja \n \n slet \n memcached \n \n redirect | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
-    SMS -> accept_login [ style=dotted label="Klik på link i SMS" ];
-           accept_login -> login_accepted;
+    SMS -> accept_login_side [ style=dotted label="Klik på link i SMS" ];
+           accept_login_side -> login_accepted [ label="Slider aktiveret" ];
            current_page -> login_accepted:ja [ dir=back ];
                            login_accepted:nej -> close_browser;
   }
