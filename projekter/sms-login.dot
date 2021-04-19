@@ -24,11 +24,15 @@ digraph xxx {
     current_page -> wait_for_confirmation [ dir=back ];
   }
   subgraph cluster_telefon {
-    label = "Browser på telefonen";
-    login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja \n \n slet \n memcached \n \n redirect | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
-    accept_login_side -> login_accepted [ label="Slider aktiveret" ];
-    current_page -> login_accepted:ja [ dir=back ];
-                    login_accepted:nej -> close_browser;
+    label = "Telefon";
+    SMS;
+    subgraph cluster_telefon_browser {
+      label = "Browser på telefonen";
+      login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja \n \n slet \n memcached \n \n redirect | <nej> nej \n \n gem \n confrmed \n i \n memcached}}" ];
+      accept_login_side -> login_accepted [ label="Slider aktiveret" ];
+      current_page -> login_accepted:ja [ dir=back ];
+                        login_accepted:nej -> close_browser;
+    }
   }
   {
     edge [ style= dotted ];
