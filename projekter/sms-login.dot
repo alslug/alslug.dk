@@ -19,6 +19,7 @@ digraph xxx {
   subgraph cluster_browser {
     label = "Browser";
     current_page [ style=filled fillcolor=green ];
+    node [
     current_page -> enter_phone_number -> wait_for_confirmation;
                                           wait_for_confirmation -> check_for_remote_accept [ label="Ajax-call" ];
                                           wait_for_confirmation -> check_for_remote_accept [ dir=back ];
@@ -30,6 +31,7 @@ digraph xxx {
     subgraph cluster_telefon_browser {
       label = "Browser på telefonen";
       subgraph cluster_telefon_browser_accept {
+        fillcolor=yellow;
         login_accepted [ shape=record label="{log \n accepted | same session ?|{ <ja> ja | <nej> nej }}" ];
         login_accepted_ja  [ label="slet \n memcached \n \n redirect"  ];
         login_accepted_nej [ label="gem \n confrmed \n i \n memcached" ];
