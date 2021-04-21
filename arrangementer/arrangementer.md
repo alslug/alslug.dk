@@ -32,7 +32,8 @@ Gruppen har en intern mail-liste på python-gruppen@alslug.dk, hvor medlemmer ha
 Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det en fordel at lufte det på mailinglisten, så der er nogen som kan forberede sig en lille smule.
 
 ## Udstillinger
-Vi har i en del år deltaget i <a href='http://kulturnat.info'>Kultur- og idrætsnatten i Sønderborg</a>, og vil også i 2018 deltage.
+Vi har siden 2013 deltaget i <a href='http://kulturnat.info'>Kultur- og idrætsnatten i Sønderborg</a>.
+Grundet corona er det aflyst i 2021, men vi deltager igen i 2022.
 
 Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
 ved Radioamatørernes Forårsmarked i Agerskov.
