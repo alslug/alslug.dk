@@ -100,6 +100,11 @@ at være mere alment orienterede **mest for almindelige brugere** der gerne vil 
 Selvom  aktiviteterne har skiftet en smule fokus er foreningen i skrivende stund mindst lige så aktiv som
 da den blev stiftet
 
+I en lang årrække havde vi møder i stiftevis Sønderborg og Aabenraa.
+
+Siden 1. januar 2016 har vi har eget lokale på den gamle Bakkensbro Skole i Ullerup, lidt vest for Sønderborg.
+
+
 
 
 
