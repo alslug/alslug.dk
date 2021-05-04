@@ -1,4 +1,4 @@
-<!-- popup -->
+<!-- alert -->
 
 # Torsdag 13. maj 2021 kl 19:00 Ekstraordinær generalforsamling
 
