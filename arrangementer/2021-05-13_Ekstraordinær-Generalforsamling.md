@@ -21,10 +21,10 @@ Per Larsen, som har været aktiv i en del år, har sagt ja til at kandidere til 
 
 #### Generalforsamlingen har følgende dagsorden:
 
-    Valg af ordstyrer.
-    Formandens fremlægning af situationen.
-    Valg af 1 nyt bestyrelsesmedlem.
-    Eventuelt.
+    1) Valg af ordstyrer og referent.
+    2) Formandens fremlægning af situationen.
+    3) Valg af 1 nyt bestyrelsesmedlem.
+    4) Eventuelt.
 
 Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
 
