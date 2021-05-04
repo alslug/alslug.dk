@@ -1,3 +1,5 @@
+<!-- popup -->
+
 ## Torsdag 13. maj 2021 kl 19:00
 
 Efter meddelelsen om vores kasserers død, indkaldes derfor i henhold til vedtægternes §5 stk 8 og §4, til ekstraordinær generalforsamling i AlsLUG, for at der kan vælges et nyt bestyrelsesmedlem.
