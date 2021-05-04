@@ -28,4 +28,4 @@ Per Larsen, som har været aktiv i en del år, har sagt ja til at kandidere til 
 
 Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
 
-Vedtægterne kan findes her: http://alslug.dk/om/vedtaegter.md
+[Vedtægterne kan findes her.](http://alslug.dk/om/vedtaegter.md)
