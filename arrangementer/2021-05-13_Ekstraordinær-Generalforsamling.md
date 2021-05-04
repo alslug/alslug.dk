@@ -1,6 +1,6 @@
 <!-- popup -->
 
-## Torsdag 13. maj 2021 kl 19:00
+# Torsdag 13. maj 2021 kl 19:00 Ekstraordinær generalforsamling
 
 Efter meddelelsen om vores kasserers død, indkaldes derfor i henhold til vedtægternes §5 stk 8 og §4, til ekstraordinær generalforsamling i AlsLUG, for at der kan vælges et nyt bestyrelsesmedlem.
 
@@ -9,17 +9,17 @@ Bestyrelsen har fundet en kandidat til kasserer-posten.
 Per Larsen, som har været aktiv i en del år, har sagt ja til at kandidere til posten.
 
 
-### Generalforsamlingen afholdes
+## Generalforsamlingen afholdes
     Torsdag d. 13. maj 2021 kl 19:00.
 
 
-### På pga corona-restriktionerne udendørs ( husk den varme jakke! ) på:
+## På pga corona-restriktionerne udendørs ( husk den varme jakke! ) på:
     Bakkensbro Aktivitets- og KulturCenter
     Ullerup Skole
     Bakkensbro 6, Ullerup
     6400 Sønderborg
 
-#### Generalforsamlingen har følgende dagsorden:
+## Generalforsamlingen har følgende dagsorden:
 
     1) Valg af ordstyrer og referent.
     2) Formandens fremlægning af situationen.
