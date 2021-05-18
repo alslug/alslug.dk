@@ -12,6 +12,11 @@ i vores lokale
     Bakkensbro 6, Ullerup
     6400 Sønderborg
 
+På grund af usikkerheder mht corona-situationen ....
+* har vi reserveres biblioteket hvor der er mere plads, i det usandsynlige tilfælde at vi bliver for mange til at vi må være i vores lokale.
+* vil vi meget gerne bede om tilmelding til generalforsamling.
+
+
 ## Generalforsamlingen har indtil videre følgende dagsorden:
 
     1) Valg af ordstyrer.
