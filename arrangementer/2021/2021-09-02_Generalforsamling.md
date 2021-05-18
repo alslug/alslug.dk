@@ -24,10 +24,12 @@ På grund af usikkerheder mht corona-situationen ....
     2) Formandens beretning.
     3) Fremlæggelse af regnskab.
     4) Indkomne forslag.
-        1) Bestyrelsen: Ændringer af vedtægter. [Link til ændringer](http://vedtaegts-update-2021.github.alslug.dk/om/vedtaegter.md)
+        1) Bestyrelsen: Ændringer af vedtægter.
     6) Valg af 3 bestyrelsesmedlemmer.
     7) Valg af revisor.
     8) Eventuelt.
+    
+[Link til bestyrelsens forslag til vedtægtsændringer](http://vedtaegts-update-2021.github.alslug.dk/om/vedtaegter.md)
     
 Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsamlingen. (§4 stk. 9)
 
