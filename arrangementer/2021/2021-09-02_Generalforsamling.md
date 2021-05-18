@@ -1,9 +1,11 @@
+<!-- send-mail 2021-08-01 -->
+
 # Ordinær generalforsamling 2021
 
 Hermed indkaldes der til ordinær generalforsamling i AlsLUG
 
 ## Generalforsamlingen afholdes
-    Torsdag d. 13. maj 2021 kl 19:00.
+    Torsdag d. 2. september 2021 kl 19:00.
 
 i vores lokale
 
