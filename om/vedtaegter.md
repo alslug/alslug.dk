@@ -7,7 +7,7 @@
 ## Vedtægter for foreningen<br>Alssund Linux User Group (Alslug)
 Vedtaget onsdag, den 3. maj 2000.
 
-Vedtægterne er senest ændret torsdag den 6. sept 2018
+Vedtægterne er senest ændret torsdag den 2. sept 2021
 
 
 
