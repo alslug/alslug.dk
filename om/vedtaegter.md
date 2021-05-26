@@ -100,7 +100,7 @@ Generalforsamlingen vælger 1 revisor. Revisoren kan ikke være medlem af bestyr
 Revisoren skal ikke være medlem af Alslug.
 
 ### §4. stk. 8
-Generalforsamlingens udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse.
+Generalforsamlingens endelige dagsorden udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse. 
 
 ### §4. stk. 9
 Forslag til punkter på dagsordenen skal være bestyrelsen i hænde senest 2 uger før generalforsamlingen.
