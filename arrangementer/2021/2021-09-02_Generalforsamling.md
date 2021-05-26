@@ -26,11 +26,11 @@ På grund af usikkerheder mht corona-situationen ....
     2) Formandens beretning.
     3) Fremlæggelse af regnskab.
     4) Indkomne forslag.
-        1) Bestyrelsen: Ændringer af vedtægter - Diverse stave/skrive-fek.
-        2) Bestyrelsen: Ændringer af vedtægter - Ændring af postadresse.
-        3) Bestyrelsen: Ændringer af vedtægter - Bekræftelse af email nødvendig.
-        4) Bestyrelsen: Ændringer af vedtægter - Virtuel Genralforsamling
-        5) Bestyrelsen: Ændringer af vedtægter - Valg.
+        1) Bestyrelsens ændringer af vedtægter: Diverse stave/skrive-fek.
+        2) Bestyrelsens ændringer af vedtægter: Ændring af postadresse.
+        3) Bestyrelsens ændringer af vedtægter: Bekræftelse af email nødvendig.
+        4) Bestyrelsens ændringer af vedtægter: Virtuel Genralforsamling
+        5) Bestyrelsens ændringer af vedtægter: Valg.
     6) Valg af 3 bestyrelsesmedlemmer.
     7) Valg af revisor.
     8) Eventuelt.
