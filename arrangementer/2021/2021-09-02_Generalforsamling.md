@@ -26,7 +26,7 @@ På grund af usikkerheder mht corona-situationen ....
     2) Formandens beretning.
     3) Fremlæggelse af regnskab.
     4) Indkomne forslag.
-        1) Bestyrelsens ændringer af vedtægter: Diverse stave/skrive-fek.
+        1) Bestyrelsens ændringer af vedtægter: Diverse stave/skrive-fejl.
         2) Bestyrelsens ændringer af vedtægter: Ændring af postadresse.
         3) Bestyrelsens ændringer af vedtægter: Bekræftelse af email nødvendig.
         4) Bestyrelsens ændringer af vedtægter: Virtuel Genralforsamling
@@ -37,11 +37,11 @@ På grund af usikkerheder mht corona-situationen ....
 
 Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsamlingen. (§4 stk. 9)
 
-[Link til bestyrelsens forslag til vedtægtsændringer - Diverse stave/skrive-fejl ](http://gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)\
-[Link til bestyrelsens forslag til vedtægtsændringer - Ændring af postadresse    ](http://gf21-vedtaegt-02-adresse.github.alslug.dk/om/vedtaegter.md)\
-[Link til bestyrelsens forslag til vedtægtsændringer - Bekræftelse af email      ](http://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)\
-[Link til bestyrelsens forslag til vedtægtsændringer - Virtuel Genralforsamling  ](http://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)\
-[Link til bestyrelsens forslag til vedtægtsændringer - Valg                      ](http://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer 1/5 - Diverse stave/skrive-fejl ](http://gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer 2/5 - Ændring af postadresse    ](http://gf21-vedtaegt-02-adresse.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer 3/5 - Bekræftelse af email      ](http://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer 4/5 - Virtuel Genralforsamling  ](http://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer 5/5 - Valg                      ](http://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)\
 
 
 Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i vedtægterne)
