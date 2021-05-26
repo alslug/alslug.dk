@@ -86,6 +86,8 @@ Bestyrelsen kan indbyde gæster til at overvære generalforsamlingen. Indbudte g
 ### §4. stk. 6
 Generalforsamlingen vælger 1 formand, 2 menige bestyrelsesmedlemmer.
 
+Bestyrelsesmedlemmer må ikke være i nær familie med hinanden. 
+
 Kan der på generalforsamlingen ikke opstilles 3 kandidater, vælger man det på generalforsamlingen
 antal mulige medlemmer til bestyrelsen.
 
@@ -95,9 +97,11 @@ at optage fuldgyldige bestyrelsesmedlemmer op til rammen på 3 personer.
 Heraf følger, at der ikke findes suppleanter.
 
 ### §4. stk. 7
-Generalforsamlingen vælger 1 revisor. Revisoren kan ikke være medlem af bestyrelsen.
+Generalforsamlingen vælger 1 revisor. 
+ 
+Revisoren må ikke være medlem af bestyrelsen, eller i nær familie med et bestyrelsesmedlem. 
 
-Revisoren skal ikke være medlem af Alslug.
+Revisoren må gerne være medlem af AlsLUG. 
 
 ### §4. stk. 8
 Generalforsamlingens udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse.
