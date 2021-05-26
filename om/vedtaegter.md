@@ -74,6 +74,10 @@ Foreningens øverste myndighed er generalforsamlingen.
 ### §4. stk. 2
 Generalforsamlingen mødes ordinært en gang årligt i september.
 
+Generalforsamlingen kan afholdes virtuelt via en frit tilgængelig platform, hvis forholdene kræver det. 
+ 
+Der skal på forhånd sikres at der er mulighed for at lave skriftlig/hemmelig afstemning, i tilfælde af at det ønskes. 
+
 ### §4. stk. 3
 Generalforsamlingen består af foreningens medlemmer.
 
