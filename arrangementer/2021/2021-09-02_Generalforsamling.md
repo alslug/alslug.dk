@@ -26,14 +26,22 @@ På grund af usikkerheder mht corona-situationen ....
     2) Formandens beretning.
     3) Fremlæggelse af regnskab.
     4) Indkomne forslag.
-        1) Bestyrelsen: Ændringer af vedtægter.
+        1) Bestyrelsen: Ændringer af vedtægter - Diverse stave/skrive-fek.
+        2) Bestyrelsen: Ændringer af vedtægter - Ændring af postadresse.
+        3) Bestyrelsen: Ændringer af vedtægter - Bekræftelse af email nødvendig.
+        4) Bestyrelsen: Ændringer af vedtægter - Virtuel Genralforsamling
+        5) Bestyrelsen: Ændringer af vedtægter - Valg.
     6) Valg af 3 bestyrelsesmedlemmer.
     7) Valg af revisor.
     8) Eventuelt.
-    
-[Link til bestyrelsens forslag til vedtægtsændringer](http://vedtaegts-update-2021.github.alslug.dk/om/vedtaegter.md)
-    
+
 Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsamlingen. (§4 stk. 9)
+
+[Link til bestyrelsens forslag til vedtægtsændringer - Diverse stave/skrive-fejl ](http://gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer - Ændring af postadresse    ](http://gf21-vedtaegt-02-adresse.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer - Bekræftelse af email      ](http://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer - Virtuel Genralforsamling  ](http://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)\
+[Link til bestyrelsens forslag til vedtægtsændringer - Valg                      ](http://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)\
 
 Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i vedtægterne)
 
