@@ -43,6 +43,7 @@ Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsa
 [Link til bestyrelsens forslag til vedtægtsændringer - Virtuel Genralforsamling  ](http://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)\
 [Link til bestyrelsens forslag til vedtægtsændringer - Valg                      ](http://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)\
 
+
 Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i vedtægterne)
 
 Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
