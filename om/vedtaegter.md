@@ -57,6 +57,8 @@ Som medlemmer optages personer med interesse i at få større kendskab til GNU/L
 ### §3. stk. 2
 Indmeldelse sker ved tilmelding på foreningens hjemmeside.
 
+Medlemskabet er kun gyldigt efter medlemmets bekræftelse af mailadressen. 
+
 ### §3. stk. 3
 Medlemmer betaler egne udgifter i forbindelse med arrangementer, arrangeret af foreningen.
 
