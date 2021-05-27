@@ -17,8 +17,9 @@ i vores lokale
 På grund af usikkerheder mht corona-situationen ....
 
 * har vi reserveres biblioteket hvor der er mere plads, i det usandsynlige tilfælde at vi bliver for mange til at vi må være i vores lokale.
-* vil vi meget gerne bede om tilmelding til generalforsamling.
-
+* vil vi meget gerne bede om tilmelding til generalforsamling.\
+    Send en sms med teksten "tilmeld gf <dit navn>" til 42420321.
+    Så får du automatisk besked retur via sms.
 
 ## Generalforsamlingen har indtil videre følgende dagsorden:
 
