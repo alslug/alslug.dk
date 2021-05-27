@@ -136,6 +136,8 @@ hvis mindst 10 procent af medlemerne overfor bestyrelsen fremsætter anmodning h
 
 Af anmodningen skal fremgå hvad man ønsker behandlet på den ekstraordinære generalforsamling.
 
+Den ekstraordinære generalforsamling kan tidligst afholdes med en uges varsel (jfr §4. stk. 8) 
+
 Den ekstraordinære generalforsamling skal afholdes senest fire uger efter, at anmodningen er modtaget.
 
 ### §4. stk. 14
