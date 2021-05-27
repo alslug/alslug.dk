@@ -47,24 +47,37 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 
 ## Forslag der pt forelægger til behandling:
 
-[Link til forslag til vedtægtsændringer 1/6 - Diverse stave/skrive-fejl ](https//gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)\
+[Link til forslag til vedtægtsændringer 1 - Diverse stave/skrive-fejl ](https//gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)\
 Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub
 
-[Link til forslag til vedtægtsændringer 2/6 - Ændring af postadresse    ](https://gf21-vedtaegt-02-adresse.github.alslug.dk/om/vedtaegter.md)\
-Ændring af foreningens postadresse hvis vi ikke lngere kan modtage post ved vores faste lokale.\
+[Link til forslag til vedtægtsændringer 2 - Ændring af postadresse    ](https://gf21-vedtaegt-02-adresse.github.alslug.dk/om/vedtaegter.md)\
+Ændring af foreningens postadresse hvis vi ikke længere kan modtage post ved vores faste lokale.\
 Pt skal det så være formandens adresse, men det ønskes ændret til at det kan være et vilkårligt bestyrelsesmedlems adresse.
 
-[Link til forslag til vedtægtsændringer 3/6 - Bekræftelse af email      ](https://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)\
+[Link til forslag til vedtægtsændringer 3 - Bekræftelse af email      ](https://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)\
 I følge GDPR skal vi sikre os at vi kun sender mail til folk som aktivt har tilkendegivet at vi må det.\
 Derfor er der behov for at bruge dobbelt opt-in.\
 Hvis vi ikke kan sende mail til dig, kan du ikke være medlem.
 
-[Link til forslag til vedtægtsændringer 4/6 - Virtuel Genralforsamling  ](https://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)\
+[Link til forslag til vedtægtsændringer 4 - Virtuel Genralforsamling  ](https://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)\
 Præcisere af generalforsamlingen kan foregå virtuelt hvis der er behov for det, og under hvilke betingelser det kan/skal ske
 
-[Link til forslag til vedtægtsændringer 5/6 - Valg                      ](https://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)\
+[Link til forslag til vedtægtsændringer 5 - Valg                      ](https://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)\
 Personer med tillidshverv må ikke være i nær familie med hinanden.\
 Præcisering af revisors tilknytning til foreningen.
 
-[Link til forslag til vedtægtsændringer 6/6 - xGF                       ](https://gf21-vedtaegt-06-xgf.alslug.dk/om/vedtaegter.md)\
+Forvaltningslovens § 3, stk. 1, nr. 2 definerer de nære familiemedlemmer som følgende: (men jeg ser det ikke nødvendigt at refere til det direkte)
+* Bedsteforældre
+* Forældre (herunder stedforældre og plejeforældre)
+* Ægtefælle / Samlever
+* Børn (herunder stedbørn og plejebørn)
+
+* Svigerfamilie (Svigerbørn, Svigerforældre, Svoger/svigerinde)
+
+* Søskende (herunder stedsøskende og plejesøskende)
+
+* Onkel/tante/faster/farbror/moster/morbror
+* Nevø/niece
+
+[Link til forslag til vedtægtsændringer 6 - xGF                       ](https://gf21-vedtaegt-06-xgf.guthub.alslug.dk/om/vedtaegter.md)\
 Præscisering af indkaldelse til ekstraordinær generalforsamling.
