@@ -67,6 +67,7 @@ Personer med tillidshverv må ikke være i nær familie med hinanden.\
 Præcisering af revisors tilknytning til foreningen.
 
 Forvaltningslovens § 3, stk. 1, nr. 2 definerer de nære familiemedlemmer som følgende: (men jeg ser det ikke nødvendigt at refere til det direkte)
+
 * Bedsteforældre
 * Forældre (herunder stedforældre og plejeforældre)
 * Ægtefælle / Samlever
