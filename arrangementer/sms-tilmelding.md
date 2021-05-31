@@ -17,7 +17,7 @@ Du vi som regel modtage en retur-SMS med det samme, men forsinkelser på op til 
 Det er ulempen ved at det ikke er vores eget telefon-nummer.
 Til gengæld er det gratis at benytte for os.
 
-Hvis vi ikke allerede har dit mobil-nummer i vores database, kan det være en fordel at du skriver dit navn.
+Hvis vi ikke allerede har dit mobil-nummer i vores database, kan det være en fordel at du skriver dit navn. Du må dog ikke forvente at en eventuel besked bliver læst af bestyrelsen.
 
 Hvis du skriver andet til **42420321** vil SMS'en i bedste fald forsvinde til de evige bit-marker, i værste fald blive sendt videre til dem der har
 registreret det pågældende første ord. ( helt ligesom vi modtager alle sms'er der starter med **tilmeld**, og et par andre koder vi har registreret )
