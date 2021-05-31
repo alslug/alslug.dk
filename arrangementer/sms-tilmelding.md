@@ -21,6 +21,8 @@ Hvis vi ikke allerede har dit mobil-nummer i vores database, kan det være en fo
 Hvis du skriver andet til **42420321** vil SMS'en i bedste fald forsvinde til de evige bit-marker, i værste fald blive sendt videre til dem der har
 registreret det pågældende første ord. ( helt ligesom vi modtager alle sms'er der starter med **tilmeld**, og et par andre koder vi har registreret )
 
+Og husk at det er **tilmeld** ikke **tilmelding**. Den fejl er set før!
+
 
 ## Hvilke arrangementer 
 
