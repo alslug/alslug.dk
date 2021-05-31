@@ -25,7 +25,7 @@ registreret det pågældende første ord. ( helt ligesom vi modtager alle sms'er
 Og husk at det er **tilmeld** ikke **tilmelding**. Den fejl er set før!
 
 
-## Hvilke arrangementer 
+## Hvilke arrangementer og koder?
 
 Du kan bruge følgende koder til at tilmelde dig med:
 
