@@ -4,7 +4,12 @@ Der har været lidt begynder-bøvl med vores SMS-tilmelding. Derfor er her in in
 
 ## Hvad skal der sendes?
 
-Der SKAL sendes teksten **tilmeld {arrangement} {evt dit navn}** til **42420321** for at tilmelde sig det først kommende arrangement.
+Der SKAL sendes teksten 
+~~~~
+tilmeld {arrangement} {evt dit navn}
+~~~~
+
+til **42420321** for at tilmelde sig det først kommende arrangement.
 
 Du vi som regel modtage en retur-SMS med det samme, men forsinkelser på op til 30 minutter er set.
 Det er ulemben ved at det ikke er vores eget telefon-nummer.
