@@ -5,6 +5,7 @@ Der har været lidt begynder-bøvl med vores SMS-tilmelding. Derfor er her in in
 ## Hvad skal der sendes?
 
 Der SKAL sendes teksten 
+
 ~~~~
 tilmeld {arrangement} {evt dit navn}
 ~~~~
