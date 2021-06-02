@@ -106,7 +106,7 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 - Alle medlems-oplysninger ligger i forbindelse med postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
 - <div class='strikeout'>Postlisterne blev tidligere arkiveres hos GMane ( https://gmane.org virker ikke for øjeblikket ).</div>
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
-- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foerningens egen/egne server(e) hos [Hetzner](https://hetzner.com) og i vores lokale.
+- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://www.linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foerningens egen/egne server(e) hos [Hetzner](https://hetzner.com) og i vores lokale.
 - Diverse statistik- og administrations-funktioner ligger på formandens private VPS hos [Linode.com](https://linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foerningens egen/egne server(e) hos [Hetzner](https://hetzner.com) og i vores lokale.
 
 
