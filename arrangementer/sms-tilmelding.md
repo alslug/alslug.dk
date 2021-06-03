@@ -45,3 +45,7 @@ Du kan ikke ringe til **42420321**, da numret ikke tilhører AlsLUG, men en serv
 
 Og husk at det er **tilmeld** ikke **tilmelding**. Den fejl er set før!
 
+Hvis du ikke modtager en retur-SMS, bør du checke om du har skrevet det rigtige i din SMS og faktisk har sendt den til den rigtige telefonnummer.
+
+Der sker ikke noget ved at sende SMS'en igen. Der kan kun reserveres en enklet plads per telefon-nummer.
+
