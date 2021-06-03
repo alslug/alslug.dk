@@ -12,6 +12,8 @@ tilmeld {arrangement} {evt dit navn}
 
 til **(+45) 42420321** for at tilmelde sig det først kommende arrangement. Det koster dig kun almindelig SMS-takst.
 
+XXXXX NEXT SMS TILMELD XXXXX
+
 Du vi som regel modtage en retur-SMS med det samme, men forsinkelser på op til 30 minutter er set.
 
 Det er ulempen ved at det ikke er vores eget telefon-nummer.
