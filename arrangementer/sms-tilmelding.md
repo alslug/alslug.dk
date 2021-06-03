@@ -36,7 +36,8 @@ Hvis vi har andre ting som der skal tilmelding til, vil koden ses i announce-mai
 
 ## Det med småt:
 
-Hvis vi ikke allerede har dit mobil-nummer i vores database, kan det være en fordel at du skriver dit navn. Du må dog ikke forvente at en eventuel besked bliver læst af bestyrelsen, ensige bliver besvaret.
+Hvis vi ikke allerede har dit mobil-nummer i vores database, kan det være en fordel at du skriver dit navn.
+Undlad at skrive en besked ud over navn, da du må dog ikke forvente at en eventuel besked bliver læst af bestyrelsen, ensige bliver besvaret.
 
 Hvis du skriver andet til **42420321** vil SMS'en i bedste fald forsvinde til de evige bit-marker, i værste fald blive sendt videre til dem der har
 registreret det pågældende første ord. ( helt ligesom vi modtager alle sms'er der starter med **tilmeld**, og et par andre koder vi har registreret )
@@ -48,4 +49,3 @@ Og husk at det er **tilmeld** ikke **tilmelding**. Den fejl er set før!
 Hvis du ikke modtager en retur-SMS, bør du checke om du har skrevet det rigtige i din SMS og faktisk har sendt den til den rigtige telefonnummer.
 
 Der sker ikke noget ved at sende SMS'en igen. Der kan kun reserveres en enklet plads per telefon-nummer.
-
