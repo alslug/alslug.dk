@@ -22,13 +22,12 @@ Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for 
 	.iban:before		{ margin-right:1em;	content:'IBAN:';	}
 	.swift:before		{ margin-right:1em;	content:'SWIFT / BIC:';	}
 	.li_nk:after { content:"&#11008;"}
-	.ssssss		{ min-heigth:10em; }
+	.ssssss		{ min-heigth:10em; border:10px solid cyan; }
 </style>
 
-x
-
+<div>
 XXXXX FIRST 1/3 XXXXX
-<div class='ssssss'>
+
 <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten
 
 Vores sparegris ved kaffen er altid sulten.
@@ -64,7 +63,11 @@ Spørg bestyrelsen hvis du gerne vil betale med kort.
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle.</div>
 </div>
 	
-XXXXX NEXT 1/3 XXXXX
+XXXXX END XXXXX
+
+</div><div>
+
+XXXXX FIRST 1/3 XXXXX
 
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
@@ -107,7 +110,11 @@ små-beløb i udenlandsk valuta.</div>
 <div class='fees'>Brug derfor kort eller paypal i stedet for.</div>
 </div>
 
-XXXXX NEXT 1/3 XXXXX
+XXXXX END XXXXX
+
+</div><div>
+	
+XXXXX FIRST 1/3 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
@@ -123,6 +130,7 @@ XXXXX STRIKEOUT END XXXXX
 
 XXXXX END XXXXX
 
+</div>
 
 ## Ønsker til nyt grej:
 
