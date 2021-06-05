@@ -108,10 +108,12 @@ Disse data vil kunne figurere i regnskabet som er offentligt tilgængeligt.
 - Alle medlems-oplysninger ligger i forbindelse med postlisterne kører hos [Mailgun.com](https://mailgun.com), og ligger på deres europæiske site som ligger hos Amazon AWS i region central europa.
 - <div class='strikeout'>Postlisterne blev tidligere arkiveres hos GMane ( https://gmane.org virker ikke for øjeblikket ).</div>
 - Billeder fra lokalet ligger på vores egen server på Bakkensbro
-- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://www.linode.com) i London. Funktionerne herfra flyttes stille og roligt over på foreningens egen/egne server(e) hos [Hetzner](https://www.hetzner.com/) og i vores lokale.
-- Diverse statistik- og administrations-funktioner ligger dels på hjemmeside-serveren og dels på formandens private VPS hos [Linode.com](https://www.linode.com) i London. Funktionerne som ligger på formandens server, flyttes stille og roligt over på foreningens egen/egne server(e) hos [Hetzner](https://www.hetzner.com/) og i vores lokale.
+- Netværksstatistikken ligger på formandens private VPS hos [Linode.com](https://www.linode.com/) i London. Funktionerne herfra flyttes stille og roligt over på foreningens egen/egne server(e) hos [Hetzner](https://www.hetzner.com/) og i vores lokale.
+- Diverse statistik- og administrations-funktioner ligger dels på hjemmeside-serveren og dels på formandens private VPS hos [Linode.com](https://www.linode.com/) i London.
+- Funktionerne som ligger på formandens server, flyttes stille og roligt over på foreningens egen/egne server(e) hos [Hetzner](https://www.hetzner.com/) og i vores lokale.
 
 ### Mailserver til dit eget domæne
+- Mailserveren ligger på en VPS hos [Hetzner](https://www.hetzner.com/) i Nürnberg i sydtyskland.
 
 
 
