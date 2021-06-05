@@ -75,9 +75,9 @@ XXXXX FIRST 1/3 XXXXX
 
 <i class="fab fa-paypal"></i> &nbsp; PayPal:
 
-Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores [PayPal.me adresse](https://paypal.me/AlsLUG?locale.x=da_DK):
+Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores [PayPal.me adresse](https://www.paypal.me/AlsLUG?locale.x=da_DK):
 
-[https://paypal.me/AlsLUG](https://paypal.me/AlsLUG?locale.x=da_DK)
+[https://www.paypal.me/AlsLUG](https://www.paypal.me/AlsLUG?locale.x=da_DK)
 
 <div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees) gebyr på donationer via PayPal,
 med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
