@@ -5,9 +5,12 @@ Medlemskab hos AlsLUG er gratis.
 Men vi har stadigvæk løbende udgifter, udgifter til udstyr, PR og andet.
 For at få penge til det, håber vi at du vil bidrage med et lille beløb.
 
-Som forening skal vi ofte betale et lille gebyr for at modtage penge elektronisk.
-Ofte er der tale om et fast beløb pr overførsel.
-Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for at lave mange små overførsler.
+Som forening skal vi ofte betale et gebyr for at modtage penge elektronisk.\
+Ofte er der tale om et fast beløb pr overførsel.\
+Vi gå ind for gennemskuelighed.\
+Derfor kan du i oversigten se hvad gebyret er for de forskellige betalings-muligheder.
+
+Det kan ofte være en fordel hvis du samler overførsler sammen, i stedet for at lave mange små overførsler.
 
 ## Muligheder for kontante donationer:
 
