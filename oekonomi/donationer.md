@@ -25,6 +25,8 @@ Derfor kan det være en fordel hvis du samler overførsler sammen, i stedet for 
 	.ssssss		{ min-heigth:10em; }
 </style>
 
+x
+
 XXXXX FIRST 1/3 XXXXX
 <div class='ssssss'>
 <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten
