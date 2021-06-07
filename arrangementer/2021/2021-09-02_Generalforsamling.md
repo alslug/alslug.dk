@@ -43,14 +43,15 @@ Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i 
 
 Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
 
-[De komplette vedtægter kan findes her.](http://alslug.dk/om/vedtaegter.md)
+[De komplette vedtægter kan findes her.](https://www.alslug.dk/om/vedtaegter.md)\
+[https://www.alslug.dk/om/vedtaegter.md](https://www.alslug.dk/om/vedtaegter.md)
 
 
 ## Forslag der pt forelægger til behandling:
 
 ### Diverse stave/skrive-fejl
 Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub\
-[Link til forslag til vedtægtsændringer](https//gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)
+[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)
 
 ### Ændring af postadresse
 Ændring af foreningens postadresse hvis vi ikke længere kan modtage post ved vores faste lokale.\
