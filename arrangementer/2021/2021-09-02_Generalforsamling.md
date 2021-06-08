@@ -83,4 +83,4 @@ Præcisering af revisors tilknytning til foreningen.\
 
 ### Ekstraordinær generalforsamling
 Præcisering af indkaldelse til ekstraordinær generalforsamling.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-06-xgf.guthub.alslug.dk/om/vedtaegter.md)
+[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-06-xgf.github.alslug.dk/om/vedtaegter.md)
