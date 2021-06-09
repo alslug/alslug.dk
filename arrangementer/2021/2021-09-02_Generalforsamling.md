@@ -48,6 +48,7 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 
 
 ## Forslag der pt forelægger til behandling:
+Klik på linken under hver enkelt forslag, og se nederst på siden hvilke rettelser der er til de enkelte forslag.
 
 ### Diverse stave/skrive-fejl
 Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub\
@@ -73,13 +74,19 @@ Personer med tillidshverv må ikke være i nær familie med hinanden.\
 Præcisering af revisors tilknytning til foreningen.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)
 
-[Forvaltningslovens § 3, stk. 1, nr. 2](https://danskelove.dk/forvaltningsloven/3] definerer de nære familiemedlemmer som følgende: (men jeg ser det ikke nødvendigt at refere til det direkte)
+[Forvaltningslovens § 3, stk. 1, nr. 2](https://danskelove.dk/forvaltningsloven/3] definerer de nære familiemedlemmer som følgende:
 
 * Bedsteforældre, forældre, ægtefælle / samlever, børn og børnbørn (herunder sted- og pleje-)
 * Svigerfamilie (Svigerbørn, Svigerforældre, Svoger/svigerinde)
 * Søskende (herunder sted- og plejesøskende)
 * Onkel/tante/faster/farbror/moster/morbror
 * Nevø/niece
+
+Hvad er holdningen til om vi skal 
+
+* specificere definitionen på nær familie?
+* referere til Forvaltningsloven?
+* blot lade teksten være som i forslaget?
 
 ### Ekstraordinær generalforsamling
 Præcisering af indkaldelse til ekstraordinær generalforsamling.\
