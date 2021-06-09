@@ -91,7 +91,7 @@ Hvad er holdningen til om vi skal
 
 * specificere definitionen på nær familie?
 * referere til Forvaltningsloven?
-* blot lade teksten være som i forslaget?
+* blot lade teksten være som i forslaget, uden at definere/referere til hvad vi forstår ved "nær famile"?
 
 ### Ekstraordinær generalforsamling
 Præcisering af indkaldelse til ekstraordinær generalforsamling.\
