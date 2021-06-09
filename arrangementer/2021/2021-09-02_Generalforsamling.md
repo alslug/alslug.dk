@@ -74,7 +74,7 @@ Personer med tillidshverv må ikke være i nær familie med hinanden.\
 Præcisering af revisors tilknytning til foreningen.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)
 
-[Forvaltningslovens § 3, stk. 1, nr. 2](https://danskelove.dk/forvaltningsloven/3] definerer de nære familiemedlemmer som følgende:
+[Forvaltningslovens § 3, stk. 1, nr. 2](https://danskelove.dk/forvaltningsloven/3) definerer de nære familiemedlemmer som følgende:
 
 * Bedsteforældre, forældre, ægtefælle / samlever, børn og børnbørn (herunder sted- og pleje-)
 * Svigerfamilie (Svigerbørn, Svigerforældre, Svoger/svigerinde)
