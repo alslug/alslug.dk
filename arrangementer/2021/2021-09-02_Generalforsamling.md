@@ -75,8 +75,10 @@ Præcisering af revisors tilknytning til foreningen.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)
 
 Forvaltningslovens § 3, stk. 1, nr. 2
-[(link til retsinfo.dk)](https://www.retsinformation.dk/eli/lta/2014/433)
-[(og en fortolket verson)](https://danskelove.dk/forvaltningsloven/3)
+(
+link til [retsinformation.dk](https://www.retsinformation.dk/eli/lta/2014/433)
+og [en fortolket verson](https://danskelove.dk/forvaltningsloven/3)
+) 
 definerer de nære familiemedlemmer i forbindelse med inhabilitet som følgende:
 
 * Bedsteforældre, forældre, ægtefælle / samlever, børn og børnbørn (herunder sted- og pleje-)
