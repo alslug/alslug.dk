@@ -26,7 +26,7 @@ Du kan bruge følgende koder til at tilmelde dig med:
 * **tilmeld installfest** til at tilmedle dig næste installfest
 * **tilmeld linuxaften** til at tilmedle dig næste linuxaften
 * **tilmeld python** til at tilmedle dig næste møde i python-gruppen
-* **tilmeld genertalforsamling** til at tilmedle dig til den kommende generalforsamling
+* **tilmeld generalforsamling** til at tilmedle dig til den kommende generalforsamling
 
 Hvis vi har andre ting som der skal tilmelding til, vil koden ses i announce-mailen der vedrører arrangementet.
 
