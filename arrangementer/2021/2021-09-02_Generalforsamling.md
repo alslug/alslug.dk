@@ -16,9 +16,11 @@ i vores lokale
 
 På grund af usikkerheder mht corona-situationen vil vi meget gerne bede om tilmelding til generalforsamling.\
 
-    Send en sms med teksten "tilmeld gf {dit navn}" til 42420321.
+Send en sms med teksten 
 
-Så får du automatisk besked retur via sms.
+    tilmeld gf {dit navn}
+    
+til 42420321. Så får du automatisk besked retur via sms.
 
 Vi forventer ikke at der vil være nogle begrænsninger, men tilmeldingen gr at vi har en chance for at reagere, og kontakte dig med eventuelle ændringer/tiltag.
 
