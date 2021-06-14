@@ -14,7 +14,7 @@ i vores lokale
     Bakkensbro 6, Ullerup
     6400 Sønderborg
 
-På grund af usikkerheder mht corona-situationen vil vi meget gerne bede om tilmelding til generalforsamling.\
+### På grund af usikkerheder mht corona-situationen vil vi meget gerne bede om tilmelding til generalforsamling.
 
 Send en sms med teksten 
 
@@ -22,7 +22,7 @@ Send en sms med teksten
     
 til 42420321. Så får du automatisk besked retur via sms.
 
-Vi forventer ikke at der vil være nogle begrænsninger, men tilmeldingen gr at vi har en chance for at reagere, og kontakte dig med eventuelle ændringer/tiltag.
+Vi forventer ikke at der vil være nogle begrænsninger, men tilmeldingen gør at vi har en chance for at reagere, og kontakte dig med eventuelle ændringer/krav/tiltag.
 
 
 
