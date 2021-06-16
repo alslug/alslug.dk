@@ -9,7 +9,10 @@ Hermed indkaldes der til ordinær generalforsamling i AlsLUG
 
 i vores lokale
 
-XXXXX BAKKENSBRO ADRESSE XXXXX
+    Bakkensbro Aktivitets- og KulturCenter (Den gamle skole)
+    Bakkensbro 6
+    Ullerup
+    6400 Sønderborg
 
 ### På grund af usikkerheder mht corona-situationen vil vi meget gerne bede om tilmelding til generalforsamling.
 
