@@ -20,19 +20,18 @@ i vores lokale på
 
 ## Tilmelding
 På grund af corona-restriktioner, må vi højst må være 10 personer i lokale.
-Derfor anbefaler vi at du tilmelder dig til vore arrangemener.
+Derfor anbefaler vi at du reserverer en plads til vore arrangemener.
 
-Det gælder også for folk som vil hjælpe med gæsternes problemer.
-
-Tilmelding skal ske via en SMS til 42420321 med teksten
+Tilmelding til installfesten skal ske via en SMS til 42420321 med teksten
 
     tilmeld installfest {navn}
 
 Kort tid efter, får du automatisk en sms return med din tilmelding.
 
-Hvis du kommer forbi uden tilmelding, risikerer du at blive afvist, hvis der er for mange deltagere.
+Tilmelding til vore andre arrangementer kan ses [her](https://www.alslug.dk/arrangementer/sms-tilmelding.md)
 
-(
+
+
 
 
 XXXXX CORONA-TILAG XXXXX
