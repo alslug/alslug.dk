@@ -1,4 +1,4 @@
-<!-- sendmail installfest -->
+<!-- send-mail installfest -->
 
 Hej XXXXX RECEPIENT_NAME XXXXX!
 
