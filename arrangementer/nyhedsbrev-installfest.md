@@ -1,7 +1,5 @@
 <!-- send-mail installfest -->
 
-Hej XXXXX RECEPIENT_NAME XXXXX!
-
 # Så er det igen tid til Installfest i AlsLUG.
 
 Næste gang er 
