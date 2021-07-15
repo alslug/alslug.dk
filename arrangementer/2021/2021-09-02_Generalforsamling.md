@@ -44,6 +44,8 @@ Vi forventer ikke at der vil være nogle begrænsninger, men tilmeldingen gør a
 
 Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsamlingen. (§4 stk. 9)
 
+Hele bestyrelsen og vores revisor modtager genvalg.
+
 Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i vedtægterne)
 
 Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
@@ -56,7 +58,7 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 Klik på linken under hver enkelt forslag, og se nederst på siden hvilke rettelser der er til de enkelte forslag.
 
 ### Diverse stave/skrive-fejl
-Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub\
+Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)
 
 ### Ændring af postadresse
@@ -66,8 +68,8 @@ Pt skal det så være formandens adresse, men det ønskes ændret til at det kan
 
 ### Bekræftelse af email
 I følge GDPR skal vi sikre os at vi kun sender mail til folk som aktivt har tilkendegivet at vi må det.\
-Derfor er der behov for at bruge dobbelt opt-in.\
-Hvis vi ikke kan sende mail til dig, kan du ikke være medlem.\
+Derfor er der behov for at bruge dobbelt opt-in. ( Serveren sender en mail som der aktivt skal reageres på. )\
+Hvis vi ikke kan/må sende mail til dig, kan du ikke være medlem.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)
 
 ### Virtuel Genralforsamling
