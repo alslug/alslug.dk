@@ -34,7 +34,7 @@ digraph xxx {
       <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 ||
       <G1> Gbit 1 | <G2> GBit 2 | <Fiber1> Fiber1 | <Fiber2> Fiber2
       "];
-    Fiber_panel [ shape=record label="
+    Bibliotek_Fiberpanel [ shape=record label="
       Fiber_panel       |
       <Fiber1> Fiber1                 |
       <Fiber2> Fiber2                 |
@@ -48,11 +48,27 @@ digraph xxx {
       <wan> WAN     |
       <lan> LAN     "];
   }
+  subgraph cluster_festsal {
+    Festsal_Fiberpanel [ shape=record label="
+      Fiber_panel       |
+      <Fiber1> Fiber1                 |
+      <Fiber2> Fiber2                 |
+      <Fiber3> Fiber3                 |
+      <Fiber4> Fiber4                 "];
+    Festsal_switch [ shape=record label="
+      Festsal switch   |
+      <01> 01 | <02> 02 | <03> 03 | <04> 04 | <05> 05 | <06> 06 ||
+      <07> 07 | <08> 08 | <09> 09 | <10> 10 | <11> 11 | <12> 12 ||
+      <13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 ||
+      <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 ||
+      <G1> Gbit 1 | <G2> GBit 2 | <Fiber1> Fiber1 | <Fiber2> Fiber2
+      "];
+  }
   edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
   Husets_router:lan -> Husets_switch:G1;
                        Husets_switch:01 -> HK_PO1:S33 -> xxxxxxxxxxx_s33;
                        Husets_switch:02 -> HK_PO1:S34 -> xxxxxxxxxxx_s34;
                        Husets_switch:03 -> Patch_panel:12 -> Arkiv_NAS;
-  Fiber_panel:Fiber1 -> Husets_switch:Fiber1
+  Husets_switch:Fiber1 -> Bibliotek_Fiberpanel:Fiber1 -> Festsal_Fiberpanel:Fiber1 -> Festsal_Switch:Fiber1:
 }
