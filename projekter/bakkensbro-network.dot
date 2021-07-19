@@ -56,4 +56,5 @@ digraph xxx {
   edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
   Husets_router:lan -> Husets_switch:G1;
+  Fiber_panel:Fiber1 -> Husets_switch:Fiber1
 }
