@@ -42,8 +42,7 @@ digraph xxx {
       <Fiber4> Fiber4                 "];
     StofaBox [ shape=record label="
       StofaBox      |
-      <lan> LAN     |
-      "];
+      <lan> LAN     "];
     Husets_router [ shape=record label="
       Husets router |
       <wan> WAN     |
