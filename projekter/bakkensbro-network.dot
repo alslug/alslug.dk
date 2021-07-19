@@ -28,7 +28,7 @@ digraph xxx {
       <S17> S17                       | <S18> S18                       | <S19> S19                       | <S20> S20                       |
       <S21> S21                       | <S22> S22                       | <S23> S23                       | <S24> S24                       |
       }"];
-    Patch_panel [ shape=record label="{
+    Husets_switch [ shape=record label="{
       Husets switch   |
       <01> 01 | <02> 02 | <03> 03 | <04> 04 | <05> 05 | <06> 06 ||
       <07> 07 | <08> 08 | <09> 09 | <10> 10 | <11> 11 | <12> 12 ||
@@ -53,5 +53,5 @@ digraph xxx {
       }"];
   }
   StofaBox:lan -> Husets_router:wan;
-  Husets_router:lan ->
+  Husets_router:lan -> Husets_switch:G1;
 }
