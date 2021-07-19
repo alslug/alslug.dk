@@ -1,6 +1,5 @@
 digraph xxx {
   rankdir=LR;
-  edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
   subgraph cluster_bib {
@@ -53,6 +52,7 @@ digraph xxx {
       <lan> LAN
       }"];
   }
+  edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
   Husets_router:lan -> Husets_switch:G1;
 }
