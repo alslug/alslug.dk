@@ -20,12 +20,12 @@ digraph xxx {
       <S37> S37                       | <S38> S38                       | <S39> S39                       | <S40> S40                       "];
     Patch_panel [ shape=record label="
       Patch-panel **-***-**  |
-      <S01> S01                       | <S02> S02                       | <S03> S03                       | <S04> S04                       |
-      <S05> S05                       | <S06> S06                       | <S07> S07                       | <S08> S08                       | |
-      <S09> S09                       | <S10> S10                       | <S11> S11                       | <S12> S12                       |
-      <S13> S13                       | <S14> S14                       | <S15> S15                       | <S16> S16                       | |
-      <S17> S17                       | <S18> S18                       | <S19> S19                       | <S20> S20                       |
-      <S21> S21                       | <S22> S22                       | <S23> S23                       | <S24> S24                       "];
+      <01> 01                       | <02> 02                       | <03> 03                       | <S4> 04                       |
+      <05> 05                       | <06> 06                       | <07> 07                       | <S8> 08                       | |
+      <09> 09                       | <10> 10                       | <11> 11                       | <S2> 12 X                     |
+      <13> 13                       | <14> 14                       | <15> 15                       | <S6> 16                       | |
+      <17> 17                       | <18> 18                       | <19> 19                       | <S0> 20                       |
+      <21> 21                       | <22> 22                       | <23> 23                       | <S4> 24                       "];
     Husets_switch [ shape=record label="
       Husets switch   |
       <01> 01 | <02> 02 | <03> 03 | <04> 04 | <05> 05 | <06> 06 ||
@@ -52,5 +52,8 @@ digraph xxx {
   edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
   Husets_router:lan -> Husets_switch:G1;
+                       Husets_switch:1  -> HK_PO1:S33 -> xxxxxxxxxxx_s33;
+                       Husets_switch:2  -> HK_PO1:S34 -> xxxxxxxxxxx_s34;
+                       Husets_switch:3  -> Patch_panel:12 -> Arkiv_NAS;
   Fiber_panel:Fiber1 -> Husets_switch:Fiber1
 }
