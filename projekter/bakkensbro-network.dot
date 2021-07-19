@@ -52,8 +52,8 @@ digraph xxx {
   edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
   Husets_router:lan -> Husets_switch:G1;
-                       Husets_switch:1  -> HK_PO1:S33 -> xxxxxxxxxxx_s33;
-                       Husets_switch:2  -> HK_PO1:S34 -> xxxxxxxxxxx_s34;
-                       Husets_switch:3  -> Patch_panel:12 -> Arkiv_NAS;
+                       Husets_switch:01 -> HK_PO1:S33 -> xxxxxxxxxxx_s33;
+                       Husets_switch:02 -> HK_PO1:S34 -> xxxxxxxxxxx_s34;
+                       Husets_switch:03 -> Patch_panel:12 -> Arkiv_NAS;
   Fiber_panel:Fiber1 -> Husets_switch:Fiber1
 }
