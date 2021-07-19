@@ -26,8 +26,8 @@ digraph xxx {
       <13> 13                       | <14> 14                       | <15> 15                       | <16> 16                       | |
       <17> 17                       | <18> 18                       | <19> 19                       | <20> 20                       |
       <21> 21                       | <22> 22                       | <23> 23                       | <24> 24                       "];
-    Husets_switch [ shape=record label="
-      Husets switch   |
+    Bibliotek_Switch [ shape=record label="
+      Husets switch\nved biblioteket  |
       <01> 01 | <02> 02 | <03> 03 | <04> 04 | <05> 05 | <06> 06 ||
       <07> 07 | <08> 08 | <09> 09 | <10> 10 | <11> 11 | <12> 12 ||
       <13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 ||
@@ -66,9 +66,9 @@ digraph xxx {
   }
   edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
-  Husets_router:lan -> Husets_switch:G1;
-                       Husets_switch:01 -> HK_PO1:S33 -> xxxxxxxxxxx_s33;
-                       Husets_switch:02 -> HK_PO1:S34 -> xxxxxxxxxxx_s34;
-                       Husets_switch:03 -> Patch_panel:12 -> Arkiv_NAS;
-  Husets_switch:Fiber1 -> Bibliotek_Fiberpanel:Fiber1 -> Festsal_Fiberpanel:Fiber1 -> Festsal_Switch:Fiber1:
+  Husets_router:lan -> Bibliotek_Switch:G1;
+                       Bibliotek_Switch:01 -> HK_PO1:S33 -> xxxxxxxxxxx_s33;
+                       Bibliotek_Switch:02 -> HK_PO1:S34 -> xxxxxxxxxxx_s34;
+                       Bibliotek_Switch:03 -> Patch_panel:12 -> Arkiv_NAS;
+  Bibliotek_Switch:Fiber1 -> Bibliotek_Fiberpanel:Fiber1 -> Festsal_Fiberpanel:Fiber1 -> Festsal_Switch:Fiber1:
 }
