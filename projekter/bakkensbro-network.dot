@@ -6,7 +6,7 @@ digraph xxx {
     style=filled;
     fillcolor=yellow;
     
-    HK_PO1 [ shape=record label="{
+    HK_PO1 [ shape=record label="
       Patch-panel HK-P01-S**  |
       <S01> S01                       | <S02> S02                       | <S03> S03                       | <S04> S04                       |
       <S05> S05                       | <S06> S06                       | <S07> S07                       | <S08> S08                       | |
@@ -18,8 +18,8 @@ digraph xxx {
       <S29> S29                       | <S30> S30                       | <S31> S31                       | <S32> S32                       | |
       <S33> S33 X                     | <S34> S34 X                     | <S35> S35                       | <S36> S36                       |
       <S37> S37                       | <S38> S38                       | <S39> S39                       | <S40> S40                       |
-      }"];
-    Patch_panel [ shape=record label="{
+      "];
+    Patch_panel [ shape=record label="
       Patch-panel **-***-**  |
       <S01> S01                       | <S02> S02                       | <S03> S03                       | <S04> S04                       |
       <S05> S05                       | <S06> S06                       | <S07> S07                       | <S08> S08                       | |
@@ -28,29 +28,30 @@ digraph xxx {
       <S17> S17                       | <S18> S18                       | <S19> S19                       | <S20> S20                       |
       <S21> S21                       | <S22> S22                       | <S23> S23                       | <S24> S24                       |
       }"];
-    Husets_switch [ shape=record label="{
+    Husets_switch [ shape=record label="
       Husets switch   |
       <01> 01 | <02> 02 | <03> 03 | <04> 04 | <05> 05 | <06> 06 ||
       <07> 07 | <08> 08 | <09> 09 | <10> 10 | <11> 11 | <12> 12 ||
       <13> 13 | <14> 14 | <15> 15 | <16> 16 | <17> 17 | <18> 18 ||
       <19> 19 | <20> 20 | <21> 21 | <22> 22 | <23> 23 | <24> 24 ||
       <G1> Gbit 1 | <G2> GBit 2 | <Fiber1> Fiber1 | <Fiber2> Fiber2
-      }"];
-    Fiber_panel [ shape=record label="{
-      <Fiber_panel> Fiber_panel       |
+      "];
+    Fiber_panel [ shape=record label="
+      Fiber_panel       |
       <Fiber1> Fiber1                 |
       <Fiber2> Fiber2                 |
       <Fiber3> Fiber3                 |
       <Fiber4> Fiber4                 |
-      }"];
-    StofaBox [ shape=record label="{
-      <lan> LAN
-      }"];
-    Husets_router [ shape=record label="{
+      "];
+    StofaBox [ shape=record label="
+      StofaBox      |
+      <lan> LAN     |
+      "];
+    Husets_router [ shape=record label="
       Husets router |
       <wan> WAN     |
       <lan> LAN
-      }"];
+      "];
   }
   edge [ dir=none penwidth=10 ];
   StofaBox:lan -> Husets_router:wan;
