@@ -2,22 +2,22 @@ digraph xxx {
   edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
-  cluster_bib {
+  subgraph cluster_bib {
     style=filled;
     fillcolor=yellow;
     
     HK_PO1 [ shape=record label="{
     Patch-panel HK-P01-S**  |
-    <S01> S01 |                       <S02> S02 |                       <S03> S03 |                       <S04> S04 |
-    <S05> S05 |                       <S06> S06 |                       <S07> S07 |                       <S08> S08 | |
-    <S09> S09 |                       <S10> S10 |                       <S11> S11 |                       <S12> S12 |
-    <S13> S13 |                       <S14> S14 |                       <S15> S15 |                       <S16> S16 | |
-    <S17> S17 |                       <S18> S18 |                       <S19> S19 |                       <S20> S20 |
-    <S21> S21 |                       <S22> S22 |                       <S23> S23 |                       <S24> S24 | |
-    <S25> S25 |                       <S26> S26 |                       <S27> S27 |                       <S28> S28 |
-    <S29> S29 |                       <S30> S30 |                       <S31> S31 |                       <S32> S32 | |
-    <S33> S33 |                       <S34> S34 |                       <S35> S35 |                       <S36> S36 |
-    <S37> S37 |                       <S38> S38 |                       <S39> S39 |                       <S40> S40 |
+    <S01> S01                       | <S02> S02                       | <S03> S03                       | <S04> S04                       |
+    <S05> S05                       | <S06> S06                       | <S07> S07                       | <S08> S08                       | |
+    <S09> S09                       | <S10> S10                       | <S11> S11                       | <S12> S12                       |
+    <S13> S13                       | <S14> S14                       | <S15> S15                       | <S16> S16                       | |
+    <S17> S17                       | <S18> S18                       | <S19> S19                       | <S20> S20                       |
+    <S21> S21                       | <S22> S22                       | <S23> S23                       | <S24> S24                       | |
+    <S25> S25                       | <S26> S26                       | <S27> S27                       | <S28> S28                       |
+    <S29> S29                       | <S30> S30                       | <S31> S31                       | <S32> S32                       | |
+    <S33> S33 X                     | <S34> S34 X                     | <S35> S35                       | <S36> S36                       |
+    <S37> S37                       | <S38> S38                       | <S39> S39                       | <S40> S40                       |
     }"];
   }
 }
