@@ -52,7 +52,7 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 [https://www.alslug.dk/om/vedtaegter.md](https://www.alslug.dk/om/vedtaegter.md)
 
 
-## Forslag der pt forelægger til behandling:
+## Forslag der pt foreligger til behandling:
 Klik på linken under hver enkelt forslag, og se nederst på siden hvilke rettelser der er til de enkelte forslag.
 
 ### Diverse stave/skrive-fejl
