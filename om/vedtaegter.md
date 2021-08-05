@@ -74,9 +74,11 @@ Foreningens øverste myndighed er generalforsamlingen.
 ### §4. stk. 2
 Generalforsamlingen mødes ordinært en gang årligt i september.
 
-Generalforsamlingen kan afholdes virtuelt via en frit tilgængelig platform, hvis forholdene kræver det. 
- 
-Der skal på forhånd sikres at der er mulighed for at lave skriftlig/hemmelig afstemning, i tilfælde af at det ønskes. 
+Generalforsamlingen kan afholdes 
+* delvis virtuelt, hvor eksterne delttagere kan deltage.
+* 100% virtuelt, hvis forholdene kræver det.
+
+Deltagelse virtuelt skal ske via en frit tilgængelig platform, som ikke kræver installation af ekstra software på deltagernes side. 
 
 ### §4. stk. 3
 Generalforsamlingen består af foreningens medlemmer.
@@ -127,7 +129,14 @@ Ved personvalg gælder følgende regler:
 * Personvalg afgøres ved absolut flertal, evt. i flere afstemninger.
 * Afstemninger sker ved håndsoprækning.
 
-vis en eller flere medlemmer til mødet anmoder om en skriftlig afstemning, skal dette efterkommes.
+Hvis en eller flere medlemmer til mødet anmoder om en skriftlig afstemning, skal dette efterkommes.
+
+### §4. stk. 11 a
+Ved delvis virtuel afholdelse, kan en fysisk deltager stemme for en ekstern deltager, i tilfælde af at der ønskes skriftlig/hemmelig.
+
+### §4. stk. 11 b
+Ved 100% virtuel afholdelse, skal der på forhånd sikres at der er mulighed for at lave skriftlig/hemmelig afstemning, i tilfælde af at det ønskes.
+
 
 ### §4. stk. 12
 Ved andre afstemninger gælder følgende særlige regler:
