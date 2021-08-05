@@ -1,5 +1,3 @@
-<!-- send-mail 2021-08-01 -->
-
 # Indkaldelse til ordinær generalforsamling i AlsLUG
 
 Hermed indkaldes der til ordinær generalforsamling i AlsLUG
