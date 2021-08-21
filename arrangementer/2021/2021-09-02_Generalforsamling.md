@@ -33,7 +33,7 @@ Vi forventer ikke at der vil være nogle begrænsninger, men tilmeldingen gør a
         1) Bestyrelsens ændringer af vedtægter: Diverse stave/skrive-fejl.
         2) Bestyrelsens ændringer af vedtægter: Ændring af postadresse.
         3) Bestyrelsens ændringer af vedtægter: Bekræftelse af email nødvendig.
-        4) Bestyrelsens ændringer af vedtægter: Virtuel Genralforsamling
+        4) Bestyrelsens ændringer af vedtægter: Virtuel Generalforsamling
         5) Bestyrelsens ændringer af vedtægter: Valg.
         6) Bestyrelsens ændringer af vedtægter: Indkaldelse af ekstraordinær generalforsamling.
     6) Valg af 3 bestyrelsesmedlemmer.
@@ -70,7 +70,7 @@ Derfor er der behov for at bruge dobbelt opt-in. ( Serveren sender en mail som d
 Hvis vi ikke kan/må sende mail til dig, kan du ikke være medlem.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)
 
-### Virtuel Genralforsamling
+### Virtuel Generalforsamling
 Præcisere af generalforsamlingen kan foregå virtuelt hvis der er behov for det, og under hvilke betingelser det kan/skal ske.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)
 
