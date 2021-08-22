@@ -9,7 +9,9 @@ XXXXX C_ORONASMITTE.DK-complience XXXXX
 Vi har mulighed for håndvask, og har selvfølgelig også håndsprit til rådighed.
 
 ## Tilmelding til aktiviteter.
-Skriv en mail til bestyrelse@alslug.dk senest dagen før, så du er sikker på at der er en ledig plads.
+Vi har normalt masser af plads, men der er mulighed for at
+[reservere en plads via SMS](https://www.alslug.dk/arrangementer/sms-tilmelding.md).
+Så du er sikker på at der er en stol ledig til dig.
 
 Du kan også komme uanmeldt, men du risikerer at blive afvist i døren, hvis der ikke er ledige pladser.
 
