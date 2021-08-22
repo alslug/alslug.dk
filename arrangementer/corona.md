@@ -20,6 +20,7 @@ Sørg derfor for [at tilmelde dig på forhånd via SMS](sms-tilmelding.md), for 
 Vores lokale er ca 49m².
 
 Ved plads krav på
+
 * 4m² per person, må vi være 12 personer i lokalet - vi runder ned til 10.
 * 2m² per person, må vi være 24 personer i lokalet - vi runder ned til 20.
 
