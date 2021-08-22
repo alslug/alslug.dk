@@ -44,7 +44,7 @@ Møder med hjælp til nybegyndere, små foredrag,
 erfaringsudveksling og hvad I ellers har lyst til.
 
 Det du skal gøre nu, er at melde dig til mailinglisten
-**alslug-announce** og evt. **alslug-teknik<**, så vi kan 
+alslug-announce og evt. alslug-teknik, så vi kan 
 få noget snak i gang.
 
 
