@@ -1,7 +1,9 @@
 # Forholdsregler om Corona
 
+<!--
 ## Status i forhold til coronasmitte.dk
-XXXXX CORONASMITTE.DK-complience XXXXX
+XXXXX C_ORONASMITTE.DK-complience XXXXX
+-->
 
 ## Håndhygiejne
 Vi har mulighed for håndvask, og har selvfølgelig også håndsprit til rådighed.
