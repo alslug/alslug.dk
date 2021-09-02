@@ -101,3 +101,33 @@ Hvad er holdningen til om vi skal
 ### Ekstraordinær generalforsamling
 Præcisering af indkaldelse til ekstraordinær generalforsamling.\
 [Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-06-xgf.github.alslug.dk/om/vedtaegter.md)
+
+
+
+# Referat for Alslug generalforsamling d. 2021.09.02 kl 19:00
+
+## 1) Valg af ordstyrer.
+
+## 2) Formandens beretning.
+
+## 3) Fremlæggelse af regnskab.
+
+## 4) Indkomne forslag.
+
+## 4.1) Bestyrelsens ændringer af vedtægter: Diverse stave/skrive-fejl.
+
+## 4.2) Bestyrelsens ændringer af vedtægter: Ændring af postadresse.
+
+## 4.3) Bestyrelsens ændringer af vedtægter: Bekræftelse af email nødvendig.
+
+## 4.4) Bestyrelsens ændringer af vedtægter: Virtuel Generalforsamling
+
+## 4.5) Bestyrelsens ændringer af vedtægter: Valg.
+
+## 4.6) Bestyrelsens ændringer af vedtægter: Indkaldelse af ekstraordinær generalforsamling.
+
+## 6) Valg af 3 bestyrelsesmedlemmer.
+
+## 7) Valg af revisor.
+
+## 8) Eventuelt.
