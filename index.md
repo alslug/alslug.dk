@@ -5,15 +5,21 @@ XXXXX FIRST 1/2 XXXXX
 <div style='background:#FFAA66'>
 ## Corona forbehold
 	
-XXXXX CORONASMITTE.DK-complience XXXXX
+<!--
+XXXXX C_ORONASMITTE.DK-complience XXXXX
+-->
 	
 [Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
 </div>
-				
+
+## Tilmelding er en god ide:
+Vi har normalt masser af plads, men der er mulighed for at
+[reservere en plads via SMS](https://www.alslug.dk/arrangementer/sms-tilmelding.md).
+Så du er sikker på at der er en stol ledig til dig.
+
 ## Kalender
 Nogle af vore møder vil blive transmitteret online. Se mere på
 [oversigten over vore online-aktiviteter.](/arrangementer/online.md)
-
 
 
 XXXXX KALENDER-MONTH XXXXX			

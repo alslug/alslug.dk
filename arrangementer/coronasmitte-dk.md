@@ -6,7 +6,7 @@ XXXXX FIRST 1/2 XXXXX
 
 ## Check af tiltag/tilladelser/forbud
 
-Vores server checker løbende op mod de respektive side på [coronasmitte.dk](https://coronasmitte.dk) og [Sønderborg kommune](https://sonderborgkommune.dk/delvis-nedlukning), og checker at diverse relevante tekster ikke er blevet ændret.
+Vores server checker løbende op mod de respektive side på [coronasmitte.dk](https://coronasmitte.dk), og checker at diverse relevante tekster ikke er blevet ændret.
 
 Vi har funder diverse citater på siderne som vedrører os, og noteret hvilken betydning det har for vore aktiviteter.
 

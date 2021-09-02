@@ -26,15 +26,19 @@ Foreningens webadresse er http://www.alslug.dk.
 ### §1. stk. 3
 Hvis foreningen har fast lokale, hvor der kan modtages post, er foreningens postadresse:
 
-ALSLUG - Alssund Linux User Group<br>c/o (lokale-adresse)
+ALSLUG - Alssund Linux User Group\
+c/o (lokale-adresse)
 
 ### §1. stk. 3a
 Hvis foreningen ikke har fast lokale eller der ikke kan modtages post, er foreningens postadresse:
 
-ALSLUG - Alssund Linux User Group<br>c/o (formandens adresse)
-
+ALSLUG - Alssund Linux User Group\ 
+c/o (et bestyrelsesmedlems adresse) 
+ 
+Bestyrelsen beslutter hvilket bestyrelsesmedlem der er postmodtager. 
+ 
 ### §1. stk. 4
-[Foreningens post-adresse](kontakt.md)  skal oplyses på foreningens webside.
+[Foreningens postadresse](kontakt.md)  skal oplyses på foreningens webside.
 
 
 
@@ -56,6 +60,8 @@ Som medlemmer optages personer med interesse i at få større kendskab til GNU/L
 
 ### §3. stk. 2
 Indmeldelse sker ved tilmelding på foreningens hjemmeside.
+
+Medlemskabet er kun gyldigt efter medlemmets bekræftelse af mailadressen. 
 
 ### §3. stk. 3
 Medlemmer betaler egne udgifter i forbindelse med arrangementer, arrangeret af foreningen.
@@ -83,7 +89,7 @@ Deltagelse virtuelt skal ske via en frit tilgængelig platform, som ikke kræver
 ### §4. stk. 3
 Generalforsamlingen består af foreningens medlemmer.
 
-### §4. stk 4
+### §4. stk. 4
 Stemmeret har medlemmer som har været medlem i mindst 3 måneder op til generalforsamlingen.
 
 ### §4. stk. 5
@@ -91,6 +97,8 @@ Bestyrelsen kan indbyde gæster til at overvære generalforsamlingen. Indbudte g
 
 ### §4. stk. 6
 Generalforsamlingen vælger 1 formand, 2 menige bestyrelsesmedlemmer.
+
+Bestyrelsesmedlemmer må ikke være i nær familie med hinanden. 
 
 Kan der på generalforsamlingen ikke opstilles 3 kandidater, vælger man det på generalforsamlingen
 antal mulige medlemmer til bestyrelsen.
@@ -101,12 +109,14 @@ at optage fuldgyldige bestyrelsesmedlemmer op til rammen på 3 personer.
 Heraf følger, at der ikke findes suppleanter.
 
 ### §4. stk. 7
-Generalforsamlingen vælger 1 revisor. Revisoren kan ikke være medlem af bestyrelsen.
+Generalforsamlingen vælger 1 revisor. 
+ 
+Revisoren må ikke være medlem af bestyrelsen, eller i nær familie med et bestyrelsesmedlem. 
 
-Revisoren skal ikke være medlem af Alslug.
+Revisoren må gerne være medlem af AlsLUG. 
 
 ### §4. stk. 8
-Generalforsamlingens udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse.
+Generalforsamlingens endelige dagsorden udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse. 
 
 ### §4. stk. 9
 Forslag til punkter på dagsordenen skal være bestyrelsen i hænde senest 2 uger før generalforsamlingen.
@@ -137,7 +147,6 @@ Ved delvis virtuel afholdelse, kan en fysisk deltager stemme for en ekstern delt
 ### §4. stk. 11 b
 Ved 100% virtuel afholdelse, skal der på forhånd sikres at der er mulighed for at lave skriftlig/hemmelig afstemning, i tilfælde af at det ønskes.
 
-
 ### §4. stk. 12
 Ved andre afstemninger gælder følgende særlige regler:
 
@@ -145,15 +154,21 @@ Ved andre afstemninger gælder følgende særlige regler:
 
 ### §4. stk. 13
 Ekstraordinær generalforsamling kan indkaldes af bestyrelsen og skal indkaldes,
-hvis mindst 10 procent af medlemerne overfor bestyrelsen fremsætter anmodning herom.
+hvis mindst 10 procent af medlemmerne overfor bestyrelsen fremsætter anmodning herom.
 
 Af anmodningen skal fremgå hvad man ønsker behandlet på den ekstraordinære generalforsamling.
+
+Den ekstraordinære generalforsamling kan tidligst afholdes med en uges varsel (jfr §4. stk. 8) 
 
 Den ekstraordinære generalforsamling skal afholdes senest fire uger efter, at anmodningen er modtaget.
 
 ### §4. stk. 14
 Indkaldelse til den ekstraordinære generalforsamling følger reglerne for ordinær generalforsamling,
 dog undtaget stk. 10 omkring dagsordenen.
+
+### §4. stk. 15
+Definitionen på nær familie er som defineret i forvaltningslovens § 3, stk. 1, nr. 2
+
 
 
 
@@ -230,5 +245,5 @@ Er færre end halvdelen af medlemmerne til stede på afstemningstidspunktet, ind
 ekstraordinær generalforsamling, hvor forslaget om opløsning kan vedtages med absolut
 flertal af de afgivne stemmer uanset antallet af tilstedeværende medlemmer.
 
-### §8. stk 5
+### §8. stk. 5
 Ved opløsning af foreningen tilfalder evt. aktiver til "The Free Software Foundation".
