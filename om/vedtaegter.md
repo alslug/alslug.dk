@@ -26,13 +26,17 @@ Foreningens webadresse er http://www.alslug.dk.
 ### §1. stk. 3
 Hvis foreningen har fast lokale, hvor der kan modtages post, er foreningens postadresse:
 
-ALSLUG - Alssund Linux User Group<br>c/o (lokale-adresse)
+ALSLUG - Alssund Linux User Group\
+c/o (lokale-adresse)
 
 ### §1. stk. 3a
 Hvis foreningen ikke har fast lokale eller der ikke kan modtages post, er foreningens postadresse:
 
-ALSLUG - Alssund Linux User Group<br>c/o (formandens adresse)
-
+ALSLUG - Alssund Linux User Group\ 
+c/o (et bestyrelsesmedlems adresse) 
+ 
+Bestyrelsen beslutter hvilket bestyrelsesmedlem der er postmodtager. 
+ 
 ### §1. stk. 4
 [Foreningens postadresse](kontakt.md)  skal oplyses på foreningens webside.
 
