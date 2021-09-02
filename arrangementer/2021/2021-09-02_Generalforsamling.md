@@ -106,28 +106,47 @@ Præcisering af indkaldelse til ekstraordinær generalforsamling.\
 
 # Referat for Alslug generalforsamling d. 2021.09.02 kl 19:00
 
+Tilstede er Henning, Per, Jørgen og Verner
+
 ## 1) Valg af ordstyrer.
+Verner valgt til ordstyrer.
 
 ## 2) Formandens beretning.
 
+Godkendt med aplaus.
+
 ## 3) Fremlæggelse af regnskab.
+Formanden gennemgik regskab.
+
+Godkendt med aplaus.
 
 ## 4) Indkomne forslag.
 
 ## 4.1) Bestyrelsens ændringer af vedtægter: Diverse stave/skrive-fejl.
+Ingen kommentarer til ændringerne. Godkendt.
 
 ## 4.2) Bestyrelsens ændringer af vedtægter: Ændring af postadresse.
+Ingen kommentarer til ændringerne. Godkendt.
 
 ## 4.3) Bestyrelsens ændringer af vedtægter: Bekræftelse af email nødvendig.
+Ingen kommentarer til ændringerne. Godkendt.
 
 ## 4.4) Bestyrelsens ændringer af vedtægter: Virtuel Generalforsamling
+Ingen kommentarer til ændringerne. Godkendt.
 
 ## 4.5) Bestyrelsens ændringer af vedtægter: Valg.
+Mht definitionen af nær familie henveses til forvaltningsloven. Godkendt.
 
 ## 4.6) Bestyrelsens ændringer af vedtægter: Indkaldelse af ekstraordinær generalforsamling.
+Ingen kommentarer til ændringerne. Godkendt.
 
 ## 6) Valg af 3 bestyrelsesmedlemmer.
+Bestyrelsen genvalgt.
 
-## 7) Valg af revisor.
+## 7) Valg af revisor
+Revisor genvalgt.
 
 ## 8) Eventuelt.
+Diskution om ansøgninger til fonde.
+
+
