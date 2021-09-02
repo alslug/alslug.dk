@@ -146,6 +146,10 @@ Den ekstraordinære generalforsamling skal afholdes senest fire uger efter, at a
 Indkaldelse til den ekstraordinære generalforsamling følger reglerne for ordinær generalforsamling,
 dog undtaget stk. 10 omkring dagsordenen.
 
+### §4. stk. 15
+Definitionen på nær familie er som defineret i forvaltningslovens § 3, stk. 1, nr. 2
+
+
 
 
 
