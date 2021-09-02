@@ -7,7 +7,7 @@
 ## Vedtægter for foreningen<br>Alssund Linux User Group (Alslug)
 Vedtaget onsdag, den 3. maj 2000.
 
-Vedtægterne er senest ændret torsdag den 6. sept 2018
+Vedtægterne er senest ændret torsdag den 2. sept 2021
 
 
 
@@ -34,7 +34,7 @@ Hvis foreningen ikke har fast lokale eller der ikke kan modtages post, er foreni
 ALSLUG - Alssund Linux User Group<br>c/o (formandens adresse)
 
 ### §1. stk. 4
-[Foreningens post-adresse](kontakt.md)  skal oplyses på foreningens webside.
+[Foreningens postadresse](kontakt.md)  skal oplyses på foreningens webside.
 
 
 
@@ -77,7 +77,7 @@ Generalforsamlingen mødes ordinært en gang årligt i september.
 ### §4. stk. 3
 Generalforsamlingen består af foreningens medlemmer.
 
-### §4. stk 4
+### §4. stk. 4
 Stemmeret har medlemmer som har været medlem i mindst 3 måneder op til generalforsamlingen.
 
 ### §4. stk. 5
@@ -100,7 +100,7 @@ Generalforsamlingen vælger 1 revisor. Revisoren kan ikke være medlem af bestyr
 Revisoren skal ikke være medlem af Alslug.
 
 ### §4. stk. 8
-Generalforsamlingens udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse.
+Generalforsamlingens endelige dagsorden udsendes via mail til samtlige medlemmer, mindst en uge før afholdelse. 
 
 ### §4. stk. 9
 Forslag til punkter på dagsordenen skal være bestyrelsen i hænde senest 2 uger før generalforsamlingen.
@@ -123,7 +123,7 @@ Ved personvalg gælder følgende regler:
 * Personvalg afgøres ved absolut flertal, evt. i flere afstemninger.
 * Afstemninger sker ved håndsoprækning.
 
-vis en eller flere medlemmer til mødet anmoder om en skriftlig afstemning, skal dette efterkommes.
+Hvis en eller flere medlemmer til mødet anmoder om en skriftlig afstemning, skal dette efterkommes.
 
 ### §4. stk. 12
 Ved andre afstemninger gælder følgende særlige regler:
@@ -132,7 +132,7 @@ Ved andre afstemninger gælder følgende særlige regler:
 
 ### §4. stk. 13
 Ekstraordinær generalforsamling kan indkaldes af bestyrelsen og skal indkaldes,
-hvis mindst 10 procent af medlemerne overfor bestyrelsen fremsætter anmodning herom.
+hvis mindst 10 procent af medlemmerne overfor bestyrelsen fremsætter anmodning herom.
 
 Af anmodningen skal fremgå hvad man ønsker behandlet på den ekstraordinære generalforsamling.
 
@@ -217,5 +217,5 @@ Er færre end halvdelen af medlemmerne til stede på afstemningstidspunktet, ind
 ekstraordinær generalforsamling, hvor forslaget om opløsning kan vedtages med absolut
 flertal af de afgivne stemmer uanset antallet af tilstedeværende medlemmer.
 
-### §8. stk 5
+### §8. stk. 5
 Ved opløsning af foreningen tilfalder evt. aktiver til "The Free Software Foundation".
