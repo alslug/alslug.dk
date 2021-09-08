@@ -112,12 +112,11 @@ Tilstede er Henning, Per, Jørgen og Verner
 Verner valgt til ordstyrer.
 
 ## 2) Formandens beretning.
-
+Noter til beretningen kan læses [her](/generalforsamlinger/2021-09-11/beretning.txt)\
 Godkendt med aplaus.
 
 ## 3) Fremlæggelse af regnskab.
-Formanden gennemgik regskab.
-
+Formanden gennemgik [regnskabet for 2020-2021](/generalforsamlinger/2021-09-11/regnskab.pdf)\
 Godkendt med aplaus.
 
 ## 4) Indkomne forslag.
