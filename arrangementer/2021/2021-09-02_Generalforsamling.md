@@ -149,15 +149,16 @@ Revisor genvalgt.
 Diskution om ansøgninger til fonde.
 
 
+## Underskrifter:
 
-Dirigent: Verner Schrøder
-
-
-Formand/referent: Henning Wangerin
+### Dirigent: Verner Schrøder
 
 
-Sekretær: Jørgen Rubæk
+### Formand/referent: Henning Wangerin
 
 
-Kasserer: Per F Larsen
+### Sekretær: Jørgen Rubæk
+
+
+### Kasserer: Per F Larsen
 
