@@ -24,7 +24,7 @@ Vi forventer ikke at der vil være nogle begrænsninger, men tilmeldingen gør a
 
 
 
-## Generalforsamlingen har indtil videre følgende dagsorden:
+## Generalforsamlingen har følgende dagsorden:
 
     1) Valg af ordstyrer.
     2) Formandens beretning.
@@ -56,28 +56,23 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 Klik på linken under hver enkelt forslag, og se nederst på siden hvilke rettelser der er til de enkelte forslag.
 
 ### Diverse stave/skrive-fejl
-Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-01-stavefejl.github.alslug.dk/om/vedtaegter.md)
+Diverse stavefejl, og detaljer som er bortkommet i forbindelse med overførslen til GitHub.
 
 ### Ændring af postadresse
 Ændring af foreningens postadresse hvis vi ikke længere kan modtage post ved vores faste lokale.\
-Pt skal det så være formandens adresse, men det ønskes ændret til at det kan være et vilkårligt bestyrelsesmedlems adresse.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-02-adresse.github.alslug.dk/om/vedtaegter.md)
+Pt skal det så være formandens adresse, men det ønskes ændret til at det kan være et vilkårligt bestyrelsesmedlems adresse.
 
 ### Bekræftelse af email
 I følge GDPR skal vi sikre os at vi kun sender mail til folk som aktivt har tilkendegivet at vi må det.\
 Derfor er der behov for at bruge dobbelt opt-in. ( Serveren sender en mail som der aktivt skal reageres på. )\
-Hvis vi ikke kan/må sende mail til dig, kan du ikke være medlem.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-03-confirm-email.github.alslug.dk/om/vedtaegter.md)
+Hvis vi ikke kan/må sende mail til dig, kan du ikke være medlem.
 
 ### Virtuel Generalforsamling
-Præcisere af generalforsamlingen kan foregå virtuelt hvis der er behov for det, og under hvilke betingelser det kan/skal ske.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-04-virtuel-gf.github.alslug.dk/om/vedtaegter.md)
+Præcisere af generalforsamlingen kan foregå virtuelt hvis der er behov for det, og under hvilke betingelser det kan/skal ske.
 
 ### Valg
 Personer med tillidshverv må ikke være i nær familie med hinanden.\
-Præcisering af revisors tilknytning til foreningen.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-05-valg.github.alslug.dk/om/vedtaegter.md)
+Præcisering af revisors tilknytning til foreningen.
 
 Forvaltningslovens § 3, stk. 1, nr. 2
 (
@@ -99,8 +94,7 @@ Hvad er holdningen til om vi skal
 * blot lade teksten være som i forslaget, uden at definere/referere til hvad vi forstår ved "nær famile"?
 
 ### Ekstraordinær generalforsamling
-Præcisering af indkaldelse til ekstraordinær generalforsamling.\
-[Link til forslag til vedtægtsændringer](https://gf21-vedtaegt-06-xgf.github.alslug.dk/om/vedtaegter.md)
+Præcisering af indkaldelse til ekstraordinær generalforsamling.
 
 
 
