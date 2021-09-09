@@ -100,7 +100,7 @@ Præcisering af indkaldelse til ekstraordinær generalforsamling.
 
 # Referat for Alslug generalforsamling d. 2021.09.02 kl 19:00
 
-Tilstede er Henning, Per, Jørgen og Verner
+Tilstede var Henning, Per, Jørgen og Verner
 
 ## 1) Valg af ordstyrer.
 Verner valgt til ordstyrer.
