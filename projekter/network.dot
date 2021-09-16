@@ -156,7 +156,7 @@ digraph xxx {
     		-> _X_1_ -> cisco_switch
 		-> _X_2_ -> husets_switch_1
 		-> _X_3_ -> festlokale_switch
-		-> _X_4_ -> husets_switch_5
+		-> _X_4_ -> husets_switch_2
 		-> _X_5_ -> alslug_router
 		-> _X_6_ -> alslug_backbone_switch
 		-> _X_7_;
