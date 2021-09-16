@@ -3,9 +3,9 @@ digraph xxx {
 
   node [ style=filled fillcolor=red ];
   husets_router [ shape=record label="Husets router
-					| >>>>> \n 10/100\n porte: \n >>>>>
+					| 10/100\n porte:
 					|<enp2s10> e\nn\np\n2\ns\n1\n0
-					| >>>>> \n 10/100/1000\n porte: \n >>>>>
+					| 10/100/1000\n porte:
   					|<eno1> e\nn\no\n1
 					|<enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
 					|<enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
@@ -42,9 +42,11 @@ digraph xxx {
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
   alslug_router [ shape=record label="AlsLUG router
+					| 10/100 porte:
   					|<wan> WAN\n(100Mbit)
-					|<bakkensbro> bakkensbro\nkommer\n(1Gbit)}
-					|<lan> LAN\n(1Gbit)}
+					| 10/100/1000 porte:
+					|<bakkensbro> bakkensbro\nkommer\n senere
+					|<lan> LAN
 					" ];
   husets_router:enp1s0f1 -> alslug_router:wan [ style=dotted penwidth=10];
   alslug_router:bakkensbro -> husets_switch_2 [ style=dotted penwidth=10];
