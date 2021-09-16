@@ -122,7 +122,7 @@ digraph xxx {
   wifi_16 -> AlsLUG_TTIG [ penwidth=1 style=dashed ];
   
   edge [ color=invis ];
-  husets_switch_1 -> wifi_12 -> festlokale_switch -> wifi_11 -> husets_switch_2;
+  husets_switch_1 -> festlokale_switch -> husets_switch_2;
 
   subgraph {
     rank = same;
