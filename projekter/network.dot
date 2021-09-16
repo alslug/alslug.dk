@@ -2,7 +2,7 @@ digraph xxx {
   edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
-  husets_router [ shape=box label="Husets router" ];
+  husets_router [ shape=record label="{Husets router|<eno1> eno1|<enp2s10> enp2s10|<enp1s0f0> enp1s0f0|<enp1s0f1> enp1s0f1}" ];
   cisco_switch [ shape=box label="Switch ved biblioteket\n\nCisco\n8+2x10/100/1000" ];
   husets_switch_1 [ shape=box label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
   husets_switch_2 [ shape=box label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
