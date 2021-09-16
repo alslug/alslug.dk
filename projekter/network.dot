@@ -39,9 +39,11 @@ digraph xxx {
   bakkensbro_info_stuen	[ label="Bakkensbro \n Info display \n\n på stue-etagen"	];
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
-  alslug_router [ shape=record label="{<wan> WAN (100Mbit)|
-                                        AlsLUG router
-                                      |<lan> LAN (1Gbit)}" ];
+  alslug_router [ shape=record label="AlsLUG router
+  					|<wan> WAN\n(100Mbit)
+					|<lan> LAN\n(1Gbit)}
+					" ];
+  husets_router:enp1s0f1 -> alslug_router:wan [ style=dotted ];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
   alslug_backbone_switch [ shape=record label="{<any> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF|{Kabelkanal \n under \n vinuderne
