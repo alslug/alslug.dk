@@ -2,7 +2,7 @@ digraph xxx {
   edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
-  husets_router [ shape=record label="Husets router
+  husets_router [ fillcolor=green shape=record label="Husets router
 					| 10/100\n porte:
 					|<enp2s10> e\nn\np\n2\ns\n1\n0
 					| 10/100/1000\n porte:
@@ -10,7 +10,7 @@ digraph xxx {
 					|<enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
 					|<enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
   					" ];
-  cisco_switch [ shape=record label="Switch ved biblioteket\n\nCisco\n8+2x10/100/1000
+  cisco_switch [ fillcolor=green shape=record label="Switch ved biblioteket\n\nCisco\n8+2x10/100/1000
   					|<1> 1
   					|<2> 2
   					|<3> 3
@@ -158,7 +158,8 @@ digraph xxx {
 		-> _X_3_ -> festlokale_switch
 		-> _X_4_ -> husets_switch_5
 		-> _X_5_ -> alslug_router
-		-> _X_6_;
+		-> _X_6_ -> alslug_backbone_switch
+		-> _X_7_;
   }
 
   subgraph {
