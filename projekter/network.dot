@@ -2,13 +2,24 @@ digraph xxx {
   edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
-  husets_router [ shape=record label="Husets router				|
-  					<eno1> e\nn\no\n1			|
-					<enp2s10> e\nn\np\n2\ns\n1\n0		|
-					<enp1s0f0> e\nn\np\n1\ns\n0\nf\n0	|
-					<enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
+  husets_router [ shape=record label="Husets router
+  					|<eno1> e\nn\no\n1
+					|<enp2s10> e\nn\np\n2\ns\n1\n0
+					|<enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
+					|<enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
   					" ];
-  cisco_switch [ shape=box label="Switch ved biblioteket\n\nCisco\n8+2x10/100/1000" ];
+  cisco_switch [ shape=record label="Switch ved biblioteket\n\nCisco\n8+2x10/100/1000
+  					|<1> 1
+  					|<2> 2
+  					|<3> 3
+  					|<4> 4
+  					|<5> 5
+  					|<6> 6
+  					|<7> 7
+  					|<8> 8
+  					|<gi1> G\n1
+  					|<gi2> G\n2
+					" ];
   husets_switch_1 [ shape=box label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
   husets_switch_2 [ shape=box label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
   festlokale_switch [ shape=box label="Switch under festlokalet\n\nHP\n10/100/1000" ];
@@ -88,20 +99,25 @@ digraph xxx {
   
   node [ style=normal ];
   // Internet forbindelser
-  stofa_fiber      -> husets_router [ penwidth=1 fillcolor=black style=filled ];
+  stofa_fiber      -> husets_router:enp2s10	[ penwidth=1 fillcolor=black style=filled ];
+  stofa_fiber      -> husets_router:eno1	[ penwidth=1 fillcolor=black style=dotted ];
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_switch_1 -> festlokale_switch                                                                                [ penwidth=10 label="Fiber" ];
-                     festlokale_switch -> { wifi_10 wifi_11                                                         } [ penwidth=1 ];
-  husets_router -> cisco_switch -> husets_switch_1                                                                    [ penwidth=10 ];
-                   cisco_switch -> {                        wifi_12 wifi_13 wifi_14                 wifi_17         } [ penwidth=1 ];
-  husets_switch_1 -> husets_switch_2                                                                                  [ penwidth=10 color=red ];
-                     husets_switch_2 -> alslug_router:wan                                                             [ penwidth=10 color=red ];
-                     husets_switch_2 -> {                                           wifi_15 wifi_16         wifi_18 } [ penwidth=1 ];
+  husets_router -> cisco_switch:gi1                                                                                     [ penwidth=10 ];
+                   cisco_switch:1 ->                          wifi_12                                                   [ penwidth=1 ];
+                   cisco_switch:2 ->                                  wifi_13                                           [ penwidth=1 ];
+                   cisco_switch:3 ->                                          wifi_14                                   [ penwidth=1 ];
+                   cisco_switch:4 ->                                                                  wifi_17           [ penwidth=1 ];
+                   cisco_switch:gi2 -> husets_switch_1                                                                  [ penwidth=10 ];
+                                       husets_switch_1 -> festlokale_switch                                             [ penwidth=10 label="Fiber" ];
+       	                                                  festlokale_switch -> { wifi_10 wifi_11                      } [ penwidth=1 ];
+                                       husets_switch_1 -> husets_switch_2                                               [ penwidth=10 color=red ];
+                                                          husets_switch_2 -> alslug_router:wan                          [ penwidth=10 color=red ];
+                                                          husets_switch_2 -> {        wifi_15 wifi_16         wifi_18 } [ penwidth=1 ];
 
-  husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen }                                                   [ penwidth=1 ];
-  husets_switch_2 -> { bakkensbro_info_1_sal info_server }                                                            [ penwidth=1 ];
+                                       husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen }                [ penwidth=1 ];
+                                                          husets_switch_2 -> { bakkensbro_info_1_sal info_server }      [ penwidth=1 ];
 
 
   // VLAN forbindelser over bakkensbros netværk
