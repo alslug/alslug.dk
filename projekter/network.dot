@@ -11,6 +11,7 @@ digraph xxx {
 					|<enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
   					" ];
   cisco_switch [ fillcolor=green shape=record label="Switch ved biblioteket\n\nCisco\n8+2x10/100/1000
+					| 10/100\n porte:
   					|<1> 1
   					|<2> 2
   					|<3> 3
@@ -19,6 +20,7 @@ digraph xxx {
   					|<6> 6
   					|<7> 7
   					|<8> 8
+					| 10/100/1000\n porte:
   					|<gi1> G\n1
   					|<gi2> G\n2
 					" ];
