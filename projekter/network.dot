@@ -43,12 +43,12 @@ digraph xxx {
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
   alslug_router [ shape=record label="AlsLUG router
 					| 10/100 porte:
-  					|<wan> WAN\n(100Mbit)
+  					|<enp1s12> e\nn\np\n1\ns\n1\n2
 					| 10/100/1000 porte:
+					|<eno1> e\nn\no\n1
 					|<bakkensbro> bakkensbro\nkommer\n senere
-					|<lan> LAN
 					" ];
-  husets_router:enp1s0f1 -> alslug_router:wan [ style=dotted penwidth=10];
+  husets_router:enp1s0f1 -> alslug_router:enp1s12 [ style=dotted penwidth=10];
   alslug_router:bakkensbro -> husets_switch_2 [ style=dotted penwidth=10];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
@@ -135,7 +135,7 @@ digraph xxx {
   edge [ color=green style=solid penwidth=10 ];
   node [ shape=point ];
   
-  {alslug_router:lan alslug_gl_bootserver} -> alslug_backbone_switch:any;
+  {alslug_router:eno1 alslug_gl_bootserver} -> alslug_backbone_switch:any;
   alslug_backbone_switch:12 -> alslug_hp5180;
   alslug_backbone_switch:11 -> alslug_zebra;
   alslug_backbone_switch:10 -> alslug_projektor_client;
