@@ -141,7 +141,7 @@ digraph xxx {
 		}"];
   {
     node [ shape=point ];
-    edge [ color=green ];
+    edge [ color=green penwidth=10];
     bord_1:1 -> _bord_1_1;
     bord_1:2 -> _bord_1_2;
     bord_1:3 -> _bord_1_3;
