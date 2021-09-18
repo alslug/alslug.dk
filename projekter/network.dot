@@ -116,7 +116,7 @@ digraph xxx {
 				| <g_wan>      Gbit Wan\nkommer\n senere
 				" ];
   husets_router:enp1s0f1 -> alslug_router:g_wan [ style=dotted penwidth=10];
-  alslug_router:bakkensbro -> husets_switch_2 [ style=dotted penwidth=10];
+  alslug_router:bakkensbro -> husets_switch_2:gi2 [ style=dotted penwidth=10];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
   alslug_backbone_switch [ shape=record label="<head> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SFP
