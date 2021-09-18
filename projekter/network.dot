@@ -83,16 +83,19 @@ digraph xxx {
 				|<SFP1> S\nF\nP\n1
 				|<SPF2> S\nF\nP\n2
 				"];
-  alslug_kabelkanaler  [ shape=record label="{
-  						{{|||}|Højre}|
-						{{|||}|Midten}|
-						{{|||}|Venstre}}
-  						| Kabel-kanaler i AlsLUGs lokale"];	
+  alslug_kabelkanaler  [ shape=record label="
+  						{{ <1> 1 | <2> 2 | <3> 3 | <4> 4	}|Højre}
+						|
+						{{ <5> 5 | <6> 6 | <7> 7 | <8> 8	}|Midten}
+						|
+						{{ <9> 9 | <10> 10 | <11> 11 | <12>12	}|Venstre}
+  						|
+						Kabel-kanaler i AlsLUGs lokale"];	
 //  {Kabelkanal \n under \n vinuderne
 //		|{
-//			{Højre	|{	<1> 1	|	<2> 2	|	<3> 3	|	<4> 4	}}|
-//			{Midten	|{	<5> 5	|	<6> 6	|	<7> 7	|	<8>8	}}|
-//			{Venstre|{	<9> 9	|	<10>10	|	<11>11	|	<12>12	}}
+//			{Højre	|{		}}|
+//			{Midten	|{	}}|
+//			{Venstre|{	}}
 //		}}|{{{
 //			{<17>17|<18>19|<21>21|<23>23}
 //			|Andre \n porte|
@@ -184,9 +187,9 @@ digraph xxx {
   node [ shape=point ];
   
   {alslug_router:eno1 alslug_gl_bootserver} -> alslug_backbone_switch:any;
-  alslug_backbone_switch:12 -> alslug_hp5180;
-  alslug_backbone_switch:11 -> alslug_zebra;
-  alslug_backbone_switch:10 -> alslug_projektor_client;
+  alslug_kabelkanaler:12 -> alslug_hp5180;
+  alslug_kabelkanaler:11 -> alslug_zebra;
+  alslug_kabelkanaler:10 -> alslug_projektor_client;
   alslug_backbone_switch:20 -> switch_5p -> { demo_1 demo_2 demo_3 demo_4 } [ color=gray ];
   alslug_backbone_switch:21 -> alslug_projektor;
   alslug_backbone_switch:22 -> RPi_camera;
