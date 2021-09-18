@@ -111,19 +111,59 @@ digraph xxx {
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
-  bord_1 [ shape=record label="{
-  		{
-  			{<11> Port 11|<12> Port 12}
-			|Uplink\n/\nekstra|
-			{<13> Port 13|<14> Port 14}
-		}
-		|<bord> Bord vest\n\nD-Link\n24 port 10/100/1000|
-		{
-			{Port 1|Port 2|Port 3|Port 4|Port 5|Port 6|Port 7|Port 8|Port 9|Port 10}
-			|Faste \n kabler \n ved \n bordet|
-			{Port 15|Port 16|Port 17|Port 18|Port 19|Port 20|Port 21|Port 22|Port 23|Port 24}
-		}
+  bord_1 [ shape=record label="{ | <bord> Bord vest\n\nD-Link\n24 port 10/100/1000 | }
+			| <1> 1
+			| <2> 2
+			| <3> 3
+			| <4> 4
+			| <5> 5
+			| <6> 6
+			| <7> 7
+			| <8> 8
+			| <9> 9
+			| <10> 1\n0
+			
+			| <11> 1\n1
+			| <12> 1\n2
+			| <13> 1\n3
+			| <14> 1\n4
+			
+			| <15> 1\n5
+			| <16> 1\n6
+			| <17> 1\n7
+			| <18> 1\n8
+			| <19> 1\n9
+			| <20> 2\n0
+			| <21> 2\n1
+			| <22> 2\n2
+			| <23> 2\n3
+			| <24> 2\n4
 		}"];
+  {
+    node [ shape=point ];
+    edge [ color=green ];
+    bord_1:1 -> _bord_1_1;
+    bord_1:2 -> _bord_1_2;
+    bord_1:3 -> _bord_1_3;
+    bord_1:4 -> _bord_1_4;
+    bord_1:5 -> _bord_1_5;
+    bord_1:6 -> _bord_1_6;
+    bord_1:7 -> _bord_1_7;
+    bord_1:8 -> _bord_1_8;
+    bord_1:9 -> _bord_1_9;
+    bord_1:10 -> _bord_1_10;
+
+    bord_1:15 -> _bord_1_15;
+    bord_1:16 -> _bord_1_16;
+    bord_1:17 -> _bord_1_17;
+    bord_1:18 -> _bord_1_18;
+    bord_1:19 -> _bord_1_19;
+    bord_1:20 -> _bord_1_20;
+    bord_1:21 -> _bord_1_21;
+    bord_1:22 -> _bord_1_22;
+    bord_1:23 -> _bord_1_23;
+    bord_1:24 -> _bord_1_24;
+  }
   bord_2 [ shape=record label="{
   		{
   			{<7> Port 7|<8> Port 8}
