@@ -24,8 +24,72 @@ digraph xxx {
   				| <gi1> G\n1
   				| <gi2> G\n2
 				" ];
-  husets_switch_1 [ shape=box label="Switch ved biblioteket\n\nHP\n10/100/1000" ];
-  husets_switch_2 [ shape=box label="Switch ved AlsLUG\n\nHP\n10/100/1000" ];
+  husets_switch_1 [ shape=record label="<head>Switch ved biblioteket\n\nHP\n24x10/100\n2x10/100/1000\n2xSFP
+				| 10/100 \n porte:
+  				| <1> 1
+  				| <2> 2
+  				| <3> 3
+  				| <4> 4
+  				| <5> 5
+  				| <6> 6
+  				| <7> 7
+  				| <8> 8
+  				| <9> 9
+  				| <10> 10
+  				| <11> 11
+  				| <12> 12
+  				| <13> 13
+  				| <14> 14
+  				| <15> 15
+  				| <16> 16
+  				| <17> 17
+  				| <18> 18
+  				| <19> 19
+  				| <20> 20
+  				| <21> 21
+  				| <22> 22
+  				| <23> 23
+  				| <24> 24
+				| 10/100/1000 \n porte:
+  				| <gi1> G\n1
+  				| <gi2> G\n2
+				| SFP \n porte:
+  				| <sfp1> G\n1
+  				| <sfp2> G\n2
+  				" ];
+  husets_switch_2 [ shape=record label="<head>Switch ved AlsLUG\n\nHP\n24x10/100\n2x10/100/1000\n2xSFP
+				| 10/100 \n porte:
+  				| <1> 1
+  				| <2> 2
+  				| <3> 3
+  				| <4> 4
+  				| <5> 5
+  				| <6> 6
+  				| <7> 7
+  				| <8> 8
+  				| <9> 9
+  				| <10> 10
+  				| <11> 11
+  				| <12> 12
+  				| <13> 13
+  				| <14> 14
+  				| <15> 15
+  				| <16> 16
+  				| <17> 17
+  				| <18> 18
+  				| <19> 19
+  				| <20> 20
+  				| <21> 21
+  				| <22> 22
+  				| <23> 23
+  				| <24> 24
+				| 10/100/1000 \n porte:
+  				| <gi1> G\n1
+  				| <gi2> G\n2
+				| SFP \n porte:
+  				| <sfp1> G\n1
+  				| <sfp2> G\n2
+  				" ];
   festlokale_switch [ shape=box label="Switch under festlokalet\n\nHP\n10/100/1000" ];
   wifi_10 [ label=" wifi_10 \n\n Bakkehuset"                  ];
   wifi_11 [ label=" wifi_11 \n\n Festlokalet "                ];
@@ -55,7 +119,7 @@ digraph xxx {
   alslug_router:bakkensbro -> husets_switch_2 [ style=dotted penwidth=10];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
-  alslug_backbone_switch [ shape=record label="<head> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF
+  alslug_backbone_switch [ shape=record label="<head> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SFP
   				|<1> 1
 				|<2> 2
 				|<3> 3
@@ -80,8 +144,8 @@ digraph xxx {
 				|<22> 2\n2
 				|<23> 2\n3
 				|<24> 2\n4
-				|<SFP1> S\nF\nP\n1
-				|<SPF2> S\nF\nP\n2
+				|<sfp1> S\nF\nP\n1
+				|<sfp2> S\nF\nP\n2
 				"];
   alslug_kabelkanaler  [ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
   				| Under vinduerne:\n(Fra højre\nmod venstre)
@@ -207,8 +271,9 @@ digraph xxx {
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
   switch_24p      [ shape=box label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
-  switch_48p      [ shape=box label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/SPF"];
-  switch_48p_poe  [ shape=box label="Cisco Catalyst 3360\n48 porte 10/100\n2x SPF"];
+  switch_48p      [ shape=box label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/
+  "];
+  switch_48p_poe  [ shape=box label="Cisco Catalyst 3360\n48 porte 10/100\n2x SFP"];
   switch_5p       [ shape=box label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
   switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000\nTidligere backbone" ];
   switch_8p_vest    [ shape=box label="Jensen\n8 port 10/100/1000\nTidligere bord vest" ];
@@ -218,35 +283,37 @@ digraph xxx {
   
   node [ style=normal ];
   // Internet forbindelser
-  stofa_fiber      -> husets_router:enp2s10	[ penwidth=1 fillcolor=black style=filled ];
-  stofa_fiber      -> husets_router:eno1	[ penwidth=1 fillcolor=black style=dotted ];
+  stofa_fiber -> husets_router:enp2s10	[ penwidth=1 fillcolor=black style=filled ];
+  stofa_fiber -> husets_router:eno1	[ penwidth=1 fillcolor=black style=dotted ];
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
   husets_router:enp1s0f0 -> cisco_switch:gi1                                                                                     [ penwidth=10 ];
-                            cisco_switch:1 ->                          wifi_12                                                   [ penwidth=1 ];
-                            cisco_switch:2 ->                                  wifi_13                                           [ penwidth=1 ];
-                            cisco_switch:3 ->                                          wifi_14                                   [ penwidth=1 ];
-                            cisco_switch:4 ->                                                                  wifi_17           [ penwidth=1 ];
-                            cisco_switch:gi2 -> husets_switch_1                                                                  [ penwidth=10 ];
-                                                husets_switch_1 -> { bakkensbro_info_doer bakkensbro_info_stuen }                [ penwidth=1 ];
-                                                husets_switch_1 -> festlokale_switch                                             [ penwidth=10 label="Fiber" ];
-          	                                                   festlokale_switch -> { wifi_10 wifi_11                      } [ penwidth=1 ];
-                                                husets_switch_1 -> husets_switch_2                                               [ penwidth=10 color=red ];
-                                                                   husets_switch_2 -> alslug_router:enp1s12                      [ penwidth=10 color=red ];
-                                                                   husets_switch_2 -> {        wifi_15 wifi_16         wifi_18 } [ penwidth=1 ];
-                                                                   husets_switch_2 -> { bakkensbro_info_1_sal info_server }      [ penwidth=1 ];
+                            cisco_switch:1 ->                                                                            wifi_12 [ penwidth=1 ];
+                            cisco_switch:2 ->                                                                            wifi_13 [ penwidth=1 ];
+                            cisco_switch:3 ->                                                                            wifi_14 [ penwidth=1 ];
+                            cisco_switch:4 ->                                                                            wifi_17 [ penwidth=1 ];
+                            cisco_switch:gi2 -> husets_switch_1:gi1                                                              [ penwidth=10 ];
+                                                husets_switch_1 -> bakkensbro_info_doer                                          [ penwidth=1 ];
+                                                husets_switch_1 -> bakkensbro_info_stuen                                         [ penwidth=1 ];
+                                                husets_switch_1:sfp1 -> festlokale_switch:sfp1                                   [ penwidth=10 label="Fiber" ];
+                                                                        festlokale_switch ->                             wifi_10 [ penwidth=1 ];
+                                                                        festlokale_switch ->                             wifi_11 [ penwidth=1 ];
+                                                husets_switch_1:gi2 -> husets_switch_2:gi1                                       [ penwidth=10 color=red ];
+                                                                       husets_switch_2:gi2 -> alslug_router:enp1s12              [ penwidth=10 color=red ];
+                                                                       husets_switch_2 ->                                wifi_15 [ penwidth=1 ];
+                                                                       husets_switch_2 ->                                wifi_16 [ penwidth=1 ];
+                                                                       husets_switch_2 ->                                wifi_18 [ penwidth=1 ];
+                                                                       husets_switch_2 -> bakkensbro_info_1_sal                  [ penwidth=1 ];
+                                                                       husets_switch_2 -> info_server                            [ penwidth=1 ];
 
-
-  // VLAN forbindelser over bakkensbros netværk
-  edge  [ color=green style=dashed ];
-  husets_switch_2 -> { alslug_router:enp1s12 wifi_16 }                                                                    [ penwidth=1 ];
 
   // Interne forbindelser
   edge [ color=green style=solid penwidth=10 ];
   node [ shape=point ];
   
-  {alslug_router:eno1 alslug_gl_bootserver} -> alslug_backbone_switch:any;
+  alslug_router:eno1   -> alslug_backbone_switch:sfp1;
+  alslug_gl_bootserver -> alslug_backbone_switch:sfp2;
   alslug_kabelkanaler:12 -> alslug_hp5180;
   alslug_kabelkanaler:11 -> alslug_zebra;
   alslug_kabelkanaler:10 -> alslug_projektor_client;
@@ -265,16 +332,16 @@ digraph xxx {
     node [ shape=point ];
     node [ shape=star label="" ];    edge [ color=cyan ];
     husets_router:head
-    		-> _X_1_ -> _Y_1_ -> _Z_1_ -> cisco_switch:head
-		-> _X_2_ -> _Y_2_ -> _Z_2_ -> husets_switch_1:head
-		-> _X_3_ -> _Y_3_ -> _Z_3_ -> festlokale_switch:head
-		-> _X_4_ -> _Y_4_ -> _Z_4_ -> husets_switch_2:head
-		-> _X_5_ -> _Y_5_ -> _Z_5_ -> alslug_router:head
-		-> _X_6_ -> _Y_6_ -> _Z_6_ -> alslug_backbone_switch:head
-		-> _X_7_ -> _Y_7_ -> _Z_7_ -> alslug_kabelkanaler:head
-		-> _X_8_ -> _Y_8_ -> _Z_8_ -> bord_1:head
-		-> _X_9_ -> _Y_9_ -> _Z_9_ -> bord_2:head
-		;
+			-> _X_1_ -> _Y_1_ -> _Z_1_ -> cisco_switch:head
+			-> _X_2_ -> _Y_2_ -> _Z_2_ -> husets_switch_1:head
+			-> _X_3_ -> _Y_3_ -> _Z_3_ -> festlokale_switch:head
+			-> _X_4_ -> _Y_4_ -> _Z_4_ -> husets_switch_2:head
+			-> _X_5_ -> _Y_5_ -> _Z_5_ -> alslug_router:head
+			-> _X_6_ -> _Y_6_ -> _Z_6_ -> alslug_backbone_switch:head
+			-> _X_7_ -> _Y_7_ -> _Z_7_ -> alslug_kabelkanaler:head
+			-> _X_8_ -> _Y_8_ -> _Z_8_ -> bord_1:head
+			-> _X_9_ -> _Y_9_ -> _Z_9_ -> bord_2:head
+			;
   }
 
   subgraph {
