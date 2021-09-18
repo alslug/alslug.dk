@@ -83,14 +83,14 @@ digraph xxx {
 				|<SFP1> S\nF\nP\n1
 				|<SPF2> S\nF\nP\n2
 				"];
-  alslug_kabelkanaler  [ shape=record label="
-  						{{ <1> 1 | <2> 2 | <3> 3 | <4> 4	}|Højre}
-						|
-						{{ <5> 5 | <6> 6 | <7> 7 | <8> 8	}|Midten}
-						|
-						{{ <9> 9 | <10> 10 | <11> 11 | <12>12	}|Venstre}
-  						|
-						Kabel-kanaler i AlsLUGs lokale"];	
+  alslug_kabelkanaler  [ shape=record label="{XXXXX|Kabel-kanaler i AlsLUGs lokale|XXXXX}
+  						| Vinuder\nHøjre:
+  						| <1> 1 | <2> 2 | <3> 3 | <4> 4
+						| Vinuder\nMidten:
+						| <5> 5 | <6> 6 | <7> 7 | <8> 8
+						| Vinuder\nVenstre:
+						| <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
+						"];	
 //  {Kabelkanal \n under \n vinuderne
 //		|{
 //			{Højre	|{		}}|
