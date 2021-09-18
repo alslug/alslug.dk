@@ -101,18 +101,21 @@ digraph xxx {
 //			|Andre \n porte|
 //			{<18>18|<20>20|<22>22|<24>24}
 //		}}}}"];
-  alslug_backbone_switch:1 -> alslug_kabelkanaler:1;
-  alslug_backbone_switch:2 -> alslug_kabelkanaler:2;
-  alslug_backbone_switch:3 -> alslug_kabelkanaler:3;
-  alslug_backbone_switch:4 -> alslug_kabelkanaler:4;
-  alslug_backbone_switch:5 -> alslug_kabelkanaler:5;
-  alslug_backbone_switch:6 -> alslug_kabelkanaler:6;
-  alslug_backbone_switch:7 -> alslug_kabelkanaler:7;
-  alslug_backbone_switch:8 -> alslug_kabelkanaler:8;
-  alslug_backbone_switch:9 -> alslug_kabelkanaler:9;
-  alslug_backbone_switch:10 -> alslug_kabelkanaler:10;
-  alslug_backbone_switch:11 -> alslug_kabelkanaler:11;
-  alslug_backbone_switch:12 -> alslug_kabelkanaler:12;
+  {
+    edge [ color=green style=solid penwidth=10 ];
+    alslug_backbone_switch:1 -> alslug_kabelkanaler:1;
+    alslug_backbone_switch:2 -> alslug_kabelkanaler:2;
+    alslug_backbone_switch:3 -> alslug_kabelkanaler:3;
+    alslug_backbone_switch:4 -> alslug_kabelkanaler:4;
+    alslug_backbone_switch:5 -> alslug_kabelkanaler:5;
+    alslug_backbone_switch:6 -> alslug_kabelkanaler:6;
+    alslug_backbone_switch:7 -> alslug_kabelkanaler:7;
+    alslug_backbone_switch:8 -> alslug_kabelkanaler:8;
+    alslug_backbone_switch:9 -> alslug_kabelkanaler:9;
+    alslug_backbone_switch:10 -> alslug_kabelkanaler:10;
+    alslug_backbone_switch:11 -> alslug_kabelkanaler:11;
+    alslug_backbone_switch:12 -> alslug_kabelkanaler:12;
+  }
   alslug_projektor [ label="Projektor" ]
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
