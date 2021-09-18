@@ -263,7 +263,7 @@ digraph xxx {
   {
     edge [ color=invis ];
     node [ shape=point ];
-    node [ shape=star label="" ];
+    node [ shape=star label="" ];    edge [ color=cyan ];
     husets_router:head
     		-> _X_1_ -> _Y_1_ -> _Z_1_ -> cisco_switch:head
 		-> _X_2_ -> _Y_2_ -> _Z_2_ -> husets_switch_1:head
