@@ -210,8 +210,9 @@ digraph xxx {
 		-> _X_4_ -> _Y_4_ -> husets_switch_2
 		-> _X_5_ -> _Y_5_ -> alslug_router
 		-> _X_6_ -> _Y_6_ -> alslug_backbone_switch
-		-> _X_7_ -> _Y_7_ -> bord_1
-		-> _X_8_ -> _Y_8_ -> bord_2
+		-> _X_7_ -> _Y_7_ -> alslug_kabelkanaler
+		-> _X_8_ -> _Y_8_ -> bord_1
+		-> _X_9_ -> _Y_9_ -> bord_2
 		;
   }
 
