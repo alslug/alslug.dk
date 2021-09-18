@@ -314,10 +314,10 @@ digraph xxx {
   
   alslug_router:eno1   -> alslug_backbone_switch:sfp1;
   alslug_gl_bootserver -> alslug_backbone_switch:sfp2;
+  { demo_1 demo_2 demo_3 demo_4 } -> switch_5p -> alslug_backbone_switch:20 [ color=gray ];
   alslug_kabelkanaler:12 -> alslug_hp5180;
   alslug_kabelkanaler:11 -> alslug_zebra;
   alslug_kabelkanaler:10 -> alslug_projektor_client;
-  alslug_backbone_switch:20 -> switch_5p -> { demo_1 demo_2 demo_3 demo_4 } [ color=gray ];
   alslug_backbone_switch:21 -> alslug_projektor;
   alslug_backbone_switch:22 -> RPi_camera;
   alslug_backbone_switch:23 -> bord_1:12;
