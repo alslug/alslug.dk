@@ -164,19 +164,47 @@ digraph xxx {
     bord_1:23 -> _bord_1_23;
     bord_1:24 -> _bord_1_24;
   }
-  bord_2 [ shape=record label="{
-  		{
-  			{<7> Port 7|<8> Port 8}
-			|Uplink\n/\nekstra|
-  			{<9> (Port 9)|<10> (Port 10)}
-		}
-		|<bord> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000|
-		{
-			{Port 1|Port 2|Port 3|Port 4|Port 5|Port 6}
-			|Faste \n kabler \n ved \n bordet|
-			{(Port 11)|(Port 12)|(Port 13)|(Port 14)|(Port 15)|(Port 16)}
-		}
-		}"];
+  bord_2 [ shape=record label="{ | <head> Bord øst\n\nJensen\n8 port 10/100/1000\n\n Erstattes af\n\nUkendt mærke\n16 port 10/100/1000 | }
+			| <1> 1
+			| <2> 2
+			| <3> 3
+			| <4> 4
+			| <5> 5
+			| <6> 6
+			| <7> 7
+			| <8> 8
+			| Flere \n porte \n efter \n udskiftningen:
+			| <9> 9
+			| <10> 1\n0
+			
+			| <11> 1\n1
+			| <12> 1\n2
+			| <13> 1\n3
+			| <14> 1\n4
+			
+			| <15> 1\n5
+			| <16> 1\n6
+			"];
+  {
+    node [ shape=point ];
+    edge [ color=green penwidth=10];
+    bord_2:1 -> _bord_2_1;
+    bord_2:2 -> _bord_2_2;
+    bord_2:3 -> _bord_2_3;
+    bord_2:4 -> _bord_2_4;
+    bord_2:5 -> _bord_2_5;
+    bord_2:6 -> _bord_2_6;
+    bord_2:7 -> _bord_2_7;
+//  bord_2:8 -> _bord_2_8;
+    bord_2:9 -> _bord_2_9;
+    bord_2:10 -> _bord_2_10;
+    bord_2:11 -> _bord_2_11;
+    bord_2:12 -> _bord_2_12;
+    bord_2:13 -> _bord_2_13;
+    bord_2:14 -> _bord_2_14;
+    bord_2:15 -> _bord_2_15;
+    bord_2:16 -> _bord_2_16;
+  }
  
   // Udstyr som pt ikke bruges
   node [ style=filled fillcolor=gray ];
