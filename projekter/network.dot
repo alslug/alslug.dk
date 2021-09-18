@@ -1,11 +1,15 @@
 digraph xxx {
-  pending_100_a -> pending_100_b	[ penwidth=1 style=dotted label="Kommende \n 100Mb forbindelse"]
-  pending_1000_a -> pending_1000_b	[ penwidth=10 style=dotted label="Kommende \n 1Gb forbindelse"]
-  aktiv_100_a -> aktiv_100_b		[ penwidth=1 label="Aktiv \n 100Mb forbindelse"]
-  aktiv_1000_a -> aktiv_1000_b		[ penwidth=10 label="Aktiv \n 1Gb forbindelse"]
+  subgraph legend_cluster {
+    edge [ dir=none ];
+    node [ shape=point ];
+    pending_100_a -> pending_100_b	[ penwidth=1 style=dotted label="Kommende \n 100Mb \n forbindelse" ];
+    pending_1000_a -> pending_1000_b	[ penwidth=10 style=dotted label="Kommende \n 1Gb \n forbindelse" ];
+    aktiv_100_a -> aktiv_100_b		[ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
+    aktiv_1000_a -> aktiv_1000_b	[ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
 
-  bakkensbro	[ style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
-  alslug	[ style=filled fillcolor=green label="AlsLUG \n udstyr" ];
+    bakkensbro	[ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
+    alslug	[ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
+  }
   
   edge [ dir=none penwidth=100 ];
   node [ style=filled fillcolor=red ];
