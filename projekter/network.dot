@@ -105,7 +105,7 @@ digraph xxx {
   switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000\nTidligere backbone" ];
   switch_8p_vest    [ shape=box label="Jensen\n8 port 10/100/1000\nTidligere bord vest" ];
   
-  switch_24p -> switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 -> x -> alslug_router [ color=invis ];
+  switch_24p -> switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
   
   
   node [ style=normal ];
@@ -125,14 +125,14 @@ digraph xxx {
                                                 husets_switch_1 -> festlokale_switch                                             [ penwidth=10 label="Fiber" ];
           	                                                   festlokale_switch -> { wifi_10 wifi_11                      } [ penwidth=1 ];
                                                 husets_switch_1 -> husets_switch_2                                               [ penwidth=10 color=red ];
-                                                                   husets_switch_2 -> alslug_router:wan                          [ penwidth=10 color=red ];
+                                                                   husets_switch_2 -> alslug_router:enp1s12                      [ penwidth=10 color=red ];
                                                                    husets_switch_2 -> {        wifi_15 wifi_16         wifi_18 } [ penwidth=1 ];
                                                                    husets_switch_2 -> { bakkensbro_info_1_sal info_server }      [ penwidth=1 ];
 
 
   // VLAN forbindelser over bakkensbros netværk
   edge  [ color=green style=dashed ];
-  husets_switch_2 -> { alslug_router:wan wifi_16 }                                                                    [ penwidth=1 ];
+  husets_switch_2 -> { alslug_router:enp1s12 wifi_16 }                                                                    [ penwidth=1 ];
 
   // Interne forbindelser
   edge [ color=green style=solid penwidth=10 ];
