@@ -43,7 +43,7 @@ digraph xxx {
   bakkensbro_info_stuen	[ label="Bakkensbro \n Info display \n\n på stue-etagen"	];
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
-  alslug_router [ shape=record label="{XXXXX|AlsLUG router|XXXXX}
+  alslug_router [ shape=record label="{ | AlsLUG router | }
 					| 10/100 porte:
   					|<enp1s12> e\nn\np\n1\ns\n1\n2
 					| 10/100/1000 porte:
@@ -55,7 +55,7 @@ digraph xxx {
   alslug_router:bakkensbro -> husets_switch_2 [ style=dotted penwidth=10];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
-  alslug_backbone_switch [ shape=record label="{XXXXX | AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF | XXXXX}
+  alslug_backbone_switch [ shape=record label="{ | AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF | }
   				|<1> 1
 				|<2> 2
 				|<3> 3
@@ -83,16 +83,13 @@ digraph xxx {
 				|<SFP1> S\nF\nP\n1
 				|<SPF2> S\nF\nP\n2
 				"];
-  alslug_kabelkanaler  [ shape=record label="{XXXXX|Kabel-kanaler i AlsLUGs lokale|XXXXX}
-  						| Vinduer\nHøjre:
+  alslug_kabelkanaler  [ shape=record label="{ | Kabel-kanaler i AlsLUGs lokale | }
+  						| Under vinduerne\nFra\nhøjre\nmod\nvenstre:
   						| <1> 1 | <2> 2 | <3> 3 | <4> 4
-						| Vinduer\nMidten:
 						| <5> 5 | <6> 6 | <7> 7 | <8> 8
-						| Vinduer\nVenstre:
 						| <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
-						| Gang\nMidten:
+						| Mod gangen:
 						| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
-						| Gang\nVenstre:
 						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
 						"];	
   {
