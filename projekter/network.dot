@@ -1,16 +1,18 @@
 digraph xxx {
-  subgraph c_luster_legend {
+  subgraph cluster_legend {
+    label = "Legend:";
     edge [ dir=none ];
     node [ shape=point ];
-    bakkensbro	[ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
-    alslug	[ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
+    legend_bakkensbro	[ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
+    legend_alslug	[ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
 
-    pending_a -> pending_b	[ penwidth=1 style=dotted label="Kommende \n 100Mb \n forbindelse" ];
-    pending_b -> pending_c	[ penwidth=10 style=dotted label="Kommende \n 1Gb \n forbindelse" ];
-    pending_c -> bakkensbro	[ color=invis ];
-    active_a -> active_b	[ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
-    active_b -> active_c	[ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
-    active_c -> alslug		[ color=invis ];
+    legend_pending_a -> legend_pending_b	[ penwidth=1 style=dotted label="Kommende \n 100Mb \n forbindelse" ];
+    legend_pending_b -> legend_pending_c	[ penwidth=10 style=dotted label="Kommende \n 1Gb \n forbindelse" ];
+    legend_pending_c -> legend_bakkensbro	[ color=invis ];
+    
+    legend_active_a -> legend_active_b	[ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
+    legend_active_b -> legend_active_c	[ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
+    legend_active_c -> legend_alslug	[ color=invis ];
 }
   
   edge [ dir=none penwidth=100 ];
