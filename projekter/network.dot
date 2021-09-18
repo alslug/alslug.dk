@@ -231,7 +231,7 @@ digraph xxx {
   alslug_backbone_switch:24 -> bord_2:8;
 
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
-  bord_1:head -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
+  alslug_projektor -> bord_1:head [ color=black penwidth=1 label="VGA" dir=back ];
   wifi_16 -> AlsLUG_TTIG [ penwidth=1 style=dashed ];
   
   {
