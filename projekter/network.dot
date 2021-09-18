@@ -2,7 +2,7 @@ digraph xxx {
   edge [ dir=none penwidth=100 ];
 
   node [ style=filled fillcolor=red ];
-  husets_router [ fillcolor=green shape=record label="{XXXXX|Husets router|XXXXX}
+  husets_router [ fillcolor=green shape=record label="{ <head> | Husets router | }
 					| 10/100\n porte:
 					|<enp2s10> e\nn\np\n2\ns\n1\n0
 					| 10/100/1000\n porte:
@@ -10,7 +10,7 @@ digraph xxx {
 					|<enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
 					|<enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
   					" ];
-  cisco_switch [ fillcolor=green shape=record label="{XXXXX|Switch ved biblioteket\n\nCisco\n8+2x10/100/1000|XXXXX}
+  cisco_switch [ fillcolor=green shape=record label="{ | <head> Switch ved biblioteket\n\nCisco | }
 					| 10/100\n porte:
   					|<1> 1
   					|<2> 2
@@ -43,7 +43,7 @@ digraph xxx {
   bakkensbro_info_stuen	[ label="Bakkensbro \n Info display \n\n på stue-etagen"	];
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
-  alslug_router [ shape=record label="{ | AlsLUG router | }
+  alslug_router [ shape=record label="{ | <head> AlsLUG router | }
 					| 10/100 porte:
   					|<enp1s12> e\nn\np\n1\ns\n1\n2
 					| 10/100/1000 porte:
@@ -55,7 +55,7 @@ digraph xxx {
   alslug_router:bakkensbro -> husets_switch_2 [ style=dotted penwidth=10];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
-  alslug_backbone_switch [ shape=record label="{ | AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF | }
+  alslug_backbone_switch [ shape=record label="{ | <head> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SPF | }
   				|<1> 1
 				|<2> 2
 				|<3> 3
@@ -83,7 +83,7 @@ digraph xxx {
 				|<SFP1> S\nF\nP\n1
 				|<SPF2> S\nF\nP\n2
 				"];
-  alslug_kabelkanaler  [ shape=record label="{ | Kabel-kanaler i AlsLUGs lokale | }
+  alslug_kabelkanaler  [ shape=record label="{ | <head> Kabel-kanaler i AlsLUGs lokale | }
   						| Under vinduerne\nFra\nhøjre\nmod\nvenstre:
   						| <1> 1 | <2> 2 | <3> 3 | <4> 4
 						| <5> 5 | <6> 6 | <7> 7 | <8> 8
@@ -197,16 +197,16 @@ digraph xxx {
   {
     edge [ color=invis ];
     node [ shape=point ];
-    husets_router
-    		-> _X_1_ -> _Y_1_ -> cisco_switch
-		-> _X_2_ -> _Y_2_ -> husets_switch_1
-		-> _X_3_ -> _Y_3_ -> festlokale_switch
-		-> _X_4_ -> _Y_4_ -> husets_switch_2
-		-> _X_5_ -> _Y_5_ -> alslug_router
-		-> _X_6_ -> _Y_6_ -> alslug_backbone_switch
-		-> _X_7_ -> _Y_7_ -> alslug_kabelkanaler
-		-> _X_8_ -> _Y_8_ -> bord_1
-		-> _X_9_ -> _Y_9_ -> bord_2
+    husets_router:head
+    		-> _X_1_ -> _Y_1_ -> cisco_switch:head
+		-> _X_2_ -> _Y_2_ -> husets_switch_1:head
+		-> _X_3_ -> _Y_3_ -> festlokale_switch:head
+		-> _X_4_ -> _Y_4_ -> husets_switch_2:head
+		-> _X_5_ -> _Y_5_ -> alslug_router:head
+		-> _X_6_ -> _Y_6_ -> alslug_backbone_switch:head
+		-> _X_7_ -> _Y_7_ -> alslug_kabelkanaler:head
+		-> _X_8_ -> _Y_8_ -> bord_1:head
+		-> _X_9_ -> _Y_9_ -> bord_2:head
 		;
   }
 
