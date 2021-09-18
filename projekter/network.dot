@@ -1,6 +1,13 @@
 digraph xxx {
-  edge [ dir=none penwidth=100 ];
+  pending_100_a -> pending_100_b	[ penwidth=1 style=dotted label="Kommende \n 100Mb forbindelse"]
+  pending_1000_a -> pending_1000_b	[ penwidth=10 style=dotted label="Kommende \n 1Gb forbindelse"]
+  aktiv_100_a -> aktiv_100_b		[ penwidth=1 label="Aktiv \n 100Mb forbindelse"]
+  aktiv_1000_a -> aktiv_1000_b		[ penwidth=10 label="Aktiv \n 1Gb forbindelse"]
 
+  bakkensbro	[ style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
+  alslug	[ style=filled fillcolor=green label="AlsLUG \n udstyr" ];
+  
+  edge [ dir=none penwidth=100 ];
   node [ style=filled fillcolor=red ];
   husets_router [ fillcolor=green shape=record label="<head> Husets router
 				| 10/100 \n porte:
@@ -302,6 +309,7 @@ digraph xxx {
                                                 husets_switch_1:gi2 -> husets_switch_2:gi1                                       [ penwidth=10 color=red ];
                                                                        husets_switch_2:gi2 -> alslug_router:enp1s12              [ penwidth=10 color=red ];
                                                                        husets_switch_2 ->                                wifi_15 [ penwidth=1 ];
+                            cisco_switch:5 ->                                                                            wifi_15 [ penwidth=1 style=dotted ];
                                                                        husets_switch_2 ->                                wifi_16 [ penwidth=1 ];
                                                                        husets_switch_2 ->                                wifi_18 [ penwidth=1 ];
                                                                        husets_switch_2 -> bakkensbro_info_1_sal                  [ penwidth=1 ];
