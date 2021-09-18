@@ -84,23 +84,17 @@ digraph xxx {
 				|<SPF2> S\nF\nP\n2
 				"];
   alslug_kabelkanaler  [ shape=record label="{XXXXX|Kabel-kanaler i AlsLUGs lokale|XXXXX}
-  						| Vinuder\nHøjre:
+  						| Vinduer\nHøjre:
   						| <1> 1 | <2> 2 | <3> 3 | <4> 4
-						| Vinuder\nMidten:
+						| Vinduer\nMidten:
 						| <5> 5 | <6> 6 | <7> 7 | <8> 8
-						| Vinuder\nVenstre:
+						| Vinduer\nVenstre:
 						| <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
+						| Gang\nMidten:
+						| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
+						| Gang\nVenstre:
+						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
 						"];	
-//  {Kabelkanal \n under \n vinuderne
-//		|{
-//			{Højre	|{		}}|
-//			{Midten	|{	}}|
-//			{Venstre|{	}}
-//		}}|{{{
-//			{<17>17|<18>19|<21>21|<23>23}
-//			|Andre \n porte|
-//			{<18>18|<20>20|<22>22|<24>24}
-//		}}}}"];
   {
     edge [ color=green style=solid penwidth=10 ];
     alslug_backbone_switch:1 -> alslug_kabelkanaler:1;
