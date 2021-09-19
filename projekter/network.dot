@@ -39,7 +39,7 @@ digraph xxx {
   				| <gi1> G\n1
   				| <gi2> G\n2
 				" ];
-  husets_switch_1 [ shape=record label="<head>Switch ved biblioteket\n\nHP\n24x10/100\n2x10/100/1000\n2xSFP
+  husets_switch_1 [ shape=record label="<head> Switch ved \n biblioteket \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
 				| 10/100 \n porte:
   				| <1> 1
   				| <2> 2
@@ -72,7 +72,7 @@ digraph xxx {
   				| <sfp1> G\n1
   				| <sfp2> G\n2
   				" ];
-  husets_switch_2 [ shape=record label="<head>Switch ved AlsLUG\n\nHP\n24x10/100\n2x10/100/1000\n2xSFP
+  husets_switch_2 [ shape=record label="<head> Switch i \n AlsLUGs \n lokale \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
 				| 10/100 \n porte:
   				| <1> 1
   				| <2> 2
@@ -105,7 +105,39 @@ digraph xxx {
   				| <sfp1> G\n1
   				| <sfp2> G\n2
   				" ];
-  festlokale_switch [ shape=box label="Switch under festlokalet\n\nHP\n10/100/1000" ];
+  festlokale_switch [ shape=record label="<head> Switch under \n festlokalet \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
+				| 10/100 \n porte:
+  				| <1> 1
+  				| <2> 2
+  				| <3> 3
+  				| <4> 4
+  				| <5> 5
+  				| <6> 6
+  				| <7> 7
+  				| <8> 8
+  				| <9> 9
+  				| <10> 10
+  				| <11> 11
+  				| <12> 12
+  				| <13> 13
+  				| <14> 14
+  				| <15> 15
+  				| <16> 16
+  				| <17> 17
+  				| <18> 18
+  				| <19> 19
+  				| <20> 20
+  				| <21> 21
+  				| <22> 22
+  				| <23> 23
+  				| <24> 24
+				| 10/100/1000 \n porte:
+  				| <gi1> G\n1
+  				| <gi2> G\n2
+				| SFP \n porte:
+  				| <sfp1> G\n1
+  				| <sfp2> G\n2
+  				" ];
   wifi_10 [ label=" wifi_10 \n\n Bakkehuset"                  ];
   wifi_11 [ label=" wifi_11 \n\n Festlokalet "                ];
   wifi_12 [ label=" wifi_12 \n\n BOBS "                       ];
@@ -164,12 +196,9 @@ digraph xxx {
 				"];
   alslug_kabelkanaler  [ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
   				| Under vinduerne:\n(Fra højre\nmod venstre)
-  				| <1> 1 | <2> 2 | <3> 3 | <4> 4
-				| <5> 5 | <6> 6 | <7> 7 | <8> 8
-				| <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
+  				| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
 				| Mod gangen:
-				| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
-				| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
+				| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 | <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
 				"];	
   {
     edge [ color=green style=solid penwidth=10 ];
