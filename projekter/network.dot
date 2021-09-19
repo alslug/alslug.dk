@@ -202,18 +202,18 @@ digraph xxx {
 				"];	
   {
     edge [ color=green style=solid penwidth=10 ];
-    alslug_backbone_switch:1 -> alslug_kabelkanaler:1;
-    alslug_backbone_switch:2 -> alslug_kabelkanaler:2;
-    alslug_backbone_switch:3 -> alslug_kabelkanaler:3;
-    alslug_backbone_switch:4 -> alslug_kabelkanaler:4;
-    alslug_backbone_switch:5 -> alslug_kabelkanaler:5;
-    alslug_backbone_switch:6 -> alslug_kabelkanaler:6;
-    alslug_backbone_switch:7 -> alslug_kabelkanaler:7;
-    alslug_backbone_switch:8 -> alslug_kabelkanaler:8;
-    alslug_backbone_switch:9 -> alslug_kabelkanaler:9;
-    alslug_backbone_switch:10 -> alslug_kabelkanaler:10;
-    alslug_backbone_switch:11 -> alslug_kabelkanaler:11;
-    alslug_backbone_switch:12 -> alslug_kabelkanaler:12;
+    alslug_backbone_switch:1 ->  alslug_kabelkanaler:1;
+    alslug_backbone_switch:2 ->  alslug_kabelkanaler:2;
+    alslug_backbone_switch:3 ->  alslug_kabelkanaler:3;
+    alslug_backbone_switch:4 ->  alslug_kabelkanaler:4;
+    alslug_backbone_switch:5 ->  alslug_kabelkanaler:5;
+    alslug_backbone_switch:6 ->  alslug_kabelkanaler:6;
+    alslug_backbone_switch:7 ->  alslug_kabelkanaler:7;
+    alslug_backbone_switch:8 ->  alslug_kabelkanaler:8;
+    alslug_backbone_switch:9 ->  alslug_kabelkanaler:9;
+    alslug_backbone_switch:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client;
+    alslug_backbone_switch:11 -> alslug_kabelkanaler:11 -> alslug_zebra;
+    alslug_backbone_switch:12 -> alslug_kabelkanaler:12 -> alslug_hp5180;
   }
   alslug_projektor [ label="Projektor" ]
   alslug_hp5180 [ label="HP 5180 \n printer" ]
@@ -344,10 +344,10 @@ digraph xxx {
                                                                         festlokale_switch ->                             wifi_10 [ penwidth=1 ];
                                                                         festlokale_switch ->                             wifi_11 [ penwidth=1 ];
                                                 husets_switch_1:gi2 -> husets_switch_2:gi1                                       [ penwidth=10 color=red ];
-                                                                       husets_switch_2:gi2 -> alslug_router:enp1s12              [ penwidth=10 color=red ];
+                                                                       husets_switch_2:gi2 -> alslug_router:enp1s12              [ penwidth=10 color=red;0.5:green ];
                                                                        husets_switch_2 ->                                wifi_15 [ penwidth=1 ];
                             cisco_switch:5 ->                                                                            wifi_15 [ penwidth=1 style=dotted ];
-                                                                       husets_switch_2 ->                                wifi_16 [ penwidth=1 ];
+                                                                       husets_switch_2 ->                                wifi_16 [ penwidth=1 color=red;0.5:green ];
                                                                        husets_switch_2 ->                                wifi_18 [ penwidth=1 ];
                                                                        husets_switch_2 -> bakkensbro_info_1_sal                  [ penwidth=1 ];
                                                                        husets_switch_2 -> info_server                            [ penwidth=1 ];
@@ -356,17 +356,14 @@ digraph xxx {
   // Interne forbindelser
   edge [ color=green style=solid penwidth=10 ];
   node [ shape=point ];
-  
-  alslug_router:eno1   -> alslug_backbone_switch:sfp1;
-  alslug_gl_bootserver -> alslug_backbone_switch:sfp2;
-  { demo_1 demo_2 demo_3 demo_4 } -> switch_5p -> alslug_backbone_switch:20 [ color=gray ];
-  alslug_kabelkanaler:12 -> alslug_hp5180;
-  alslug_kabelkanaler:11 -> alslug_zebra;
-  alslug_kabelkanaler:10 -> alslug_projektor_client;
-  alslug_backbone_switch:21 -> alslug_projektor;
-  alslug_backbone_switch:22 -> RPi_camera;
-  alslug_backbone_switch:23 -> bord_1:12;
-  alslug_backbone_switch:24 -> bord_2:8;
+  								
+  { demo_1 demo_2 demo_3 demo_4 } ->	switch_5p ->		alslug_backbone_switch:20				[ color=gray ];
+								alslug_backbone_switch:21 ->	alslug_projektor;
+  					RPi_camera ->		alslug_backbone_switch:22;
+								alslug_backbone_switch:23 ->	bord_1:12;
+								alslug_backbone_switch:24 ->	bord_2:8;
+					alslug_router:eno1 ->	alslug_backbone_switch:sfp1;
+					alslug_gl_bootserver ->	alslug_backbone_switch:sfp2;
 
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   alslug_projektor -> bord_1:head [ color=black penwidth=1 label="VGA" dir=back ];
