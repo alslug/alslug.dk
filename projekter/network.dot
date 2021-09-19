@@ -175,6 +175,7 @@ digraph xxx {
 						"];	
   {
     edge [ color=green style=solid penwidth=10 ];
+    node [ color=gray ];
 								alslug_backbone_switch:1 ->  alslug_kabelkanaler:1;
 								alslug_backbone_switch:2 ->  alslug_kabelkanaler:2;
 								alslug_backbone_switch:3 ->  alslug_kabelkanaler:3;
