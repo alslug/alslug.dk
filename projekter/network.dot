@@ -18,126 +18,126 @@ digraph xxx {
   edge [ dir=none penwidth=100 ];
   node [ style=filled fillcolor=red ];
   husets_router [ fillcolor=green shape=record label="<head> Husets router
-				| 10/100 \n porte:
-				| <enp2s10>  e\nn\np\n2\ns\n1\n0
-				| 10/100/1000 \n porte:
-  				| <eno1>     e\nn\no\n1
-				| <enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
-				| <enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
-  				" ];
+						| 10/100 \n porte:
+						| <enp2s10>  e\nn\np\n2\ns\n1\n0
+						| 10/100/1000 \n porte:
+						| <eno1>     e\nn\no\n1
+						| <enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
+						| <enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
+						" ];
   cisco_switch [ fillcolor=green shape=record label="<head> Switch ved biblioteket\n\nCisco
-				| 10/100 \n porte:
-  				| <1> 1
-  				| <2> 2
-  				| <3> 3
-  				| <4> 4
-  				| <5> 5
-  				| <6> 6
-  				| <7> 7
-  				| <8> 8
-				| 10/100/1000 \n porte:
-  				| <gi1> G\n1
-  				| <gi2> G\n2
-				" ];
+						| 10/100 \n porte:
+						| <1> 1
+						| <2> 2
+						| <3> 3
+						| <4> 4
+						| <5> 5
+						| <6> 6
+						| <7> 7
+						| <8> 8
+						| 10/100/1000 \n porte:
+						| <gi1> G\n1
+						| <gi2> G\n2
+						" ];
   husets_switch_1 [ shape=record label="<head> Switch ved \n biblioteket \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
-				| 10/100 \n porte:
-  				| <1> 1
-  				| <2> 2
-  				| <3> 3
-  				| <4> 4
-  				| <5> 5
-  				| <6> 6
-  				| <7> 7
-  				| <8> 8
-  				| <9> 9
-  				| <10> 10
-  				| <11> 11
-  				| <12> 12
-  				| <13> 13
-  				| <14> 14
-  				| <15> 15
-  				| <16> 16
-  				| <17> 17
-  				| <18> 18
-  				| <19> 19
-  				| <20> 20
-  				| <21> 21
-  				| <22> 22
-  				| <23> 23
-  				| <24> 24
-				| 10/100/1000 \n porte:
-  				| <gi1> G\n1
-  				| <gi2> G\n2
-				| SFP \n porte:
-  				| <sfp1> G\n1
-  				| <sfp2> G\n2
-  				" ];
+						| 10/100 \n porte:
+						| <1> 1
+						| <2> 2
+						| <3> 3
+						| <4> 4
+						| <5> 5
+						| <6> 6
+						| <7> 7
+						| <8> 8
+						| <9> 9
+						| <10> 10
+						| <11> 11
+						| <12> 12
+						| <13> 13
+						| <14> 14
+						| <15> 15
+						| <16> 16
+						| <17> 17
+						| <18> 18
+						| <19> 19
+						| <20> 20
+						| <21> 21
+						| <22> 22
+						| <23> 23
+						| <24> 24
+						| 10/100/1000 \n porte:
+						| <gi1> G\n1
+						| <gi2> G\n2
+						| SFP \n porte:
+						| <sfp1> G\n1
+						| <sfp2> G\n2
+						" ];
   husets_switch_2 [ shape=record label="<head> Switch i \n AlsLUGs \n lokale \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
-				| 10/100 \n porte:
-  				| <1> 1
-  				| <2> 2
-  				| <3> 3
-  				| <4> 4
-  				| <5> 5
-  				| <6> 6
-  				| <7> 7
-  				| <8> 8
-  				| <9> 9
-  				| <10> 10
-  				| <11> 11
-  				| <12> 12
-  				| <13> 13
-  				| <14> 14
-  				| <15> 15
-  				| <16> 16
-  				| <17> 17
-  				| <18> 18
-  				| <19> 19
-  				| <20> 20
-  				| <21> 21
-  				| <22> 22
-  				| <23> 23
-  				| <24> 24
-				| 10/100/1000 \n porte:
-  				| <gi1> G\n1
-  				| <gi2> G\n2
-				| SFP \n porte:
-  				| <sfp1> G\n1
-  				| <sfp2> G\n2
-  				" ];
+						| 10/100 \n porte:
+						| <1> 1
+						| <2> 2
+						| <3> 3
+						| <4> 4
+						| <5> 5
+						| <6> 6
+						| <7> 7
+						| <8> 8
+						| <9> 9
+						| <10> 10
+						| <11> 11
+						| <12> 12
+						| <13> 13
+						| <14> 14
+						| <15> 15
+						| <16> 16
+						| <17> 17
+						| <18> 18
+						| <19> 19
+						| <20> 20
+						| <21> 21
+						| <22> 22
+						| <23> 23
+						| <24> 24
+						| 10/100/1000 \n porte:
+						| <gi1> G\n1
+						| <gi2> G\n2
+						| SFP \n porte:
+						| <sfp1> G\n1
+						| <sfp2> G\n2
+						" ];
   festlokale_switch [ shape=record label="<head> Switch under \n festlokalet \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
-				| 10/100 \n porte:
-  				| <1> 1
-  				| <2> 2
-  				| <3> 3
-  				| <4> 4
-  				| <5> 5
-  				| <6> 6
-  				| <7> 7
-  				| <8> 8
-  				| <9> 9
-  				| <10> 10
-  				| <11> 11
-  				| <12> 12
-  				| <13> 13
-  				| <14> 14
-  				| <15> 15
-  				| <16> 16
-  				| <17> 17
-  				| <18> 18
-  				| <19> 19
-  				| <20> 20
-  				| <21> 21
-  				| <22> 22
-  				| <23> 23
-  				| <24> 24
-				| 10/100/1000 \n porte:
-  				| <gi1> G\n1
-  				| <gi2> G\n2
-				| SFP \n porte:
-  				| <sfp1> G\n1
-  				| <sfp2> G\n2
-  				" ];
+						| 10/100 \n porte:
+						| <1> 1
+						| <2> 2
+						| <3> 3
+						| <4> 4
+						| <5> 5
+						| <6> 6
+						| <7> 7
+						| <8> 8
+						| <9> 9
+						| <10> 10
+						| <11> 11
+						| <12> 12
+						| <13> 13
+						| <14> 14
+						| <15> 15
+						| <16> 16
+						| <17> 17
+						| <18> 18
+						| <19> 19
+						| <20> 20
+						| <21> 21
+						| <22> 22
+						| <23> 23
+						| <24> 24
+						| 10/100/1000 \n porte:
+						| <gi1> G\n1
+						| <gi2> G\n2
+						| SFP \n porte:
+						| <sfp1> G\n1
+						| <sfp2> G\n2
+						" ];
   wifi_10 [ label=" wifi_10 \n\n Bakkehuset"                  ];
   wifi_11 [ label=" wifi_11 \n\n Festlokalet "                ];
   wifi_12 [ label=" wifi_12 \n\n BOBS "                       ];
@@ -155,51 +155,24 @@ digraph xxx {
   bakkensbro_info_1_sal	[ label="Bakkensbro \n Info display \n\n på første sal"		];
   info_server		[ label="Info-server \n\n trækker diverse \n infoskærme"	];
   alslug_router [ shape=record label="<head> AlsLUG router
-				| 10/100 \n porte:
-  				| <enp1s12>    e\nn\np\n1\ns\n1\n2
-				| 10/100/1000 \n porte:
-				| <eno1>       e\nn\no\n1
-				| <bakkensbro> bakkensbro\nkommer\n senere
-				| <g_wan>      Gbit Wan\nkommer\n senere
-				" ];
+						| 10/100 \n porte:
+						| <enp1s12>    e\nn\np\n1\ns\n1\n2
+						| 10/100/1000 \n porte:
+						| <eno1>       e\nn\no\n1
+						| <bakkensbro> bakkensbro\nkommer\n senere
+						| <g_wan>      Gbit Wan\nkommer\n senere
+						" ];
   husets_router:enp1s0f1 -> alslug_router:g_wan [ style=dotted penwidth=10];
   alslug_router:bakkensbro -> husets_switch_2:gi2 [ style=dotted penwidth=10];
-  alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
-  alslug_projektor_client [ label="Display client \n til info på \n projektoren" ];
-  alslug_backbone_switch [ shape=record label="<head> AlsLUG Backbone Switch \n Zyxel GS1900-24HP \n 24 port 10/100/1000 PoE \n 2x SFP
-  				|<1> 1
-				|<2> 2
-				|<3> 3
-				|<4> 4
-				|<5> 5
-				|<6> 6
-				|<7> 7
-				|<8> 8
-				|<9> 9
-				|<10> 1\n0
-				|<11> 1\n1
-				|<12> 1\n2
-				|<13> 1\n3
-				|<14> 1\n4
-				|<15> 1\n5
-				|<16> 1\n6
-				|<17> 1\n7
-				|<18> 1\n8
-				|<19> 1\n9
-				|<20> 2\n0
-				|<21> 2\n1
-				|<22> 2\n2
-				|<23> 2\n3
-				|<24> 2\n4
-				|<sfp1> S\nF\nP\n1
-				|<sfp2> S\nF\nP\n2
-				"];
-  alslug_kabelkanaler  [ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
-  				| Under vinduerne:\n(Fra højre\nmod venstre)
-  				| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
-				| Mod gangen:
-				| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 | <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
-				"];	
+  alslug_gl_bootserver		[ label="AlsLUG\nboot-server" ];
+  alslug_projektor_client	[ label="Display client \n til info på \n projektoren" ];
+  alslug_backbone_switch	[ shape=record label="<head> AlsLUG Backbone Switch !!!!!Zyxel GS1900-24HP!!!!!"];
+  alslug_kabelkanaler		[ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
+  						| Under vinduerne:\n(Fra højre\nmod venstre)
+  						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
+						| Mod gangen:
+						| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 | <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
+						"];	
   {
     edge [ color=green style=solid penwidth=10 ];
     alslug_backbone_switch:1 ->  alslug_kabelkanaler:1;
@@ -220,33 +193,33 @@ digraph xxx {
   alslug_zebra [ label="Zebra \n printer" ]
   RPi_camera [ label="RPi \n kamera" ]
   bord_1 [ shape=record label="<head> Bord vest\n\nD-Link\n24 x 10/100/1000
-				| <1> 1
-				| <2> 2
-				| <3> 3
-				| <4> 4
-				| <5> 5
-				| <6> 6
-				| <7> 7
-				| <8> 8
-				| <9> 9
-				| <10> 1\n0
-			
-				| <11> 1\n1
-				| <12> 1\n2
-				| <13> 1\n3
-				| <14> 1\n4
-			
-				| <15> 1\n5
-				| <16> 1\n6
-				| <17> 1\n7
-				| <18> 1\n8
-				| <19> 1\n9
-				| <20> 2\n0
-				| <21> 2\n1
-				| <22> 2\n2
-				| <23> 2\n3
-				| <24> 2\n4
-				"];
+						| <1> 1
+						| <2> 2
+						| <3> 3
+						| <4> 4
+						| <5> 5
+						| <6> 6
+						| <7> 7
+						| <8> 8
+						| <9> 9
+						| <10> 1\n0
+
+						| <11> 1\n1
+						| <12> 1\n2
+						| <13> 1\n3
+						| <14> 1\n4
+
+						| <15> 1\n5
+						| <16> 1\n6
+						| <17> 1\n7
+						| <18> 1\n8
+						| <19> 1\n9
+						| <20> 2\n0
+						| <21> 2\n1
+						| <22> 2\n2
+						| <23> 2\n3
+						| <24> 2\n4
+						"];
   {
     node [ shape=point ];
     edge [ color=green penwidth=10];
@@ -273,24 +246,24 @@ digraph xxx {
     bord_1:24 -> _bord_1_24;
   }
   bord_2 [ shape=record label="<head> Bord øst\n\nJensen\n8x10/100/1000\n\n Erstattes med\n\nUkendt mærke\n16x10/100/1000
-				| <1> 1
-				| <2> 2
-				| <3> 3
-				| <4> 4
-				| <5> 5
-				| <6> 6
-				| <7> 7
-				| <8> 8
-				| Flere \n porte \n efter \n udskiftningen:
-				| <9> 9
-				| <10> 1\n0
-				| <11> 1\n1
-				| <12> 1\n2
-				| <13> 1\n3
-				| <14> 1\n4
-				| <15> 1\n5
-				| <16> 1\n6
-				"];
+						| <1> 1
+						| <2> 2
+						| <3> 3
+						| <4> 4
+						| <5> 5
+						| <6> 6
+						| <7> 7
+						| <8> 8
+						| Flere \n porte \n efter \n udskiftningen:
+						| <9> 9
+						| <10> 1\n0
+						| <11> 1\n1
+						| <12> 1\n2
+						| <13> 1\n3
+						| <14> 1\n4
+						| <15> 1\n5
+						| <16> 1\n6
+						"];
   {
     node [ shape=point ];
     edge [ color=green penwidth=10];
@@ -328,7 +301,7 @@ digraph xxx {
   node [ style=normal ];
   // Internet forbindelser
   stofa_fiber -> husets_router:enp2s10	[ penwidth=1 fillcolor=black style=filled ];
-  stofa_fiber -> husets_router:eno1	[ penwidth=1 fillcolor=black style=dotted ];
+  stofa_fiber -> husets_router:eno1	[ penwidth=10 fillcolor=black style=dotted ];
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
