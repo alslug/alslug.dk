@@ -175,18 +175,25 @@ digraph xxx {
 						"];	
   {
     edge [ color=green style=solid penwidth=10 ];
-    alslug_backbone_switch:1 ->  alslug_kabelkanaler:1;
-    alslug_backbone_switch:2 ->  alslug_kabelkanaler:2;
-    alslug_backbone_switch:3 ->  alslug_kabelkanaler:3;
-    alslug_backbone_switch:4 ->  alslug_kabelkanaler:4;
-    alslug_backbone_switch:5 ->  alslug_kabelkanaler:5;
-    alslug_backbone_switch:6 ->  alslug_kabelkanaler:6;
-    alslug_backbone_switch:7 ->  alslug_kabelkanaler:7;
-    alslug_backbone_switch:8 ->  alslug_kabelkanaler:8;
-    alslug_backbone_switch:9 ->  alslug_kabelkanaler:9 [ style=dotted color=gray ];
-    alslug_backbone_switch:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client;
-    alslug_backbone_switch:11 -> alslug_kabelkanaler:11 -> alslug_zebra;
-    alslug_backbone_switch:12 -> alslug_kabelkanaler:12 -> alslug_hp5180;
+								alslug_backbone_switch:1 ->  alslug_kabelkanaler:1;
+								alslug_backbone_switch:2 ->  alslug_kabelkanaler:2;
+								alslug_backbone_switch:3 ->  alslug_kabelkanaler:3;
+								alslug_backbone_switch:4 ->  alslug_kabelkanaler:4;
+								alslug_backbone_switch:5 ->  alslug_kabelkanaler:5;
+								alslug_backbone_switch:6 ->  alslug_kabelkanaler:6;
+								alslug_backbone_switch:7 ->  alslug_kabelkanaler:7;
+								alslug_backbone_switch:8 ->  alslug_kabelkanaler:8;
+								alslug_backbone_switch:9 ->  alslug_kabelkanaler:9 [ style=dotted color=gray ];
+								alslug_backbone_switch:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client;
+								alslug_backbone_switch:11 -> alslug_kabelkanaler:11 -> alslug_zebra;
+								alslug_backbone_switch:12 -> alslug_kabelkanaler:12 -> alslug_hp5180;
+    { demo_1 demo_2 demo_3 demo_4 } ->	switch_5p ->		alslug_backbone_switch:18				[ color=gray ];
+								alslug_backbone_switch:19 ->	alslug_projektor;
+  					RPi_camera ->		alslug_backbone_switch:20;
+								alslug_backbone_switch:21 ->	bord_1:12;
+								alslug_backbone_switch:22 ->	bord_2:8;
+					alslug_router:eno1 ->	alslug_backbone_switch:23;
+					alslug_gl_bootserver ->	alslug_backbone_switch:24;
   }
   alslug_projektor [ label="Projektor" ]
   alslug_hp5180 [ label="HP 5180 \n printer" ]
@@ -328,14 +335,6 @@ digraph xxx {
   edge [ color=green style=solid penwidth=10 ];
   node [ shape=point ];
   								
-  { demo_1 demo_2 demo_3 demo_4 } ->	switch_5p ->		alslug_backbone_switch:20				[ color=gray ];
-								alslug_backbone_switch:21 ->	alslug_projektor;
-  					RPi_camera ->		alslug_backbone_switch:22;
-								alslug_backbone_switch:23 ->	bord_1:12;
-								alslug_backbone_switch:24 ->	bord_2:8;
-					alslug_router:eno1 ->	alslug_backbone_switch:sfp1;
-					alslug_gl_bootserver ->	alslug_backbone_switch:sfp2;
-
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   alslug_projektor -> bord_1:head [ color=black penwidth=1 label="VGA" dir=back ];
   wifi_16 -> AlsLUG_TTIG [ penwidth=1 style=dashed ];
