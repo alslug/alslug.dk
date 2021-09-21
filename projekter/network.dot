@@ -184,7 +184,7 @@ digraph xxx {
 								alslug_backbone_switch:6 ->	"XA/P1/6"  -> alslug_kabelkanaler:6;
 								alslug_backbone_switch:7 ->	"XA/P1/7"  -> alslug_kabelkanaler:7;
 								alslug_backbone_switch:8 ->	"XA/P1/8"  -> alslug_kabelkanaler:8;
-								alslug_backbone_switch:9 ->	"XA/P1/9"  -> alslug_kabelkanaler:9 [ style=dotted color=gray ];
+								alslug_backbone_switch:9 ->	"XA/P1/9"  -> alslug_kabelkanaler:9;
 								alslug_backbone_switch:10 ->	"XA/P1/10" -> alslug_kabelkanaler:10 -> alslug_projektor_client;
 								alslug_backbone_switch:11 ->	"XA/P1/11" -> alslug_kabelkanaler:11 -> alslug_zebra;
 								alslug_backbone_switch:12 ->	"XA/P1/12" -> alslug_kabelkanaler:12 -> alslug_hp5180;
