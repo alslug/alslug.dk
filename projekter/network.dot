@@ -72,7 +72,7 @@ digraph xxx {
 						| <sfp1> G\n1
 						| <sfp2> G\n2
 						" ];
-  husets_switch_2 [ shape=record label="<head> Switch i \n AlsLUGs \n lokale \n\n HP \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
+  husets_switch_2 [ shape=record label="<head> Switch i \n AlsLUGs \n lokale \n\n HP 2520-24 PoE j9138a \n 24x10/100 \n 2x10/100/1000 \n 2xSFP
 						| 10/100 \n porte:
 						| <1> 1
 						| <2> 2
