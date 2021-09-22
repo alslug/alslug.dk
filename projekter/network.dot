@@ -16,11 +16,12 @@ digraph xxx {
     legend_active_c -> legend_alslug	[ color=invis ];
   }
   subgraph cluster_festlokale {
-    label = "Festlokale og bakkehuset";
-    node [shape=point];
-    festlokale_switch;
-    wifi_10;
-    wifi_11;
+    label = "Udstyr i \n festlokale og bakkehuset";
+    node [ style=filled fillcolor=red ];
+    edge  [ color=red style=solid ];
+    festlokale_switch:1 -> wifi_10	[ penwidth=1 ];
+    festlokale_switch:2 -> wifi_11	[ penwidth=1 ];
+//    festlokale_switch;
   }
   
   edge [ dir=none penwidth=100 ];
@@ -277,8 +278,6 @@ digraph xxx {
                                                 husets_switch_1 -> bakkensbro_info_doer							[ penwidth=1 ];
                                                 husets_switch_1 -> bakkensbro_info_stuen						[ penwidth=1 ];
                                                 husets_switch_1:sfp1 -> festlokale_switch:sfp1						[ penwidth=10 label="Fiber" ];
-                                                                        festlokale_switch ->					wifi_10	[ penwidth=1 ];
-                                                                        festlokale_switch ->					wifi_11	[ penwidth=1 ];
 						husets_switch_1:g26 -> patchpanel_xa_p1__2:24 ->
 											husets_switch_2:g26				[ penwidth=10 color=red ];
 						wifi_15 -> patchpanel_xa_p1__2:21 ->	husets_switch_2:21				[ penwidth=1 ];
