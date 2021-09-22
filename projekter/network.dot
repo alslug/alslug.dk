@@ -259,7 +259,7 @@ digraph xxx {
     switch_8p			[ shape=box label="Noname \n 8x10/100/1000 \n Unmanaged \n Tidligere backbone" ];
     switch_8p_vest		[ shape=box label="Jensen \n 8x10/100/1000 \n Unmanaged \n Tidligere bord vest" ];
   
-    dlink_ switch_24p -> hp_procurve_switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
+    dlink_switch_24p -> hp_procurve_switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
   }
   
   node [ style=normal ];
