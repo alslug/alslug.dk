@@ -87,6 +87,8 @@ digraph xxx {
 						| <gi1> G\n1
 						| <gi2> G\n2
 						" ];
+    wifi_12; wifi_13; wifi_14; wifi_17;
+    bakkensbro_info_doer; bakkensbro_info_stuen;
     node [ style=normal ];
     // Internet forbindelser
     stofa_fiber -> husets_router:enp2s10	[ penwidth=1 fillcolor=black style=filled ];
