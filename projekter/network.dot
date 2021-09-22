@@ -14,7 +14,14 @@ digraph xxx {
     legend_active_a -> legend_active_b	[ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
     legend_active_b -> legend_active_c	[ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
     legend_active_c -> legend_alslug	[ color=invis ];
-}
+  }
+  subgraph cluster_festlokale {
+    label = "Festlokale og bakkehuset";
+    node [shape=point];
+    festlokale_switch;
+    wifi_10;
+    wifi_11;
+  }
   
   edge [ dir=none penwidth=100 ];
   node [ style=filled fillcolor=red ];
