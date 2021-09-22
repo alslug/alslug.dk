@@ -125,7 +125,7 @@ digraph xxx {
 								alslug_backbone_switch:1 ->	patchpanel_xa_p1__1:1  -> alslug_kabelkanaler:1;
 								alslug_backbone_switch:2 ->	patchpanel_xa_p1__1:2  -> alslug_kabelkanaler:2 -> internt_AP;
 								alslug_backbone_switch:3 ->	patchpanel_xa_p1__1:3  -> alslug_kabelkanaler:3;
-								alslug_backbone_switch:4 ->	patchpanel_xa_p1__1:4  -> alslug_kabelkanaler:4 -> dele maskine;
+								alslug_backbone_switch:4 ->	patchpanel_xa_p1__1:4  -> alslug_kabelkanaler:4 -> "dele maskine";
 								alslug_backbone_switch:5 ->	patchpanel_xa_p1__1:5  -> alslug_kabelkanaler:5 -> "vga/dvi/hdmi plads";
 								alslug_backbone_switch:6 ->	patchpanel_xa_p1__1:6  -> alslug_kabelkanaler:6;
 								alslug_backbone_switch:7 ->	patchpanel_xa_p1__1:7  -> alslug_kabelkanaler:7 -> nextcloud_server;
