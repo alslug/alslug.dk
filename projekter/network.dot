@@ -105,10 +105,11 @@ digraph xxx {
 						|<24>
 						"];
   patchpanel_xa_p1__2 [ shape="record" label="Patchpanel XA/P1/xx \n 2/2 \n
-						|<21>
-						|<22>
-						|<23>
-						|<24>
+  						||||
+						|<21> 21
+						|<22> 22
+						|<23> 23
+						|<24> 24
 						"];
   {
     edge [ color=green style=solid penwidth=10 ];
@@ -286,7 +287,7 @@ digraph xxx {
   								
   alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
   alslug_projektor -> bord_1:head [ color=black penwidth=1 label="VGA" dir=back ];
-  wifi_16 -> AlsLUG_TTIG [ penwidth=1 style=dashed ];
+  AlsLUG_TTIG -> wifi_16 [ penwidth=1 style=dashed ];
   
   {
     edge [ color=invis ];		node [ shape=point ];
