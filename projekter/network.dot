@@ -144,7 +144,7 @@ digraph xxx {
 												patchpanel_xa_p1__1:20 -> alslug_kabelkanaler:20;
 					Laptop_Switch ->	alslug_backbone_switch:15;
   					RPi_camera ->		alslug_backbone_switch:17;
-    					door ->			alslug_backbone_switch:18				[ color=gray ];
+    					door ->			alslug_backbone_switch:18;
 	{ demo1, demo2, demo3, demo4 } -> switch_5p ->		alslug_backbone_switch:19 ->
 								alslug_backbone_switch:20 ->	alslug_projektor;
 								alslug_backbone_switch:21 ->	bord_1:12;
@@ -249,18 +249,18 @@ digraph xxx {
     bord_2:16 -> _bord_2_16;
   }
  
-  // Udstyr som pt ikke bruges
-  node [ style=filled fillcolor=gray ];
-  switch_24p      [ shape=box label="DLink DES-1226R\n24port switch\n10/100\n\n(kabel-holder)"];
-  switch_48p      [ shape=box label="HP ProCurve 2650\n48 port 10/100\n2 port 10/100/1000/
-  "];
-  switch_48p_poe  [ shape=box label="Cisco Catalyst 3360\n48 porte 10/100\n2x SFP"];
-  switch_5p       [ shape=box label="Switch til demo-maskiner\n\nNoname\n5 porte 10/100/1000" ];
-  switch_8p       [ shape=box label="Noname\n8 porte 10/100/1000\nTidligere backbone" ];
-  switch_8p_vest    [ shape=box label="Jensen\n8 port 10/100/1000\nTidligere bord vest" ];
+  {
+    // Udstyr som pt ikke bruges
+    node [ style=filled fillcolor=gray ];
+    dlink_switch_24p		[ shape=box label="DLink DES-1226R \n 24x10/100 \n Manageable \n (kabel-holder)"];
+    hp_procurve_switch_48p	[ shape=box label="HP ProCurve 2650 \n 48x10/100 \n 2x10/100/1000/mini-GBIC"];
+    switch_48p_poe		[ shape=box label="Cisco Catalyst 3360\n 48x10/100 \n 2x SFP"];
+    switch_5p			[ shape=box label="Switch til demo-maskiner \n\n Noname \n 5x10/100/1000" ];
+    switch_8p			[ shape=box label="Noname \n 8x10/100/1000 \n Unmanaged \n Tidligere backbone" ];
+    switch_8p_vest		[ shape=box label="Jensen \n 8x10/100/1000 \n Unmanaged \n Tidligere bord vest" ];
   
-  switch_24p -> switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
-  
+    dlink_ switch_24p -> hp_procurve_switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
+  }
   
   node [ style=normal ];
   // Internet forbindelser
