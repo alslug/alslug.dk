@@ -24,7 +24,7 @@ digraph xxx {
 //    festlokale_switch;
   }
   subgraph cluster_skab_ved_bibliotek {
-    edge [ dir=none penwidth=100 ];
+    edge [ dir=none penwidth=10 color=red ];
     node [ style=filled fillcolor=red ];
     patchpanel_xa_p2 [ shape="record" label="<head> Patchpanel XA/P2/xx \n
 	  					| <1> 1
