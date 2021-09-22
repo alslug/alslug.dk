@@ -99,6 +99,18 @@ digraph xxx {
 						|<18> 18
 						|<19> 19
 						|<20> 20
+						|<21>
+						|<22>
+						|<23>
+						|<24>
+						"];
+  patchpanel_xa_p1__2 [ shape="record" label="Patchpanel XA/P1/xx \n 2/3 \n
+						|<21>
+						|<22>
+						|<23>
+						"];
+  patchpanel_xa_p1__3 [ shape="record" label="Patchpanel XA/P1/xx \n 3/3 \n
+						|<24>
 						"];
   {
     edge [ color=green style=solid penwidth=10 ];
@@ -261,13 +273,14 @@ digraph xxx {
                                                 husets_switch_1:sfp1 -> festlokale_switch:sfp1						[ penwidth=10 label="Fiber" ];
                                                                         festlokale_switch ->					wifi_10	[ penwidth=1 ];
                                                                         festlokale_switch ->					wifi_11	[ penwidth=1 ];
-						husets_switch_1:gi26 -> "XA/P1/24" ->	husets_switch_2:gi26				[ penwidth=10 color=red ];
-											husets_switch_2:21 ->	"XA/P1/21" ->	wifi_15	[ penwidth=1 ];
-											husets_switch_2:23 ->	"XA/P1/22" ->	wifi_16	[ penwidth=1 ];
-											husets_switch_2:24 ->	"XA/P1/23" ->	wifi_18	[ penwidth=1 ];
-											husets_switch_2:gi25 ->	alslug_router:enp1s12	[ penwidth=10 ];
-											husets_switch_2:1 -> bakkensbro_info_1_sal	[ penwidth=1 ];
-											husets_switch_2:3 -> info_server		[ penwidth=1 ];
+						husets_switch_1:gi26 -> patchpanel_xa_p1__3:24 ->
+										husets_switch_2:gi26					[ penwidth=10 color=red ];
+										husets_switch_2:21 -> patchpanel_xa_p1__2:21 ->	wifi_15	[ penwidth=1 ];
+										husets_switch_2:23 -> patchpanel_xa_p1__2:22 ->	wifi_16	[ penwidth=1 ];
+										husets_switch_2:24 -> patchpanel_xa_p1__2:23 ->	wifi_18	[ penwidth=1 ];
+										husets_switch_2:gi25 ->	alslug_router:enp1s12		[ penwidth=10 ];
+										husets_switch_2:1 -> bakkensbro_info_1_sal		[ penwidth=1 ];
+										husets_switch_2:3 -> info_server			[ penwidth=1 ];
 
   // Interne forbindelser
   edge [ color=green style=solid penwidth=10 ];
