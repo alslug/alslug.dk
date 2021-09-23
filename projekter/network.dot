@@ -341,14 +341,20 @@ digraph xxx {
   node [ shape=star label="" ];	edge [ color=cyan ];
 
   subgraph cluster_skab_ved_bibliotek {
+    edge [ color=invis ];		node [ shape=point ];
+    node [ shape=star label="" ];	edge [ color=cyan ];
     husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_xa_p2:head -> __________;
   }
   patchpanel_xa_p2:head -> __________ -> __________ -> festlokale_switch:head;
   subgraph cluster_festlokale {
+    edge [ color=invis ];		node [ shape=point ];
+    node [ shape=star label="" ];	edge [ color=cyan ];
     festlokale_switch:head -> __________;
   }
   festlokale_switch:head -> __________ -> patchpanel_xa_p1__2:head;
   subgraph cluster_internt_i_alslug {
+    edge [ color=invis ];		node [ shape=point ];
+    node [ shape=star label="" ];	edge [ color=cyan ];
     patchpanel_xa_p1__2:head -> husets_switch_2:head -> alslug_router:head
 			-> __________ -> __________ -> __________ -> alslug_backbone_switch:head
 			-> __________ -> __________ -> __________ -> alslug_kabelkanaler:head
