@@ -151,7 +151,7 @@ digraph xxx {
 					Laptop_Switch ->	alslug_backbone_switch:15;
   					RPi_camera ->		alslug_backbone_switch:17;
     					door->			alslug_backbone_switch:18;
-	{ demo1, demo2, demo3, demo4 } -> switch_5p ->		alslug_backbone_switch:19 ->
+	{ demo1, demo2, demo3, demo4 } -> switch_5p ->		alslug_backbone_switch:19;
 								alslug_backbone_switch:20 ->	alslug_projektor;
 								alslug_backbone_switch:21 ->	bord_1:12;
 								alslug_backbone_switch:22 ->	bord_2:8;
