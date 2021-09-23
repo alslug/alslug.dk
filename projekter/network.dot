@@ -125,46 +125,6 @@ digraph xxx {
   husets_router:enp1s0f1 -> alslug_router:g_wan [ style=dotted penwidth=10];
   alslug_router:bakkensbro -> husets_switch_2:g25 [ style=dotted penwidth=10];
   alslug_gl_bootserver		[ label="AlsLUG\nboot-server" ];
-  alslug_backbone_switch	[ shape=record label="<head> AlsLUG Backbone Switch !!!!!Zyxel GS1900-24HP!!!!!"];
-  alslug_kabelkanaler		[ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
-  						| Under vinduerne:\n(Fra højre\nmod venstre)
-  						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
-						| Mod gangen:\n(Fra venstre mod højre)
-						| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 | <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
-						"];	
-  patchpanel_xa_p1__1 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 1/2 \n
-	  					|<1> 1
-						|<2> 2
-						|<3> 3
-						|<4> 4
-						|<5> 5
-						|<6> 6
-						|<7> 7
-						|<8> 8
-						|<9> 9
-						|<10> 10
-						|<11> 11
-						|<12> 12
-						|<13> 13
-						|<14> 14
-						|<15> 15
-						|<16> 16
-						|<17> 17
-						|<18> 18
-						|<19> 19
-						|<20> 20
-						|<21>
-						|<22>
-						|<23>
-						|<24>
-						"];
-  patchpanel_xa_p1__2 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 2/2 \n
-  						||||
-						|<21> 21
-						|<22> 22
-						|<23> 23
-						|<24> 24
-						"];
   {
     edge [ color=green style=solid penwidth=10 ];
     node [ color=gray ];
@@ -245,6 +205,46 @@ digraph xxx {
     edge [ color=green style=solid penwidth=10 ];
     node [ color=green shape=point ];
 
+    alslug_backbone_switch	[ shape=record label="<head> AlsLUG Backbone Switch !!!!!Zyxel GS1900-24HP!!!!!"];
+    patchpanel_xa_p1__1 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 1/2 \n
+	  					|<1> 1
+						|<2> 2
+						|<3> 3
+						|<4> 4
+						|<5> 5
+						|<6> 6
+						|<7> 7
+						|<8> 8
+						|<9> 9
+						|<10> 10
+						|<11> 11
+						|<12> 12
+						|<13> 13
+						|<14> 14
+						|<15> 15
+						|<16> 16
+						|<17> 17
+						|<18> 18
+						|<19> 19
+						|<20> 20
+						|<21>
+						|<22>
+						|<23>
+						|<24>
+						"];
+    patchpanel_xa_p1__2 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 2/2 \n
+  						||||
+						|<21> 21
+						|<22> 22
+						|<23> 23
+						|<24> 24
+						"];
+    alslug_kabelkanaler		[ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
+  						| Under vinduerne:\n(Fra højre\nmod venstre)
+  						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
+						| Mod gangen:\n(Fra venstre mod højre)
+						| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 | <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
+						"];	
     alslug_projektor				[ label="Projektor" ]
     alslug_projektor_client			[ label="Display client \n til info på \n projektoren" ];
     alslug_projektor_client -> alslug_projektor	[ color=black penwidth=1 label="VGA" dir=forward ];
@@ -343,7 +343,11 @@ digraph xxx {
   subgraph cluster_skab_ved_bibliotek {
     husets_router:head -> cisco_switch:head -> _SPACE_A_ -> husets_switch_1:head -> _SPACE_2_ -> patchpanel_xa_p2 -> _SPACE_3_;
   }
-  _SPACE_3_ -> _SPACE_4_ -> festlokale_switch:head -> patchpanel_xa_p1__2:head -> husets_switch_2:head -> alslug_router:head
+  _SPACE_3_ -> _SPACE_4_ -> festlokale_switch:head;
+  subgraph cluster_festlokale {
+    festlokale_switch:head -> _SPACE_5_;
+  }
+  _SPACE_5_ -> patchpanel_xa_p1__2:head -> husets_switch_2:head -> alslug_router:head
 			-> _X_7_ -> _Y_7_ -> _Z_7_ -> alslug_backbone_switch:head
 			-> _X_8_ -> _Y_8_ -> _Z_8_ -> alslug_kabelkanaler:head
 			-> _X_9_ -> _Y_9_ -> _Z_9_ -> bord_1:head
