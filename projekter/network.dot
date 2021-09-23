@@ -250,6 +250,7 @@ digraph xxx {
     alslug_projektor_client -> alslug_projektor	[ color=black penwidth=1 label="VGA" dir=forward ];
     alslug_projektor -> bord_1:head		[ color=black penwidth=1 label="VGA" dir=back ];
     internt_AP; "dele maskine"; nextcloud_server; alslug_hp5180; alslug_zebra; "vga/dvi/hdmi plads"; demo1; demo2; demo3; demo4; switch_5p; door; RPi_camera; Laptop_Switch;
+    AlsLUG_TTIG; wifi_16; wifi_15; wifi_18;
     bord_1 [ shape=record label="<head> Bord vest\n\nD-Link\n24 x 10/100/1000
 						| <1> 1
 						| <2> 2
@@ -349,9 +350,9 @@ digraph xxx {
   subgraph cluster_festlokale {
     edge [ color=invis ];		node [ shape=point ];
     node [ shape=star label="" ];	edge [ color=cyan ];
-    festlokale_switch:head -> __________;
+    festlokale_switch:head -> wifi_10;
   }
-  festlokale_switch:head -> __________ -> patchpanel_xa_p1__2:head;
+  wifi_10 -> __________ -> AlsLUG_TTIG -> wifi_16 -> patchpanel_xa_p1__2:head;
   subgraph cluster_internt_i_alslug {
     edge [ color=invis ];		node [ shape=point ];
     node [ shape=star label="" ];	edge [ color=cyan ];
