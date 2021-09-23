@@ -341,9 +341,9 @@ digraph xxx {
   node [ shape=star label="" ];	edge [ color=cyan ];
 
   subgraph cluster_skab_ved_bibliotek {
-    husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_xa_p2 -> __________;
+    husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_xa_p2:head -> __________;
   }
-  patchpanel_xa_p2 -> __________ -> __________ -> festlokale_switch:head;
+  patchpanel_xa_p2:head -> __________ -> __________ -> festlokale_switch:head;
   subgraph cluster_festlokale {
     festlokale_switch:head -> __________;
   }
