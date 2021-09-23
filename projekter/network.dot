@@ -346,7 +346,7 @@ digraph xxx {
     node [ shape=star label="" ];	edge [ color=cyan ];
     husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_xa_p2:head -> __________;
   }
-  patchpanel_xa_p2:head -> __________ -> festlokale_switch:head;
+  patchpanel_xa_p2:head -> __________ -> __________ -> festlokale_switch:head;
   subgraph cluster_festlokale {
     edge [ color=invis ];		node [ shape=point ];
     node [ shape=star label="" ];	edge [ color=cyan ];
