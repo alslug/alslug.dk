@@ -358,7 +358,7 @@ digraph xxx {
     node [ shape=star label="" ];	edge [ color=cyan ];
     patchpanel_xa_p1__2:head -> husets_switch_2:head -> alslug_router:head
 			-> __________ -> __________ -> __________ -> alslug_backbone_switch:head
-			-> __________ -> __________ -> __________ -> alslug_kabelkanaler:head
+			-> patchpanel_xa_p1__1 -> alslug_kabelkanaler:head -> __________ -> __________
 			-> bord_1:head -> __________ -> __________ -> bord_2:head -> __________;
   }
 }
