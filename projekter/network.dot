@@ -249,7 +249,7 @@ digraph xxx {
     alslug_projektor_client			[ label="Display client \n til info på \n projektoren" ];
     alslug_projektor_client -> alslug_projektor	[ color=black penwidth=1 label="VGA" dir=forward ];
     alslug_projektor -> bord_1:head		[ color=black penwidth=1 label="VGA" dir=back ];
-    
+    internt_AP; "dele maskine"; nextcloud_server; alslug_hp5180; alslug_zebra; "vga/dvi/hdmi plads";
     bord_1 [ shape=record label="<head> Bord vest\n\nD-Link\n24 x 10/100/1000
 						| <1> 1
 						| <2> 2
