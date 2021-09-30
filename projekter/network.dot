@@ -28,60 +28,12 @@ digraph xxx {
     edge [ dir=none penwidth=10 color=red ];
     node [ style=filled fillcolor=red ];
     patchpanel_hk_p1 [ shape="record" label="<head> Patchpanel HK/P1/xx \n
-	  					| <1> 1
-						| <2> 2
-						| <3> 3
-						| <4> 4
-						| <5> 5
-						| <6> 6
-						| <7> 7
-						| <8> 8
-						|
-						| <9> 9
-						| <10> 1\n0
-						| <11> 1\n1
-						| <12> 1\n2
-						| <13> 1\n3
-						| <14> 1\n4
-						| <15> 1\n5
-						| <16> 1\n6
-						|
-						| <17> 1\n7
-						| <18> 1\n8
-						| <19> 1\n9
-						| <20> 2\n0
-						| <21> 2\n1
-						| <22> 2\n2
-						| <23> 2\n3
-						| <24> 2\n4
-						|
-						| <25> 2\n5
-						| <26> 2\n6
-						| <27> 2\n7
-						| <28> 2\n8
-						| <29> 2\n9
-						| <30> 3\n0
-						| <31> 3\n1
-						| <32> 3\n2
-						|
-						| <33> 3\n3
-						| <34> 3\n4
-						| <35> 3\n5
-						| <36> 3\n6
-						| <37> 3\n7
-						| <38> 3\n8
-						| <39> 3\n9
-						| <40> 4\n0
-						|
-						| <41> 4\n1
-						| <42> 4\n2
-						| <43> 4\n3
-						| <44> 4\n4
-						| <45> 4\n5
-						| <46> 4\n6
-						| <47> 4\n7
-						| <48> 4\n8
-						"];
+	  					| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8     |
+						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 |
+						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4 |
+						| <25> 2\n5 | <26> 2\n6 | <27> 2\n7 | <28> 2\n8 | <29> 2\n9 | <30> 3\n0 | <31> 3\n1 | <32> 3\n2 |
+						| <33> 3\n3 | <34> 3\n4 | <35> 3\n5 | <36> 3\n6 | <37> 3\n7 | <38> 3\n8 | <39> 3\n9 | <40> 4\n0 |
+						| <41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8 "];
     {
       node [ shape=point ];
       edge [ color=darkgreen ];
@@ -94,30 +46,9 @@ digraph xxx {
     }
 
     patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel HK/P2/xx \n
-						| <1> 1
-						| <2> 2
-						| <3> 3
-						| <4> 4
-						| <5> 5
-						| <6> 6
-						| <7> 7
-						| <8> 8
-						| <9> 9
-						| <10> 10
-						| <11> 11
-						| <12> 12
-						| <13> 13
-						| <14> 14
-						| <15> 15
-						| <16> 16
-						| <17> 17
-						| <18> 18
-						| <19> 19
-						| <20> 20
-						| <21> 21
-						| <22> 22
-						| <23> 23
-						| <24> 24
+						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8
+						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
+						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4
 						"];
     {
       node [ shape=point ];
@@ -150,16 +81,7 @@ digraph xxx {
 						" ];
     husets_switch_1 [ shape=record label="<head> Switch ved \n biblioteket !!!!!HP 2520-24 J9138A!!!!!" ];
     cisco_switch [ fillcolor=green shape=record label="<head> Switch ved biblioteket\n\nCisco SF302-08PP \n\n Managed \n 8x10/100 PoE \n 2x10/100/1000/SFP
-						| <1> 1
-						| <2> 2
-						| <3> 3
-						| <4> 4
-						| <5> 5
-						| <6> 6
-						| <7> 7
-						| <8> 8
-						| <g1> G\n1
-						| <g2> G\n2
+						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <g1> G\n1 | <g2> G\n2
 						" ];
     wifi_12; wifi_13; wifi_14; wifi_17;
     bakkensbro_info_doer; bakkensbro_info_stuen;
@@ -282,37 +204,12 @@ digraph xxx {
 
     alslug_backbone_switch [ shape=record label="<head> AlsLUG Backbone Switch !!!!!Zyxel GS1900-24HP!!!!!"];
     patchpanel_xa_p1__1    [ shape="record" label="<head> Patchpanel XA/P1/xx \n 1/2 \n
-						|<1> 1
-						|<2> 2
-						|<3> 3
-						|<4> 4
-						|<5> 5
-						|<6> 6
-						|<7> 7
-						|<8> 8
-						|<9> 9
-						|<10> 10
-						|<11> 11
-						|<12> 12
-						|<13> 13
-						|<14> 14
-						|<15> 15
-						|<16> 16
-						|<17> 17
-						|<18> 18
-						|<19> 19
-						|<20> 20
-						|<21>
-						|<22>
-						|<23>
-						|<24>
+						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8
+						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
+						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21>      | <22>      | <23>      | <24>
 						"];
     patchpanel_xa_p1__2 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 2/2 \n
-						||||
-						|<21> 21
-						|<22> 22
-						|<23> 23
-						|<24> 24
+						|           |           |           |           | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4
 						"];
     alslug_kabelkanaler [ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
 						| Under vinduerne:\n(Fra højre\nmod venstre)
@@ -327,32 +224,9 @@ digraph xxx {
     internt_AP; "dele maskine"; nextcloud_server; alslug_hp5180; alslug_zebra; "vga/dvi/hdmi plads"; demo1; demo2; demo3; demo4; switch_5p; door; RPi_camera; Laptop_Switch;
     AlsLUG_TTIG; wifi_16; wifi_15; wifi_18; alslug_gl_bootserver; bakkensbro_info_1_sal; info_server;
     bord_1 [ shape=record label="<head> Bord vest\n\nD-Link\n24 x 10/100/1000
-						| <1> 1
-						| <2> 2
-						| <3> 3
-						| <4> 4
-						| <5> 5
-						| <6> 6
-						| <7> 7
-						| <8> 8
-						| <9> 9
-						| <10> 1\n0
-
-						| <11> 1\n1
-						| <12> 1\n2
-						| <13> 1\n3
-						| <14> 1\n4
-
-						| <15> 1\n5
-						| <16> 1\n6
-						| <17> 1\n7
-						| <18> 1\n8
-						| <19> 1\n9
-						| <20> 2\n0
-						| <21> 2\n1
-						| <22> 2\n2
-						| <23> 2\n3
-						| <24> 2\n4
+						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8
+						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
+						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4
 						"];
     bord_1:1 -> _bord_1_1;
     bord_1:2 -> _bord_1_2;
@@ -377,23 +251,9 @@ digraph xxx {
     bord_1:24 -> _bord_1_24;
 
     bord_2 [ shape=record label="<head> Bord øst\n\nJensen\n8x10/100/1000\n\n Erstattes med\n\nUkendt mærke\n16x10/100/1000
-						| <1> 1
-						| <2> 2
-						| <3> 3
-						| <4> 4
-						| <5> 5
-						| <6> 6
-						| <7> 7
-						| <8> 8
+						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8
 						| Flere \n porte \n efter \n udskiftningen:
-						| <9> 9
-						| <10> 1\n0
-						| <11> 1\n1
-						| <12> 1\n2
-						| <13> 1\n3
-						| <14> 1\n4
-						| <15> 1\n5
-						| <16> 1\n6
+						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
 						"];
     bord_2:1 -> _bord_2_1;
     bord_2:2 -> _bord_2_2;
@@ -439,4 +299,3 @@ digraph xxx {
                         -> __________;
   }
 }
-
