@@ -44,6 +44,7 @@ digraph xxx {
       node [ shape=point ];
       patchpanel_hk_p1:4 -> patchpanel_hk_p1_4;
       patchpanel_hk_p1:8 -> patchpanel_hk_p1_8;   patchpanel_hk_p1_8 [ shape=box label="Biblioteket" ];
+      patchpanel_hk_p1:33 -> patchpanel_hk_p1_33;
       patchpanel_hk_p1:34 -> patchpanel_hk_p1_34;
       patchpanel_hk_p1:40 -> patchpanel_hk_p1_40;
     }
