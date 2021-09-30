@@ -70,8 +70,8 @@ digraph xxx {
 						| <eno1>     e\nn\no\n1
 						| <enp1s0f0> e\nn\np\n1\ns\n0\nf\n0
 						| <enp1s0f1> e\nn\np\n1\ns\n0\nf\n1
-						| <enp1s0f2> e\nn\np\n1\ns\n0\nf\n2\n(\nu\np\nd\na\nt\ne\nd\n)
-						| <enp1s0f3> e\nn\np\n1\ns\n0\nf\n3\n(\nu\np\nd\na\nt\ne\nd\n)
+						| <enp1s0f2> e\nn\np\n1\ns\n0\nf\n2\n\nn\nå\nr\n\no\np\nd\na\nt\ne\nr\ne\nt\n
+						| <enp1s0f3> e\nn\np\n1\ns\n0\nf\n3\n\nn\nå\nr\n\no\np\nd\na\nt\ne\nr\ne\nt\n
 						" ];
     husets_switch_1 [ shape=record label="<head> Switch ved \n biblioteket !!!!!HP 2520-24 J9138A!!!!!" ];
     cisco_switch [ fillcolor=green shape=record label="<head> Switch ved biblioteket\n\nCisco
