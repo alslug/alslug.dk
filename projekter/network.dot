@@ -4,23 +4,23 @@ digraph xxx {
     label = "Legend:";
     edge [ dir=none ];
     node [ shape=point ];
-    legend_bakkensbro	[ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
-    legend_alslug	[ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
+    legend_bakkensbro [ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
+    legend_alslug     [ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
 
-    legend_pending_a -> legend_pending_b	[ penwidth=1 style=dotted label="Kommende \n 100Mb \n forbindelse" ];
-    legend_pending_b -> legend_pending_c	[ penwidth=10 style=dotted label="Kommende \n 1Gb \n forbindelse" ];
-    legend_pending_c -> legend_bakkensbro	[ color=invis ];
+    legend_pending_a -> legend_pending_b  [ penwidth=1 style=dotted label="Kommende \n 100Mb \n forbindelse" ];
+    legend_pending_b -> legend_pending_c  [ penwidth=10 style=dotted label="Kommende \n 1Gb \n forbindelse" ];
+    legend_pending_c -> legend_bakkensbro [ color=invis ];
     
-    legend_active_a -> legend_active_b	[ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
-    legend_active_b -> legend_active_c	[ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
-    legend_active_c -> legend_alslug	[ color=invis ];
+    legend_active_a -> legend_active_b [ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
+    legend_active_b -> legend_active_c [ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
+    legend_active_c -> legend_alslug   [ color=invis ];
   }
   subgraph cluster_festlokale {
     label = "Udstyr i \n festlokale og bakkehuset";
     node [ style=filled fillcolor=red ];
     edge  [ color=red style=solid ];
-    festlokale_switch:1 -> wifi_10	[ penwidth=1 ];
-    festlokale_switch:2 -> wifi_11	[ penwidth=1 ];
+    festlokale_switch:1 -> wifi_10 [ penwidth=1 ];
+    festlokale_switch:2 -> wifi_11 [ penwidth=1 ];
 //    festlokale_switch;
   }
   subgraph cluster_skab_ved_bibliotek {
@@ -86,11 +86,15 @@ digraph xxx {
       node [ shape=point ];
       edge [ color=darkgreen ];
       patchpanel_hk_p1:3 -> Varmestyring_kontor;
+      patchpanel_hk_p1:4 -> patchpanel_hk_p1_4;
+      patchpanel_hk_p1:4 -> patchpanel_hk_p1_4;
+      patchpanel_hk_p1:34 -> patchpanel_hk_p1_34;
+      patchpanel_hk_p1:40 -> patchpanel_hk_p1_40;
       patchpanel_hk_p2:2 -> Varmestyring_fyr;
     }
 
     patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel HK/P2/xx \n
-	  					| <1> 1
+						| <1> 1
 						| <2> 2
 						| <3> 3
 						| <4> 4
@@ -115,6 +119,15 @@ digraph xxx {
 						| <23> 23
 						| <24> 24
 						"];
+    {
+      node [ shape=point ];
+      patchpanel_hk_p2:12 -> patchpanel_hk_p2_12;
+      patchpanel_hk_p2:14 -> patchpanel_hk_p2_14;
+      patchpanel_hk_p2:17 -> patchpanel_hk_p2_17;
+      patchpanel_hk_p2:18 -> patchpanel_hk_p2_18;
+      patchpanel_hk_p2:19 -> patchpanel_hk_p2_19;
+      patchpanel_hk_p2:20 -> patchpanel_hk_p2_20;
+    }
     {
       node [ shape=point ];
       husets_switch_1:9  -> husets_switch_1_9;
@@ -152,30 +165,29 @@ digraph xxx {
     bakkensbro_info_doer; bakkensbro_info_stuen;
     node [ style=normal ];
     // Internet forbindelser
-    stofa_fiber -> husets_router:enp2s10	[ penwidth=1 fillcolor=black style=filled ];
-    stofa_fiber -> husets_router:eno1	[ penwidth=10 fillcolor=black style=dotted ];
-  
+    stofa_fiber -> husets_router:enp2s10 [ penwidth=1  fillcolor=black style=filled ];
+    stofa_fiber -> husets_router:eno1    [ penwidth=10 fillcolor=black style=dotted ];
   }
   edge [ dir=none penwidth=100 ];
   node [ style=filled fillcolor=red ];
   husets_switch_2 [ shape=record label="<head> Switch i \n AlsLUGs \n lokale !!!!!HP 2520-24 J9138A!!!!!" ];
   festlokale_switch [ shape=record label="<head> Switch under \n festlokalet !!!!!HP 2520-24 J9138A!!!!!" ];
-  wifi_10 [ label=" wifi_10 \n\n Bakkehuset"                  ];
-  wifi_11 [ label=" wifi_11 \n\n Festlokalet "                ];
-  wifi_12 [ label=" wifi_12 \n\n BOBS "                       ];
-  wifi_13 [ label=" wifi_13 \n\n Arkiv "                      ];
-  wifi_14 [ label=" wifi_14 \n\n Bibliotek "                  ];
-  wifi_15 [ label=" wifi_15 \n\n Modelfly "                   ];
-  wifi_16 [ label=" wifi_16 \n\n AlsLUG "                     ];
-  wifi_17 [ label=" wifi_17 \n\n EDR "                        ];
-  wifi_18 [ label=" wifi_18 \n\n Nydam "                      ];
+  wifi_10 [ label=" wifi_10 \n\n Bakkehuset"  ];
+  wifi_11 [ label=" wifi_11 \n\n Festlokalet" ];
+  wifi_12 [ label=" wifi_12 \n\n BOBS"        ];
+  wifi_13 [ label=" wifi_13 \n\n Arkiv"       ];
+  wifi_14 [ label=" wifi_14 \n\n Bibliotek"   ];
+  wifi_15 [ label=" wifi_15 \n\n Modelfly"    ];
+  wifi_16 [ label=" wifi_16 \n\n AlsLUG"      ];
+  wifi_17 [ label=" wifi_17 \n\n EDR"         ];
+  wifi_18 [ label=" wifi_18 \n\n Nydam"       ];
   
   node [ style=filled fillcolor=green ];
-  AlsLUG_TTIG		[ label="TTN gateway \n\n TTIG"								];
-  bakkensbro_info_doer	[ style=filled fillcolor=yellow label="Bakkensbro \n Info display \n\n i hoveddøren"	];
-  bakkensbro_info_stuen	[ style=filled fillcolor=yellow label="Bakkensbro \n Info display \n\n på stue-etagen"	];
-  bakkensbro_info_1_sal	[ style=filled fillcolor=yellow label="Bakkensbro \n Info display \n\n på første sal"	];
-  info_server		[ style=filled fillcolor=yellow label="Info-server \n\n trækker diverse \n infoskærme"	];
+  AlsLUG_TTIG           [ label="TTN gateway \n\n TTIG"                                                        ];
+  bakkensbro_info_doer  [ style=filled fillcolor=yellow label="Bakkensbro \n Info display \n\n i hoveddøren"   ];
+  bakkensbro_info_stuen [ style=filled fillcolor=yellow label="Bakkensbro \n Info display \n\n på stue-etagen" ];
+  bakkensbro_info_1_sal [ style=filled fillcolor=yellow label="Bakkensbro \n Info display \n\n på første sal"  ];
+  info_server           [ style=filled fillcolor=yellow label="Info-server \n\n trækker diverse \n infoskærme" ];
   alslug_router [ shape=record label="<head> AlsLUG router
 						| 10/100 \n porte:
 						| <enp1s12>    e\nn\np\n1\ns\n1\n2
@@ -186,39 +198,39 @@ digraph xxx {
 						" ];
   husets_router:enp1s0f1 -> alslug_router:g_wan [ style=dotted penwidth=10];
   alslug_router:bakkensbro -> husets_switch_2:sfp1 [ style=dotted penwidth=10];
-  alslug_gl_bootserver		[ label="AlsLUG\nboot-server" ];
+  alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   {
     edge [ color=green style=solid penwidth=10 ];
     node [ color=gray ];
-								alslug_backbone_switch:1 ->	patchpanel_xa_p1__1:1  -> alslug_kabelkanaler:1;
-								alslug_backbone_switch:2 ->	patchpanel_xa_p1__1:2  -> alslug_kabelkanaler:2 -> internt_AP;
-								alslug_backbone_switch:3 ->	patchpanel_xa_p1__1:3  -> alslug_kabelkanaler:3;
-								alslug_backbone_switch:4 ->	patchpanel_xa_p1__1:4  -> alslug_kabelkanaler:4 -> "dele maskine";
-								alslug_backbone_switch:5 ->	patchpanel_xa_p1__1:5  -> alslug_kabelkanaler:5 -> "vga/dvi/hdmi plads";
-								alslug_backbone_switch:6 ->	patchpanel_xa_p1__1:6  -> alslug_kabelkanaler:6;
-								alslug_backbone_switch:7 ->	patchpanel_xa_p1__1:7  -> alslug_kabelkanaler:7 -> nextcloud_server;
-								alslug_backbone_switch:8 ->	patchpanel_xa_p1__1:8  -> alslug_kabelkanaler:8;
-								alslug_backbone_switch:9 ->	patchpanel_xa_p1__1:9  -> alslug_kabelkanaler:9  -> alslug_hp5180 [penwidth=1];
-								alslug_backbone_switch:10 ->	patchpanel_xa_p1__1:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client [penwidth=1];
-								alslug_backbone_switch:11 ->	patchpanel_xa_p1__1:11 -> alslug_kabelkanaler:11 -> alslug_zebra [penwidth=1];
-								alslug_backbone_switch:12 ->	patchpanel_xa_p1__1:12 -> alslug_kabelkanaler:12;
-												patchpanel_xa_p1__1:13 -> alslug_kabelkanaler:13;
-												patchpanel_xa_p1__1:14 -> alslug_kabelkanaler:14;
-												patchpanel_xa_p1__1:15 -> alslug_kabelkanaler:15;
-												patchpanel_xa_p1__1:16 -> alslug_kabelkanaler:16;
-												patchpanel_xa_p1__1:17 -> alslug_kabelkanaler:17;
-												patchpanel_xa_p1__1:18 -> alslug_kabelkanaler:18;
-												patchpanel_xa_p1__1:19 -> alslug_kabelkanaler:19;
-												patchpanel_xa_p1__1:20 -> alslug_kabelkanaler:20;
-					Laptop_Switch ->	alslug_backbone_switch:15;
-  					RPi_camera ->		alslug_backbone_switch:17;
-    					door->			alslug_backbone_switch:18;
-	{ demo1, demo2, demo3, demo4 } -> switch_5p ->		alslug_backbone_switch:19;
-								alslug_backbone_switch:20 ->	alslug_projektor [penwidth=1];
-								alslug_backbone_switch:21 ->	bord_1:12;
-								alslug_backbone_switch:22 ->	bord_2:8;
-					alslug_gl_bootserver ->	alslug_backbone_switch:23;
-					alslug_router:eno1 ->	alslug_backbone_switch:24;
+                                                              alslug_backbone_switch:1 ->  patchpanel_xa_p1__1:1  -> alslug_kabelkanaler:1;
+                                                              alslug_backbone_switch:2 ->  patchpanel_xa_p1__1:2  -> alslug_kabelkanaler:2 -> internt_AP;
+                                                              alslug_backbone_switch:3 ->  patchpanel_xa_p1__1:3  -> alslug_kabelkanaler:3;
+                                                              alslug_backbone_switch:4 ->  patchpanel_xa_p1__1:4  -> alslug_kabelkanaler:4 -> "dele maskine";
+                                                              alslug_backbone_switch:5 ->  patchpanel_xa_p1__1:5  -> alslug_kabelkanaler:5 -> "vga/dvi/hdmi plads";
+                                                              alslug_backbone_switch:6 ->  patchpanel_xa_p1__1:6  -> alslug_kabelkanaler:6;
+                                                              alslug_backbone_switch:7 ->  patchpanel_xa_p1__1:7  -> alslug_kabelkanaler:7 -> nextcloud_server;
+                                                              alslug_backbone_switch:8 ->  patchpanel_xa_p1__1:8  -> alslug_kabelkanaler:8;
+                                                              alslug_backbone_switch:9 ->  patchpanel_xa_p1__1:9  -> alslug_kabelkanaler:9  -> alslug_hp5180 [penwidth=1];
+                                                              alslug_backbone_switch:10 -> patchpanel_xa_p1__1:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client [penwidth=1];
+                                                              alslug_backbone_switch:11 -> patchpanel_xa_p1__1:11 -> alslug_kabelkanaler:11 -> alslug_zebra [penwidth=1];
+                                                              alslug_backbone_switch:12 -> patchpanel_xa_p1__1:12 -> alslug_kabelkanaler:12;
+                                                                                           patchpanel_xa_p1__1:13 -> alslug_kabelkanaler:13;
+                                                                                           patchpanel_xa_p1__1:14 -> alslug_kabelkanaler:14;
+                                                                                           patchpanel_xa_p1__1:15 -> alslug_kabelkanaler:15;
+                                                                                           patchpanel_xa_p1__1:16 -> alslug_kabelkanaler:16;
+                                                                                           patchpanel_xa_p1__1:17 -> alslug_kabelkanaler:17;
+                                                                                           patchpanel_xa_p1__1:18 -> alslug_kabelkanaler:18;
+                                                                                           patchpanel_xa_p1__1:19 -> alslug_kabelkanaler:19;
+                                                                                           patchpanel_xa_p1__1:20 -> alslug_kabelkanaler:20;
+                                      Laptop_Switch ->        alslug_backbone_switch:15;
+                                      RPi_camera ->           alslug_backbone_switch:17;
+                                      door->                  alslug_backbone_switch:18;
+    { demo1, demo2, demo3, demo4 } -> switch_5p ->            alslug_backbone_switch:19;
+                                                              alslug_backbone_switch:20 -> alslug_projektor [penwidth=1];
+                                                              alslug_backbone_switch:21 -> bord_1:12;
+                                                              alslug_backbone_switch:22 -> bord_2:8;
+                                      alslug_gl_bootserver -> alslug_backbone_switch:23;
+                                      alslug_router:eno1 ->   alslug_backbone_switch:24;
   }
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
@@ -227,40 +239,40 @@ digraph xxx {
   {
     // Udstyr som pt ikke bruges
     node [ style=filled fillcolor=gray ];
-    dlink_switch_24p		[ shape=box label="DLink DES-1226R \n 24x10/100 \n Manageable \n (kabel-holder)"];
-    hp_procurve_switch_48p	[ shape=box label="HP ProCurve 2650 \n 48x10/100 \n 2x10/100/1000/mini-GBIC"];
-    switch_48p_poe		[ shape=box label="Cisco Catalyst 3360\n 48x10/100 \n 2x SFP"];
-    switch_5p			[ shape=box label="Switch til demo-maskiner \n\n Noname \n 5x10/100/1000" ];
-    switch_8p			[ shape=box label="Noname \n 8x10/100/1000 \n Unmanaged \n Tidligere backbone" ];
-    switch_8p_vest		[ shape=box label="Jensen \n 8x10/100/1000 \n Unmanaged \n Tidligere bord vest" ];
+    dlink_switch_24p       [ shape=box label="DLink DES-1226R \n 24x10/100 \n Manageable \n (kabel-holder)"];
+    hp_procurve_switch_48p [ shape=box label="HP ProCurve 2650 \n 48x10/100 \n 2x10/100/1000/mini-GBIC"];
+    switch_48p_poe         [ shape=box label="Cisco Catalyst 3360\n 48x10/100 \n 2x SFP"];
+    switch_5p              [ shape=box label="Switch til demo-maskiner \n\n Noname \n 5x10/100/1000" ];
+    switch_8p              [ shape=box label="Noname \n 8x10/100/1000 \n Unmanaged \n Tidligere backbone" ];
+    switch_8p_vest         [ shape=box label="Jensen \n 8x10/100/1000 \n Unmanaged \n Tidligere bord vest" ];
   
     dlink_switch_24p -> hp_procurve_switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
   }
   
   // Husets forbindelser
   edge  [ color=red style=solid ];
-  husets_router:enp1s0f0 -> cisco_switch:g1												[ penwidth=10 ];
-                            cisco_switch:1 ->											wifi_12	[ penwidth=1 ];
-                            cisco_switch:2 ->											wifi_13	[ penwidth=1 ];
-                            cisco_switch:3 ->											wifi_14	[ penwidth=1 ];
-			    cisco_switch:4 ->											wifi_17	[ penwidth=1 ];
-                            cisco_switch:g2 -> husets_switch_1:g25									[ penwidth=10 ];
-                                                husets_switch_1:head -> bakkensbro_info_doer						[ penwidth=1 ];
-                                                husets_switch_1:head -> bakkensbro_info_stuen						[ penwidth=1 ];
-                                                husets_switch_1:sfp1 -> festlokale_switch:sfp1						[ penwidth=10 label="Fiber" ];
-						husets_switch_1:g26 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
-											husets_switch_2:sfp2				[ penwidth=10 color=red ];
-						wifi_15 -> patchpanel_xa_p1__2:21 ->	husets_switch_2:21				[ penwidth=1 ];
-						wifi_16 -> patchpanel_xa_p1__2:22 ->	husets_switch_2:23				[ penwidth=1 ];
-						wifi_18 -> patchpanel_xa_p1__2:23 ->	husets_switch_2:24				[ penwidth=1 ];
-											husets_switch_2:sfp1 ->	alslug_router:enp1s12	[ penwidth=10 ];
-											husets_switch_2:1 -> bakkensbro_info_1_sal	[ penwidth=1 ];
-											husets_switch_2:g26 -> info_server		[ penwidth=10 ];
+  husets_router:enp1s0f0 -> cisco_switch:g1                                                                                        [ penwidth=10 ];
+                            cisco_switch:1 ->                                                                              wifi_12 [ penwidth=1 ];
+                            cisco_switch:2 ->                                                                              wifi_13 [ penwidth=1 ];
+                            cisco_switch:3 ->                                                                              wifi_14 [ penwidth=1 ];
+                            cisco_switch:4 ->                                                                              wifi_17 [ penwidth=1 ];
+                            cisco_switch:g2 -> husets_switch_1:g25                                                                 [ penwidth=10 ];
+                                                husets_switch_1:head -> bakkensbro_info_doer                                       [ penwidth=1 ];
+                                                husets_switch_1:head -> bakkensbro_info_stuen                                      [ penwidth=1 ];
+                                                husets_switch_1:sfp2 -> festlokale_switch:sfp1                                     [ penwidth=10 label="Fiber" ];
+                                                husets_switch_1:g26 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
+                                                                                     husets_switch_2:sfp2                          [ penwidth=10 color=red ];
+                                                wifi_15 -> patchpanel_xa_p1__2:21 -> husets_switch_2:21                            [ penwidth=1 ];
+                                                wifi_16 -> patchpanel_xa_p1__2:22 -> husets_switch_2:23                            [ penwidth=1 ];
+                                                wifi_18 -> patchpanel_xa_p1__2:23 -> husets_switch_2:24                            [ penwidth=1 ];
+                                                                                     husets_switch_2:sfp1 -> alslug_router:enp1s12 [ penwidth=10 ];
+                                                                                     husets_switch_2:1 ->    bakkensbro_info_1_sal [ penwidth=1 ];
+                                                                                     husets_switch_2:g26 ->  info_server           [ penwidth=10 ];
 
   // Interne forbindelser
   edge [ color=green style=solid penwidth=10 ];
   node [ shape=point ];
-  								
+
   AlsLUG_TTIG -> wifi_16 [ penwidth=1 style=dashed ];
   
   subgraph cluster_internt_i_alslug {
@@ -268,9 +280,9 @@ digraph xxx {
     edge [ color=green style=solid penwidth=10 ];
     node [ color=green shape=point ];
 
-    alslug_backbone_switch	[ shape=record label="<head> AlsLUG Backbone Switch !!!!!Zyxel GS1900-24HP!!!!!"];
-    patchpanel_xa_p1__1 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 1/2 \n
-	  					|<1> 1
+    alslug_backbone_switch [ shape=record label="<head> AlsLUG Backbone Switch !!!!!Zyxel GS1900-24HP!!!!!"];
+    patchpanel_xa_p1__1    [ shape="record" label="<head> Patchpanel XA/P1/xx \n 1/2 \n
+						|<1> 1
 						|<2> 2
 						|<3> 3
 						|<4> 4
@@ -296,22 +308,22 @@ digraph xxx {
 						|<24>
 						"];
     patchpanel_xa_p1__2 [ shape="record" label="<head> Patchpanel XA/P1/xx \n 2/2 \n
-  						||||
+						||||
 						|<21> 21
 						|<22> 22
 						|<23> 23
 						|<24> 24
 						"];
-    alslug_kabelkanaler		[ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
-  						| Under vinduerne:\n(Fra højre\nmod venstre)
-  						| <1> 1 | <2> 2 | <3> 3 | <4> 4 || <5> 5 | <6> 6 | <7> 7 | <8> 8 || <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
+    alslug_kabelkanaler [ shape=record label="<head> Kabel-kanaler \n i \n AlsLUGs lokale
+						| Under vinduerne:\n(Fra højre\nmod venstre)
+						| <1> 1 | <2> 2 | <3> 3 | <4> 4 || <5> 5 | <6> 6 | <7> 7 | <8> 8 || <9> 9 | <10> 1\n0 | <11> 1\n1 | <12>1\n2
 						| Mod gangen:\n(Fra venstre\nmod højre)
 						| <13> 1\n3 | <14> 1\n4 | <15> 1\n5 || <16> 1\n6 | <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0
-						"];	
-    alslug_projektor				[ label="Projektor" ]
-    alslug_projektor_client			[ label="Display client \n til info på \n projektoren" ];
-    alslug_projektor_client -> alslug_projektor	[ color=black penwidth=1 label="VGA" dir=forward ];
-    alslug_projektor -> bord_1:head		[ color=black penwidth=1 label="VGA" dir=back ];
+						";
+    alslug_projektor                            [ label="Projektor" ]
+    alslug_projektor_client                     [ label="Display client \n til info på \n projektoren" ];
+    alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
+    alslug_projektor -> bord_1:head             [ color=black penwidth=1 label="VGA" dir=back ];
     internt_AP; "dele maskine"; nextcloud_server; alslug_hp5180; alslug_zebra; "vga/dvi/hdmi plads"; demo1; demo2; demo3; demo4; switch_5p; door; RPi_camera; Laptop_Switch;
     AlsLUG_TTIG; wifi_16; wifi_15; wifi_18; alslug_gl_bootserver; bakkensbro_info_1_sal; info_server;
     bord_1 [ shape=record label="<head> Bord vest\n\nD-Link\n24 x 10/100/1000
@@ -401,30 +413,30 @@ digraph xxx {
     bord_2:16 -> _bord_2_16;
   }
 
-  edge [ color=invis ];		node [ shape=point ];
-//  edge [ color=cyan ];	node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
+  edge [ color=invis ];  node [ shape=point ];
+//  edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
 
   subgraph cluster_skab_ved_bibliotek {
-    edge [ color=invis ];	node [ shape=point ];
-//    edge [ color=cyan ];	node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
+    edge [ color=invis ];   node [ shape=point ];
+//    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_hk_p2:head -> __________;
   }
   patchpanel_hk_p2:head -> __________ -> __________ -> festlokale_switch:head;
   subgraph cluster_festlokale {
-    edge [ color=invis ];	node [ shape=point ];
-//    edge [ color=cyan ];	node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
+    edge [ color=invis ];  node [ shape=point ];
+//    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     festlokale_switch:head -> wifi_10;
   }
   wifi_10 -> AlsLUG_TTIG -> wifi_16 -> patchpanel_xa_p1__2:head;
   subgraph cluster_internt_i_alslug {
-    edge [ color=invis ];	node [ shape=point ];
-//    edge [ color=cyan ];	node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
+    edge [ color=invis ];  node [ shape=point ];
+//    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     patchpanel_xa_p1__2:head -> husets_switch_2:head
-			-> __________ -> alslug_router:head
-			-> __________ -> __________ -> alslug_backbone_switch:head -> patchpanel_xa_p1__1:head -> alslug_kabelkanaler:head
-			-> __________ -> __________ -> bord_1:head
-			-> __________ -> bord_2:head
-			-> __________;
+                        -> __________ -> alslug_router:head
+                        -> __________ -> __________ -> alslug_backbone_switch:head -> patchpanel_xa_p1__1:head -> alslug_kabelkanaler:head
+                        -> __________ -> __________ -> bord_1:head
+                        -> __________ -> bord_2:head
+                        -> __________;
   }
 }
 
