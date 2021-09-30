@@ -138,9 +138,9 @@ digraph xxx {
 								alslug_backbone_switch:6 ->	patchpanel_xa_p1__1:6  -> alslug_kabelkanaler:6;
 								alslug_backbone_switch:7 ->	patchpanel_xa_p1__1:7  -> alslug_kabelkanaler:7 -> nextcloud_server;
 								alslug_backbone_switch:8 ->	patchpanel_xa_p1__1:8  -> alslug_kabelkanaler:8;
-								alslug_backbone_switch:9 ->	patchpanel_xa_p1__1:9  -> alslug_kabelkanaler:9  -> alslug_hp5180;
-								alslug_backbone_switch:10 ->	patchpanel_xa_p1__1:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client;
-								alslug_backbone_switch:11 ->	patchpanel_xa_p1__1:11 -> alslug_kabelkanaler:11 -> alslug_zebra;
+								alslug_backbone_switch:9 ->	patchpanel_xa_p1__1:9  -> alslug_kabelkanaler:9  -> alslug_hp5180 [penwidth=1];;
+								alslug_backbone_switch:10 ->	patchpanel_xa_p1__1:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client [penwidth=1];;
+								alslug_backbone_switch:11 ->	patchpanel_xa_p1__1:11 -> alslug_kabelkanaler:11 -> alslug_zebra [penwidth=1];;
 								alslug_backbone_switch:12 ->	patchpanel_xa_p1__1:12 -> alslug_kabelkanaler:12;
 												patchpanel_xa_p1__1:13 -> alslug_kabelkanaler:13;
 												patchpanel_xa_p1__1:14 -> alslug_kabelkanaler:14;
@@ -154,7 +154,7 @@ digraph xxx {
   					RPi_camera ->		alslug_backbone_switch:17;
     					door->			alslug_backbone_switch:18;
 	{ demo1, demo2, demo3, demo4 } -> switch_5p ->		alslug_backbone_switch:19;
-								alslug_backbone_switch:20 ->	alslug_projektor;
+								alslug_backbone_switch:20 ->	alslug_projektor [penwidth=1];
 								alslug_backbone_switch:21 ->	bord_1:12;
 								alslug_backbone_switch:22 ->	bord_2:8;
 					alslug_gl_bootserver ->	alslug_backbone_switch:23;
