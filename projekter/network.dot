@@ -36,13 +36,15 @@ digraph xxx {
 						| <41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8 "];
     {
       node [ shape=point ];
-      edge [ color=darkgreen ];
+      edge [ color=darkgreen style=dashed ];
       patchpanel_hk_p1:3 -> Varmestyring_kontor;
-      patchpanel_hk_p1:4 -> patchpanel_hk_p1_4;
+      patchpanel_hk_p2:2 -> Varmestyring_fyr;
+    }
+    {
+      node [ shape=point ];
       patchpanel_hk_p1:4 -> patchpanel_hk_p1_4;
       patchpanel_hk_p1:34 -> patchpanel_hk_p1_34;
       patchpanel_hk_p1:40 -> patchpanel_hk_p1_40;
-      patchpanel_hk_p2:2 -> Varmestyring_fyr;
     }
 
     patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel HK/P2/xx \n
