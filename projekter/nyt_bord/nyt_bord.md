@@ -14,7 +14,7 @@ Billede manglerovenfra.png
 
 ## Det nye bord
 <a href='ovenfra.png' target='_blank'>
-  <img src="ovenfra.png" alt="Det nye bord set fra oven" style="width:100%" />
+  <img src="ovenfra.png" alt="Det nye bord set fra oven" style="max-width:100%" />
 </a>
 
 De grønne halv-cirkler indikerer stole-pladser.
