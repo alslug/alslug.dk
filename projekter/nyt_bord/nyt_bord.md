@@ -9,13 +9,12 @@ af være to grupper, når vi er mange samlet. Nu er alle samlet ved samme bord.
 
 
 ## De gamle borde
-Billede mangler
+Billede manglerovenfra.png
 
 
 ## Det nye bord
-<a href='/image/openscad/projekter/nyt_bord/nyt_bord.scad/oversigt.png?w=800&h=300&tx=2445&ty=1729&tz=-1126&rx=60&ry=0&rz=330&d=10000
-         ' target='_blank'>
-  <img src="/image/openscad/projekter/nyt_bord/nyt_bord.scad/oversigt.png?w=800&h=300&tx=2445&ty=1729&tz=-1126&rx=60&ry=0&rz=330&d=10000" alt="Det nye bord set fra oven" style="width:100%" />
+<a href='ovenfra.png' target='_blank'>
+  <img src="ovenfra.png" alt="Det nye bord set fra oven" style="width:100%" />
 </a>
 
 ## Processen
