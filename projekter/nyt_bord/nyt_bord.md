@@ -19,6 +19,10 @@ Billede mangler
 
 De grønne halv-cirkler indikerer stole-pladser.
 
+<a href='ben.png' target='_blank'>
+  <img src="ben.png" alt="Det nye bord set fra oven" style="max-width:100%" />
+</a>
+
 
 ## Processen
 
