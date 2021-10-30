@@ -9,7 +9,7 @@ af være to grupper, når vi er mange samlet. Nu er alle samlet ved samme bord.
 
 
 ## De gamle borde
-Billede manglerovenfra.png
+Billede mangler
 
 
 ## Det nye bord
