@@ -17,6 +17,9 @@ Billede manglerovenfra.png
   <img src="ovenfra.png" alt="Det nye bord set fra oven" style="width:100%" />
 </a>
 
+De grønne halv-cirkler indikerer stole-pladser.
+
+
 ## Processen
 
 
