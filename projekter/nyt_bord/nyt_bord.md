@@ -28,11 +28,14 @@ De grønne halv-cirkler indikerer stole-pladser.
 
 
 ### 29/10 Bordplader indkøbt. 
-Vi har været i Silvan,og købt 22mm MDF.plader,som er skåret til i deres savværk.\
+Henning har været i Silvan,og købt 22mm MDF.plader,som er skåret til i deres savværk.\
 Vi fik en god pris, hvor vi fik opskæringen gratis. Tak for det.\
 Pladerne er transporteret til Ullerup.
 
-### Affasning af af front kanter 
+
+### 1/11 Affasning af af front kanter 
+Per og Hening brugte eftemiddagen på at slæbe plader op i sløjd, og retur, for at få afrundet forkanterne på de kommende bordplader.
+
 
 ### Grunding og maling af pladerne
 
