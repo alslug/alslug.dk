@@ -16,15 +16,7 @@ digraph xxx {
     legend_active_c -> legend_alslug   [ color=invis ];
   }
   subgraph cluster_festlokale {
-    label = "Udstyr i \n festlokale og bakkehuset";
-    node [ style=filled fillcolor=red ];
-    edge  [ color=red style=solid ];
-    festlokale_switch:1 -> wifi_10 [ penwidth=1 ];
-    festlokale_switch:2 -> wifi_11 [ penwidth=1 ];
-//    festlokale_switch;
-  }
-  subgraph cluster_skab_ved_bibliotek {
-    label="Udstyr i skabet ved biblioteket";
+    label="Udstyr i skabet ved biblioteket, festlokale og bakkehuset";
     edge [ dir=none penwidth=10 color=red ];
     node [ style=filled fillcolor=red ];
     patchpanel_hk_p1 [ shape="record" label="<head> Patchpanel HK/P1/xx
@@ -34,6 +26,8 @@ digraph xxx {
 						|{ <25> 2\n5 | <26> 2\n6 | <27> 2\n7 | <28> 2\n8 | <29> 2\n9 | <30> 3\n0 | <31> 3\n1 | <32> 3\n2 }|
 						| <33> 3\n3 | <34> 3\n4 | <35> 3\n5 | <36> 3\n6 | <37> 3\n7 | <38> 3\n8 | <39> 3\n9 | <40> 4\n0 |
 						|{ <41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8 }"];
+    wifi_10 -> festlokale_switch:1 [ penwidth=1 ];
+    wifi_11 -> festlokale_switch:2 [ penwidth=1 ];
     {
       node [ shape=point ];
       edge [ color=darkgreen style=dashed ];
@@ -185,7 +179,7 @@ digraph xxx {
                             cisco_switch:g2 -> husets_switch_1:g25                                                                 [ penwidth=10 ];
                                                 husets_switch_1:head -> bakkensbro_info_doer                                       [ penwidth=1 ];
                                                 husets_switch_1:head -> bakkensbro_info_stuen                                      [ penwidth=1 ];
-                                                husets_switch_1:sfp2 -> festlokale_switch:sfp1                                     [ penwidth=10 label="Fiber" ];
+                      festlokale_switch:sfp1 -> husets_switch_1:sfp2                                     [ penwidth=10 label="Fiber" ];
                                                 husets_switch_1:g26 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
                                                                                      husets_switch_2:sfp2                          [ penwidth=10 color=red ];
                                                 wifi_15 -> patchpanel_xa_p1__2:21 -> husets_switch_2:21                            [ penwidth=1 ];
@@ -285,13 +279,9 @@ digraph xxx {
 //    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_hk_p2:head -> __________;
   }
-  patchpanel_hk_p2:head -> __________ -> __________ -> festlokale_switch:head;
-  subgraph cluster_festlokale {
-    edge [ color=invis ];  node [ shape=point ];
-//    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
-    festlokale_switch:head -> wifi_10;
-  }
-  wifi_10 -> AlsLUG_TTIG -> wifi_16 -> patchpanel_xa_p1__2:head;
+  festlokale_switch:head -> __________ -> __________ -> patchpanel_hk_p2:head;
+
+  AlsLUG_TTIG -> wifi_16 -> patchpanel_xa_p1__2:head;
   subgraph cluster_internt_i_alslug {
     edge [ color=invis ];  node [ shape=point ];
 //    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
