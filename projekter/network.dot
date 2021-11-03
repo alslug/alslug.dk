@@ -68,7 +68,6 @@ digraph xxx {
       node [ shape=point ];
       patchpanel_hk_p2:12 -> patchpanel_hk_p2_12;
       patchpanel_hk_p2:14 -> patchpanel_hk_p2_14;
-      patchpanel_hk_p2:17 -> patchpanel_hk_p2_17;
       patchpanel_hk_p2:18 -> patchpanel_hk_p2_18;
       patchpanel_hk_p2:19 -> patchpanel_hk_p2_19;
       patchpanel_hk_p2:20 -> patchpanel_hk_p2_20;
