@@ -281,7 +281,8 @@ digraph xxx {
   }
 
   AlsLUG_TTIG -> wifi_16 -> patchpanel_xa_p1__2:head;
-  subgraph cluster_internt_i_alslug {
+//  subgraph cluster_internt_i_alslug {
+  {
 //    edge [ color=invis ];  node [ shape=point ];
     edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     festlokale_switch:head ->
