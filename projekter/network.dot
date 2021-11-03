@@ -15,6 +15,16 @@ digraph xxx {
     legend_active_b -> legend_active_c [ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
     legend_active_c -> legend_alslug   [ color=invis ];
   }
+  { // Udstyr i festlokale of bakkehuset
+    edge [ dir=none penwidth=10 color=red ];
+    node [ style=filled fillcolor=red ];
+    festlokale_patchpanel [ shape="record" label="<head> Patchpanel ??/??/xx
+						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8     |
+						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6 |
+						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4 |"];
+    festlokale_switch:1 -> festlokale_patchpanel:1 -> wifi_10 [ penwidth=1 ];
+    festlokale_switch:2 -> festlokale_patchpanel:2 -> wifi_11 [ penwidth=1 ];
+  }
   {
 //    label="Udstyr i skabet ved biblioteket, festlokale og bakkehuset";
     edge [ dir=none penwidth=10 color=red ];
@@ -26,8 +36,6 @@ digraph xxx {
 						|{ <25> 2\n5 | <26> 2\n6 | <27> 2\n7 | <28> 2\n8 | <29> 2\n9 | <30> 3\n0 | <31> 3\n1 | <32> 3\n2 }|
 						| <33> 3\n3 | <34> 3\n4 | <35> 3\n5 | <36> 3\n6 | <37> 3\n7 | <38> 3\n8 | <39> 3\n9 | <40> 4\n0 |
 						|{ <41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8 }"];
-    festlokale_switch:1 -> festlokale_patchpanel:1 -> wifi_10 [ penwidth=1 ];
-    festlokale_switch:2 -> festlokale_patchpanel:1 -> wifi_11 [ penwidth=1 ];
     {
       node [ shape=point ];
       edge [ color=darkgreen style=dashed ];
