@@ -195,7 +195,8 @@ digraph xxx {
 
   AlsLUG_TTIG -> wifi_16 [ penwidth=1 style=dashed ];
   
-  subgraph cluster_internt_i_alslug {
+//  subgraph cluster_internt_i_alslug {
+  {
     label = "Udstyr koblet til skabet i AlsLUG's lokale";
     edge [ color=green style=solid penwidth=10 ];
     node [ color=green shape=point ];
