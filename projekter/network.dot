@@ -74,8 +74,8 @@ digraph xxx {
       patchpanel_hk_p2:20 -> patchpanel_hk_p2_20;
     }
     {
+      husets_switch_1:9  -> husets_switch_1_9; husets_switch_1_9 [ label="Arkivets NAS" ];
       node [ shape=point ];
-      husets_switch_1:9  -> husets_switch_1_9;
       husets_switch_1:11 -> husets_switch_1_11;
       husets_switch_1:13 -> husets_switch_1_13;
       husets_switch_1:17 -> husets_switch_1_17;
