@@ -301,28 +301,31 @@ digraph xxx {
     edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     festlokale_switch:head ->
     festlokale_patchpanel:head ->
-    { wifi_10,wifi_11 } -> 
-    		_________ -> __________ ->
+    { wifi_10,wifi_11 } ->
+    			_________ -> __________ ->
     stofa_fiber ->
     husets_router:head ->
-    cisco_switch:head -> __________ ->
-    husets_switch_1:head -> __________ ->
-    patchpanel_hk_p2:head -> __________ ->
+    cisco_switch:head ->
+    			__________ ->
+    husets_switch_1:head ->
+    			__________ ->
+    patchpanel_hk_p2:head ->
+    			__________ ->
     { husets_switch_1_9,bakkensbro_info_doer,bakkensbro_info_stuen } ->
-                        -> __________ -> __________ ->
+                        __________ -> __________ ->
     patchpanel_xa_p1__2:head ->
-    husets_switch_2:head
-                        -> __________ ->
-    alslug_router:head
-                        -> __________ -> __________ ->
+    husets_switch_2:head -->
+                        __________ ->
+    alslug_router:head ->
+                        __________ -> __________ ->
     alslug_backbone_switch:head ->
     patchpanel_xa_p1__1:head ->
-    alslug_kabelkanaler:head
-                        -> __________ -> __________ ->
-    bord_1:head
-                        -> __________ ->
-    bord_2:head
-                        -> __________ ->
+    alslug_kabelkanaler:head ->
+                        __________ -> __________ ->
+    bord_1:head ->
+                        __________ ->
+    bord_2:head ->
+                        __________ ->
     qwerty;
   }
 }
