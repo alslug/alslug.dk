@@ -15,8 +15,8 @@ digraph xxx {
     legend_active_b -> legend_active_c [ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
     legend_active_c -> legend_alslug   [ color=invis ];
   }
-  subgraph cluster_festlokale {
-    label="Udstyr i skabet ved biblioteket, festlokale og bakkehuset";
+  {
+//    label="Udstyr i skabet ved biblioteket, festlokale og bakkehuset";
     edge [ dir=none penwidth=10 color=red ];
     node [ style=filled fillcolor=red ];
     patchpanel_hk_p1 [ shape="record" label="<head> Patchpanel HK/P1/xx
@@ -26,8 +26,8 @@ digraph xxx {
 						|{ <25> 2\n5 | <26> 2\n6 | <27> 2\n7 | <28> 2\n8 | <29> 2\n9 | <30> 3\n0 | <31> 3\n1 | <32> 3\n2 }|
 						| <33> 3\n3 | <34> 3\n4 | <35> 3\n5 | <36> 3\n6 | <37> 3\n7 | <38> 3\n8 | <39> 3\n9 | <40> 4\n0 |
 						|{ <41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8 }"];
-    wifi_10 -> festlokale_switch:1 [ penwidth=1 ];
-    wifi_11 -> festlokale_switch:2 [ penwidth=1 ];
+    festlokale_switch:1 -> festlokale_patchpanel:1 -> wifi_10 [ penwidth=1 ];
+    festlokale_switch:2 -> festlokale_patchpanel:1 -> wifi_11 [ penwidth=1 ];
     {
       node [ shape=point ];
       edge [ color=darkgreen style=dashed ];
@@ -279,7 +279,6 @@ digraph xxx {
 //    edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     husets_router:head -> cisco_switch:head -> __________ -> husets_switch_1:head -> __________ -> patchpanel_hk_p2:head -> __________;
   }
-  festlokale_switch:head -> __________ -> __________ -> patchpanel_hk_p2:head;
 
   AlsLUG_TTIG -> wifi_16 -> patchpanel_xa_p1__2:head;
   subgraph cluster_internt_i_alslug {
@@ -291,5 +290,15 @@ digraph xxx {
                         -> __________ -> __________ -> bord_1:head
                         -> __________ -> bord_2:head
                         -> __________;
+  }
+  {
+    festlokale_switch:1 ->
+    festlokale_patchpanel:1 ->
+    { wifi_10,wifi_11 } -> 
+    stofa_fiber ->
+    husets_router:head ->
+    husets_switch:head ->
+    festlokale_switch:head -> _________ -> __________ -> patchpanel_hk_p2:head;
+    qwerty [ penwidth=100 color=cyan ];
   }
 }
