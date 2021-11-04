@@ -45,14 +45,11 @@ digraph xxx {
 						|{<25> 2\n5 | <26> 2\n6 | <27> 2\n7 | <28> 2\n8 | <29> 2\n9 | <30> 3\n0 | <31> 3\n1 | <32> 3\n2}|
 						| <33> 3\n3 | <34> 3\n4 |{<35> 3\n5 | <36> 3\n6 | <37> 3\n7 | <38> 3\n8 | <39> 3\n9}| <40> 4\n0 |
 						|{<41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8}|"];
-    {
+    { // Kommunens forbindelser
       node [ shape=point ];
       edge [ color=darkgreen style=dashed ];
       patchpanel_hk_p1:3 -> Varmestyring_kontor;
       patchpanel_hk_p2:2 -> Varmestyring_fyr;
-    }
-    {
-      node [ shape=point ];
     }
 
     patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel \n ved biblioteket \n\n HK/P2/xx
@@ -60,10 +57,6 @@ digraph xxx {
 						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
 						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4
 						|"];
-    {
-      node [ shape=point ];
-      husets_switch_1:19 -> husets_switch_1_19;
-    }
     husets_router [ fillcolor=green shape=record label="<head> Router
 						| 10/100 \n porte:
 						| <enp2s10>  e\nn\np\n2\ns\n1\n0
@@ -78,8 +71,6 @@ digraph xxx {
     cisco_switch [ fillcolor=green shape=record label="<head> Switch \n ved \n biblioteket\n\nCisco SF302-08PP \n\n Managed \n 8x10/100 PoE \n 2x10/100/1000/SFP
 						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <g1> G\n1 | <g2> G\n2
 						|" ];
-    bakkensbro_info_doer; bakkensbro_info_stuen;
-    node [ style=normal ];
     // Internet forbindelser
     stofa_fiber -> husets_router:enp2s10 [ penwidth=1  fillcolor=black style=filled ];
     stofa_fiber -> husets_router:eno1    [ penwidth=10 fillcolor=black style=dotted ];
