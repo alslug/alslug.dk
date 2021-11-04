@@ -67,11 +67,7 @@ digraph xxx {
 						|"];
     {
       node [ shape=point ];
-      husets_switch_1:11 -> husets_switch_1_11;
-      husets_switch_1:13 -> husets_switch_1_13;
       husets_switch_1:19 -> husets_switch_1_19;
-      husets_switch_1:21 -> husets_switch_1_21;
-      husets_switch_1:g25 -> husets_switch_1_25;
     }
     husets_router [ fillcolor=green shape=record label="<head> Router
 						| 10/100 \n porte:
