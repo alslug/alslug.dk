@@ -301,10 +301,8 @@ digraph xxx {
 //    edge [ color=invis ];  node [ shape=point ];
     edge [ color=cyan ];   node [ shape=star label="" color=cyan fillcolor=cyan style=filled ];
     festlokale_switch:head						->
-    festlokale_patchpanel:head						->
-    { wifi_10,wifi_11 }							-> __________ -> __________ ->
-    stofa_fiber								->
-    husets_router:head							->
+    festlokale_patchpanel:head						-> __________ -> __________ -> __________ -> __________ ->
+    husets_router:head							-> __________ ->
     cisco_switch:head							-> __________ ->
     husets_switch_1:head						-> __________ ->
     { patchpanel_hk_p1:head, patchpanel_hk_p2:head }			-> __________ ->
