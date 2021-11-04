@@ -108,35 +108,35 @@ digraph xxx {
   {
     edge [ color=green style=solid penwidth=10 ];
     node [ color=gray ];
-                                                              alslug_backbone_switch:1 ->  patchpanel_xa_p1__1:1  -> alslug_kabelkanaler:1;
-                                                              alslug_backbone_switch:2 ->  patchpanel_xa_p1__1:2  -> alslug_kabelkanaler:2 -> internt_AP;
-                                                              alslug_backbone_switch:3 ->  patchpanel_xa_p1__1:3  -> alslug_kabelkanaler:3;
-                                                              alslug_backbone_switch:4 ->  patchpanel_xa_p1__1:4  -> alslug_kabelkanaler:4 -> "dele \n maskine";
-                                                              alslug_backbone_switch:5 ->  patchpanel_xa_p1__1:5  -> alslug_kabelkanaler:5 -> "vga/dvi/hdmi \n plads";
-                                                              alslug_backbone_switch:6 ->  patchpanel_xa_p1__1:6  -> alslug_kabelkanaler:6;
-                                                              alslug_backbone_switch:7 ->  patchpanel_xa_p1__1:7  -> alslug_kabelkanaler:7 -> "nextcloud \n server";
-                                                              alslug_backbone_switch:8 ->  patchpanel_xa_p1__1:8  -> alslug_kabelkanaler:8;
-                                                              alslug_backbone_switch:9 ->  patchpanel_xa_p1__1:9  -> alslug_kabelkanaler:9  -> alslug_hp5180 [penwidth=1];
-                                                              alslug_backbone_switch:10 -> patchpanel_xa_p1__1:10 -> alslug_kabelkanaler:10 -> alslug_projektor_client [penwidth=1];
-                                                              alslug_backbone_switch:11 -> patchpanel_xa_p1__1:11 -> alslug_kabelkanaler:11 -> alslug_zebra [penwidth=1];
-                                                              alslug_backbone_switch:12 -> patchpanel_xa_p1__1:12 -> alslug_kabelkanaler:12;
-                                                                                           patchpanel_xa_p1__1:13 -> alslug_kabelkanaler:13;
-                                                                                           patchpanel_xa_p1__1:14 -> alslug_kabelkanaler:14;
-                                                                                           patchpanel_xa_p1__1:15 -> alslug_kabelkanaler:15;
-                                                                                           patchpanel_xa_p1__1:16 -> alslug_kabelkanaler:16;
-                                                                                           patchpanel_xa_p1__1:17 -> alslug_kabelkanaler:17;
-                                                                                           patchpanel_xa_p1__1:18 -> alslug_kabelkanaler:18;
-                                                                                           patchpanel_xa_p1__1:19 -> alslug_kabelkanaler:19;
-                                                                                           patchpanel_xa_p1__1:20 -> alslug_kabelkanaler:20;
-                                      Laptop_Switch ->        alslug_backbone_switch:15;
-                                      RPi_camera ->           alslug_backbone_switch:17;
-                                      door->                  alslug_backbone_switch:18;
-    { demo1, demo2, demo3, demo4 } -> switch_5p ->            alslug_backbone_switch:19;
-                                                              alslug_backbone_switch:20 -> alslug_projektor [penwidth=1];
-                                                              alslug_backbone_switch:21 -> bord_1:12;
-                                                              alslug_backbone_switch:22 -> bord_2:8;
-                                      alslug_gl_bootserver -> alslug_backbone_switch:23;
-                                      alslug_router:eno1 ->   alslug_backbone_switch:24;
+							alslug_backbone_switch:1 ->	patchpanel_xa_p1__1:1	-> alslug_kabelkanaler:1;
+							alslug_backbone_switch:2 ->	patchpanel_xa_p1__1:2	-> alslug_kabelkanaler:2 -> internt_AP;
+							alslug_backbone_switch:3 ->	patchpanel_xa_p1__1:3	-> alslug_kabelkanaler:3;
+							alslug_backbone_switch:4 ->	patchpanel_xa_p1__1:4	-> alslug_kabelkanaler:4 -> "dele \n maskine";
+							alslug_backbone_switch:5 ->	patchpanel_xa_p1__1:5	-> alslug_kabelkanaler:5 -> "vga/dvi/hdmi \n plads";
+							alslug_backbone_switch:6 ->	patchpanel_xa_p1__1:6	-> alslug_kabelkanaler:6;
+							alslug_backbone_switch:7 ->	patchpanel_xa_p1__1:7	-> alslug_kabelkanaler:7 -> "nextcloud \n server";
+							alslug_backbone_switch:8 ->	patchpanel_xa_p1__1:8	-> alslug_kabelkanaler:8;
+							alslug_backbone_switch:9 ->	patchpanel_xa_p1__1:9	-> alslug_kabelkanaler:9  -> alslug_hp5180 [penwidth=1];
+							alslug_backbone_switch:10 ->	patchpanel_xa_p1__1:10	-> alslug_kabelkanaler:10 -> alslug_projektor_client [penwidth=1];
+							alslug_backbone_switch:11 ->	patchpanel_xa_p1__1:11	-> alslug_kabelkanaler:11 -> alslug_zebra [penwidth=1];
+							alslug_backbone_switch:12 ->	patchpanel_xa_p1__1:12	-> alslug_kabelkanaler:12;
+											patchpanel_xa_p1__1:13	-> alslug_kabelkanaler:13;
+											patchpanel_xa_p1__1:14	-> alslug_kabelkanaler:14;
+											patchpanel_xa_p1__1:15	-> alslug_kabelkanaler:15;
+											patchpanel_xa_p1__1:16	-> alslug_kabelkanaler:16;
+											patchpanel_xa_p1__1:17	-> alslug_kabelkanaler:17;
+											patchpanel_xa_p1__1:18	-> alslug_kabelkanaler:18;
+											patchpanel_xa_p1__1:19	-> alslug_kabelkanaler:19;
+											patchpanel_xa_p1__1:20	-> alslug_kabelkanaler:20;
+				Laptop_Switch ->	alslug_backbone_switch:15;
+				RPi_camera ->		alslug_backbone_switch:17;
+				door->			alslug_backbone_switch:18;
+	{ demo1, demo2, demo3, demo4 } -> switch_5p ->	alslug_backbone_switch:19;
+							alslug_backbone_switch:20	-> alslug_projektor [penwidth=1];
+							alslug_backbone_switch:21	-> bord_1:12;
+							alslug_backbone_switch:22	-> bord_2:8;
+				alslug_gl_bootserver ->	alslug_backbone_switch:23;
+				alslug_router:eno1 ->	alslug_backbone_switch:24;
   }
   alslug_hp5180 [ label="HP 5180 \n printer" ]
   alslug_zebra [ label="Zebra \n printer" ]
@@ -158,27 +158,27 @@ digraph xxx {
   // Husets forbindelser
   edge  [ color=red style=solid ];
   arkiv_nas [ shape=box label="Arkivets \n NAS" ];
-  patchpanel_hk_p1_8 [ shape=box label="Stik i \n Biblioteket" ];
-  husets_router:enp1s0f0 -> husets_switch_1:g26											[ penwidth=10 ];
-			    husets_switch_1:7 -> patchpanel_hk_p1:8 -> hk_p1_8							[ penwidth=1 ];
-                            husets_switch_1:9  -> patchpanel_hk_p2:12 -> "AP-stik \n under \n loftet \n i Arkiv" -> arkiv_nas	[ penwidth=1 color=violet ];
-                            husets_switch_1:11 -> patchpanel_hk_p1:34 -> hk_p1_34						[ penwidth=1 ];
-                            husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17						[ penwidth=1 ];
-                            husets_switch_1:15 -> patchpanel_hk_p1:40 -> __________ -> bakkensbro_info_stuen			[ penwidth=1 ];
-			    husets_switch_1:17 -> patchpanel_hk_p1:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer	[ penwidth=1 ];
-                            husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12 [ penwidth=1 ];
-                            husets_switch_1:22 -> patchpanel_hk_p2:19 ->                                                  wifi_13 [ penwidth=1 ];
-                            husets_switch_1:23 -> patchpanel_hk_p2:20 ->                                                  wifi_14 [ penwidth=1 ];
-                            husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17 [ penwidth=1 ];
-  festlokale_switch:sfp1 -> husets_switch_1:sfp2                                     [ penwidth=10 label="Fiber" ];
-                            husets_switch_1:sfp1 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
-                                                                                     husets_switch_2:sfp2                          [ penwidth=10 color=red ];
-                                                wifi_15 -> patchpanel_xa_p1__2:21 -> husets_switch_2:21                            [ penwidth=1 ];
-                                                wifi_16 -> patchpanel_xa_p1__2:22 -> husets_switch_2:23                            [ penwidth=1 ];
-                                                wifi_18 -> patchpanel_xa_p1__2:23 -> husets_switch_2:24                            [ penwidth=1 ];
-                                                                                     husets_switch_2:sfp1 -> alslug_router:enp1s12 [ penwidth=10 ];
-                                                                                     husets_switch_2:1 ->    bakkensbro_info_1_sal [ penwidth=1 ];
-                                                                                     husets_switch_2:g26 ->  info_server           [ penwidth=10 ];
+  hk_p1_8 [ shape=box label="HK/P1/8 \n Stik i \n Biblioteket" ];
+  husets_router:enp1s0f0 ->	husets_switch_1:g26											[ penwidth=10 ];
+				husets_switch_1:7  -> patchpanel_hk_p1:8  -> hk_p1_8							[ penwidth=1 ];
+				husets_switch_1:9  -> patchpanel_hk_p2:12 -> "AP-stik \n under \n loftet \n i Arkiv" -> arkiv_nas	[ penwidth=1 color=violet ];
+				husets_switch_1:11 -> patchpanel_hk_p1:34 -> hk_p1_34							[ penwidth=1 ];
+				husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17							[ penwidth=1 ];
+				husets_switch_1:15 -> patchpanel_hk_p1:40 -> __________ -> bakkensbro_info_stuen			[ penwidth=1 ];
+				husets_switch_1:17 -> patchpanel_hk_p1:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer		[ penwidth=1 ];
+				husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12	[ penwidth=1 ];
+				husets_switch_1:22 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 ];
+				husets_switch_1:23 -> patchpanel_hk_p2:20 ->                                                  wifi_14	[ penwidth=1 ];
+				husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17	[ penwidth=1 ];
+  festlokale_switch:sfp1 ->	husets_switch_1:sfp2											[ penwidth=10 label="Fiber" ];
+				husets_switch_1:sfp1 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
+										husets_switch_2:sfp2					[ penwidth=10 color=red ];
+										husets_switch_2:sfp1	-> alslug_router:enp1s12	[ penwidth=10 ];
+										husets_switch_2:g26	-> info_server			[ penwidth=10 ];
+					wifi_15 -> patchpanel_xa_p1__2:21 ->	husets_switch_2:21					[ penwidth=1 ];
+					wifi_16 -> patchpanel_xa_p1__2:22 ->	husets_switch_2:23					[ penwidth=1 ];
+					wifi_18 -> patchpanel_xa_p1__2:23 ->	husets_switch_2:24					[ penwidth=1 ];
+										husets_switch_2:1	-> bakkensbro_info_1_sal	[ penwidth=1 ];
 
   // Interne forbindelser
   edge [ color=green style=solid penwidth=10 ];
@@ -209,10 +209,10 @@ digraph xxx {
 						|"];
     alslulg_hp5180				[ label="AlsLUG \n\n Hp 5180 \n printer"];
     alslulg_zebra				[ label="AlsLUG \n\n Zebra \n label \n printer"];
-    alslug_projektor                            [ label="Projektor" ];
-    alslug_projektor_client                     [ label="Display \n client \n til \n info på \n projektoren" ];
-    alslug_projektor_client -> alslug_projektor [ color=black penwidth=1 label="VGA" dir=forward ];
-    alslug_projektor -> bord_1:head             [ color=black penwidth=1 label="VGA" dir=back ];
+    alslug_projektor				[ label="Projektor" ];
+    alslug_projektor_client			[ label="Display \n client \n til \n info på \n projektoren" ];
+    alslug_projektor_client -> alslug_projektor	[ color=black penwidth=1 label="VGA" dir=forward ];
+    alslug_projektor -> bord_1:head		[ color=black penwidth=1 label="VGA" dir=back ];
     bord_1 [ shape=record label="<head> Bord vest\n\nD-Link\n24 x 10/100/1000
 						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8
 						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
