@@ -170,7 +170,7 @@ digraph xxx {
     switch_8p              [ shape=box label="Noname \n 8x10/100/1000 \n Unmanaged \n Tidligere backbone" ];
     switch_8p_vest         [ shape=box label="Jensen \n 8x10/100/1000 \n Unmanaged \n Tidligere bord vest" ];
   
-    dlink_switch_24p -> hp_procurve_switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 [ color=invis ];
+    dlink_switch_24p -> hp_procurve_switch_48p -> switch_48p_poe -> switch_8p -> switch_8p_vest -> ny_switch_til_bord_2 -> cisco_switch:head [ color=invis ];
   }
   
   // Husets forbindelser
@@ -295,7 +295,6 @@ digraph xxx {
     festlokale_switch:head						->
     festlokale_patchpanel:head						-> __________ -> __________ -> __________ -> __________ ->
     husets_router:head							-> __________ ->
-    cisco_switch:head							-> __________ ->
     husets_switch_1:head						-> __________ -> 
     patchpanel_hk_p1:head						-> __________ -> __________ -> __________ -> __________ -> __________ -> __________ ->
     patchpanel_xa_p1__2:head						->
