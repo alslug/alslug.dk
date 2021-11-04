@@ -191,7 +191,7 @@ digraph xxx {
                             cisco_switch:3 ->                                                                              wifi_14 [ penwidth=1 ];
                             cisco_switch:4 ->                                                                              wifi_17 [ penwidth=1 ];
                             cisco_switch:g2 -> husets_switch_1:g25                                                                 [ penwidth=10 ];
-                                                husets_switch_1:9  -> __________ -> "AP \n under \n loftet \n i Arkiv" -> arkiv_nas; [ pencolor=1 color=violet ];
+                                                husets_switch_1:9  -> __________ -> "AP \n under \n loftet \n i Arkiv" -> arkiv_nas [ pencolor=1 color=violet ];
                                                 husets_switch_1:17 -> __________ -> "Stik i Arkiv kontor" -> bakkensbro_info_doer  [ penwidth=1 ];
                                                 husets_switch_1:15 -> __________ -> __________ -> bakkensbro_info_stuen            [ penwidth=1 ];
                       festlokale_switch:sfp1 -> husets_switch_1:sfp2                                     [ penwidth=10 label="Fiber" ];
