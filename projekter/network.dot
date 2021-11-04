@@ -95,7 +95,6 @@ digraph xxx {
     cisco_switch [ fillcolor=green shape=record label="<head> Switch \n ved \n biblioteket\n\nCisco SF302-08PP \n\n Managed \n 8x10/100 PoE \n 2x10/100/1000/SFP
 						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <g1> G\n1 | <g2> G\n2
 						|" ];
-    wifi_12; wifi_13; wifi_14; wifi_17;
     bakkensbro_info_doer; bakkensbro_info_stuen;
     node [ style=normal ];
     // Internet forbindelser
@@ -191,10 +190,10 @@ digraph xxx {
                             husets_switch_1:13 -> patchpanel_hk_p2:17;
                             husets_switch_1:15 -> patchpanel_hk_p2:40 -> __________ -> bakkensbro_info_stuen            [ penwidth=1 ];
 			    husets_switch_1:17 -> patchpanel_hk_p2:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer  [ penwidth=1 ];
-                            husets_switch_1:21 -> patchpanel_hk_p1:18 ->                                                  wifi_12 [ penwidth=1 ];
-                            husets_switch_1:22 -> patchpanel_hk_p1:19 ->                                                  wifi_13 [ penwidth=1 ];
-                            husets_switch_1:23 -> patchpanel_hk_p1:20 ->                                                  wifi_14 [ penwidth=1 ];
-                            husets_switch_1:24 -> patchpanel_hk_p1:14 ->                                                  wifi_17 [ penwidth=1 ];
+                            husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12 [ penwidth=1 ];
+                            husets_switch_1:22 -> patchpanel_hk_p2:19 ->                                                  wifi_13 [ penwidth=1 ];
+                            husets_switch_1:23 -> patchpanel_hk_p2:20 ->                                                  wifi_14 [ penwidth=1 ];
+                            husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17 [ penwidth=1 ];
   festlokale_switch:sfp1 -> husets_switch_1:sfp2                                     [ penwidth=10 label="Fiber" ];
                             husets_switch_1:g26 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
                                                                                      husets_switch_2:sfp2                          [ penwidth=10 color=red ];
