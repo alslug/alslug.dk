@@ -74,11 +74,9 @@ digraph xxx {
       patchpanel_hk_p2:20 -> patchpanel_hk_p2_20;
     }
     {
-      husets_switch_1:9  -> __________ -> __________ -> arkiv_nas; arkiv_nas [ shape=box label="Arkivets \n NAS" ];
       node [ shape=point ];
       husets_switch_1:11 -> husets_switch_1_11;
       husets_switch_1:13 -> husets_switch_1_13;
-      husets_switch_1:17 -> husets_switch_1_17;
       husets_switch_1:19 -> husets_switch_1_19;
       husets_switch_1:21 -> husets_switch_1_21;
       husets_switch_1:g25 -> husets_switch_1_25;
@@ -185,15 +183,17 @@ digraph xxx {
   }
   
   // Husets forbindelser
-  edge  [ color=red style=solid ];
+  edge  [ color=violet style=solid ];
+  arkiv_nas [ shape=box label="Arkivets \n NAS" ];
   husets_router:enp1s0f0 -> cisco_switch:g1                                                                                        [ penwidth=10 ];
                             cisco_switch:1 ->                                                                              wifi_12 [ penwidth=1 ];
                             cisco_switch:2 ->                                                                              wifi_13 [ penwidth=1 ];
                             cisco_switch:3 ->                                                                              wifi_14 [ penwidth=1 ];
                             cisco_switch:4 ->                                                                              wifi_17 [ penwidth=1 ];
                             cisco_switch:g2 -> husets_switch_1:g25                                                                 [ penwidth=10 ];
-                                                husets_switch_1:17 -> bakkensbro_info_doer                                         [ penwidth=1 ];
-                                                husets_switch_1:15 -> bakkensbro_info_stuen                                        [ penwidth=1 ];
+                                                husets_switch_1:9  -> __________ -> "AP \n under \n loftet \n i Arkiv" -> arkiv_nas; [ pencolor=1 color=violet ];
+                                                husets_switch_1:17 -> __________ -> "Stik i Arkiv kontor" -> bakkensbro_info_doer  [ penwidth=1 ];
+                                                husets_switch_1:15 -> __________ -> __________ -> bakkensbro_info_stuen            [ penwidth=1 ];
                       festlokale_switch:sfp1 -> husets_switch_1:sfp2                                     [ penwidth=10 label="Fiber" ];
                                                 husets_switch_1:g26 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
                                                                                      husets_switch_2:sfp2                          [ penwidth=10 color=red ];
@@ -305,7 +305,7 @@ digraph xxx {
     husets_router:head							-> __________ ->
     cisco_switch:head							-> __________ ->
     husets_switch_1:head						-> __________ ->
-    { patchpanel_hk_p1:head, patchpanel_hk_p2:head }			-> __________ ->
+    { patchpanel_hk_p1:head,patchpanel_hk_p2:head }			-> __________ ->
     { arkiv_nas,bakkensbro_info_doer,bakkensbro_info_stuen }		-> __________ -> __________ -> __________ -> __________ ->
     patchpanel_xa_p1__2:head						->
     husets_switch_2:head						-> __________ ->
