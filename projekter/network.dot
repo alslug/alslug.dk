@@ -73,7 +73,7 @@ digraph xxx {
       patchpanel_hk_p2:20 -> patchpanel_hk_p2_20;
     }
     {
-      husets_switch_1:9  -> husets_switch_1:9 -> husets_switch_1_9 -> arkiv_nas; arkiv_nas [ shape=box label="Arkivets \n NAS" ];
+      husets_switch_1:9  -> __________ -> __________ -> arkiv_nas; arkiv_nas [ shape=box label="Arkivets \n NAS" ];
       node [ shape=point ];
       husets_switch_1:11 -> husets_switch_1_11;
       husets_switch_1:13 -> husets_switch_1_13;
@@ -130,7 +130,7 @@ digraph xxx {
 						| <bakkensbro> bakkensbro\nkommer\n senere
 						| <g_wan>      Gbit Wan\nkommer\n senere
 						" ];
-  husets_router:enp1s0f1 -> alslug_router:g_wan [ style=dotted penwidth=10];
+  husets_router:enp1s0f1 -> patchpanel_hk_p2:24 [ style=dotted penwidth=10];
   alslug_router:bakkensbro -> husets_switch_2:sfp1 [ style=dotted penwidth=10];
   alslug_gl_bootserver [ label="AlsLUG\nboot-server" ];
   {
