@@ -159,7 +159,7 @@ digraph xxx {
   edge  [ color=red style=solid ];
   arkiv_nas [ shape=box fillcolor=violet label="Arkivets \n NAS" ];
   hk_p1_8 [ shape=box style=filled fillcolor="red" label="HK/P1/8 \n Stik i \n Biblioteket" ];
-  hk_p2_12 [ shape=box fillcolor="violet:red" label="Gammelt \n AP-stik \n i loftet \n i Arkiv" ];
+  hk_p2_12 [ shape=box fillcolor=violet label="Gammelt \n AP-stik \n i loftet \n i Arkiv" ];
   husets_router:enp1s0f0 ->	husets_switch_1:g26											[ penwidth=10 ];
 				husets_switch_1:7  -> patchpanel_hk_p1:8  -> hk_p1_8							[ penwidth=1 ];
 				husets_switch_1:9  -> patchpanel_hk_p2:12 -> hk_p2_12 -> arkiv_nas					[ penwidth=1 color=violet ];
