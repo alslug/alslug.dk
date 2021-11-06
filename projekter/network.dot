@@ -84,7 +84,7 @@ digraph xxx {
   wifi_13 [ label=" wifi_13 \n\n Arkiv"       fillcolor="violet:red"	];
   wifi_14 [ label=" wifi_14 \n\n Bibliotek"   ];
   wifi_15 [ label=" wifi_15 \n\n Modelfly"    ];
-  wifi_16 [ label=" wifi_16 \n\n AlsLUG"      fillcolor=green:red"	];
+  wifi_16 [ label=" wifi_16 \n\n AlsLUG"      fillcolor="green:red"	];
   wifi_17 [ label=" wifi_17 \n\n EDR"         ];
   wifi_18 [ label=" wifi_18 \n\n Nydam"       ];
   
