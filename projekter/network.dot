@@ -168,7 +168,7 @@ digraph xxx {
 				husets_switch_1:15 -> patchpanel_hk_p1:40 -> __________ -> bakkensbro_info_stuen			[ penwidth=1 ];
 				husets_switch_1:17 -> patchpanel_hk_p1:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer		[ penwidth=1 ];
 				husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12	[ penwidth=1 ];
-				husets_switch_1:22 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 ];
+				husets_switch_1:22 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 color="violet:red"];
 				husets_switch_1:23 -> patchpanel_hk_p2:20 ->                                                  wifi_14	[ penwidth=1 ];
 				husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17	[ penwidth=1 ];
   festlokale_switch:sfp1 ->	husets_switch_1:sfp2											[ penwidth=10 label="Fiber" ];
