@@ -166,14 +166,14 @@ digraph xxx {
   }
   edge  [ color=red style=solid ];
   hk_p1_8 [ shape=box style=filled fillcolor="red" label="HK/P1/8 \n Stik i \n Biblioteket" ];
-  husets_router:enp1s0f0 ->	husets_switch_1:g26											[ penwidth=10 color="violet:green:yellow:red" ];
-				husets_switch_1:7  -> patchpanel_hk_p1:8  -> hk_p1_8							[ penwidth=1 ];
-				husets_switch_1:9  -> patchpanel_hk_p2:12 -> hk_p2_12 -> arkiv_nas					[ penwidth=1 color=violet ];
-				husets_switch_1:11 -> patchpanel_hk_p1:34 -> hk_p1_34							[ penwidth=1 ];
-				husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17							[ penwidth=1 ];
-				                      patchpanel_hk_p1:33 -> hk_p1_33 -> arkiv_stor_printer				[ penwidth=1 color=violet ];
-				husets_switch_1:15 -> patchpanel_hk_p1:40 -> __________ -> bakkensbro_info_stuen			[ penwidth=1 ];
-				husets_switch_1:17 -> patchpanel_hk_p1:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer		[ penwidth=1 ];
+  husets_router:enp1s0f0 ->							husets_switch_1:g26											[ penwidth=10 color="violet:green:yellow:red" ];
+  hk_p1_8 -> patchpanel_hk_p1:8  -> 						husets_switch_1:7							[ penwidth=1 ];
+										husets_switch_1:9  -> patchpanel_hk_p2:12 -> hk_p2_12 -> arkiv_nas					[ penwidth=1 color=violet ];
+  hk_p1_34 -> patchpanel_hk_p1:34 ->						husets_switch_1:11							[ penwidth=1 ];
+										husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17							[ penwidth=1 ];
+  arkiv_stor_printer -> hk_p1_33 -> patchpanel_hk_p1:33	->			"mangler forbindelse"			[ penwidth=1 color=violet ];
+  bakkensbro_info_stuen -> __________ -> patchpanel_hk_p1:40 ->			husets_switch_1:15			[ penwidth=1 ];
+  bakkensbro_info_doer -> "Stik i \n Arkiv \n kontor" -> patchpanel_hk_p1:4 ->	husets_switch_1:17		[ penwidth=1 ];
 				husets_switch_1:19 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 color="violet:red" ];
 				husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12	[ penwidth=1 ];
 		///////////////	husets_switch_1:22 er defekt ///////////////////////////////////
@@ -289,7 +289,7 @@ digraph xxx {
     festlokale_switch:head						->
     festlokale_patchpanel:head						-> __________ -> __________ -> __________ -> __________ ->
     husets_router:head							-> __________ -> __________ -> __________ ->
-    patchpanel_hk_p1:head						-> __________ ->
+    patchpanel_hk_p1:head						-> __________ -> __________ -> __________ ->
     husets_switch_1:head						-> __________ -> 
     patchpanel_hk_p2:head						-> __________ -> __________ -> __________ -> __________ -> __________ -> __________ ->
     patchpanel_xa_p1__2:head						->
