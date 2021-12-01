@@ -1,8 +1,8 @@
 digraph xxx {
   label = "!!!!!Source-timestamp!!!!!";
+  edge [ dir=none ];
   subgraph cluster_legend {
     label = "Legend:";
-    edge [ dir=none ];
     node [ shape=point ];
     legend_bakkensbro [ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
     legend_alslug     [ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
