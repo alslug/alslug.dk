@@ -49,8 +49,7 @@ digraph xxx {
     { // Kommunens forbindelser
       node [ shape=point ];
       edge [ color=darkgreen style=dashed ];
-      patchpanel_hk_p1:3 -> Varmestyring_kontor;
-      patchpanel_hk_p2:2 -> Varmestyring_fyr;
+      Varmestyring_kontor -> patchpanel_hk_p1:3 -> "Kommunes \n grej" -> patchpanel_hk_p2:2 -> Varmestyring_fyr;
     }
 
     patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel \n ved biblioteket \n\n HK/P2/xx
