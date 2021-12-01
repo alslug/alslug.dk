@@ -10,11 +10,11 @@ digraph xxx {
 
     legend_pending_a -> legend_pending_b  [ penwidth=1 style=dotted label="Mulig \n kommende \n 100Mb \n forbindelse" ];
     legend_pending_b -> legend_pending_c  [ penwidth=10 style=dotted label="Mulig \n kommende \n 1Gb \n forbindelse" ];
-    legend_pending_c -> legend_bakkensbro [ color=invis ];
     
     legend_active_a -> legend_active_b [ penwidth=1 label="Aktiv \n 100Mb \n forbindelse"];
     legend_active_b -> legend_active_c [ penwidth=10 label="Aktiv \n 1Gb \n forbindelse"];
-    legend_active_c -> legend_alslug   [ color=invis ];
+    
+    { legend_active_c,legend_pending_c } -> { legend_alslug,legend_bakkensbro,legend_arkiv } [ color=invis ];
   }
   ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
