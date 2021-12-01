@@ -84,7 +84,7 @@ digraph xxx {
   wifi_12 [ label=" wifi_12 \n\n BOBS"        ];
   wifi_13 [ label=" wifi_13 \n\n Arkiv"       fillcolor="violet:red"	];
   wifi_14 [ label=" wifi_14 \n\n Bibliotek"   ];
-  wifi_15 [ label=" wifi_15 \n\n Modelfly"    ];
+  wifi_15 [ label=" wifi_15 \n\n Modelfly"    fillcolor="violet:red"	];
   wifi_16 [ label=" wifi_16 \n\n AlsLUG"      fillcolor="green:red"	];
   wifi_17 [ label=" wifi_17 \n\n EDR"         ];
   wifi_18 [ label=" wifi_18 \n\n Nydam"       ];
@@ -174,19 +174,19 @@ digraph xxx {
 				                      patchpanel_hk_p1:33 -> hk_p1_33 -> arkiv_stor_printer				[ penwidth=1 color=violet ];
 				husets_switch_1:15 -> patchpanel_hk_p1:40 -> __________ -> bakkensbro_info_stuen			[ penwidth=1 ];
 				husets_switch_1:17 -> patchpanel_hk_p1:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer		[ penwidth=1 ];
-				husets_switch_1:19 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 color="violet:red"];
+				husets_switch_1:19 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 color="violet:red" ];
 				husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12	[ penwidth=1 ];
 		///////////////	husets_switch_1:22 er defekt ///////////////////////////////////
 				husets_switch_1:23 -> patchpanel_hk_p2:20 ->                                                  wifi_14	[ penwidth=1 ];
 				husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17	[ penwidth=1 ];
   festlokale_switch:sfp1 ->	husets_switch_1:sfp2											[ penwidth=10 label="Fiber" ];
 				husets_switch_1:sfp1 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
-										husets_switch_2:sfp2					[ penwidth=10 color=red ];
+										husets_switch_2:sfp2					[ penwidth=10 color=violet:green:red ];
 								///////////////	husets_switch_2:sfp1	-> alslug_router:enp1s12	[ penwidth=10 ];
 										husets_switch_2:sfp1	-> alslug_backbone_switch:24	[ penwidth=10 ];
 										husets_switch_2:g26	-> info_server			[ penwidth=10 ];
-					wifi_15 -> patchpanel_xa_p1__2:21 ->	husets_switch_2:21					[ penwidth=1 ];
-					wifi_16 -> patchpanel_xa_p1__2:22 ->	husets_switch_2:23					[ penwidth=1 ];
+					wifi_15 -> patchpanel_xa_p1__2:21 ->	husets_switch_2:21					[ penwidth=1 color="violet:red" ];
+					wifi_16 -> patchpanel_xa_p1__2:22 ->	husets_switch_2:23					[ penwidth=1 color="green:red" ];
 					wifi_18 -> patchpanel_xa_p1__2:23 ->	husets_switch_2:24					[ penwidth=1 ];
 										husets_switch_2:1	-> bakkensbro_info_1_sal	[ penwidth=1 ];
 
