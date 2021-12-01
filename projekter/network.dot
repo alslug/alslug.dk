@@ -181,7 +181,7 @@ digraph xxx {
 				husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17	[ penwidth=1 ];
   festlokale_switch:sfp1 ->	husets_switch_1:sfp2											[ penwidth=10 label="Fiber" ];
 				husets_switch_1:sfp1 -> patchpanel_hk_p2:24 -> patchpanel_xa_p1__2:24 ->
-										husets_switch_2:sfp2					[ penwidth=10 color=violet:green:red ];
+										husets_switch_2:sfp2					[ penwidth=10 color="violet:green:yellow:red" ];
 								///////////////	husets_switch_2:sfp1	-> alslug_router:enp1s12	[ penwidth=10 ];
 										husets_switch_2:sfp1	-> alslug_backbone_switch:24	[ penwidth=10 ];
 										husets_switch_2:g26	-> info_server			[ penwidth=10 ];
