@@ -6,6 +6,7 @@ digraph xxx {
     node [ shape=point ];
     legend_bakkensbro [ shape=box style=filled fillcolor=red label="Bakkensbro \n udstyr" ];
     legend_alslug     [ shape=box style=filled fillcolor=green label="AlsLUG \n udstyr" ];
+    legend_arkiv      [ shape=box style=filled fillcolor=violet label="Arkiv \n udstyr" ];
 
     legend_pending_a -> legend_pending_b  [ penwidth=1 style=dotted label="Kommende \n 100Mb \n forbindelse" ];
     legend_pending_b -> legend_pending_c  [ penwidth=10 style=dotted label="Kommende \n 1Gb \n forbindelse" ];
@@ -158,18 +159,21 @@ digraph xxx {
   // Husets forbindelser
   edge  [ color=red style=solid ];
   arkiv_nas [ shape=box fillcolor=violet label="Arkivets \n NAS" ];
+  arkiv_stor_printer [ label="Arkiv \n Printer" ];
   hk_p1_8 [ shape=box style=filled fillcolor="red" label="HK/P1/8 \n Stik i \n Biblioteket" ];
+  hk_p1_33 [ shape=box style=filled fillcolor="violet" label="HK/P1/33 \n Stik i ydervæg \n vest-væg \n rum 2" ];
   hk_p2_12 [ shape=box fillcolor=violet label="Gammelt \n AP-stik \n i loftet \n i Arkiv" ];
   husets_router:enp1s0f0 ->	husets_switch_1:g26											[ penwidth=10 ];
 				husets_switch_1:7  -> patchpanel_hk_p1:8  -> hk_p1_8							[ penwidth=1 ];
 				husets_switch_1:9  -> patchpanel_hk_p2:12 -> hk_p2_12 -> arkiv_nas					[ penwidth=1 color=violet ];
 				husets_switch_1:11 -> patchpanel_hk_p1:34 -> hk_p1_34							[ penwidth=1 ];
 				husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17							[ penwidth=1 ];
+				                      patchpanel_hk_p1:33 -> hk_p1_33 -> arkiv_stor_printer				[ penwidth=1 color=violet ];
 				husets_switch_1:15 -> patchpanel_hk_p1:40 -> __________ -> bakkensbro_info_stuen			[ penwidth=1 ];
 				husets_switch_1:17 -> patchpanel_hk_p1:4 -> "Stik i \n Arkiv \n kontor" -> bakkensbro_info_doer		[ penwidth=1 ];
+				husets_switch_1:19 -> patchpanel_hk_p2:19 ->                                                  wifi_13	[ penwidth=1 color="violet:red"];
 				husets_switch_1:21 -> patchpanel_hk_p2:18 ->                                                  wifi_12	[ penwidth=1 ];
 		///////////////	husets_switch_1:22 er defekt ///////////////////////////////////
-				husets_switch_1:1 -> patchpanel_hk_p2:19 ->                                                   wifi_13	[ penwidth=1 color="violet:red"];
 				husets_switch_1:23 -> patchpanel_hk_p2:20 ->                                                  wifi_14	[ penwidth=1 ];
 				husets_switch_1:24 -> patchpanel_hk_p2:14 ->                                                  wifi_17	[ penwidth=1 ];
   festlokale_switch:sfp1 ->	husets_switch_1:sfp2											[ penwidth=10 label="Fiber" ];
