@@ -47,15 +47,14 @@ digraph xxx {
     }
 
     { // Internet forbindelser
-      noder [ color="red" ];
+      node [ color="red" ];
       stofa_fiber -> husets_router:enp2s10 [ penwidth=1  color=black style=filled ];
       stofa_fiber -> husets_router:eno1    [ penwidth=10 color=black style=dotted ];
     }
 
-    {
-      edge [ dir=none penwidth=10 color=red ];
-      node [ style=filled fillcolor=red ];
-      husets_router [ fillcolor=green shape=record label="<head> Router
+    edge [ dir=none penwidth=10 color=red ];
+    node [ style=filled fillcolor=red ];
+    husets_router [ shape=record label="<head> Router
 						| 10/100 \n porte:
 						| <enp2s10>  e\nn\np\n2\ns\n1\n0
 						| 10/100/1000 \n porte:
@@ -65,7 +64,7 @@ digraph xxx {
 						| <enp1s0f2> e\nn\np\n1\ns\n0\nf\n2
 						| <enp1s0f3> e\nn\np\n1\ns\n0\nf\n3
 						" ];
-      patchpanel_hk_p1 [ shape="record" label="<head> Patchpanel \n ved \n biblioteket \n\n HK/P1/xx
+    patchpanel_hk_p1 [ shape="record" label="<head> Patchpanel \n ved \n biblioteket \n\n HK/P1/xx
 						|{<1> 1     | <2> 2    }| <3> 3     | <4> 4     |{<5> 5     | <6> 6     | <7> 7    }| <8> 8     |
 						|{<9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6}|
 						|{<17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4}|
@@ -73,20 +72,21 @@ digraph xxx {
 						| <33> 3\n3 | <34> 3\n4 |{<35> 3\n5 | <36> 3\n6 | <37> 3\n7 | <38> 3\n8 | <39> 3\n9}| <40> 4\n0 |
 						|{<41> 4\n1 | <42> 4\n2 | <43> 4\n3 | <44> 4\n4 | <45> 4\n5 | <46> 4\n6 | <47> 4\n7 | <48> 4\n8}|"];
 
-      husets_switch_1 [ shape=record label="<head> Switch \n ved \n biblioteket !!!!!HP 2520-24 J9138A!!!!!" ];
-      patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel \n ved biblioteket \n\n HK/P2/xx
+    husets_switch_1 [ shape=record label="<head> Switch \n ved \n biblioteket !!!!!HP 2520-24 J9138A!!!!!" ];
+    patchpanel_hk_p2 [ shape="record" label="<head> Patchpanel \n ved biblioteket \n\n HK/P2/xx
 						| <1> 1     | <2> 2     | <3> 3     | <4> 4     | <5> 5     | <6> 6     | <7> 7     | <8> 8
 						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
 						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4
 						|"];
-      cisco_switch [ fillcolor=green shape=record label="<head> Switch \n ved \n biblioteket\n\nCisco SF302-08PP \n\n Managed \n 8x10/100 PoE \n 2x10/100/1000/SFP
+    cisco_switch [ fillcolor=green shape=record label="<head> Switch \n ved \n biblioteket\n\nCisco SF302-08PP \n\n Managed \n 8x10/100 PoE \n 2x10/100/1000/SFP
 						| <1> 1 | <2> 2 | <3> 3 | <4> 4 | <5> 5 | <6> 6 | <7> 7 | <8> 8 | <g1> G\n1 | <g2> G\n2
 						|" ];
-    }
     {
       node [ shape=box style=filled ];
       hk_p1_4 [ fillcolor="violet" label="Stik i \n Arkiv \n kontor" ];
       hk_p1_8 [ fillcolor="red" label="HK/P1/8 \n Stik i \n Biblioteket" ];
+      hk_p1_34 [ fillcolor=red" label="HK/P1/34" ];
+      hk_p1_40 [ fillcolor=red" label="HK/P1/40" ];
     }
     husets_router:enp1s0f0 ->						husets_switch_1:g26							[ penwidth=10 color="violet:green:yellow:red" ];
   				hk_p1_8 -> patchpanel_hk_p1:8  ->	husets_switch_1:7							[ penwidth=1 ];
