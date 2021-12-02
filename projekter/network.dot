@@ -47,7 +47,7 @@ digraph xxx {
     }
 
     { // Internet forbindelser
-      node [ color="red" ];
+      stofa_fiber [ style=filled fillcolor="red" ];
       stofa_fiber -> husets_router:enp2s10 [ penwidth=1  color=black style=filled ];
       stofa_fiber -> husets_router:eno1    [ penwidth=10 color=black style=dotted ];
     }
