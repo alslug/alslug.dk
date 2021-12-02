@@ -84,9 +84,9 @@ digraph xxx {
     {
       node [ shape=box style=filled ];
       hk_p1_4 [ fillcolor="violet" label="Stik i \n Arkiv \n kontor" ];
-      hk_p1_8 [ fillcolor="red" label="HK/P1/8 \n Stik i \n Biblioteket" ];
-      hk_p1_34 [ fillcolor=red" label="HK/P1/34" ];
-      hk_p1_40 [ fillcolor=red" label="HK/P1/40" ];
+      hk_p1_8 [ fillcolor="red" label="+/P1/8 \n Stik i \n Biblioteket" ];
+      hk_p1_34 [ fillcolor="red" label="HK/P1/34" ];
+      hk_p1_40 [ fillcolor="red" label="HK/P1/40" ];
     }
     husets_router:enp1s0f0 ->						husets_switch_1:g26							[ penwidth=10 color="violet:green:yellow:red" ];
   				hk_p1_8 -> patchpanel_hk_p1:8  ->	husets_switch_1:7							[ penwidth=1 ];
