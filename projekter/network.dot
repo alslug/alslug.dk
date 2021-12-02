@@ -18,10 +18,21 @@ digraph xxx {
   }
   ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
+  { // Arkivets grej/stik etc
+  ////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////
+    node [ shape=box style=filled fillcolor=violet ];
+    arkiv_nas		[ label="Arkivets \n NAS" ];
+    arkiv_stor_printer	[ label="Arkiv \n Printer" ];
+    hk_p1_4		[ label="HK/P1/4 \n Arkivets \n kontor" ];
+    hk_p1_33		[ label="HK/P1/33 \n Stik i ydervæg \n vest-væg \n 2. rum" ];
+    hk_p2_12		[ label="Gammelt \n AP-stik \n i loftet \n i Arkiv \n 1. sal" ];
+  }
+  ////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////
   { // Udstyr i festlokale of bakkehuset
   ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
-    edge [ dir=none penwidth=10 color=red ];
     node [ style=filled fillcolor=red ];
     festlokale_switch [ shape=record label="<head> Switch \n under \n festlokalet !!!!!HP 2520-24 J9138A!!!!!" ];
     festlokale_patchpanel [ shape="record" label="<head> Patchpanel \n under \n festlokalet \n\n ??/??/xx
@@ -29,8 +40,10 @@ digraph xxx {
 						| <9> 9     | <10> 1\n0 | <11> 1\n1 | <12> 1\n2 | <13> 1\n3 | <14> 1\n4 | <15> 1\n5 | <16> 1\n6
 						| <17> 1\n7 | <18> 1\n8 | <19> 1\n9 | <20> 2\n0 | <21> 2\n1 | <22> 2\n2 | <23> 2\n3 | <24> 2\n4
 						|"];
-    festlokale_switch:1 -> festlokale_patchpanel:1 -> wifi_10 [ penwidth=1 ];
-    festlokale_switch:2 -> festlokale_patchpanel:2 -> wifi_11 [ penwidth=1 ];
+  }
+  {
+    festlokale_switch:1 -> festlokale_patchpanel:1 -> wifi_10 [ penwidth=1 color=red ];
+    festlokale_switch:2 -> festlokale_patchpanel:2 -> wifi_11 [ penwidth=1 color=red ];
   }
   ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
@@ -41,11 +54,9 @@ digraph xxx {
   ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
     { // Kommunens forbindelser
-      node [ shape=point ];
       edge [ color=darkgreen style=dashed ];
-      Varmestyring_kontor -> patchpanel_hk_p1:3 -> "Kommunes \n grej" -> patchpanel_hk_p2:2 -> Varmestyring_fyr;
+      "Varmestyring" -> patchpanel_hk_p1:3 -> "Kommunes \n grej" -> patchpanel_hk_p2:2 -> "Fyr";
     }
-
     { // Internet forbindelser
       stofa_fiber [ style=filled fillcolor="red" ];
       stofa_fiber -> husets_router:enp2s10 [ penwidth=1  color=black style=filled ];
@@ -83,8 +94,7 @@ digraph xxx {
 						|" ];
     {
       node [ shape=box style=filled ];
-      hk_p1_4 [ fillcolor="violet" label="Stik i \n Arkiv \n kontor" ];
-      hk_p1_8 [ fillcolor="red" label="+/P1/8 \n Stik i \n Biblioteket" ];
+      hk_p1_8 [ fillcolor="red" label="HK/P1/8 \n Stik i \n Biblioteket" ];
       hk_p1_34 [ fillcolor="red" label="HK/P1/34" ];
       hk_p1_40 [ fillcolor="red" label="HK/P1/40" ];
     }
@@ -193,13 +203,6 @@ digraph xxx {
   }
   
   // Husets forbindelser
-  {
-    node [ shape=box style=filled fillcolor=violet ];
-    arkiv_nas		[ label="Arkivets \n NAS" ];
-    arkiv_stor_printer	[ label="Arkiv \n Printer" ];
-    hk_p1_33		[ label="HK/P1/33 \n Stik i ydervæg \n vest-væg \n 2. rum" ];
-    hk_p2_12		[ label="Gammelt \n AP-stik \n i loftet \n i Arkiv \n 1. sal" ];
-  }
   edge  [ color=red style=solid ];
 
 								///////////////	husets_switch_2:sfp1	-> alslug_router:enp1s12	[ penwidth=10 ];
