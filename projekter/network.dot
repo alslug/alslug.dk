@@ -99,13 +99,13 @@ digraph xxx {
       hk_p1_40 [ fillcolor="red" label="HK/P1/40" ];
     }
     husets_router:enp1s0f0 ->						husets_switch_1:g26							[ penwidth=10 color="violet:green:yellow:red" ];
+    bakkensbro_info_doer ->	hk_p1_4 -> patchpanel_hk_p1:4 ->	husets_switch_1:1							[ penwidth=1 ];
   				hk_p1_8 -> patchpanel_hk_p1:8  ->	husets_switch_1:7							[ penwidth=1 ];
 									husets_switch_1:9  -> patchpanel_hk_p2:12 -> hk_p2_12 -> arkiv_nas	[ penwidth=1 color=violet ];
   				hk_p1_34 -> patchpanel_hk_p1:34 ->	husets_switch_1:11							[ penwidth=1 ];
 									husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17			[ penwidth=1 ];
     arkiv_stor_printer ->	hk_p1_33 -> patchpanel_hk_p1:33 ->	"mangler \n forbindelse"						[ penwidth=1 color=violet ];
     bakkensbro_info_stuen ->	hk_p1_40 -> patchpanel_hk_p1:40 ->	husets_switch_1:15							[ penwidth=1 ];
-    bakkensbro_info_doer ->	hk_p1_4 -> patchpanel_hk_p1:4 ->	husets_switch_1:17							[ penwidth=1 ];
 									husets_switch_1:19 -> patchpanel_hk_p2:19 ->			wifi_13	[ penwidth=1 color="violet:red" ];
 									husets_switch_1:21 -> patchpanel_hk_p2:18 ->			wifi_12	[ penwidth=1 ];
 							///////////////	husets_switch_1:22 er defekt ///////////////////////////////////
