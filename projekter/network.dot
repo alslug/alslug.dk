@@ -106,11 +106,11 @@ digraph xxx {
 									husets_switch_1:13 -> patchpanel_hk_p2:17 -> hk_p2_17			[ penwidth=1 ];
     arkiv_stor_printer ->	hk_p1_33 -> patchpanel_hk_p1:33 ->	"mangler \n forbindelse"						[ penwidth=1 color=violet ];
     bakkensbro_info_stuen ->	hk_p1_40 -> patchpanel_hk_p1:40 ->	husets_switch_1:15							[ penwidth=1 ];
-									husets_switch_1:19 -> patchpanel_hk_p2:19 ->			wifi_13	[ penwidth=1 color="violet:red" ];
+									husets_switch_1:19 -> patchpanel_hk_p2:14 ->			wifi_17	[ penwidth=1 ];
 									husets_switch_1:21 -> patchpanel_hk_p2:18 ->			wifi_12	[ penwidth=1 ];
 							///////////////	husets_switch_1:22 er defekt ///////////////////////////////////
-									husets_switch_1:23 -> patchpanel_hk_p2:20 ->			wifi_14	[ penwidth=1 ];
-									husets_switch_1:24 -> patchpanel_hk_p2:14 ->			wifi_17	[ penwidth=1 ];
+									husets_switch_1:23 -> patchpanel_hk_p2:19 ->			wifi_13	[ penwidth=1 color="violet:red" ];
+									husets_switch_1:24 -> patchpanel_hk_p2:20 ->			wifi_14	[ penwidth=1 ];
   }
   ////////////////////////////////////////////////////
   ////////////////////////////////////////////////////
