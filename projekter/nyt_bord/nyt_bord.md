@@ -35,19 +35,22 @@ Der er indkøbt reglar til at lave bordben af.
 Per og Hening brugte eftemiddagen på at slæbe plader op i sløjd, og retur, for at få afrundet forkanterne på de kommende bordplader.
 
 
-### Mellem jul og nytår: Oprydning ud nedpilning af gammelt bord, samling af dele til nyt bord.
+### 27/12 og 29/12: Oprydning ud nedpilning af gammelt bord, samling af dele til nyt bord.
 Bordet under stor-skærmen er blevet rydet og pillet ned.
 
-De tidligere indkøbte regalr er blevet savet til,og samlet.
+De tidligere indkøbte reglar er blevet savet til,og samlet til ben-rammer. Simplethen to dyveller og en mother-fucker af en skruei hver samlen, sørger for stabiliteten sideværts på det færdige bord.
 
-Ende-benet op mod vægen er blevet skruet fast i vægen, så det bliver stående.
+Ende-benet op mod vægen er blevet skruet fast i vægen, så det bliver stående, og er stabil i længderetningen.
 
 <a href='20211229.jpg' target='_blank'>
   <img src="20211229.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
 </a>
+
+I den forhøjede del, midt på bordet, skal der installeres strøm og netværk. Stadigvæk med vægte på netværkskablerne, så der styr på dem når de hænger ned midt under bordet, uden at de laver knuder.
 
 
 ### Grunding og maling af pladerne
 
 
 ### Installation af strøm og netværk
+
