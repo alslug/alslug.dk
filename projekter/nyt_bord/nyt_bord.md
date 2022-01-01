@@ -32,17 +32,29 @@ Henning har været i Silvan,og købt 22mm MDF.plader,som er skåret til i deres 
 Vi fik en god pris, hvor vi fik opskæringen gratis. Tak for det.\
 Pladerne er transporteret til Ullerup.
 
+Der er indkøbt reglar til at lave bordben af.
+
 
 ### 1/11 Affasning af af front kanter 
 Per og Hening brugte eftemiddagen på at slæbe plader op i sløjd, og retur, for at få afrundet forkanterne på de kommende bordplader.
 
 
+### 27/12 Oprydning ud nedpilning af gammelt bord
+Bordet under stor-skærmen er blevet rydet og pillet ned.
+
+### 27/12  Fremstilling af ben
+De tidligere indkøbte er blevet savet til, så de senere kan blive til bordben.
+
+<a href='20211227.jpg' target='_blank'>
+  <img src="20211227.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
+</a>
+
+
+### 29/12 Samling af bordben
+
+
+
 ### Grunding og maling af pladerne
 
-### Fremstilling af ben
-
-### Nedpilning af de gamle borde
-
-### Samling
 
 ### Installation af strøm og netværk
