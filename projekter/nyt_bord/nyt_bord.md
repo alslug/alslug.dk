@@ -42,15 +42,13 @@ Per og Hening brugte eftemiddagen på at slæbe plader op i sløjd, og retur, fo
 ### 27/12 Oprydning ud nedpilning af gammelt bord
 Bordet under stor-skærmen er blevet rydet og pillet ned.
 
-### 27/12  Fremstilling af ben
-De tidligere indkøbte er blevet savet til, så de senere kan blive til bordben.
+### 27/12 + 29/12 Fremstilling af ben og prøveopstilling
+De tidligere indkøbte er blevet savet til, så de senere kan blive til bordben.\
+De er blevet samlet og ende-benet er blevet boltet fast i vægen, så det bliver stående.
 
-<a href='20211227.jpg' target='_blank'>
-  <img src="20211227.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
+<a href='20211229.jpg' target='_blank'>
+  <img src="20211229.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
 </a>
-
-
-### 29/12 Samling af bordben
 
 
 
