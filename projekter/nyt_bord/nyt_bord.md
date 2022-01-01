@@ -43,7 +43,7 @@ De tidligere indkøbte reglar er blevet savet til,og samlet til ben-rammer. Simp
 Ende-benet op mod vægen er blevet skruet fast i vægen, så det bliver stående, og er stabil i længderetningen.
 
 <a href='20211229.jpg' target='_blank'>
-  <img src="20211229.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
+  <img src="20211229.800x.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
 </a>
 
 I den forhøjede del, midt på bordet, skal der installeres strøm og netværk. Stadigvæk med vægte på netværkskablerne, så der styr på dem når de hænger ned midt under bordet, uden at de laver knuder.
