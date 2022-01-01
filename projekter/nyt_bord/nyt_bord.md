@@ -8,10 +8,6 @@ Pladsmæssigt vil det ikke ændre på antallet af sidde-pladser, men vi vil slip
 af være to grupper, når vi er mange samlet. Nu er alle samlet ved samme bord.
 
 
-## De gamle borde
-Billede mangler
-
-
 ## Det nye bord
 <a href='ovenfra.png' target='_blank'>
   <img src="ovenfra.png" alt="Det nye bord set fra oven" style="max-width:100%" />
@@ -27,7 +23,7 @@ De grønne halv-cirkler indikerer stole-pladser.
 ## Processen
 
 
-### 29/10 Bordplader indkøbt. 
+### Oktober/november: De store materialer indkøbt. 
 Henning har været i Silvan,og købt 22mm MDF.plader,som er skåret til i deres savværk.\
 Vi fik en god pris, hvor vi fik opskæringen gratis. Tak for det.\
 Pladerne er transporteret til Ullerup.
@@ -35,21 +31,20 @@ Pladerne er transporteret til Ullerup.
 Der er indkøbt reglar til at lave bordben af.
 
 
-### 1/11 Affasning af af front kanter 
+### 1/11: Affasning af af front kanter
 Per og Hening brugte eftemiddagen på at slæbe plader op i sløjd, og retur, for at få afrundet forkanterne på de kommende bordplader.
 
 
-### 27/12 Oprydning ud nedpilning af gammelt bord
+### Mellem jul og nytår: Oprydning ud nedpilning af gammelt bord, samling af dele til nyt bord.
 Bordet under stor-skærmen er blevet rydet og pillet ned.
 
-### 27/12 + 29/12 Fremstilling af ben og prøveopstilling
-De tidligere indkøbte er blevet savet til, så de senere kan blive til bordben.\
-De er blevet samlet og ende-benet er blevet boltet fast i vægen, så det bliver stående.
+De tidligere indkøbte regalr er blevet savet til,og samlet.
+
+Ende-benet op mod vægen er blevet skruet fast i vægen, så det bliver stående.
 
 <a href='20211229.jpg' target='_blank'>
   <img src="20211229.jpg" alt="Mockup af det nye bord" style="max-width:100%" />
 </a>
-
 
 
 ### Grunding og maling af pladerne
