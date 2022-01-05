@@ -4,11 +4,12 @@ Nogle af vore møder vil blive transmitteret online. Se mere på
 
 Da vi har begrænset plads, anbefales det at du [tilmelder dig via SMS](https://www.alslug.dk/arrangementer/sms-tilmelding.md), så du er sikker på at der er en stol ledig til dig.
 
-<div class='w3-row'>
-    <div class='w3-threequarter'>
-        XXXXX KALENDER-MONTH XXXXX
-    </div>
-    <div class='w3-quarter'>
-        XXXXX DELTAGER-LISTE XXXXX
-    </div>
-</div>
+XXXXX FIRST 3/4 XXXXX
+
+XXXXX KALENDER-MONTH XXXXX
+
+XXXXX NEXT 1/4 XXXXX
+
+XXXXX DELTAGER-LISTE XXXXX
+
+XXXXX END XXXXX
