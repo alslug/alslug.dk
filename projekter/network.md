@@ -1,23 +1,27 @@
 # Vores netværk
 Vores netværks-opsætning er lidt mere kompleks end de fleste hjemme-netvæk.
 
+Vi holder styr på hele netværket på Bakkensbro Aktivitets- og Kultur Center, hvor omkring 25 forskellige foreninger holder til.
+
+Netværket er delt op i flere sektorer:
+
+* wifi for brugerne på **bakkensbro** netværket. (Markeret med rødt)
+* AlsLUG har eget SSID som er koblet sammen med et større netværk i vores eget lokale. (Markeret med grønt)
+* Sundeved Arkiv har deres eget SSID og enkelte kablede enheder koblet op. (Markeret med lilla)
+* Husets info-skærme kører i på deres eget netværk. (Markeret med gult)
+
+Alle har adgang til internettet, med ikke adgang til de andre sektorer.
+
 <a href='/image/dot/projekter/network.dot/bakkensbro-network.png' target='_blank'>
   <img src="/image/dot/projekter/network.dot/bakkensbro-network.png" alt="Vores netværk" style="width:100%" id='myimage' />
 </a>
 
-* De røde dele er husets netværk.
-* De grønne dele er vores eget netværk.
-* De gule dele er ting der skal udbygges i fremtiden.
-* De grå dele er ting som pt ikke bliver brugt.
-
-* TyKke streger er 1Gbit forbindelser.
+* Tykke streger er 1Gbit forbindelser.
 * Tynde streger er 100Mbit forbindelser.
 
-Vi har vores net LAN kørende på 192.168.201.1/24, hvor vores router kører på 192.168.201.1
-og vores gamle netboot-server kører indtil videre på 192.168.201.4.
+Hver sektor kører på deres eget adresse-range.
 
-* udover at vi har en WAN-forbindelse til husets netværk, har vi en internet-forbindelse til en mobil bredbåndsforbindelse som backup.
-* vores router har 2 LAN interfaces, en wifi-stick og et VLAN på WAN-siden som er samlet i en bridge.
+* udover at vi har en WAN-forbindelse til husets netværk.
 * vi kobler os på udvalgte enheder af husets wifi-enheder via VLAN på WAN-siden, hvor vi kører vores eget wifi-netværk.
 
 Da vi har en del udstyr som sidder på nettet med fast IP vil vi bruge de samme LAN-opsætninger på vores nye setup.
