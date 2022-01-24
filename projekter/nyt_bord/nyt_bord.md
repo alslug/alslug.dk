@@ -49,6 +49,13 @@ Ende-benet op mod vægen er blevet skruet fast i vægen, så det bliver stående
 I den forhøjede del, midt på bordet, skal der installeres strøm og netværk. Stadigvæk med et par store møtrikker på netværkskablerne som kontravægt, så der styr på dem når de hænger ned midt under bordet, uden at de laver knuder.
 
 
+### 19/1 Samling af den midterset del
+Så fik vi også samlet den midtersete del
+
+<a href='20220119.jpg' target='_blank'>
+  <img src="20220119.800x.jpg" alt="Opstilling af bordet" style="max-width:100%" />
+</a>
+
 ### Grunding og maling af pladerne
 
 
