@@ -50,11 +50,14 @@ I den forhøjede del, midt på bordet, skal der installeres strøm og netværk. 
 
 
 ### 19/1 Samling af den midterset del
-Så fik vi også samlet den midtersete del
+Så fik vi også samlet den midterste del af bordet.
 
 <a href='20220119.jpg' target='_blank'>
   <img src="20220119.800x.jpg" alt="Opstilling af bordet" style="max-width:100%" />
 </a>
+
+De to trekanter midt i kabelkanalen, er et forsøg på understøtning af kabelkanelen, så den bliver mere stabil.
+
 
 ### Grunding og maling af pladerne
 
