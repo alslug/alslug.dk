@@ -11,9 +11,9 @@ Vi afholder igen i år LugCamp for vores tyske og schweiziske forbindelser.
 Flere detaljer og tilmeldinger på [https://lugcamp2022.alslug.dk](https://lugcamp2022.alslug.dk)
 
 </div>
-<div style='background:#FFAA66'>
+<div styl_e='background:#FFAA66'>
 
-## Corona forbehold
+## Corona informationer
 	
 <!--
 XXXXX C_ORONASMITTE.DK-complience XXXXX
