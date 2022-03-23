@@ -3,7 +3,9 @@
 XXXXX FIRST 1/2 XXXXX
 
 <div style='background:#4CAF50'>
+
 ## Vi afholder LugCamp 2022 i Kr Himmelfarts ferien.
+
 Vi afholder igen i år LugCamp for vores tyske og schweiziske forbindelser.
 
 Flere detaljer og tilmeldinger på [https://lugcamp2022.alslug.dk](https://lugcamp2022.alslug.dk)
