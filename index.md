@@ -9,9 +9,10 @@ XXXXX FIRST 1/2 XXXXX
 Vi afholder igen i år LugCamp for vores tyske og schweiziske forbindelser.
 
 Flere detaljer og tilmeldinger på [https://lugcamp2022.alslug.dk](https://lugcamp2022.alslug.dk)
-</div>
 
+</div>
 <div style='background:#FFAA66'>
+
 ## Corona forbehold
 	
 <!--
@@ -19,6 +20,7 @@ XXXXX C_ORONASMITTE.DK-complience XXXXX
 -->
 	
 [Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
+
 </div>
 
 ## Tilmelding er en god ide:
