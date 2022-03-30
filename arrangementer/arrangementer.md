@@ -37,8 +37,8 @@ Vi har siden 2013 deltaget i [Kultur- og idrætsnatten i Sønderborg](https://ku
 Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
 ved Radioamatørernes Forårsmarked i Agerskov.
 
-Hvis du ved hvor der er et arrangement hvor foreninger gratis kan vise hvad de laver, vil 
-[bestyrelsen](/om/kontakt.md) meget gerne høre nærmere.
+Hvis du ved hvor der er et arrangement hvor foreninger kan vise hvad de laver, vil 
+[bestyrelsen](/om/kontakt.md) meget gerne høre nærmere. Helst gratis eller næsten gratis.
 
 XXXXX NEXT 1/2 XXXXX
 
