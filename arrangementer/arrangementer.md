@@ -45,7 +45,8 @@ XXXXX NEXT 1/2 XXXXX
 ## Den lange kalender:
 Vi har planlagt aktiviteter på følgende datoer.
 
-Vi forbeholder os ret til at justere datoerne på arrangementer som ligger mere end et par måneder ude i fremtiden.
+Vi forbeholder os ret til at justere datoerne på arrangementerne.
+Der er sjældent ændringer indefor den kommende måned.
 
 XXXXX KALENDER-YEAR XXXXX
 
