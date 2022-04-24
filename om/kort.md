@@ -8,14 +8,14 @@ XXXXX BASIS KORT XXXXX
 <script src='https://alslug.dk/api/aktiviteter/alle.js'   ></script>
 XXXXX KORT OVER MEDLEMMER XXXXX
 
-Alle danske adresser samles i automatisk efter følgende parametre ud fra fra adresse-oplysnigner i dawa:
+Alle danske adresser samles i automatisk efter følgende parametre ud fra fra adresse-oplysnigner i (dawa)[https://dawadocs.dataforsyningen.dk/dok/api]:
 
-1) Opstillingskreds
-2) Kommuner
+1) Opstillingskreds eller kommune
+2) Kommune oller opstillingskreds
 3) Afstemningsområde
 4) landsbyer/bydele etc med mindst 100 adresser
 
-Nogle kommuner består af flere opstillingskredse. Hvis det er tilfældet ombyttes de to parametre automatisk.
+Nogle kommune og opstillingskreds ikke er identiske, opdeles først i den største kobination, derefter i de mindre. Det sker helt automatisk.
 
 I enkelte tilfælde dækker en opstillingskreds over flere kommuner, som igen dækker over flere opstillingskreds. I disse tilfælde samles 2 kommuner i algoritmen.
 
