@@ -20,12 +20,12 @@ XXXXX C_ORONASMITTE.DK-complience XXXXX
 
 </div>
 
--->
-
 ## Tilmelding er en god ide:
 Vi har normalt masser af plads, men der er mulighed for at
 [reservere en plads via SMS](https://www.alslug.dk/arrangementer/sms-tilmelding.md).
 Så du er sikker på at der er en stol ledig til dig.
+
+-->
 
 ## Kalender
 Nogle af vore møder vil blive transmitteret online. Se mere på
