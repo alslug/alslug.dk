@@ -2,6 +2,7 @@
 
 XXXXX FIRST 1/2 XXXXX
 
+<!--
 <div styl_e='background:#FFAA66'>
 
 ## Corona informationer
@@ -13,6 +14,7 @@ XXXXX C_ORONASMITTE.DK-complience XXXXX
 [Se alle vore corona-tiltag i lokalet.](/arrangementer/corona.md)
 
 </div>
+-->
 
 ## Tilmelding er en god ide:
 Vi har normalt masser af plads, men der er mulighed for at
