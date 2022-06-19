@@ -2,7 +2,7 @@
 
 XXXXX FIRST 1/2 XXXXX
 
-## <i class='fab fa-linux'></i> Installfest
+## <i class='fab fa-linux' style='font-size:100%; background:#8888ff'></i> Installfest
 Anden lørdag i hver måned holder vi installfest.
 
 En installfest (Installparty som er den internationale betegnelse) hjælper vi alle med at få installeret Linux på deres
@@ -10,7 +10,7 @@ medbragte computere, samt hjælper med de problemer der opstår undervejs.
 
 Derudover hjælper vi selvfølgelig med de problemstillinger som vore gæster kommer med.
 			
-## <i class='fab fa-linux'></i> Linuxaften
+## <i class='fab fa-linux' style='font-size:100%; background:#8888ff'></i> Linuxaften
 Ca 1½ uger efter vores installfest, har vi som regel en linuxaften på en hverdags aften. Ugedage skifter, så vi ikke
 udelukker nogen fra at deltage hver gang.
 		 
@@ -19,7 +19,7 @@ og nu har en masse spørgsmål om de nye programmer de har fået installeret.
 		 
 Men der er altid mulighed for at få installeret linux på en maskine eller tre.
 
-## <i class='fab fa-python'></i> Python-gruppen
+## <i class='fab fa-python' style='font-size:100%; background:#aaffaa'></i> Python-gruppen
 En flok af vore medlemmer mødes hver tirsdag for at lære mere om programmering. Under corona-nelukningen mådes de virtuelt på
 [Jitsi](https://meet.jit.si/AlsLUG)
 
@@ -31,7 +31,7 @@ Gruppen har en intern mail-liste på python-gruppen@alslug.dk, hvor medlemmer ha
 
 Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det en fordel at lufte det på mailinglisten, så der er nogen som kan forberede sig en lille smule.
 
-## <i class='fas fa-laptop-house' style='font-size:75%; background:#ffaaff'></i> Udstillinger
+## <i class='fas fa-laptop-house' style='font-size:100%; background:#ffaaff'></i> Udstillinger
 Vi har siden 2013 deltaget i [Kultur- og idrætsnatten i Sønderborg](https://kulturnat.info).
 
 Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
