@@ -1,6 +1,6 @@
 # Arrangementer
 <style>
-h2_legend { font-size:125%; padding:20px; }
+h2_legend { font-size:110%; }
 </style>
 
 XXXXX FIRST 1/2 XXXXX
