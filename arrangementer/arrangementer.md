@@ -5,7 +5,9 @@ h2_legend { font-size:110%; }
 
 XXXXX FIRST 1/2 XXXXX
 
-## <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Installfest
+## Har du brug for lunx-hjælp?
+
+### <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Installfest
 Anden lørdag i hver måned holder vi installfest.
 
 En installfest (Installparty som er den internationale betegnelse) hjælper vi alle med at få installeret Linux på deres
@@ -13,7 +15,7 @@ medbragte computere, samt hjælper med de problemer der opstår undervejs.
 
 Derudover hjælper vi selvfølgelig med de problemstillinger som vore gæster kommer med.
 			
-## <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Linuxaften
+### <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Linuxaften
 Ca 1½ uger efter vores installfest, har vi som regel en linuxaften på en hverdags aften. Ugedage skifter, så vi ikke
 udelukker nogen fra at deltage hver gang.
 		 
