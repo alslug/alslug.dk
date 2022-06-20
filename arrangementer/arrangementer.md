@@ -5,7 +5,8 @@ h2_legend { font-size:110%; }
 
 XXXXX FIRST 1/2 XXXXX
 
-## Har du brug for lunx-hjælp?
+## Har du brug for hjælp til din linux?
+Så er det møderne der er markeret med tux (<i class='fab fa-linux' style='font-size:100%'></i> ) du skal gå efter:
 
 ### <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Installfest
 Anden lørdag i hver måned holder vi installfest.
