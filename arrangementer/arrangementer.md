@@ -1,14 +1,14 @@
 # Arrangementer
-<style>
-h2_legend { font-size:110%; }
-</style>
 
 XXXXX FIRST 1/2 XXXXX
 
 ## Har du brug for hjælp til din linux?
-Så er det møderne der er markeret med tux (<i class='fab fa-linux' style='font-size:100%'></i> ) du skal gå efter:
+Så er det møderne der er markeret med tux du skal gå efter.\
+Hvis der kun er en lille tux i kalenderen, er der planlagt, ting som skal klares først, inden vi kan hjælpe dig.
 
-### <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Installfest
+Vores hover arrangementer er:
+
+### <i class='fab fa-linux'		style='font-size:150%; background:#8888ff'></i> Installfest
 Anden lørdag i hver måned holder vi installfest.
 
 En installfest (Installparty som er den internationale betegnelse) hjælper vi alle med at få installeret Linux på deres
@@ -16,7 +16,7 @@ medbragte computere, samt hjælper med de problemer der opstår undervejs.
 
 Derudover hjælper vi selvfølgelig med de problemstillinger som vore gæster kommer med.
 			
-### <i class='fab fa-linux h2_legend'		style='background:#8888ff'></i> Linuxaften
+### <i class='fab fa-linux'		style='font-size:150%; background:#8888ff'></i> Linuxaften
 Ca 1½ uger efter vores installfest, har vi som regel en linuxaften på en hverdags aften. Ugedage skifter, så vi ikke
 udelukker nogen fra at deltage hver gang.
 		 
@@ -25,7 +25,10 @@ og nu har en masse spørgsmål om de nye programmer de har fået installeret.
 		 
 Men der er altid mulighed for at få installeret linux på en maskine eller tre.
 
-## <i class='fab fa-python h2_legend'		style='background:#aaffaa'></i> Python-gruppen
+
+## Andre arrangementer:
+
+### <i class='fab fa-python'		style='font-size:150%; background:#aaffaa'></i> Python-gruppen
 En flok af vore medlemmer mødes hver tirsdag for at lære mere om programmering. Under corona-nelukningen mådes de virtuelt på
 [Jitsi](https://meet.jit.si/AlsLUG)
 
@@ -37,7 +40,7 @@ Gruppen har en intern mail-liste på python-gruppen@alslug.dk, hvor medlemmer ha
 
 Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det en fordel at lufte det på mailinglisten, så der er nogen som kan forberede sig en lille smule.
 
-## <i class='fas fa-laptop-house h2_legend'	style='background:#ffaaff'></i> Udstillinger
+### <i class='fas fa-laptop-house'	style='font-size:150%; background:#ffaaff'></i> Udstillinger
 Vi har siden 2013 deltaget i [Kultur- og idrætsnatten i Sønderborg](https://kulturnat.info).
 
 Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
@@ -51,7 +54,7 @@ XXXXX NEXT 1/2 XXXXX
 ## Den lange kalender:
 Vi har planlagt aktiviteter på følgende datoer.
 
-Vi forbeholder os ret til at justere datoerne på arrangementerne.
+Vi forbeholder os ret til at justere datoerne på arrangementerne.\
 Der er sjældent ændringer indefor den kommende måned.
 
 XXXXX KALENDER-YEAR XXXXX
