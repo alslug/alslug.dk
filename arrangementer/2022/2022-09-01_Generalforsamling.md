@@ -18,9 +18,9 @@ i vores lokale
     2) Formandens beretning.
     3) Fremlæggelse af regnskab.
     4) Indkomne forslag.
-    6) Valg af 3 bestyrelsesmedlemmer.
-    7) Valg af revisor.
-    8) Eventuelt.
+    5) Valg af 3 bestyrelsesmedlemmer.
+    6) Valg af revisor.
+    7) Eventuelt.
 
 Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsamlingen. (§4 stk. 9)
 
@@ -46,11 +46,11 @@ Tilstede var a, b, c og d
 
 ## 4) Indkomne forslag.
 
-## 6) Valg af 3 bestyrelsesmedlemmer.
+## 5) Valg af 3 bestyrelsesmedlemmer.
 
-## 7) Valg af revisor
+## 6) Valg af revisor
 
-## 8) Eventuelt.
+## 7) Eventuelt.
 
 
 ## Underskrifter:
