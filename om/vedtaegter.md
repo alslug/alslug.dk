@@ -81,6 +81,7 @@ Foreningens øverste myndighed er generalforsamlingen.
 Generalforsamlingen mødes ordinært en gang årligt i september.
 
 Generalforsamlingen kan afholdes 
+
 * delvis virtuelt, hvor eksterne delttagere kan deltage.
 * 100% virtuelt, hvis forholdene kræver det.
 
