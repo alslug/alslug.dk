@@ -1,6 +1,6 @@
-# Kalender
-
 XXXXX FIRST 1/2 XXXXX
+
+# Kalender
 
 <!--
 
@@ -27,7 +27,6 @@ Så du er sikker på at der er en stol ledig til dig.
 
 -->
 
-## Kalender
 Nogle af vore møder vil blive transmitteret online. Se mere på
 [oversigten over vore online-aktiviteter.](/arrangementer/online.md)
 
