@@ -90,7 +90,7 @@ XXXXX NEXT 1/3 XXXXX
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
 
-[Tak for hjælpen - doner et beløb til kaffe-kassen.](https://donate.stripe.com/9AQaER7tXff54ak3cc)
+Tak for hjælpen - [Doner et beløb til kaffe-kassen.](https://donate.stripe.com/9AQaER7tXff54ak3cc)
 
 <div class='fees'>Vi betaler [1.4% + 1.80kr](https://stripe.com/en-dk/pricing) i gebyr på donation via Europæiske betalingskort.</div>
 
