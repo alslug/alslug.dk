@@ -90,9 +90,7 @@ XXXXX NEXT 1/3 XXXXX
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
 
-<div class='fees'>Grundet nye sikkerheds-tiltag virker kort-betalinger via nettet måske ikke.</div>
-
-XXXXX STRIPE-DONATIONS XXXXX
+[https://donate.stripe.com/9AQaER7tXff54ak3cc](Tak for hjælpen - doner et beløb til kaffe-kassen.)
 
 <div class='fees'>Vi betaler [1.4% + 1.80kr](https://stripe.com/en-dk/pricing) i gebyr på donation via Europæiske betalingskort.</div>
 
