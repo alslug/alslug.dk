@@ -49,11 +49,11 @@ XXXXX NEXT 1/3 XXXXX
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
 
-Vi har fået en iZettle kortlæser, så vi kan modtage betalinger med kort med de fleste kort.
+Vi har en Zettle kortlæser, så vi kan modtage betalinger med kort med de fleste kort.
 
 Spørg bestyrelsen hvis du gerne vil betale med kort.
 
-<div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via iZettle.</div>
+<div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via Zettle.</div>
 </div>
 	
 XXXXX NEXT 1/3 XXXXX
