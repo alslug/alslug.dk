@@ -5,14 +5,11 @@ digraph xxx {
     registerer_udstyr [ label="Registrering af \n effekter vi \n har liggende" ];
     ny_bootserver [ label="Opsætning af \n doneret maskine \n som ekstern server." ];
     
-    indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv;
 
     lav_keyboard_holdere [ label="Holdere til \n tastaturer (og evt mus) \n under demo-maskinerne." ];
     hylde_til_demomaskiner [ label="Ny hylde til \n demo-maskiner" ];
     {lav_keyboard_holdere,hylde_til_demomaskiner} -> ny_opstilling_af_demomaskiner;
 
-    kabler_på_gulv [ label="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
-    udvid_borde -> bord_instalationer -> kabler_på_gulv;
 
     upgrade_demomaskiner [ label="En upgrade af \n hardware  på \n de sidste to \n demo-maskiner \n kunne være en ide" ];
     rep_af_demomaskine [ label="Rep af \n den ene \n demo-maskine" ];
@@ -23,13 +20,18 @@ digraph xxx {
     ////////////////////////////////////////////////////////////////////////////
     // Påbegyndt
     node [ fillcolor=yellow ];
-    udvid_borde [ label="Udvide borde, \n med en plads \n mellem bordene.\n\n(1 af 2 lavet)" ];
-    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik.\n\n1 af 2 lavet" ];
     ////////////////////////////////////////////////////////////////////////////
     // Afsluttet
     node [ fillcolor=green ];
+
     indkøb_hos_ikea [ label="Indkøb og afhentning \n af diverse stumper \n fra IKEA" style=filled fillcolor=green ];
     montage_af_varmtvandsbeholder [ label="Montage af \n varmtvandsbeholder \n i højskab" style=filled fillcolor=green ];
     montage_af_ny_bordplade [ label="Udskæring og \n montage af \n ny bordplade" style=filled fillcolor=green ];
     montage_og_tilslutning_af_vandhane_mv [ label="Montage og \n tilslutning af \n vandhane m.v." style=filled fillcolor=green ];
+    indkøb_hos_ikea -> {montage_af_varmtvandsbeholder,montage_af_ny_bordplade} -> montage_og_tilslutning_af_vandhane_mv;
+
+    udvid_borde [ label="Udvide borde, \n med en plads \n mellem bordene.\n\n(1 af 2 lavet)" ];
+    bord_instalationer [ label="Ny installation \n på de runde borde \n med flere \n netværksstik og evt \n også flere strømstik.\n\n1 af 2 lavet" ];
+    kabler_på_gulv [ label="Kabler til bordet \n ved projektoren skal \n lægges ned  i \n kabelkanal på gulvet." ];
+    udvid_borde -> bord_instalationer -> kabler_på_gulv;
 }
