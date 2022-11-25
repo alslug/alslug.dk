@@ -65,8 +65,8 @@ Per har brugt en masse tid på at grunde og male alle pladerne. Nogle plader tog
 
 ### Installation af strøm og netværk
 
-Der er installeret 3*strømstik og 2*netværks-forbindelser på hver plads. Hver plads er defineret som 1/3 af de 240cm lange bordplader på siderne.
+Der er installeret 3stk strømstik og 2stk netværks-forbindelser på hver plads. Hver plads er defineret som 1/3 af de 240cm lange bordplader på siderne.
 
-For enden af bordet er der 4*netværks-forbindelser og der kommer 2stk 3*strømstik.
+For enden af bordet er der 4stk netværks-forbindelser og der kommer 2 gange 3stk strømstik.
 
 Når der bliver trængsel igen til installfesterne, er der plads nok til at der kan sidde 4 personer ved hver bordplade, og 3 pladser for enden, så vi har god plads.
