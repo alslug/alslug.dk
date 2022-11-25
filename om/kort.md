@@ -12,7 +12,9 @@ XXXXX KORT OVER MEDLEMMER XXXXX
 
 XXXXX NEXT 1/2 XXXXX
 
-## Danske adresser
+## Hvordan vises adresser på kortet?
+
+### Danske adresser
 Alle danske adresser samles i automatisk efter følgende parametre ud fra fra adresse-oplysnigner i (dawa)[https://dawadocs.dataforsyningen.dk/dok/api]:
 
 1) Opstillingskreds eller kommune
@@ -27,7 +29,7 @@ I enkelte tilfælde dækker en opstillingskreds over flere kommuner, som igen d�
 
 Når der er flere end XXXXX MEMBER STEP-UP XXXXX medlemmer i et område, vises mere detaljerede områder.
 
-## Undenlandske adresser
+### Undenlandske adresser
 
 Undenlandske adresser opdeles efter admin_levels i OpenStreetMaps.
 
