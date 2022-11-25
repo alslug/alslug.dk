@@ -61,6 +61,12 @@ De to trekanter midt i kabelkanalen, er et forsøg på understøtning af kabelka
 
 ### Grunding og maling af pladerne
 
+Per har brugt en masse tid på at grunde og male alle pladerne. Nogle plader tog sågar på ferie i Broager for at blive malet.
 
 ### Installation af strøm og netværk
 
+Der er installeret 3*strømstik og 2*netværks-forbindelser på hver plads. Hver plads er defineret som 1/3 af de 240cm lange bordplader på siderne.
+
+For enden af bordet er der 4*netværks-forbindelser og der kommer 2stk 3*strømstik.
+
+Når der bliver trængsel igen til installfesterne, er der plads nok til at der kan sidde 4 personer ved hver bordplade, og 3 pladser for enden, så vi har god plads.
