@@ -69,6 +69,8 @@ Der er installeret 3stk strømstik og 2stk netværks-forbindelser på hver plads
 
 For enden af bordet er der 4stk netværks-forbindelser og der kommer 2 gange 3stk strømstik.
 
-Når der bliver trængsel igen til installfesterne, er der plads nok til at der kan sidde 4 personer ved hver bordplade, og 3 pladser for enden, så vi har god plads.
-
 Alle netværksforbindelser ud på bordet er et patchkabel som kan skiftes. Patchkablerne som sidder i et stik i kabelkanalen som forbinder til switchen i vores netværks-rack.
+
+Da der ikke er bordben på bordet, er der ikke noget problem, når der bliver trængsel igen til installfesterne.\
+Der er plads nok til at der kan sidde 4 personer ved hver bordplade, og 3 pladser for enden, så vi har god plads.\
+Hvis vi bliver rigtigt presset, er der plads til 9 stole på langsiderne, men så er det også skulder ved skulder.
