@@ -29,6 +29,9 @@ Når du sletter din sidste mail-adresse fra medlemes-kartoteket, vil alle dine
 data blive slettet.
 
 
+XX-DEADLINE-XX
+
+
 Med venlig hilsen
         Bestyrelsen for AlsLUG
         bestyrelse@alslug.dk
