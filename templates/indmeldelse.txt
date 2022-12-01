@@ -1,0 +1,19 @@
+Hej XX-NAVN-XX
+
+Tak for din interesse for Alssund Linux Brugergruppe, og Linux generelt.
+
+For at kunne færdiggøre din tilmelding til postlisterne hos AlsLUG,
+er det nødvendigt at du bekræfter at vi må sende emails til dig.
+
+Det gør du ved at klikke på denne link:
+        XX-CONFIRM-XX
+          
+Hvis du ikke kender noget til denne mail skal du blot ignorere den,
+eller klikke på denne link:
+        XX-REMOVE-XX
+
+Linkene virker kun første gang de benyttes.
+
+Med venlig hilsen
+        Bestyrelsen for AlsLUG
+        bestyrelse@alslug.dk
