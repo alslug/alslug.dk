@@ -25,15 +25,15 @@ og nu har en masse spørgsmål om de nye programmer de har fået installeret.
 		 
 Men der er altid mulighed for at få installeret linux på en maskine eller tre.
 
-### <i class='fab fa-linux'		style='font-size:100%; background:#8888ff'></i> Hjælp ved andre arrangementer
-Når vi pakker til udstilling, eller efter general-forsamlingen vil der normalt være til til fri leg efter dages planlangte aktivitet.\
-Det er markeret med en lille Tux i kalenderen.
-
 
 
 
 
 ## Andre arrangementer:
+<i class='fab fa-linux'		style='font-size:100%; background:#8888ff'></i>
+Når vi pakker til udstilling, eller efter general-forsamlingen vil der normalt være til til fri leg efter dages planlangte aktivitet.\
+Det er markeret med en lille Tux i kalenderen.
+
 
 ### <i class='fab fa-python'		style='font-size:175%; background:#aaffaa'></i> Python-gruppen
 En flok af vore medlemmer mødes hver tirsdag for at lære mere om programmering. Under corona-nelukningen mådes de virtuelt på
@@ -47,6 +47,7 @@ Gruppen har en intern mail-liste på python-gruppen@alslug.dk, hvor medlemmer ha
 
 Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det en fordel at lufte det på mailinglisten, så der er nogen som kan forberede sig en lille smule.
 
+
 ### <i class='fas fa-laptop-house'	style='font-size:175%; background:#ffaaff'></i> Udstillinger
 Vi har siden 2013 deltaget i [Kultur- og idrætsnatten i Sønderborg](https://kulturnat.info).
 
@@ -55,6 +56,16 @@ ved Radioamatørernes Forårsmarked i Agerskov.
 
 Hvis du ved hvor der er et arrangement hvor foreninger kan vise hvad de laver, vil 
 [bestyrelsen](/om/kontakt.md) meget gerne høre nærmere. Helst gratis eller næsten gratis.
+
+
+### <i class='fas fa-campground'	style='font-size:175%; background:#ffaaff'></i> LugCamp
+Vi har afviklede den tyske LugCamp i Kr Himmelfarts ferien i 2019 og 2022, og planlægger at deltage nogle stykker i 2023. Den afholdes ca 100km øst for Køln.
+
+Hvis du har lyst til at deltage i et par hyggelige dage er der mulighed for samkørsel.\
+Evt i samarbejde med folkene fra LUG-Flensborg. De plejer at være en hel del der deltager. 
+
+
+
 
 XXXXX NEXT 1/2 XXXXX
 
