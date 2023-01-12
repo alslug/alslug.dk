@@ -25,7 +25,7 @@ og nu har en masse spørgsmål om de nye programmer de har fået installeret.
 		 
 Men der er altid mulighed for at få installeret linux på en maskine eller tre.
 
-### <i class='fab fa-linux'		style='_font-size:175%; background:#8888ff'></i> Hjælp ved andre arrangementer
+### <i class='fab fa-linux'		style='font-size:100%; background:#8888ff'></i> Hjælp ved andre arrangementer
 Når vi pakker til udstilling, eller efter general-forsamlingen vil der normalt være til til fri leg efter dages planlangte aktivitet.\
 Det er markeret med en lille Tux i kalenderen.
 
