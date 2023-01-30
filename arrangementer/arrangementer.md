@@ -79,10 +79,6 @@ XXXXX END XXXXX
 
 
 
-XXXXX FIRST 1/2 XXXXX
-
-
-
 
 
 ## Den lange kalender:
@@ -92,5 +88,3 @@ Vi forbeholder os ret til at justere datoerne på arrangementerne.\
 Der er sjældent ændringer indefor den kommende måned.
 
 XXXXX KALENDER-YEAR XXXXX
-
-XXXXX END XXXXX
