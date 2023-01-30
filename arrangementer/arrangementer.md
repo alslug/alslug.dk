@@ -29,6 +29,12 @@ Men der er altid mulighed for at få installeret linux på en maskine eller tre.
 
 
 
+XXXXX NEXT 1/2 XXXXX
+
+
+
+
+
 ## Andre arrangementer:
 <i class='fab fa-linux'		style='font-size:100%; background:#8888ff'></i>
 Når vi pakker til udstilling, eller efter general-forsamlingen vil der normalt være til til fri leg efter dages planlangte aktivitet.\
@@ -67,7 +73,11 @@ Evt i samarbejde med folkene fra LUG-Flensborg. De plejer at være en hel del de
 
 
 
-XXXXX NEXT 1/2 XXXXX
+
+XXXXX END XXXXX
+
+
+
 
 ## Den lange kalender:
 Vi har planlagt aktiviteter på følgende datoer.
@@ -77,4 +87,3 @@ Der er sjældent ændringer indefor den kommende måned.
 
 XXXXX KALENDER-YEAR XXXXX
 
-XXXXX END XXXXX
