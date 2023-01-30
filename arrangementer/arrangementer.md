@@ -79,6 +79,12 @@ XXXXX END XXXXX
 
 
 
+XXXXX FIRST 1/2 XXXXX
+
+
+
+
+
 ## Den lange kalender:
 Vi har planlagt aktiviteter på følgende datoer.
 
@@ -87,3 +93,4 @@ Der er sjældent ændringer indefor den kommende måned.
 
 XXXXX KALENDER-YEAR XXXXX
 
+XXXXX END XXXXX
