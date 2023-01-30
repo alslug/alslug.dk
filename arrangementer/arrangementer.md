@@ -36,7 +36,7 @@ XXXXX NEXT 1/2 XXXXX
 
 
 ## Andre arrangementer:
-<i class='fab fa-linux'		style='font-size:100%; background:#8888ff'></i>
+<i class='fab fa-linux'		style='font-size:150%; background:#8888ff'></i>
 Når vi pakker til udstilling, eller efter general-forsamlingen vil der normalt være til til fri leg efter dages planlangte aktivitet.\
 Det er markeret med en lille Tux i kalenderen.
 
