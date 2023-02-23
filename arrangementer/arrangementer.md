@@ -42,8 +42,7 @@ Det er markeret med en lille Tux i kalenderen.
 
 
 ### <i class='fab fa-python'		style='font-size:175%; background:#aaffaa'></i> Python-gruppen
-En flok af vore medlemmer mødes hver tirsdag for at lære mere om programmering. Under corona-nelukningen mådes de virtuelt på
-[Jitsi](https://meet.jit.si/AlsLUG)
+En flok af vore medlemmer mødes hver tirsdag for at lære mere om programmering. 
 
 Det foregår primært i python, men der er principielt fri leg i det programmeringsprog du har lyst til at arbejde i.
 
