@@ -1,7 +1,6 @@
 digraph xxx {
     rankdir=LR;
     nyt_dørskilt [ label="Nyt skilt til indgangsdøren." ];
-    skilteholdere [ label="Skilte-holdere \n og skilte til \n at sætte på \n demo-maskinerne \n med lidt tekst \n om den pågældende \n distro/maskine" ];
     registerer_udstyr [ label="Registrering af \n effekter vi \n har liggende" ];
     ny_bootserver [ label="Opsætning af \n doneret maskine \n som ekstern server." ];
     
