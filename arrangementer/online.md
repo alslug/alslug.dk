@@ -28,22 +28,6 @@ Du kan deltager både med din browser eller med Jitsi-appen på din telefon/tabl
 
 
 
-## IRC chat
-Der er oprettet en IRC-kanal på freenode som meget belejligende hedder **#AlsLUG**.
-
-Du kan bruger [freenodes webchat](https://webchat.freenode.org#AlsLUG) eller et hvilket som helst IRC-klient.
-
-På mange linux-maskiner findes Pidgin, som kan bruges til rigtigt mange forskellige chat-platforme.
-
-Vælg IRC, ubuntus servere og rummet **#AlsLUG**, og du er kørende.
-
-Og husk lidt tålmodighed. Forvent ikke øjeblikkelige svar.
-Der er folk som er online 24/7 da maskinen er tændt 24/7, men ikke sidder ved maskinen.
-
-
-
-
-
 ## Mail
 Alle medlemmer kan skrive til vore [mail-lister](https://www.alslug.dk/medlemskab/indmeldelse.html)
 
@@ -53,9 +37,6 @@ Alle medlemmer kan skrive til vore [mail-lister](https://www.alslug.dk/medlemska
 ## Sikkerhed
 ### Drift
 Vi benytter den offentlige demo-server fra Jitsi, så vi kan ikke garantere for at det virker.
-
-Freenode er et offentligt IRC_netværk, med mange forskellige operatører.
-Vi kan ikke garantere for at det virker, men da det er et distribueret netværk skulle det være mærkeligt hvis ikke det virker.
 
 ### Privatliv / fortrolighed / logning
 Alle vore online-aktiviteter sker på offentlige platforme, så forvent at der er andre der lytter med på forbindelsen.
