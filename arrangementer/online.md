@@ -1,14 +1,16 @@
-# Online møder
-På grund af corona-nedlukningen har vi arbejdet med at kunne holde aktiviteterne i live via online-møder.
+# Online aktiviteter
 
 
 
 
 
-## Video møder
-Vi vil forsøge at få alle vore møder transmitteret online via [Jitsi](https://meet.jit.si/AlsLUG), så du kan deltage hjemmefra.
+## Streaming af møder
+Vi vil forsøge at streame vore møder via [Jitsi](https://meet.jit.si/AlsLUG), så du kan deltage hjemmefra.\
+Hvis du har planer om at ville kigge forbi online, kan det være en fordel at skrive en mail til misc@alslug.dk,
+så vi husker få startet Jitsi op til mødet.
 
-Vi har sat et par maskiner op med kameraer op i lokalet, så du kan følge med, men decideret support vil være svært.
+Vi har sat et par maskiner op med kameraer op i lokalet, så du kan følge med i hvad der sker.\
+Men decideret support vil være svært, hvis du er nybegynder, men vi giver det gerne et forsøg.
 
 Du kan deltager både med din browser eller med Jitsi-appen på din telefon/tablet.
 
@@ -17,7 +19,6 @@ Du kan deltager både med din browser eller med Jitsi-appen på din telefon/tabl
 
 
 ### Download jitsi til din telefon eller tablet.
-
 [App Store   ](https://apps.apple.com/us/app/jitsi-meet/id1165103905)         <i class="fab fa-app-store-ios"></i>
 &nbsp; &nbsp;
 [Google Play ](https://play.google.com/store/apps/details?id=org.jitsi.meet)  <i class="fab fa-google-play"></i>
@@ -43,6 +44,6 @@ Alle vore online-aktiviteter sker på offentlige platforme, så forvent at der e
 
 Alt hvad der bliver skrevet/snakket om, bliver som udgangspunkt logget på andre brugeres klienter, og der er ingen mulighed for at få det slettet senere.
 
-Så forvent at der logges et eller andet sted.
+Forvent at der logges et eller andet sted, så undlad at skrive sige ting du ikke ville sætte op på oplagstavlen i Brugsen.
 
 Husk at tage en kopi af den integrerede chat-funktion i Jitsi inden du forlader mødet. Når den sidste deltager logger ud, er chatten væk.
