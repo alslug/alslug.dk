@@ -1,4 +1,4 @@
-  # Ordinær generalforsamling i AlsLUG
+# Ordinær generalforsamling i AlsLUG
 
 Hermed indkaldes der til ordinær generalforsamling i AlsLUG
 
