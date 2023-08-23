@@ -34,5 +34,5 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 [https://www.alslug.dk/om/vedtaegter.md](https://www.alslug.dk/om/vedtaegter.md)
 
 ## Online-deltagelse
-Vi planlægger igen at kunne koble generalforsamlingen på en video-forbindelse, så du også kan deltage hjemmefra.
-Detaljer følger via mail, lige før generalforsamlingen.
+Vi planlægger igen at kunne koble generalforsamlingen på en video-forbindelse, så du også kan deltage hjemmefra.\
+Detaljer er udsendt til alle medlemmer følger via mail sammen med den endelige dagsorden.
