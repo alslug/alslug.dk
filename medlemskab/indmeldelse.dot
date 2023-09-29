@@ -20,7 +20,7 @@ digraph indmeldelse {
   { # Valg
     node [shape=diamond];
     findes_allerede        [label="Kender vi\nallerde email\nog/eller eller\nmobil-nummer?"];
-    hvad_findes_allerede   [label="Hvad\nfindes\nallerede]";
+    hvad_findes_allerede   [label="Hvad\nfindes\nallerede"];
   }
 
   indtast -> send_tilmelding -> findes_allerede;
