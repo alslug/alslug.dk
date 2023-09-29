@@ -20,17 +20,17 @@ digraph indmeldelse {
   { # Valg
     node [shape=diamond];
     findes_allerede        [label="Kender vi\nallerde email\nog/eller eller\nmobil-nummer?"];
-    hvad_findes_allerede;
+    hvad_findes_allerede   [label="Hvad\nfindes\nallerede]";
   }
 
   indtast -> send_tilmelding -> findes_allerede;
                                 findes_allerede -> server_sender_ny_email [label="Nej"];
                                                    server_sender_ny_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed ->mobile_ok;
-                                findes_allerede -> hvad_findes_allerede             [label="Ja"];
-                                                   hvad_findes_allerede-> samme_member        [label="Begge"];
+                                findes_allerede -> hvad_findes_allerede   [label="Ja"];
+                                                   hvad_findes_allerede-> samme_member         [label="Begge"];
                                                                           samme_member -> already_member_email;
                                                    hvad_findes_allerede -> add_mobil_to_member [label="Mobil"];
                                                                            add_mobil_to_member -> x;
                                                    hvad_findes_allerede -> add_email_to_member [label="Email"];
-                                                                           add_mobil_to_member -> y;
+                                                                           add_email_to_member -> y;
 }
