@@ -1,7 +1,7 @@
 digraph indmeldelse {
   indtast                [shape=box       label="Du indtaster dine informationer her på siden"];
   send_tilmelding        [shape=folder    label="Data gemmes krypteret på serveren\n\nINGEN kan se dine informatiner før du bekræfter din email."];
-  findes_allerede        [shape=diamond   label="kender vi allerde email eller mobil-nummer?"];
+  findes_allerede        [shape=diamond   label="kender vi\nallerde email\neller mobil-nummer?"];
 
   server_sender_ny_email [shape=component label="Serveren sender en mail til dig hvor du skal bekræfte din tilmelding."];
   confirm_email          [shape=box       label="Du bekræfter din email ved at klikke på linket i den tilsendte mail\n\nHusk at checke dit spam-filter"];
@@ -10,8 +10,8 @@ digraph indmeldelse {
   confirm_sms            [shape=box       label="Du reagerer på SMS'en"];
   
   indtast -> send_tilmelding -> findes_allerede;
-                                findes_allerede -> server_sender_email [taillabel="Nej"];  server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms;
-                                findes_allerede -> both_found          [taillabel="Ja"];   both_found -> samme_member     [taillabel="Ja"];
-                                                                                           both_found -> add_to_member    [taillabel="Tilføj ny til medlem"]
-                                                                                           both_found -> different_member [taillabel="Forskellige"];
+                                findes_allerede -> server_sender_ny_email [taillabel="Nej"];  server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms;
+                                findes_allerede -> both_found             [taillabel="Ja"];   both_found -> samme_member     [taillabel="Ja"];
+                                                                                              both_found -> add_to_member    [taillabel="Tilføj ny til medlem"]
+                                                                                              both_found -> different_member [taillabel="Forskellige"];
 }
