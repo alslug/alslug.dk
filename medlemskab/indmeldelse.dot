@@ -10,19 +10,25 @@ digraph indmeldelse {
     node [shape=component];
     server_sender_ny_email [label="Serveren sender\nen mail til dig hvor\ndu skal bekræfte\ndin tilmelding."];
     server_sender_sms      [label="Serveren sender\nen SMS til dit\nmobil-nummer"];
+    sms_confirmed          [label="Serveren registrerer\ndit response"];
   }
   { # Results
     node [shape=hexagon   style=filled fillcolor=green ];
     du_biver_medlem  [label="Du er nu blevet medlem"];
     mobile_ok        [label="Vi kan nu være sikre\npå at der er DIT\nmobil-nummer vi\nhar registreret."]; 
   }
+  { # Valg
+    findes_allerede        [shape=diamond                                 label="Kender vi\nallerde email\nog/eller eller\nmobil-nummer?"];
+  }
 
-  findes_allerede        [shape=diamond                                 label="Kender vi\nallerde email\nog/eller eller\nmobil-nummer?"];
-  
   indtast -> send_tilmelding -> findes_allerede;
-                                findes_allerede -> server_sender_ny_email [label="Nej"];  server_sender_ny_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> mobile_ok;
-                                findes_allerede -> both_found             [label="Ja"];   both_found -> samme_member        [label="Ja"];                      samme_member -> already_member_email;
-                                                                                          both_found -> add_mobil_to_member [label="Tilføj mobil til medlem"];
-                                                                                          both_found -> add_email_to_member [label="Tilføj email til medlem"];
-                                                                                          both_found -> different_member    [label="Forskellige"];             different_member -> different_member_email;
+                                findes_allerede -> server_sender_ny_email [label="Nej"];
+                                                   server_sender_ny_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed ->mobile_ok;
+                                findes_allerede -> both_found             [label="Ja"];
+                                                   both_found -> samme_member        [label="Ja"];
+                                                                 samme_member -> already_member_email;
+                                                   both_found -> add_mobil_to_member [label="Tilføj mobil til medlem"];
+                                                   both_found -> add_email_to_member [label="Tilføj email til medlem"];
+                                                   both_found -> different_member    [label="Forskellige"];
+                                                                 different_member -> different_member_email;
 }
