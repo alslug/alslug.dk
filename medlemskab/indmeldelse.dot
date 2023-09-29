@@ -10,8 +10,9 @@ digraph indmeldelse {
   confirm_sms            [shape=box       label="Du reagerer på SMS'en"];
   
   indtast -> send_tilmelding -> findes_allerede;
-                                findes_allerede -> server_sender_ny_email [taillabel="Nej"];  server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms;
-                                findes_allerede -> both_found             [taillabel="Ja"];   both_found -> samme_member     [taillabel="Ja"];
-                                                                                              both_found -> add_to_member    [taillabel="Tilføj ny til medlem"]
-                                                                                              both_found -> different_member [taillabel="Forskellige"];
+                                findes_allerede -> server_sender_ny_email [taillabel="Nej"];  server_sender_ny_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms;
+                                findes_allerede -> both_found             [taillabel="Ja"];   both_found -> samme_member        [taillabel="Ja"];                   samme_member -> already_member_email;
+                                                                                              both_found -> add_mobil_to_member [taillabel="Tilføj mobil til medlem"];
+                                                                                              both_found -> add_email_to_member [taillabel="Tilføj email til medlem"];
+                                                                                              both_found -> different_member    [taillabel="Forskellige"];          different_member -> different_member_email;
 }
