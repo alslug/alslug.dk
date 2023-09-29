@@ -1,7 +1,7 @@
 digraph indmeldelse {
   { # Dine handlinger
     node [ shape=box style=filled fillcolor=yellow ];
-    indtast                [abel="Du indtaster dine informationer her på siden"];
+    indtast                [label="Du indtaster\ndine informationer\nher på siden"];
     confirm_email          [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
     confirm_sms            [label="Du reagerer på SMS'en"];
   }
