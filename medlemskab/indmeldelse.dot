@@ -1,13 +1,13 @@
 digraph indmeldelse {
-  indtast                [label="Du indtaster dine informationer her på siden"];
-  send_tilmelding        [label="Data gemmes krypteret på serveren\n\nINGEN kan se dine informatiner før du bekræfter din email."];
-  findes_allerede        [label="kender vi allerde email eller mobil-nummer?"];
+  indtast                [shape=box       label="Du indtaster dine informationer her på siden"];
+  send_tilmelding        [shape=folder    label="Data gemmes krypteret på serveren\n\nINGEN kan se dine informatiner før du bekræfter din email."];
+  findes_allerede        [shape=diamond   label="kender vi allerde email eller mobil-nummer?"];
 
-  server_sender_ny_email [label="Serveren sender en mail til dig hvor du skal bekræfte din tilmelding."];
-  confirm_email          [label="Du bekræfter din email ved at klikke på linket i den tilsendte mail\n\nHusk at checke dit spam-filter"];
-  du_biver_medlem        [label="Du er nu blevet medlem" style=filled fillcolor=green ];
-  server_sender_sms      [label="Serveren sender en SMS til dit mobil-nummer"];
-  confirm_sms            [label="Du reagerer på SMS'en"];
+  server_sender_ny_email [shape=component label="Serveren sender en mail til dig hvor du skal bekræfte din tilmelding."];
+  confirm_email          [shape=box       label="Du bekræfter din email ved at klikke på linket i den tilsendte mail\n\nHusk at checke dit spam-filter"];
+  du_biver_medlem        [shape=hexagon   label="Du er nu blevet medlem" style=filled fillcolor=green ];
+  server_sender_sms      [shape=component label="Serveren sender en SMS til dit mobil-nummer"];
+  confirm_sms            [shape=box       label="Du reagerer på SMS'en"];
   
   indtast -> send_tilmelding -> findes_allerede;
                                 findes_allerede -> server_sender_email [taillabel="Nej"];  server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms;
