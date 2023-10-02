@@ -3,13 +3,13 @@ digraph indmeldelse {
     node [ shape=box style=filled fillcolor=yellow ];
     indtast                [label="Du indtaster\ndine informationer\nher på siden"];
     subgraph cluster_server_sender_email {
-      node          [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
+      node                 [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
       confirm_email_nyt_medlem;
       confirm_email_add_email;
       confirm_email_add_mobil;
     }
     subgraph cluster_server_sender_sms {
-      node            [label="Du reagerer på SMS'en"];
+      node                 [label="Du reagerer på SMS'en"];
       confirm_sms_nyt_medlem;
       confirm_sms_add_email;
       confirm_sms_add_mobil;
@@ -19,13 +19,13 @@ digraph indmeldelse {
   { # Server-aktiviteter
     node [shape=component];
     subgraph cluster_server_sender_email {
-      node [label="Serveren sender\nen mail til dig hvor\ndu skal bekræfte\ndin tilmelding."];
+      node                 [label="Serveren sender\nen mail til dig hvor\ndu skal bekræfte\ndin tilmelding."];
       server_sender_emai_nyt_medlem;
       server_sender_email_add_email;
       server_sender_email_add_mobil;
     }
     subgraph cluster_server_sender_sms {
-      node      [label="Serveren sender\nen SMS til dit\nmobil-nummer"];
+      node                 [label="Serveren sender\nen SMS til dit\nmobil-nummer"];
       server_sender_sms_nyt_medlem;
       server_sender_sms_add_email;
       server_sender_sms_add_mobil;
@@ -34,8 +34,8 @@ digraph indmeldelse {
   }
   { # Results
     node [shape=hexagon   style=filled fillcolor=green ];
-    du_biver_medlem  [label="Du er nu blevet medlem"];
-    mobile_ok        [label="Vi kan nu være sikre\npå at der er DIT\nmobil-nummer vi\nhar registreret."]; 
+    du_biver_medlem        [label="Du er nu blevet medlem"];
+    mobile_ok              [label="Vi kan nu være sikre\npå at der er DIT\nmobil-nummer vi\nhar registreret."]; 
   }
   { # Valg
     node [shape=diamond];
@@ -44,13 +44,16 @@ digraph indmeldelse {
   }
 
   indtast -> send_tilmelding -> findes_allerede;
-                                findes_allerede -> server_sender_emai_nyt_medlem [label="Nej"];
-                                                   server_sender_emai_nyt_medlem -> confirm_email_nyt_medlem -> du_biver_medlem -> server_sender_sms_nyt_medlem -> confirm_sms_nyt_medlem -> sms_confirmed -> mobile_ok;
-                                findes_allerede -> hvad_findes_allerede   [label="Ja"];
-                                                   hvad_findes_allerede-> samme_member         [label="Begge"];
+                                findes_allerede ->                              server_sender_emai_nyt_medlem [label="Nej"];
+                                                                                server_sender_emai_nyt_medlem -> confirm_email_nyt_medlem -> du_biver_medlem ->
+                                                                                server_sender_sms_nyt_medlem  -> confirm_sms_nyt_medlem   -> sms_confirmed -> mobile_ok;
+                                findes_allerede -> hvad_findes_allerede                                       [label="Ja"];
+                                                   hvad_findes_allerede-> samme_member                        [label="Begge"];
                                                                           samme_member -> already_member_email;
-                                                   hvad_findes_allerede -> server_sender_email_add_email [label="Mobil"];
-                                                                           server_sender_email_add_email  -> confirm_email_add_email -> server_sender_sms_add_email -> confirm_sms_add_email -> x;
-                                                   hvad_findes_allerede -> server_sender_email_add_mobil [label="Email"];
-                                                                           server_sender_email_add_mobil  -> confirm_email_add_mobil -> server_sender_sms_add_mobil -> confirm_sms_add_mobil -> y;
+                                                   hvad_findes_allerede -> server_sender_email_add_email      [label="Mobil"];
+                                                                                server_sender_email_add_email -> confirm_email_add_email  ->
+                                                                                server_sender_sms_add_email   -> confirm_sms_add_email    -> x1;
+                                                   hvad_findes_allerede ->      server_sender_email_add_mobil [label="Email"];
+                                                                                server_sender_email_add_mobil -> confirm_email_add_mobil  ->
+                                                                                server_sender_sms_add_mobil   -> confirm_sms_add_mobil    -> y2;
 }
