@@ -2,13 +2,13 @@ digraph indmeldelse {
   { # Dine handlinger
     node [ shape=box style=filled fillcolor=yellow ];
     indtast                [label="Du indtaster\ndine informationer\nher på siden"];
-    subgraph cluster_confirm_email {
+    subgraph cluster_server_sender_email {
       node          [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
       confirm_email_nyt_medlem;
       confirm_email_add_email;
       confirm_email_add_mobil;
     }
-    subgraph confirm_sms {
+    subgraph cluster_server_sender_sms {
       node            [label="Du reagerer på SMS'en"];
       confirm_sms_nyt_medlem;
       confirm_sms_add_email;
