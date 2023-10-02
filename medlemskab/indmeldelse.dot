@@ -24,7 +24,7 @@ digraph indmeldelse {
       server_sender_email_add_email;
       server_sender_email_add_mobil;
     }
-    subgraph clluster_server_sender_sms {
+    subgraph cluster_server_sender_sms {
       node      [label="Serveren sender\nen SMS til dit\nmobil-nummer"];
       server_sender_sms_nyt_medlem;
       server_sender_sms_add_email;
