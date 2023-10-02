@@ -35,6 +35,7 @@ digraph indmeldelse {
       server_sender_sms_add_mobil;
     }
     subgraph cluster_sms_confirmed {
+      style=invis;
       node                 [label="Serveren registrerer \n dit response"];
       sms_confirmed_nyt_medlem;
       sms_confirmed_add_email;
