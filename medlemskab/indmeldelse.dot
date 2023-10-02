@@ -49,8 +49,8 @@ digraph indmeldelse {
                                 findes_allerede -> hvad_findes_allerede   [label="Ja"];
                                                    hvad_findes_allerede-> samme_member         [label="Begge"];
                                                                           samme_member -> already_member_email;
-                                                   hvad_findes_allerede -> add_mobil_to_member [label="Mobil"];
-                                                                           add_mobil_to_member -> server_sender_email_add_email  -> confirm_email_add_email -> server_sender_sms_add_email -> confirm_sms_add_email -> x;
-                                                   hvad_findes_allerede -> add_email_to_member [label="Email"];
-                                                                           add_email_to_member -> server_sender_email_add_mobil  -> confirm_email_add_mobil -> server_sender_sms_add_mobil -> confirm_sms_add_mobil -> y;
+                                                   hvad_findes_allerede -> server_sender_email_add_email [label="Mobil"];
+                                                                           server_sender_email_add_email  -> confirm_email_add_email -> server_sender_sms_add_email -> confirm_sms_add_email -> x;
+                                                   hvad_findes_allerede -> server_sender_email_add_mobil [label="Email"];
+                                                                           server_sender_email_add_mobil  -> confirm_email_add_mobil -> server_sender_sms_add_mobil -> confirm_sms_add_mobil -> y;
 }
