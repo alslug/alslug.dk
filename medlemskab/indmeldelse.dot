@@ -3,12 +3,14 @@ digraph indmeldelse {
     node [ shape=box style=filled fillcolor=yellow ];
     indtast                [label="Du indtaster\ndine informationer\nher på siden"];
     subgraph cluster_server_sender_email {
+      style=invis;
       node                 [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
       confirm_email_nyt_medlem;
       confirm_email_add_email;
       confirm_email_add_mobil;
     }
     subgraph cluster_server_sender_sms {
+      style=invis;
       node                 [label="Du reagerer på SMS'en"];
       confirm_sms_nyt_medlem;
       confirm_sms_add_email;
@@ -19,12 +21,14 @@ digraph indmeldelse {
   { # Server-aktiviteter
     node [shape=component];
     subgraph cluster_server_sender_email {
+      style=invis;
       node                 [label="Serveren sender\nen mail til dig hvor\ndu skal bekræfte\ndin tilmelding."];
       server_sender_emai_nyt_medlem;
       server_sender_email_add_email;
       server_sender_email_add_mobil;
     }
     subgraph cluster_server_sender_sms {
+      style=invis;
       node                 [label="Serveren sender\nen SMS til dit\nmobil-nummer"];
       server_sender_sms_nyt_medlem;
       server_sender_sms_add_email;
