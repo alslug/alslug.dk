@@ -47,7 +47,7 @@ digraph indmeldelse {
     du_biver_medlem        [label="Du er nu blevet medlem"];
     mobile_ok              [label="Vi kan nu være sikre \n på at der er DIT \n mobil-nummer vi \n har registreret."]; 
     email_added            [label="Den nye \n ekstra email er \n registreret." shape=point];
-    mobil_added            [label="Dit nye \n mobil-nummer er \n registreret." shape=point]; 
+    mobil_added            [label="Dit nye \n mobil-nummer er \n registreret."]; 
   }
   { # Valg
     node [shape=diamond];
