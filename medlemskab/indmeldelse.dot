@@ -52,17 +52,16 @@ digraph indmeldelse {
   { # Valg
     node [shape=diamond];
     findes_allerede        [label="Kender vi \n allerde email \n og/eller eller \n mobil-nummer?"];
-    hvad_findes_allerede   [label="Hvad \n findes \n allerede"];
   }
 
   indtast -> send_tilmelding -> findes_allerede;
                                 findes_allerede -> server_sender_emai_nyt_medlem [label="Nej"];
                                                    server_sender_emai_nyt_medlem -> confirm_email_nyt_medlem -> du_biver_medlem ->
                                                    server_sender_sms_nyt_medlem  -> confirm_sms_nyt_medlem   -> sms_confirmed_nyt_medlem -> mobile_ok;
-                                findes_allerede -> server_sender_email_add_email [label="Email kendes"];
+                                findes_allerede -> server_sender_email_add_email [label="Email \n kendes"];
                                                    server_sender_email_add_email -> confirm_email_add_email  ->
                                                    server_sender_sms_add_email   -> confirm_sms_add_email    -> sms_confirmed_add_email -> email_added;
-                                findes_allerede -> server_sender_email_add_mobil [label="Mobil kendes"];
+                                findes_allerede -> server_sender_email_add_mobil [label="Mobil \n kendes"];
                                                    server_sender_email_add_mobil -> confirm_email_add_mobil  ->
                                                    server_sender_sms_add_mobil   -> confirm_sms_add_mobil    -> sms_confirmed_add_mobil -> mobil_added;
                                 findes_allerede-> samme_member                   [label="Begge"];
