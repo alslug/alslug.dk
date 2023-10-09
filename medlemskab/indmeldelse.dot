@@ -6,14 +6,14 @@ digraph indmeldelse {
       style=invis;
       node                 [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
       confirm_email_nyt_medlem;
-      confirm_email_email_known [shape=point];
+      confirm_email_email_known;
       confirm_email_mobil_known [shape=point];
     }
     subgraph cluster_server_sender_sms {
       style=invis;
       node                 [label="Du reagerer på SMS'en"];
       confirm_sms_nyt_medlem;
-      confirm_sms_email_known [shape=point];
+      confirm_sms_email_known;
       confirm_sms_mobil_known [shape=point];
     }
   }
@@ -24,21 +24,21 @@ digraph indmeldelse {
       style=invis;
       node                 [label="Serveren sender \n en mail til dig hvor \n du skal bekræfte \n din tilmelding."];
       server_sender_emai_nyt_medlem;
-      server_sender_email_email_known [shape=point];
+      server_sender_email_email_known;
       server_sender_email_mobil_known [shape=point];
     }
     subgraph cluster_server_sender_sms {
       style=invis;
       node                 [label="Serveren sender \n en SMS til dit \n mobil-nummer"];
       server_sender_sms_nyt_medlem;
-      server_sender_sms_email_known [shape=point];
+      server_sender_sms_email_known;
       server_sender_sms_mobil_known [shape=point];
     }
     subgraph cluster_sms_confirmed {
       style=invis;
       node                 [label="Serveren registrerer \n dit response"];
       sms_confirmed_nyt_medlem;
-      sms_confirmed_email_known [shape=point];
+      sms_confirmed_email_known;
       sms_confirmed_mobil_known [shape=point];
     }
   }
