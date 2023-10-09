@@ -64,8 +64,8 @@ digraph indmeldelse {
                                 findes_allerede -> server_sender_email_mobil_known [label="Mobil \n kendes"];
                                                    server_sender_email_mobil_known -> confirm_email_mobil_known  ->
                                                    server_sender_sms_mobil_known   -> confirm_sms_mobil_known    -> sms_confirmed_mobil_known -> email_added;
-                                findes_allerede-> samme_member                     [label="Begge \n samme \n medlem"];
+                                findes_allerede-> samme_member                     [label="Begge \n kendes \n\n samme \n medlem"];
                                                   samme_member      -> already_member_email;
-                                findes_allerede-> different_members                [label="Begge \n forskellige \n medlemmer"];
+                                findes_allerede-> different_members                [label="Begge \n kendes \n\n forskellige \n medlemmer"];
                                                   different_members -> diffierent_members_email;
 }
