@@ -54,19 +54,36 @@ digraph indmeldelse {
     findes_allerede        [label="Kender vi \n allerde email \n og/eller eller \n mobil-nummer?"];
   }
 
-  node [shape=point];
+  node [shape=point];  }
+  {
+
   indtast -> send_tilmelding -> findes_allerede;
+  {
+    edge [color=green];
                                 findes_allerede -> server_sender_emai_nyt_medlem   [label="Nej"];
                                                    server_sender_emai_nyt_medlem   -> confirm_email_nyt_medlem  -> du_biver_medlem ->
-                                                   server_sender_sms_nyt_medlem    -> confirm_sms_nyt_medlem    -> sms_confirmed_nyt_medlem  -> mobile_ok   [color=green];
+                                                   server_sender_sms_nyt_medlem    -> confirm_sms_nyt_medlem    -> sms_confirmed_nyt_medlem  -> mobile_ok;
+  }
+  {
+    edge [color=blue];
                                 findes_allerede -> server_sender_email_email_known [label="Email \n kendes"];
                                                    server_sender_email_email_known -> confirm_email_email_known ->
-                                                   server_sender_sms_email_known   -> confirm_sms_email_known   -> sms_confirmed_email_known -> mobil_added [color=blue];
+                                                   server_sender_sms_email_known   -> confirm_sms_email_known   -> sms_confirmed_email_known -> mobil_added;
+  }
+  {
+    edge [color=magenta];
                                 findes_allerede -> server_sender_email_mobil_known [label="Mobil \n kendes"];
                                                    server_sender_email_mobil_known -> confirm_email_mobil_known ->
-                                                   server_sender_sms_mobil_known   -> confirm_sms_mobil_known   -> sms_confirmed_mobil_known -> email_added [color=magenta];
+                                                   server_sender_sms_mobil_known   -> confirm_sms_mobil_known   -> sms_confirmed_mobil_known -> email_added;
+  }
+  {
+    edge [color=yellow];
                                 findes_allerede-> samme_member                     [label="Begge \n kendes \n\n samme \n medlem"];
-                                                  samme_member                     -> already_member_email                                                  [color=yellow];
+                                                  samme_member                     -> already_member_email;
+  }
+  {
+    edge [color=red];
                                 findes_allerede-> different_members                [label="Begge \n kendes \n\n forskellige \n medlemmer"];
-                                                  different_members                -> diffierent_members_email                                              [color=red];
+                                                  different_members                -> diffierent_members_email;
+  }
 }
