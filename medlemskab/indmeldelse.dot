@@ -56,16 +56,15 @@ digraph indmeldelse {
   }
 
   indtast -> send_tilmelding -> findes_allerede;
-                                findes_allerede ->                              server_sender_emai_nyt_medlem [label="Nej"];
-                                                                                server_sender_emai_nyt_medlem -> confirm_email_nyt_medlem -> du_biver_medlem ->
-                                                                                server_sender_sms_nyt_medlem  -> confirm_sms_nyt_medlem   -> sms_confirmed_nyt_medlem -> mobile_ok;
-                                findes_allerede -> hvad_findes_allerede                                       [label="Ja"];
-                                                   hvad_findes_allerede-> samme_member                        [label="Begge"];
-                                                                          samme_member -> already_member_email;
-                                                   hvad_findes_allerede -> server_sender_email_add_email      [label="Email"];
-                                                                                server_sender_email_add_email -> confirm_email_add_email  ->
-                                                                                server_sender_sms_add_email   -> confirm_sms_add_email    -> sms_confirmed_add_email -> email_added;
-                                                   hvad_findes_allerede ->      server_sender_email_add_mobil [label="Mobil"];
-                                                                                server_sender_email_add_mobil -> confirm_email_add_mobil  ->
-                                                                                server_sender_sms_add_mobil   -> confirm_sms_add_mobil    -> sms_confirmed_add_mobil -> mobil_added;
+                                findes_allerede -> server_sender_emai_nyt_medlem [label="Nej"];
+                                                   server_sender_emai_nyt_medlem -> confirm_email_nyt_medlem -> du_biver_medlem ->
+                                                   server_sender_sms_nyt_medlem  -> confirm_sms_nyt_medlem   -> sms_confirmed_nyt_medlem -> mobile_ok;
+                                findes_allerede -> server_sender_email_add_email [label="Email kendes"];
+                                                   server_sender_email_add_email -> confirm_email_add_email  ->
+                                                   server_sender_sms_add_email   -> confirm_sms_add_email    -> sms_confirmed_add_email -> email_added;
+                                findes_allerede -> server_sender_email_add_mobil [label="Mobil kendes"];
+                                                   server_sender_email_add_mobil -> confirm_email_add_mobil  ->
+                                                   server_sender_sms_add_mobil   -> confirm_sms_add_mobil    -> sms_confirmed_add_mobil -> mobil_added;
+                                findes_allerede-> samme_member                   [label="Begge"];
+                                                  samme_member -> already_member_email;
 }
