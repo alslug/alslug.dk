@@ -54,7 +54,7 @@ digraph indmeldelse {
     findes_allerede        [label="Kender vi \n allerde email \n og/eller eller \n mobil-nummer?"];
   }
 
-  node [shape=invis];
+  node [shape=point];
   indtast -> send_tilmelding -> findes_allerede;
                                 findes_allerede -> server_sender_emai_nyt_medlem   [label="Nej"];
                                                    server_sender_emai_nyt_medlem -> confirm_email_nyt_medlem -> du_biver_medlem ->
