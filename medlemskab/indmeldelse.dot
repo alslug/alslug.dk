@@ -58,7 +58,7 @@ digraph indmeldelse {
   indtast -> send_tilmelding -> findes_allerede;
                                 findes_allerede -> server_sender_emai_nyt_medlem   [label="Nej"];
                                                    server_sender_emai_nyt_medlem   -> confirm_email_nyt_medlem  -> du_biver_medlem ->
-                                                   server_sender_sms_nyt_medlem    -> confirm_sms_nyt_medlem    -> sms_confirmed_nyt_medlem  -> mobile_ok   [color=green};
+                                                   server_sender_sms_nyt_medlem    -> confirm_sms_nyt_medlem    -> sms_confirmed_nyt_medlem  -> mobile_ok   [color=green];
                                 findes_allerede -> server_sender_email_email_known [label="Email \n kendes"];
                                                    server_sender_email_email_known -> confirm_email_email_known ->
                                                    server_sender_sms_email_known   -> confirm_sms_email_known   -> sms_confirmed_email_known -> mobil_added [color=blue];
