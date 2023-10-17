@@ -11,6 +11,7 @@ digraph indmeldelse {
     server_sender_allerede_medlem [label="Serveren sender \n en mail til dig om \n at du allerede er medlem."];
     server_sender_email           [label="Serveren sender \n en mail til dig om \n som du SKAL reagere på \n\n Husk at check SPAM-filteret."];
     server_sender_sms             [label="Serveren sender \n en SMS til dit \n mobil-nummer"];
+    email_confirmed               [label="Serveren \n opretter/opdaterer \n dit medlemskab. \n\n Dine indtastede \n data er nu \n synlige for \n bestyrelsen"];
     sms_confirmed                 [label="Serveren registrerer \n dit response"];
     sms_move_confirmed            [label="Serveren registrerer \n dit response \n\n Mobilnummeret flyttes \n til dit medlemsskab"];
   }
@@ -33,17 +34,17 @@ digraph indmeldelse {
   {
     edge [color=green];
                       findes_allerede ->                    server_sender_email [label="Nej"];
-                                                            server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
+                                                            server_sender_email -> confirm_email -> email_confirmed -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
   }
   {
     edge [color=blue];
                       findes_allerede -> allerede_medlem                        [label="Email \n kendes"];
-                                         allerede_medlem -> server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobile_ok;
+                                         allerede_medlem -> server_sender_email -> confirm_email -> email_confirmed ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobile_ok;
   }
   {
     edge [color=magenta];
                       findes_allerede -> allerede_medlem                        [label="Mobil \n kendes"];
-                                         allerede_medlem -> server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
+                                         allerede_medlem -> server_sender_email -> confirm_email -> email_confirmed ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
   }
   {
     edge [color=yellow];
@@ -53,6 +54,6 @@ digraph indmeldelse {
   {
     edge [color=red];
                       findes_allerede -> allerede_medlem                        [label="Begge \n kendes \n\n forskellige \n medlemmer"];
-                                         allerede_medlem -> server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_move_confirmed -> mobile_moved;
+                                         allerede_medlem -> server_sender_email -> confirm_email -> email_confirmed ->                    server_sender_sms -> confirm_sms -> sms_move_confirmed -> mobile_moved;
   }
 }
