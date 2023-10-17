@@ -5,12 +5,15 @@ digraph indmeldelse {
     confirm_email   [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
     confirm_sms     [label="Du reagerer på SMS'en"];
   }
-  send_tilmelding        [shape=folder label="Data gemmes krypteret \n på serveren \n \n INGEN kan se dine informatiner før \n du bekræfter din email."];
   { # Server-aktiviteter
     node [shape=component];
     server_sender_allerede_medlem [label="Serveren sender \n en mail til dig om \n at du allerede er medlem."];
     server_sender_email           [label="Serveren sender \n en mail til dig om \n som du SKAL reagere på \n\n Husk at check SPAM-filteret."];
     server_sender_sms             [label="Serveren sender \n en SMS til dit \n mobil-nummer"];
+  }
+  { # Serveren gemmer data
+    node [shape=folder];
+    tilmelding_gemmes               [label="Data gemmes krypteret \n på serveren \n \n INGEN kan se dine informatiner før \n du bekræfter din email."];
     email_confirmed               [label="Serveren \n opretter/opdaterer \n dit medlemskab. \n\n Dine indtastede \n data er nu \n synlige for \n bestyrelsen"];
     sms_confirmed                 [label="Serveren registrerer \n dit response"];
     sms_move_confirmed            [label="Serveren registrerer \n dit response \n\n Mobilnummeret flyttes \n til dit medlemsskab"];
@@ -30,7 +33,7 @@ digraph indmeldelse {
 
   node [shape=point];
 
-  indtast -> send_tilmelding -> findes_allerede;
+  indtast -> tilmelding_gemmes -> findes_allerede;
   {
     edge [color=green];
                       findes_allerede ->                    server_sender_email [label="Nej"];
