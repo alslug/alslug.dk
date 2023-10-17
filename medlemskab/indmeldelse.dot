@@ -1,28 +1,16 @@
 digraph indmeldelse {
   { # Dine handlinger
     node [ shape=box style=filled fillcolor=yellow ];
-    indtast                [label="Du indtaster\ndine informationer\nher på siden"];
-    subgraph cluster_server_sender_email {
-      style=invis;
-      node                 [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
-      confirm_email_nyt_medlem;
-      confirm_email_email_known;
-      confirm_email_mobil_known [shape=point];
-    }
-    confirm_sms [label="Du reagerer på SMS'en"];
+    indtast         [label="Du indtaster\ndine informationer\nher på siden"];
+    confirm_email   [label="Du bekræfter din email\nved at klikke på linket\ni den tilsendte mail\n\nHusk at checke dit spam-filter"];
+    confirm_sms     [label="Du reagerer på SMS'en"];
   }
   send_tilmelding        [shape=folder label="Data gemmes krypteret \n på serveren \n \n INGEN kan se dine informatiner før \n du bekræfter din email."];
   { # Server-aktiviteter
     node [shape=component];
-    subgraph cluster_server_sender_email {
-      style=invis;
-      node                 [label="Serveren sender \n en mail til dig hvor \n du skal bekræfte \n din tilmelding."];
-      server_sender_emai_nyt_medlem;
-      server_sender_email_email_known;
-      server_sender_email_mobil_known [shape=point];
-    }
-    server_sender_sms [label="Serveren sender \n en SMS til dit \n mobil-nummer"];
-    sms_confirmed     [label="Serveren registrerer \n dit response"];
+    server_sender_email [label="Serveren sender \n en mail til dig hvor \n du skal bekræfte \n din tilmelding."];
+    server_sender_sms   [label="Serveren sender \n en SMS til dit \n mobil-nummer"];
+    sms_confirmed       [label="Serveren registrerer \n dit response"];
   }
   { # Results
     node [shape=hexagon   style=filled fillcolor=green ];
@@ -40,27 +28,27 @@ digraph indmeldelse {
   indtast -> send_tilmelding -> findes_allerede;
   {
     edge [color=green];
-                                findes_allerede -> server_sender_emai_nyt_medlem   [label="Nej"];
-                                                   server_sender_emai_nyt_medlem   -> confirm_email_nyt_medlem  -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
+                                findes_allerede -> server_sender_email [label="Nej"];
+                                                   server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
   }
   {
     edge [color=blue];
-                                findes_allerede -> server_sender_email_email_known [label="Email \n kendes"];
-                                                   server_sender_email_email_known -> confirm_email_email_known ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobil_ok;
+                                findes_allerede -> server_sender_email [label="Email \n kendes"];
+                                                   server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobil_ok;
   }
   {
     edge [color=magenta];
-                                findes_allerede -> server_sender_email_mobil_known [label="Mobil \n kendes"];
-                                                   server_sender_email_mobil_known -> confirm_email_mobil_known ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
+                                findes_allerede -> server_sender_email [label="Mobil \n kendes"];
+                                                   server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
   }
   {
     edge [color=yellow];
-                                findes_allerede-> samme_member                     [label="Begge \n kendes \n\n samme \n medlem"];
-                                                  samme_member                     -> already_member_email;
+                                findes_allerede-> samme_member         [label="Begge \n kendes \n\n samme \n medlem"];
+                                                  samme_member         -> already_member_email;
   }
   {
     edge [color=red];
-                                findes_allerede-> different_members                [label="Begge \n kendes \n\n forskellige \n medlemmer"];
-                                                  different_members                -> diffierent_members_email;
+                                findes_allerede-> different_members    [label="Begge \n kendes \n\n forskellige \n medlemmer"];
+                                                  different_members    -> diffierent_members_email;
   }
 }
