@@ -14,9 +14,10 @@ digraph indmeldelse {
   }
   { # Results
     node [shape=hexagon   style=filled fillcolor=green ];
-    du_biver_medlem        [label="Du er nu blevet medlem"];
+    du_biver_medlem        [label="Du er nu blevet medlem."];
+    allerede_medlem        [label="Du er allerede medlem."];
     mobile_ok              [label="Vi kan nu være sikre \n på at der er DIT \n mobil-nummer vi \n har registreret \n på dit medlemskab."]; 
-    email_added            [label="Den nye \n ekstra email er \n registreret." shape=point];
+    email_added            [label="Den nye \n ekstra email er \n registreret \n på dit medlemskab." ];
   }
   { # Valg
     node [shape=diamond];
@@ -28,27 +29,27 @@ digraph indmeldelse {
   indtast -> send_tilmelding -> findes_allerede;
   {
     edge [color=green];
-                                findes_allerede -> server_sender_email [label="Nej"];
-                                                   server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
+                                findes_allerede ->                    server_sender_email [label="Nej"];
+                                                                      server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
   }
   {
     edge [color=blue];
-                                findes_allerede -> server_sender_email [label="Email \n kendes"];
-                                                   server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobil_ok;
+                                findes_allerede -> alledere_medlem -> server_sender_email [label="Email \n kendes"];
+                                                                      server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobile_ok;
   }
   {
     edge [color=magenta];
-                                findes_allerede -> server_sender_email [label="Mobil \n kendes"];
-                                                   server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
+                                findes_allerede -> alledere_medlem -> server_sender_email [label="Mobil \n kendes"];
+                                                                      server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
   }
   {
     edge [color=yellow];
-                                findes_allerede-> samme_member         [label="Begge \n kendes \n\n samme \n medlem"];
-                                                  samme_member         -> already_member_email;
+                                findes_allerede-> alledere_medlem -> samme_member         [label="Begge \n kendes \n\n samme \n medlem"];
+                                                                     samme_member         -> already_member_email;
   }
   {
     edge [color=red];
-                                findes_allerede-> different_members    [label="Begge \n kendes \n\n forskellige \n medlemmer"];
-                                                  different_members    -> diffierent_members_email;
+                                findes_allerede-> alledere_medlem -> different_members    [label="Begge \n kendes \n\n forskellige \n medlemmer"];
+                                                                     different_members    -> diffierent_members_email;
   }
 }
