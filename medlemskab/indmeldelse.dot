@@ -9,6 +9,7 @@ digraph indmeldelse {
   { # Server-aktiviteter
     node [shape=component];
     server_sender_allerede_medlem [label="Serveren sender \n en mail til dig om \n at du allerede er medlem."];
+    server_sender_email           [label="Serveren sender \n en mail til dig om \n som du SKAL reagere på \n\n Husk at check SPAM-filteret."];
     server_sender_sms             [label="Serveren sender \n en SMS til dit \n mobil-nummer"];
     sms_confirmed                 [label="Serveren registrerer \n dit response"];
     sms_move_confirmed            [label="Serveren registrerer \n dit response \n\n Mobilnummeret flyttes \n til dit medlemsskab"];
