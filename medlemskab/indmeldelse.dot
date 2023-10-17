@@ -44,7 +44,7 @@ digraph indmeldelse {
   }
   {
     edge [color=yellow];
-                      findes_allerede- > allerede_medlem                        [label="Begge \n kendes \n\n samme \n medlem"];
+                      findes_allerede -> allerede_medlem                        [label="Begge \n kendes \n\n samme \n medlem"];
                                          allerede_medlem -> samme_member        -> already_member_email;
   }
   {
