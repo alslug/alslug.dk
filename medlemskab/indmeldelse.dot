@@ -9,13 +9,7 @@ digraph indmeldelse {
       confirm_email_email_known;
       confirm_email_mobil_known [shape=point];
     }
-    subgraph cluster_server_sender_sms {
-      style=invis;
-      node                 [label="Du reagerer på SMS'en"];
-      confirm_sms_nyt_medlem;
-      confirm_sms_email_known;
-      confirm_sms_mobil_known [shape=point];
-    }
+    confirm_sms [label="Du reagerer på SMS'en"];
   }
   send_tilmelding        [shape=folder label="Data gemmes krypteret \n på serveren \n \n INGEN kan se dine informatiner før \n du bekræfter din email."];
   { # Server-aktiviteter
@@ -47,20 +41,17 @@ digraph indmeldelse {
   {
     edge [color=green];
                                 findes_allerede -> server_sender_emai_nyt_medlem   [label="Nej"];
-                                                   server_sender_emai_nyt_medlem   -> confirm_email_nyt_medlem  -> du_biver_medlem ->
-                                                   server_sender_sms    -> confirm_sms_nyt_medlem    -> sms_confirmed  -> mobile_ok;
+                                                   server_sender_emai_nyt_medlem   -> confirm_email_nyt_medlem  -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
   }
   {
     edge [color=blue];
                                 findes_allerede -> server_sender_email_email_known [label="Email \n kendes"];
-                                                   server_sender_email_email_known -> confirm_email_email_known ->
-                                                   server_sender_sms   -> confirm_sms_email_known   -> sms_confirmed -> mobil_ok;
+                                                   server_sender_email_email_known -> confirm_email_email_known ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobil_ok;
   }
   {
     edge [color=magenta];
                                 findes_allerede -> server_sender_email_mobil_known [label="Mobil \n kendes"];
-                                                   server_sender_email_mobil_known -> confirm_email_mobil_known ->
-                                                   server_sender_sms   -> confirm_sms_mobil_known   -> sms_confirmed -> email_added;
+                                                   server_sender_email_mobil_known -> confirm_email_mobil_known ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
   }
   {
     edge [color=yellow];
