@@ -1,4 +1,5 @@
 digraph indmeldelse {
+  edge [penwidth=3];
   { # Dine handlinger
     node [ shape=box style=filled fillcolor=yellow ];
     indtast         [label="Du indtaster\ndine informationer\nher på siden"];
@@ -50,7 +51,7 @@ digraph indmeldelse {
                                          allerede_medlem -> server_sender_email -> confirm_email -> email_confirmed ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
   }
   {
-    edge [color=yellow];
+    edge [color=cyan];
                       findes_allerede -> allerede_medlem                        [label="Begge \n kendes \n\n samme \n medlem"];
                                          allerede_medlem -> server_sender_allerede_medlem;
   }
