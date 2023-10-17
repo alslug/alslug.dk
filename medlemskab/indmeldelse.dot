@@ -29,27 +29,27 @@ digraph indmeldelse {
   indtast -> send_tilmelding -> findes_allerede;
   {
     edge [color=green];
-                                findes_allerede ->                    server_sender_email [label="Nej"];
-                                                                      server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
+                      findes_allerede ->                    server_sender_email [label="Nej"];
+                                                            server_sender_email -> confirm_email -> du_biver_medlem -> server_sender_sms -> confirm_sms -> sms_confirmed  -> mobile_ok;
   }
   {
     edge [color=blue];
-                                findes_allerede -> allerede_medlem -> server_sender_email [label="Email \n kendes"];
-                                                                      server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobile_ok;
+                      findes_allerede -> allerede_medlem                        [label="Email \n kendes"];
+                                         allerede_medlem -> server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> mobile_ok;
   }
   {
     edge [color=magenta];
-                                findes_allerede -> allerede_medlem -> server_sender_email [label="Mobil \n kendes"];
-                                                                      server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
+                      findes_allerede -> allerede_medlem                        [label="Mobil \n kendes"];
+                                         allerede_medlem -> server_sender_email -> confirm_email ->                    server_sender_sms -> confirm_sms -> sms_confirmed -> email_added;
   }
   {
     edge [color=yellow];
-                                findes_allerede-> allerede_medlem -> samme_member         [label="Begge \n kendes \n\n samme \n medlem"];
-                                                                     samme_member         -> already_member_email;
+                      findes_allerede- > allerede_medlem                        [label="Begge \n kendes \n\n samme \n medlem"];
+                                         allerede_medlem -> samme_member        -> already_member_email;
   }
   {
     edge [color=red];
-                                findes_allerede-> allerede_medlem -> different_members    [label="Begge \n kendes \n\n forskellige \n medlemmer"];
-                                                                     different_members    -> diffierent_members_email;
+                      findes_allerede -> allerede_medlem                        [label="Begge \n kendes \n\n forskellige \n medlemmer"];
+                                         allerede_medlem -> different_members   -> diffierent_members_email;
   }
 }
