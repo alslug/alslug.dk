@@ -44,10 +44,10 @@ på lige så mange computere som du har lyst til, uden at der skal betales licen
 mennesker fordelt over hele verden. Nogle lever af det, og andre gør det som hobby.
 
 - et sikkert program. Når der opdages program-fejl, bliver de rettet meget hurtigt.
-Derfor er der heller ikke brug for antivirus.
+Derfor er der heller ikke brug for antivirus.\
 Det vil sige at din computer skal ikke bruge kræfter på at sikre dig i hoved og r**, hvilket gør at også små og ældre
-kører rigtigt godt med linux.
-Det eneste du skal sørge for, er at installere opdateringer når du bliver bedt om det.
+computere kører rigtigt godt med linux.\
+Det eneste du skal sørge for, er at installere opdateringer når du bliver bedt om det.\
 Hvis ikke du har tid til det lige nu, venter du bare til i morgen. Men husk at gøre det hurtigst muligt.
 
 
