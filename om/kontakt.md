@@ -12,6 +12,7 @@ Bakkensbro 6, 1.sal, Ullerup\
 CVR-nummer: [37741175](https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37741175&soeg=alslug&type=Alle)
 
 XXXXX BASIS KORT XXXXX
+<script src='https://alslug.dk/api/aktiviteter/lokale.js'></script>
 
 XXXXX NEXT 1/2 XXXXX
 
