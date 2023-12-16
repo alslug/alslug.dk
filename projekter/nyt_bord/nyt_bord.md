@@ -74,3 +74,12 @@ Alle netværksforbindelser ud på bordet er et patchkabel som kan skiftes. Patch
 Da der ikke er bordben på bordet, er der ikke noget problem, når der bliver trængsel igen til installfesterne.\
 Der er plads nok til at der kan sidde 4 personer ved hver bordplade, og 3 pladser for enden, så vi har god plads.\
 Hvis vi bliver rigtigt presset, er der plads til 9 stole på langsiderne, men så er det også skulder ved skulder.
+
+
+## SLut resultatet
+
+Resultatet er blevet rigtigt godt. God plads til alle. Næsten for meget plads.
+
+Særligt efter corona-påvirkningerne, som har gjort at der desværre ikke kommer helt så mange besøgende i foreningen.
+
+Men der kommer forhåbentlig mere gange i sagerne, efterhånden som vi igen får lavet noget larm om Linux på desktoppen.
