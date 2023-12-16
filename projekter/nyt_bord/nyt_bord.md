@@ -88,3 +88,5 @@ Men der kommer forhåbentlig mere gange i sagerne, efterhånden som vi igen får
 <a href='20221210.jpg' target='_blank'>
   <img src="20221210.800x.jpg" alt="Der færdige resultat" style="max-width:100%" />
 </a>
+
+Nu mangler der kun lige de sidste strøm-stik for enden af kanalen.
