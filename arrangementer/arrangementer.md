@@ -6,7 +6,7 @@ XXXXX FIRST 1/2 XXXXX
 Så er det møderne der er markeret med tux du skal gå efter.\
 Hvis der kun er en lille tux i kalenderen, er der planlagt, ting som skal klares først, inden vi kan hjælpe dig.
 
-Vores hoved arrangementer er:
+## Vores hoved arrangementer er:
 
 ### <i class='fab fa-linux'		style='font-size:175%; background:#8888ff'></i> Installfest
 Anden lørdag i hver måned holder vi installfest.
