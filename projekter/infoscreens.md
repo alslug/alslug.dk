@@ -7,9 +7,11 @@ Det var en stak gamle pc'er og skærme som AlsLUG havde fået doneret forskellig
 De fik installeret en Ubuntu-Mate, og blev sat op til at hente informationen de sulle vise fra en central server.
 Dermed ville administrationen af den blive simpel, da de maskinerne på de enkelte skærme ikke indeholder noget specifikt, og al opsætning kunne ske på en enkelt pc.
 
-## [Ny-installation af info-skærme](infoscreens-screens.md)
+## Installation af info-skærme
+Installation af skærmene er flyttet [herhen](infoscreens-screens.md).
 
-## [Central server](infoscreens-server.md)
+## Central server
+Opsætning af den [centrale server](infoscreens-server.md), som har meget mere kraft end selve skærmene.
 
 
 
