@@ -6,7 +6,7 @@ Derfor er det langt over tid til at få dem re-installeret.
 
 Opsætningen er krafigt inspireret af [denne guide](https://www.willhaley.com/blog/debian-fullscreen-gui-kiosk/).
 
-## OS
+## Operativsystem
 
 Der bliver lagt en standard Debian 12 på dem, udelukkende med en SSH-server, for at holde installationen til et absolut minimum.
 
