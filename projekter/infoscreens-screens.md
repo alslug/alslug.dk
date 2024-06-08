@@ -61,12 +61,15 @@ Der skal oprettes et autostart-script, som køres når maskinen startes op / log
 
 Autostart indeholder følgende:
 
-> xterm /bin/bash &
->
 > while true ; do\
->     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt; firefox -private &lt;url&gt;\
+>     xrandr -o right
+>     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;
 >     sleep 30\
 > done &
+
+Flere eksempler:
+
+> xterm /bin/bash &
 
 Det er meget vigtigt at hver "komando" afslyttes med "&".
 
@@ -74,3 +77,10 @@ Der kan både bruges enkelte kommandoer som i linien der åbner en xterm,
 og mere komplicerede one-liners eller more-liners som i blokken der gentagende vil forsøge at åbne en ssh-forbindelse til infoscreen-serveren.
 
 Kun fantasien sætter grænsen for mulighederne
+
+I vores tilfælde startes en loop som i princippet blever ved med at gøre i al evighed.
+
+Linien med "xrandr" drejer skærmen da vore skærme sidder på løjkant.
+
+Linien med "ssh" kobler op til vores centrale server hvor selve applicationerne kører. Hvad der rent faktisk bliver kørt afhænger 100% af konfiguratioen af serveren.
+
