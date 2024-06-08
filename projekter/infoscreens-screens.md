@@ -63,6 +63,8 @@ Autostart indeholder følgende:
 
 > while true ; do\
 >     xrandr -o right
+>     xset -dpms
+>     xset s off 
 >     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;
 >     sleep 30\
 > done &
@@ -81,6 +83,8 @@ Kun fantasien sætter grænsen for mulighederne
 I vores tilfælde startes en loop som i princippet blever ved med at gøre i al evighed.
 
 Linien med "xrandr" drejer skærmen da vore skærme sidder på løjkant.
+
+Linierne med "xset -dpms" og "xset s off" slår pauseskærmen fra
 
 Linien med "ssh" kobler op til vores centrale server hvor selve applicationerne kører. Hvad der rent faktisk bliver kørt afhænger 100% af konfiguratioen af serveren.
 
