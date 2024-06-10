@@ -62,12 +62,11 @@ Der skal oprettes et autostart-script, som køres når maskinen startes op / log
 Autostart indeholder følgende:
 
 > while true ; do\
->     xrandr -o right
->     xset -dpms
->     xset s off 
->     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;
+>     xrandr -o right\
+>     xset -dpms\
+>     xset s off\
+>     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;\
 >     sleep 30\
-> done &
 
 Flere eksempler:
 
