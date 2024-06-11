@@ -82,7 +82,7 @@ Autostart indeholder følgende:
      xrandr -o right
      xset -dpms
      xset s off
-     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;
+     ssh -o StrictHostKeyChecking=no -X <bruger>;@<host>
      sleep 30
 done ) &
 ~~~
