@@ -14,35 +14,47 @@ Der bliver lagt en standard Debian 12 på dem, udelukkende med en SSH-server, fo
 
 Der installeres grakisk overflade:
 
->  apt-get install sudo xorg openbox lightdm
+~~~
+apt-get install sudo xorg openbox lightdm
+~~~
 
 ## Opsætning af grafisk desktop
 
 lightdm skal konfigureres til automatisk at logge ind på display-brugeren
 
-> nano /etc/lightdm/lightdm.conf
+~~~
+nano /etc/lightdm/lightdm.conf
+~~~
 
 skal have tilføjet følgende linier:
 
-> [SeatDefaults]\
-> autologin-user=display\
-> user-session=openbox
+~~~
+[SeatDefaults]
+autologin-user=display
+user-session=openbox
+~~~
 
 ## Skift til diplay-brugeren
 
 Der oprettes en separat bruger hvor display-funktione kører under:
 
->  useradd -m display
+~~~
+useradd -m display
+~~~
 
 Der skiftes til display-brugeren:
 
-> su sudo -u display -i
+~~~
+su sudo -u display -i
+~~~
 
 ## Opsætning af ssh-nøgler til brug op mod central server
 
 For at kunne lave en ssh-forbindelse til den centrale server skal der laves ssh-nøgler.
 
-> ssh-keygen
+~~~
+ssh-keygen
+~~~
 
 Brug standard-filnavnet, og tryk enter ved passphrase ( ellers skal den indtastes ved hver login-forsøg, og det er jo ikke just optimalt når det skal ske automatisk )
 
@@ -53,24 +65,33 @@ Indholdet i /home/display/.ssh/id_rsa.pub skal kopieres til serveren, hvor nøgl
 
 Der skal oprettes en mappe til konfig af OpenBox
 
-> mkdir -p ~display/.config/openbox
+~~~
+mkdir -p ~display/.config/openbox
+~~~
 
 Der skal oprettes et autostart-script, som køres når maskinen startes op / logges på.
 
-> nano $HOME/.config/openbox/autostart
+~~~
+nano $HOME/.config/openbox/autostart
+~~~
 
 Autostart indeholder følgende:
 
-> while true ; do\
->     xrandr -o right\
->     xset -dpms\
->     xset s off\
->     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;\
->     sleep 30\
+~~~
+( while true ; do
+     xrandr -o right
+     xset -dpms
+     xset s off
+     ssh -o StrictHostKeyChecking=no -X &lt;bruger&gt;@&lt;host&gt;
+     sleep 30
+done ) &
+~~~
 
 Flere eksempler:
 
-> xterm /bin/bash &
+~~~
+xterm /bin/bash &
+~~~
 
 Det er meget vigtigt at hver "komando" afslyttes med "&".
 
@@ -83,7 +104,7 @@ I vores tilfælde startes en loop som i princippet blever ved med at gøre i al 
 
 Linien med "xrandr" drejer skærmen da vore skærme sidder på løjkant.
 
-Linierne med "xset -dpms" og "xset s off" slår pauseskærmen fra
+Linierne med "xset -dpms" og "xset s off" slår pauseskærmen og skærmslukning fra
 
 Linien med "ssh" kobler op til vores centrale server hvor selve applicationerne kører. Hvad der rent faktisk bliver kørt afhænger 100% af konfiguratioen af serveren.
 
