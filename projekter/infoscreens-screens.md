@@ -25,7 +25,7 @@ lightdm skal konfigureres til automatisk at logge ind på display-brugeren
 skal have tilføjet følgende linier:
 
 > [SeatDefaults]\
-> autologin-user=default\
+> autologin-user=display\
 > user-session=openbox
 
 ## Skift til diplay-brugeren
