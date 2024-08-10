@@ -89,7 +89,7 @@ XXXXX FULL XXXXX
 Vi har planlagt aktiviteter på følgende datoer.
 
 Vi forbeholder os ret til at justere datoerne på arrangementerne.\
-Der er sjældent ændringer indefor den kommende måned.
+Der er sjældent ændringer indenfor den kommende måned.
 
 XXXXX KALENDER-YEAR XXXXX
 
