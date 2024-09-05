@@ -38,10 +38,9 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 Hvis der er ønske om at kunne koble på til generalforsamlingen på en video-forbindelse, skal du kontakte bestyrlsen i godt tid.
 
 
-<!--
 # Referat for Alslug generalforsamling d. 2024.09.05 kl 19:00
 
-Tilstede er bestyrelsen og 2 medlemmer.
+Tilstede er bestyrelsen og 5 medlemmer.
 
 ## 1) Valg af ordstyrer.
 Bestyrelsen foreslår Verner Schrøder. Valgt med aplause.
@@ -50,10 +49,25 @@ Bestyrelsen foreslår Verner Schrøder. Valgt med aplause.
 Formanden fremlagde beretningen. Godkendt med aplause.
 
 ### Det forløbne år
+Samme aktivitet som tidligere
+
+* 12 Installfester
+* ca 15 Linux-aftener
+* Python-gruppen næsten hver uge.
+* Kulturnat.
+* Julefrokost med 16 deltagere. Dejligt at se mange af de "gamle" drenge fra starten.
+
+### Finanser
+Vi lukker Sydbank-kontoen den er alt for dyr. 
+
+* Pengene flyttes til PayPal. Giver godt nok ingen renter, men koster ingen gebyrer.
+* Bestyrelsen får et udlæg, som afregnes enten i kontanter eller via en bankkonto.
+* Udgifter til udlægskonto-konto og kort til wangerin, afholdes af foreningen. ( ser ud til at blive 12x19kr i stedet for 4x300kr+235kr pr år )
+* det er testet at Stripe og Zettle kan udbetale til wangerins udlægskonto.
 
 ### Det kommende år
-
-Ellers bliver vi ved med installfester og linuxaftener efter der samme tidsplan som hidtil.
+Forsætter som tidligere.\
+Ellers bliver vi ved med installfester og linuxaftener efter der samme tidsplan som hidtil.\
 Mit indtryk er også at Pythongruppen forsætter derudaf. Indtil videre er der er der kryds i kalenderen hen til engang i foråret.
 
 ## 3) Fremlæggelse af regnskab.
@@ -63,7 +77,9 @@ Kassereren fremlagde regnskabet. Godkendt med aplause.
 Der var ingen forslag.
 
 ## 5) Valg af 3 bestyrelsesmedlemmer.
-Jørgen, Per og Henning modtager alle genvalg. Valgt med aplause.
+Per og Henning modtager alle genvalg.\
+Steen modtager nyvalg.\
+Valgt med aplause.
 
 ## 6) Valg af revisor
 Agnethe har ved revisonen oplyst at hun modtager genvalg. Valgt med aplause.
@@ -76,4 +92,3 @@ Agnethe har ved revisonen oplyst at hun modtager genvalg. Valgt med aplause.
 Referent: Henning Wangerin
 
 Dirigent: Verner Schrøder
--->
