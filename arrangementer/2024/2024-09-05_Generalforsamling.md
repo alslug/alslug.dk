@@ -38,7 +38,7 @@ Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret.
 Hvis der er ønske om at kunne koble på til generalforsamlingen på en video-forbindelse, skal du kontakte bestyrlsen i godt tid.
 
 
-# \
+# &nbsp;
 # Referat for Alslug generalforsamling d. 2024.09.05 kl 19:00
 
 Tilstede er bestyrelsen og 5 medlemmer.
