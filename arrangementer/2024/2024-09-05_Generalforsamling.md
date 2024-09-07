@@ -46,29 +46,7 @@ Tilstede er bestyrelsen og 5 medlemmer.
 Bestyrelsen foreslår Verner Schrøder. Valgt med aplause.
 
 ## 2) Formandens beretning.
-Formanden fremlagde beretningen. Godkendt med aplause.
-
-### Det forløbne år
-Samme aktivitet som tidligere
-
-* 12 Installfester
-* ca 15 Linux-aftener
-* Python-gruppen næsten hver uge.
-* Kulturnat.
-* Julefrokost med 16 deltagere. Dejligt at se mange af de "gamle" drenge fra starten.
-
-### Finanser
-Vi lukker Sydbank-kontoen den er alt for dyr. 
-
-* Pengene flyttes til PayPal. Giver godt nok ingen renter, men koster ingen gebyrer.
-* Bestyrelsen får et udlæg, som afregnes enten i kontanter eller via en bankkonto.
-* Udgifter til udlægskonto-konto og kort til wangerin, afholdes af foreningen. ( ser ud til at blive 12x19kr i stedet for 4x300kr+235kr pr år )
-* det er testet at Stripe og Zettle kan udbetale til wangerins udlægskonto.
-
-### Det kommende år
-Forsætter som tidligere.\
-Ellers bliver vi ved med installfester og linuxaftener efter der samme tidsplan som hidtil.\
-Mit indtryk er også at Pythongruppen forsætter derudaf. Indtil videre er der er der kryds i kalenderen hen til engang i foråret.
+Formanden fremlagde beretningen ( se bilag ). Godkendt med aplause.
 
 ## 3) Fremlæggelse af regnskab.
 Kassereren fremlagde regnskabet. Godkendt med aplause.
@@ -92,3 +70,27 @@ Agnethe har ved revisonen oplyst at hun modtager genvalg. Valgt med aplause.
 Referent: Henning Wangerin
 
 Dirigent: Verner Schrøder
+
+
+# Formandens beretning
+### Det forløbne år
+Samme aktivitet som tidligere
+
+* 12 Installfester
+* ca 15 Linux-aftener
+* Python-gruppen næsten hver uge.
+* Kulturnat.
+* Julefrokost med 16 deltagere. Dejligt at se mange af de "gamle" drenge fra starten.
+
+### Finanser
+Vi lukker Sydbank-kontoen den er alt for dyr. 
+
+* Pengene flyttes til PayPal. Giver godt nok ingen renter, men koster ingen gebyrer.
+* Bestyrelsen får et udlæg, som afregnes enten i kontanter eller via en bankkonto.
+* Udgifter til udlægskonto-konto og kort til wangerin, afholdes af foreningen. ( ser ud til at blive 12x19kr i stedet for 4x300kr+235kr pr år )
+* det er testet at Stripe og Zettle kan udbetale til wangerins udlægskonto.
+
+### Det kommende år
+Forsætter som tidligere.\
+Ellers bliver vi ved med installfester og linuxaftener efter der samme tidsplan som hidtil.\
+Mit indtryk er også at Pythongruppen forsætter derudaf. Indtil videre er der er der kryds i kalenderen hen til engang i foråret.
