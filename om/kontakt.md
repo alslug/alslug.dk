@@ -22,7 +22,7 @@ Bestyrelsen	&nbsp;                bestyrelse(på)alslug.dk
 ----------- --------------------- ---------------------
 Formand:	  Henning Wangerin	    wangerin(på)alslug.dk
 Kasserer:	  Per Finnerup Larsen	  per(på)alslug.dk
-Sekretær:	  Jørgen Rubæk		      jorgen(på)alslug.dk
+Sekretær:	  Sten Herbst   	      herbst(på)alslug.dk
 
 Du skal selvfølgelig udskift (på) med @ for at få en mail-adresse.
 
