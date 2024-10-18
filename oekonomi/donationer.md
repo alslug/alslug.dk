@@ -25,7 +25,7 @@ Det kan ofte være en fordel hvis du samler overførsler sammen, i stedet for at
 
 <div>
 	
-XXXXX FIRST 1/2 XXXXX
+XXXXX FIRST 1/3 XXXXX
 
 <div class='ssssss'>
 <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten
@@ -39,8 +39,6 @@ Andre slags kan nogle gange være lidt svære at fordøje.
 <div class='no-fees'>Sparegrise tager ikke noget gebyr for at blive fodret.</div>
 </div>
 
-XXXXX NEXT 1/2 XXXXX
-
 <div class='ssssss'>
 <i class="fab fa-paypal"></i> &nbsp; PayPal:
 
@@ -52,12 +50,8 @@ Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores
 med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
 <div class='no-fees'>Det er gratis at overføre penge til os ved at benytte "Overfør penge til en ven".</div>
 </div>
-	
-XXXXX END XXXXX
 
-</div><div>
-
-XXXXX FIRST 1/2 XXXXX
+XXXXX NEXT 1/3 XXXXX
 
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
@@ -69,8 +63,6 @@ Spørg bestyrelsen hvis du gerne vil betale med kort.
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via Zettle.</div>
 </div>
 
-XXXXX NEXT 1/2 XXXXX
-
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
 
@@ -81,11 +73,7 @@ Tak for hjælpen - [Doner et beløb til kaffe-kassen.](https://donate.stripe.com
 <div class='fees'>Vi kan ikke modtage fra rene DanKort.</div>
 </div>
 
-XXXXX END XXXXX
-
-</div><div>
-	
-XXXXX FIRST 1/2 XXXXX
+XXXXX NEXT 1/3 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
@@ -98,8 +86,6 @@ XXXXX STRIKEOUT START XXXXX
 
 XXXXX STRIKEOUT END XXXXX
 </div>
-
-XXXXX NEXT 1/2 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
