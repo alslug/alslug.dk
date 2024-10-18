@@ -107,6 +107,7 @@ XXXXX NEXT 1/3 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
+
 <i class="fas fa-university"></i>  &nbsp; Bankoverførsel: XXXX-XXXXXXXXXX
 
 <div class='reg-nr'	>	XXXX		</div>
@@ -115,6 +116,7 @@ XXXXX STRIKEOUT START XXXXX
 
 <div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 <div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
+
 XXXXX STRIKEOUT END XXXXX
 </div>
 
