@@ -39,6 +39,8 @@ Andre slags kan nogle gange være lidt svære at fordøje.
 <div class='no-fees'>Sparegrise tager ikke noget gebyr for at blive fodret.</div>
 </div>
 
+----
+
 <div class='ssssss'>
 <i class="fab fa-paypal"></i> &nbsp; PayPal:
 
@@ -63,6 +65,8 @@ Spørg bestyrelsen hvis du gerne vil betale med kort.
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via Zettle.</div>
 </div>
 
+----
+
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
 
@@ -86,6 +90,8 @@ XXXXX STRIKEOUT START XXXXX
 
 XXXXX STRIKEOUT END XXXXX
 </div>
+
+----
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
