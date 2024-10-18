@@ -19,13 +19,8 @@ Det kan ofte være en fordel hvis du samler overførsler sammen, i stedet for at
 	.fees   	{ background:#ff8888; }
 	.no-fees   	{ background:#88ff88; }
 	.strikeout	{ background:silver; text-decoration: line-through; text-decoration-style: wavy; }
-	.reg-nr:before		{ margin-right:1em;	content:'Reg-nr: ';	}
-	.reg-nr:after		{ padding-left:2em;	content:'( Sydbank )';	}
-	.konto-nr:before	{ margin-right:1em;	content:'Konto-nr:';	}
-	.iban:before		{ margin-right:1em;	content:'IBAN:';	}
-	.swift:before		{ margin-right:1em;	content:'SWIFT / BIC:';	}
 	.li_nk:after { content:"&#11008;"}
-	.ssssss		{ min-heigth:10em; b_order:10px solid cyan; }
+	.ssssss		{ min-heigth:10em; b_order:10px solid cyan; padding-bottom:1em; }
 </style>
 
 <div>
@@ -111,12 +106,9 @@ XXXXX STRIKEOUT START XXXXX
 
 <i class="fas fa-university"></i>  &nbsp; Bankoverførsel: XXXX-XXXXXXXXXX
 
-<div class='reg-nr'	>	XXXX		</div>
-
-<div class='konto-nr'	>	XXXXXXXXXX	</div>
-
-<div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 <div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
+
+<div class='fees'>Det var sjov og let så længe det varede.</div>
 
 XXXXX STRIKEOUT END XXXXX
 </div>
