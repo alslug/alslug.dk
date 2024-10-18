@@ -47,13 +47,15 @@ Andre slags kan nogle gange være lidt svære at fordøje.
 XXXXX NEXT 1/2 XXXXX
 
 <div class='ssssss'>
-<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
+<i class="fab fa-paypal"></i> &nbsp; PayPal:
 
-Vi har en Zettle kortlæser, så vi kan modtage betalinger med kort med de fleste kort.
+Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores [PayPal.me adresse](https://www.paypal.me/AlsLUG?locale.x=da_DK):
 
-Spørg bestyrelsen hvis du gerne vil betale med kort.
+[https://www.paypal.me/AlsLUG](https://www.paypal.me/AlsLUG?locale.x=da_DK)
 
-<div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via Zettle.</div>
+<div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees) gebyr på donationer via PayPal,
+med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
+<div class='no-fees'>Det er gratis at overføre penge til os ved at benytte "Overfør penge til en ven".</div>
 </div>
 	
 XXXXX END XXXXX
@@ -63,14 +65,13 @@ XXXXX END XXXXX
 XXXXX FIRST 1/2 XXXXX
 
 <div class='ssssss'>
-<i class="fab fa-paypal"></i> &nbsp; PayPal:
+<i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
 
-Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores [PayPal.me adresse](https://www.paypal.me/AlsLUG?locale.x=da_DK):
+Vi har en Zettle kortlæser, så vi kan modtage betalinger med kort med de fleste kort.
 
-[https://www.paypal.me/AlsLUG](https://www.paypal.me/AlsLUG?locale.x=da_DK)
+Spørg bestyrelsen hvis du gerne vil betale med kort.
 
-<div class='fees'>Vi betaler [3.4% + 2.60 kr](https://www.paypal.com/dk/webapps/mpp/paypal-fees) gebyr på donationer via PayPal,
-med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
+<div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via Zettle.</div>
 </div>
 
 XXXXX NEXT 1/2 XXXXX
@@ -89,7 +90,7 @@ XXXXX END XXXXX
 
 </div><div>
 	
-XXXXX FIRST 1/3 XXXXX
+XXXXX FIRST 1/2 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
@@ -103,7 +104,7 @@ XXXXX STRIKEOUT START XXXXX
 XXXXX STRIKEOUT END XXXXX
 </div>
 
-XXXXX NEXT 1/3 XXXXX
+XXXXX NEXT 1/2 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
@@ -117,26 +118,6 @@ XXXXX STRIKEOUT START XXXXX
 <div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
 <div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
 
-XXXXX STRIKEOUT END XXXXX
-</div>
-
-XXXXX NEXT 1/3 XXXXX
-
-<div class='ssssss'>
-XXXXX STRIKEOUT START XXXXX
-
-<i class="fas fa-university"></i> &nbsp; Bankoverførsel fra udlandet:
-
-<div class='iban'	>	DK83 XXXX XXXXXXXXXX	</div>
-
-<div class='swift'	>	SYBKDK22		</div>
-
-<div class='fees'>Send venligst kun DKK - vi har oplevet at banken beholder mellem 20 og 50 kroner af det du overfører, hvis det ikke er i DKK, så send ikke
-små-beløb i udenlandsk valuta.</div>
-	
-<div class='fees'>Brug derfor kort eller paypal i stedet for.</div>
-&nbsp;
-<div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
 XXXXX STRIKEOUT END XXXXX
 </div>
 
