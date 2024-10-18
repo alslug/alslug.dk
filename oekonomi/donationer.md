@@ -30,7 +30,7 @@ Det kan ofte være en fordel hvis du samler overførsler sammen, i stedet for at
 
 <div>
 	
-XXXXX FIRST 1/3 XXXXX
+XXXXX FIRST 1/2 XXXXX
 
 <div class='ssssss'>
 <i class="fas fa-piggy-bank"></i> &nbsp; Kontant: Sparegrisen er altid sulten
@@ -44,7 +44,7 @@ Andre slags kan nogle gange være lidt svære at fordøje.
 <div class='no-fees'>Sparegrise tager ikke noget gebyr for at blive fodret.</div>
 </div>
 
-XXXXX NEXT 1/3 XXXXX
+XXXXX NEXT 1/2 XXXXX
 
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard i vores lokale:
@@ -56,7 +56,11 @@ Spørg bestyrelsen hvis du gerne vil betale med kort.
 <div class='fees'>Vi betaler [1.95%](https://www.izettle.com/dk/priser) i gebyr på donation via Zettle.</div>
 </div>
 	
-XXXXX NEXT 1/3 XXXXX
+XXXXX END XXXXX
+
+</div><div>
+
+XXXXX FIRST 1/2 XXXXX
 
 <div class='ssssss'>
 <i class="fab fa-paypal"></i> &nbsp; PayPal:
@@ -69,23 +73,7 @@ Donationer kan overføres til vores PayPal-konto ved at sende beløbet via vores
 med mindre du fjerner markeringen i "Paying for goods or a service?".</div>
 </div>
 
-XXXXX END XXXXX
-
-</div><div>
-
-XXXXX FIRST 1/3 XXXXX
-
-<div class='ssssss'>
-<i class="fas fa-university"></i>  &nbsp; Bankoverførsel: 8010-0001122838
-
-<div class='reg-nr'	>	8010		</div>
-
-<div class='konto-nr'	>	0001122838	</div>
-
-<div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
-</div>
-
-XXXXX NEXT 1/3 XXXXX
+XXXXX NEXT 1/2 XXXXX
 
 <div class='ssssss'>
 <i class="fas fa-credit-card"></i> &nbsp; Visa/Mastercard hjemmefra (via nettet):
@@ -95,21 +83,6 @@ Tak for hjælpen - [Doner et beløb til kaffe-kassen.](https://donate.stripe.com
 <div class='fees'>Vi betaler [1.4% + 1.80kr](https://stripe.com/en-dk/pricing) i gebyr på donation via Europæiske betalingskort.</div>
 
 <div class='fees'>Vi kan ikke modtage fra rene DanKort.</div>
-</div>
-
-XXXXX NEXT 1/3 XXXXX
-
-<div class='ssssss'>
-<i class="fas fa-university"></i> &nbsp; Bankoverførsel fra udlandet:
-
-<div class='iban'	>	DK83 8010 0001122838	</div>
-
-<div class='swift'	>	SYBKDK22		</div>
-
-<div class='fees'>Send venligst kun DKK - vi har oplevet at banken beholder mellem 20 og 50 kroner af det du overfører, hvis det ikke er i DKK, så send ikke
-små-beløb i udenlandsk valuta.</div>
-	
-<div class='fees'>Brug derfor kort eller paypal i stedet for.</div>
 </div>
 
 XXXXX END XXXXX
@@ -127,6 +100,39 @@ XXXXX STRIKEOUT START XXXXX
 
 <div class='fees'>Det var sjov og let så længe det varede.</div>
 
+XXXXX STRIKEOUT END XXXXX
+</div>
+
+XXXXX NEXT 1/3 XXXXX
+
+<div class='ssssss'>
+XXXXX STRIKEOUT START XXXXX
+<i class="fas fa-university"></i>  &nbsp; Bankoverførsel: XXXX-XXXXXXXXXX
+
+<div class='reg-nr'	>	XXXX		</div>
+
+<div class='konto-nr'	>	XXXXXXXXXX	</div>
+
+<div class='no-fees'>Vi betaler ikke noget gebyr for at modtage bankoverførsler i danske kroner (DKK).</div>
+<div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
+XXXXX STRIKEOUT END XXXXX
+</div>
+
+XXXXX NEXT 1/3 XXXXX
+
+<div class='ssssss'>
+XXXXX STRIKEOUT START XXXXX
+<i class="fas fa-university"></i> &nbsp; Bankoverførsel fra udlandet:
+
+<div class='iban'	>	DK83 XXXX XXXXXXXXXX	</div>
+
+<div class='swift'	>	SYBKDK22		</div>
+
+<div class='fees'>Send venligst kun DKK - vi har oplevet at banken beholder mellem 20 og 50 kroner af det du overfører, hvis det ikke er i DKK, så send ikke
+små-beløb i udenlandsk valuta.</div>
+	
+<div class='fees'>Brug derfor kort eller paypal i stedet for.</div>
+<div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
 XXXXX STRIKEOUT END XXXXX
 </div>
 
