@@ -135,6 +135,7 @@ XXXXX STRIKEOUT START XXXXX
 små-beløb i udenlandsk valuta.</div>
 	
 <div class='fees'>Brug derfor kort eller paypal i stedet for.</div>
+&nbsp;
 <div class='fees'>Sydbank er blevrt for dyr i faste omkostninger. Defor er voreslekvide midler flyttet til PayPal i september 2024.</div>
 XXXXX STRIKEOUT END XXXXX
 </div>
