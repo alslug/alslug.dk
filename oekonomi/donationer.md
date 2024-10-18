@@ -124,6 +124,7 @@ XXXXX NEXT 1/3 XXXXX
 
 <div class='ssssss'>
 XXXXX STRIKEOUT START XXXXX
+
 <i class="fas fa-university"></i> &nbsp; Bankoverførsel fra udlandet:
 
 <div class='iban'	>	DK83 XXXX XXXXXXXXXX	</div>
