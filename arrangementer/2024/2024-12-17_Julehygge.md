@@ -22,8 +22,9 @@ Prisen er selvfølgelig lidt højere hvs du bestiller via AlsLUG. Der er der fle
 * Forening sender en stafet ud på Kær for at hente maden.
 * Overskudet går i foreningenskasse.
 
-Maden **skal** betales på forhånd via den tilsendte betalingslink.\
-Efter tilmeldingen sendes en betalings-link til det oplyste mobil-nummer.
+Maden **skal** betales på forhånd via den tilsendte betalingslink\
+Efter tilmeldingen sendes en betalings-link der skal bruges til betaling.\
+Maden kan også betales med kort i AlsLUGs lokale.
 
 Der er selvfølgelig også mulighed for selv at medbringe mad, men der skal stadigvæk laves en tilmelding, så vi er sikret at der er plads til alle.
 
