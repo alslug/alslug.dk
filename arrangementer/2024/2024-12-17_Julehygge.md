@@ -4,7 +4,7 @@
 <!-- ticket_max 20 -->
 <!-- ticket_price 0 -->
 <!-- ticket_deadline 2024-12-14 -->
-<!-- mad_deadline 2024-12-08 -->
+<!-- mad_deadline 2024-12-01 -->
 <!-- ticket_payment manuel zettle stripe -->
 
 # Julehygge tirsdag 17. december 2024
