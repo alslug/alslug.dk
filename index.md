@@ -2,7 +2,7 @@ XXXXX FIRST 1/2 XXXXX
 
 # Kalender
 
-Hvis du har brug for hjælp til brugen af din linux-maskine, eller til at få installeret linux, kan du besøge os en af de dage hvor der er en <i class="fa-brands fa-linux"></i> i kalenderen.
+Kig efter de dage hvor der er en <i class="fa-brands fa-linux"></i> i kalenderen, hvis du har brug for hjælp til brugen af din linux-maskine, eller til at få installeret linux.
 
 XXXXX KALENDER-MONTH XXXXX			
 
