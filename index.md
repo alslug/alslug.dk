@@ -2,9 +2,7 @@ XXXXX FIRST 1/2 XXXXX
 
 # Kalender
 
-Nogle af vore møder vil blive transmitteret online. Se mere på
-[oversigten over vore online-aktiviteter.](/arrangementer/online.md)
-
+Hvis du har brug for hjælp til brugen af din linux-maskine, eller til at få installeret linux, kan du besøge os en af de dage hvor der er en <i class="fa-brands fa-linux"></i> i kalenderen.
 
 XXXXX KALENDER-MONTH XXXXX			
 
