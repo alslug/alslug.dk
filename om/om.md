@@ -23,7 +23,7 @@ Du er medlem når du er tilmeldt postlisten "Announce". Når du er tilmeldt en a
 også tilmeldt "Annonce"
 
 ## Historie
-AlsLUG blev uformelt startet omkring 1999, og blev en officiel forening 3. maj 2000. (domænet alslug.dk er oprettet i 14/5 1999)
+AlsLUG blev uformelt startet i december 1998, og blev en officiel forening 3. maj 2000. (domænet alslug.dk er oprettet i 14/5 1999)
 
 Aktiviteterne i foreningen er gået op og ned i gennem de mange år den har  eksisteret, mest markant er nok at aktiviteterne
 har flyttet fokus fra at være meget teknisk orienterede _mest for nørder_, til at være mere alment orienterede
