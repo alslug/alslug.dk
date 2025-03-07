@@ -19,9 +19,11 @@ sponsorater. Dermed er medlemsskab og deltagelse i arrangementer altid gratis. D
 For at følge med i hvad der sker i AlsLUG er et vigtigt at du er tilmeldt postlisterne. Udover til vore arrangementer, er det 
 gennem postlisterne vi hjælper hinanden, laver aftaler osv.
 
-Du er medlem når du har registrert dig på vores hjemmeside. Det er nødvendigt for at du kan skrive på vores postlisten.
+Du er medlem når du har registrert dig på vores hjemmeside. Det er nødvendigt for at du kan skrive på vores postlister.
 
-Du vil derefter modtage en mail om måneden med info m vore aktivitet, plus enkelte flere i forbindelse med specielle aktiviteter. Eksempelvis i forbindelse med generalforsamlingen.
+Du vil modtage en mail om måneden med info m vore aktivitet, plus enkelte flere i forbindelse med specielle aktiviteter.
+
+Eksempelvis i forbindelse med generalforsamlingen.
 
 ## Historie
 AlsLUG blev uformelt startet i december 1998, og blev en officiel forening 3. maj 2000. (domænet alslug.dk er oprettet i 14/5 1999)
