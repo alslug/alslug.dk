@@ -14,13 +14,14 @@ det internationale betegnelse for arrangementer hvor man kan få hjælp og vejle
 
 
 Alle arrangementer udføres af medlemmerne på frivillig ulønnet basis, og de få omkostninger foreningen har, er dækket af 
-sponsorater. Dermed er medlemsskab og deltagelse i arrangementer altid gratis.
+sponsorater. Dermed er medlemsskab og deltagelse i arrangementer altid gratis. Du betaler selv udgifterne i forbindelse med din deltagelse.
 
 For at følge med i hvad der sker i AlsLUG er et vigtigt at du er tilmeldt postlisterne. Udover til vore arrangementer, er det 
 gennem postlisterne vi hjælper hinanden, laver aftaler osv.
 
-Du er medlem når du er tilmeldt postlisten "Announce". Når du er tilmeldt en af vores andre postlister, bliver du automatisk 
-også tilmeldt "Annonce"
+Du er medlem når du har registrert dig på vores hjemmeside. Det er nødvendigt for at du kan skrive på vores postlisten.
+
+Du vil derefter modtage en mail om måneden med info m vore aktivitet, plus enkelte flere i forbindelse med specielle aktiviteter. Eksempelvis i forbindelse med generalforsamlingen.
 
 ## Historie
 AlsLUG blev uformelt startet i december 1998, og blev en officiel forening 3. maj 2000. (domænet alslug.dk er oprettet i 14/5 1999)
