@@ -7,7 +7,7 @@
 
 # 25 år siden stiftende generalforsamling - fredag 2. maj 2025
 
-3. maj 2000 blev der afholdt stiftende generalforsamling i AlsLUG
+Den 3. maj 2000 blev der afholdt stiftende generalforsamling i AlsLUG
 
 Vi fejrer dagen med at mødes til aftensmad.
 
