@@ -22,9 +22,7 @@ Vi mødes kl 18:30 hos
 
 Der serveres tag-selv buffet for 198,- + drikkevarer for din egen regning.
 
-Tilmelding er nødvendig og skal ske via kalenderne for https://alslug.dk og skal ske senest 29. april.
+Tilmelding er nødvendig og skal ske her på siden hurtigst muligt og senest 29. april.
 
-Direkte link til siden:
-https://www.alslug.dk/arrangementer/2025/2025-05-02_25%C3%A5r%20siden%20stiftende%20GF.md
 
 XXXXX TICKETS XXXXX
