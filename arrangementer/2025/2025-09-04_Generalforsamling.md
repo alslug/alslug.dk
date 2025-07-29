@@ -22,11 +22,11 @@ i vores lokale
     6) Valg af revisor.
     7) Eventuelt.
 
-Indkomne forslag skal være bestyrelsen i hælde senest 2 uger før generalforsamlingen. (§4 stk. 9)
+Indkomne forslag skal være bestyrelsen i hænde senest 2 uger før generalforsamlingen. (§4 stk. 9)
 
 Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i vedtægterne)
 
-Man skal have været medlem i medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
+Man skal have været medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
 
 [De komplette vedtægter kan findes her.](https://www.alslug.dk/om/vedtaegter.md)\
 [https://www.alslug.dk/om/vedtaegter.md](https://www.alslug.dk/om/vedtaegter.md)
