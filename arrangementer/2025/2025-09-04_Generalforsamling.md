@@ -19,6 +19,7 @@ i vores lokale
     3) Fremlæggelse af regnskab.
     4) Indkomne forslag.
     5) Valg af 3 bestyrelsesmedlemmer.
+          Hele bestyrelsen modtager genvalg.
     6) Valg af revisor.
     7) Eventuelt.
 
