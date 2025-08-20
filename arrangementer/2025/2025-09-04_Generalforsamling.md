@@ -21,7 +21,7 @@ i vores lokale
     5) Valg af 3 bestyrelsesmedlemmer.
           Hele bestyrelsen modtager genvalg.
     6) Valg af revisor.
-          Revisorer modtager genvalg.
+          Revisor modtager genvalg.
     7) Eventuelt.
 
 Indkomne forslag skal være bestyrelsen i hænde senest 2 uger før generalforsamlingen. (§4 stk. 9)
@@ -30,7 +30,7 @@ Endelig dagsorden udsendes senest 1 uge før generalforsamlingen. (§4 stk. 8 i 
 
 Man skal have været medlem i mindst 3 måneder, for at have stemmeret. (§4 stk 4)
 
-[De komplette vedtægter kan findes her.](https://www.alslug.dk/om/vedtaegter.md)\
+De komplette vedtægter kan findes her:\
 [https://www.alslug.dk/om/vedtaegter.md](https://www.alslug.dk/om/vedtaegter.md)
 
 ## Online-deltagelse
