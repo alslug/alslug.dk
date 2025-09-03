@@ -3,7 +3,8 @@ var sat		= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/sat/{z}/{y}/
 			maxZoom: 19,
 			attribution: 'Tiles &copy; Esri '//&mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GI$
 		});
-var streets	= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/street/{z}/{x}/{y}', {
+//var streets	= L.tileLayer('https://www.alslug.dk/proxy.php/leaflet/map/street/{z}/{x}/{y}', {
+var streets	= L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 19,
 			attribution: '&copy; <a href=\"http:/"."/osm.org/copyright\">OpenStreetMap</a> contributors'
 		});
