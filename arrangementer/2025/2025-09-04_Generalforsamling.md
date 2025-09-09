@@ -36,7 +36,6 @@ De komplette vedtægter kan findes her:
 ## Online-deltagelse
 Hvis der er ønske om at kunne koble på til generalforsamlingen på en video-forbindelse, skal du kontakte bestyrlsen i godt tid.
 
-# &nbsp;
 # Referat for Alslug generalforsamling d. 2025.09.04 kl 19:00
 
 Tilstede er hele bestyrelsen og 5 medlemmer.
