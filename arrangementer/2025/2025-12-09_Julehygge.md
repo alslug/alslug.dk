@@ -3,15 +3,15 @@
 <!-- ticket_min 3 -->
 <!-- ticket_max 20 -->
 <!-- ticket_price 0 -->
-<!-- ticket_deadline 2025-12-14 -->
-<!-- mad_deadline 2025-12-07 -->
+<!-- ticket_deadline 2025-12-07 -->
+<!-- mad_deadline 2025-12-01 -->
 <!-- ticket_payment manuel zettle stripe -->
 
-# Julehygge tirsdag 16. december 2025
+# Julehygge tirsdag 09. december 2025
 
 Vi genter successen med en omgang jylehygge.
 
-Derfor ændrer vi lidt på planen for vores møde i Python-gruppen tirsdag den 16/12.
+Derfor ændrer vi lidt på planen for vores møde i Python-gruppen tirsdag den 9/12.
 
 Vi starter klokken 18:00 med fællesspisning, hvor der er mulighed for at bestille [smørrebrød](https://ronhaveslagteren.dk/mad-ud-af-huset/smoerrebroed-2/)
 og [sandwich](https://ronhaveslagteren.dk/vare/sandwich-3/) fra [Rønhave Slagteren](https://ronhaveslagteren.dk/).
