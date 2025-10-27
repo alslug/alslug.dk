@@ -3,24 +3,24 @@
 <!-- ticket_min 3 -->
 <!-- ticket_max 20 -->
 <!-- ticket_price 0 -->
-<!-- ticket_deadline 2025-12-07 -->
+<!-- ticket_deadline 2025-12-10 -->
 <!-- mad_deadline 2025-12-01 -->
 <!-- ticket_payment manuel zettle stripe -->
 
-# Julehygge tirsdag 09. december 2025
+# Julehygge lørdag 13. december 2025
 
 Vi genter successen med en omgang jylehygge.
 
-Derfor ændrer vi lidt på planen for vores møde i Python-gruppen tirsdag den 9/12.
+I år lægger vi det efter decembers installfest, og afholder den hos Sten i Adsbøl.
 
-Vi starter klokken 18:00 med fællesspisning, hvor der er mulighed for at bestille [smørrebrød](https://ronhaveslagteren.dk/mad-ud-af-huset/smoerrebroed-2/)
-og [sandwich](https://ronhaveslagteren.dk/vare/sandwich-3/) fra [Rønhave Slagteren](https://ronhaveslagteren.dk/).
+Vi starter klokken 18:00 med fællesspisning, hvor der er mulighed for at bestille
+[smørrebrød](https://ronhaveslagteren.dk/mad-ud-af-huset/smoerrebroed-2/)
+og
+[sandwich](https://ronhaveslagteren.dk/vare/sandwich-3/)
+fra
+[Rønhave Slagteren](https://ronhaveslagteren.dk/).
 
-Prisen er selvfølgelig lidt højere hvs du bestiller via AlsLUG. Der er der flere grunde til:
-
-* Det koster gebyr at betale online.
-* Forening sender en stafet ud på Kær for at hente maden.
-* Overskudet går i foreningenskasse.
+Prisen er an anelse højere når du bestiller via AlsLUG, for at dække vore omkostninger med håndtering af betaling og afhentning.
 
 Maden **skal** betales på forhånd via den tilsendte betalingslink\
 Efter tilmeldingen sendes en betalings-link der skal bruges til betaling.\
