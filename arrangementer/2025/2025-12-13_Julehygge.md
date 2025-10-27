@@ -2,7 +2,7 @@
 <!-- mad_category 352bb6e0-83e9-11ee-ae0f-b9736a919ee1 -->
 <!-- ticket_min 3 -->
 <!-- ticket_max 20 -->
-<!-- ticket_price 0 -->
+<!-- ticket_price 25 -->
 <!-- ticket_deadline 2025-12-10 -->
 <!-- mad_deadline 2025-12-01 -->
 <!-- ticket_payment manuel zettle stripe -->
