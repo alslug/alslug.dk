@@ -6,6 +6,7 @@
 <!-- ticket_deadline 2025-12-10 -->
 <!-- mad_deadline 2025-12-01 -->
 <!-- ticket_payment manuel zettle stripe -->
+<!-- afbud zettle_c2a06d61-c661-11f0-b5c8-72382ec06d30 -->
 
 # Julehygge lørdag 13. december 2025
 
