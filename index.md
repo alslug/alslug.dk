@@ -51,7 +51,7 @@ Hvis ikke du har tid til det lige nu, venter du bare til i morgen. Men husk at g
 
 ## Medlemskab / indmeldelse i foreningen
 Medlemsskab af AlsLUG er gratis, og du får mulighed for at få hjælp og stille spørgsmål til andre medlemmer via mail.
-[Læs mere om medlemskab her.](https://www.alslug.dk/medlemskab/indmeldelse.html)
+[Læs mere om medlemskab her.](https://alslug.dk/users/create-user/v1/create.php)
 
 
 ## Frivillige donationer ...
