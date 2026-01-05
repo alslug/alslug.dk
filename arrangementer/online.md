@@ -30,7 +30,8 @@ Du kan deltager både med din browser eller med Jitsi-appen på din telefon/tabl
 
 
 ## Mail
-Alle medlemmer kan skrive til vore [mail-lister](https://www.alslug.dk/medlemskab/indmeldelse.html)
+Alle medlemmer kan skrive til vore [mail-lister](https://www.alslug.dk/medlemskab/postlister.html)
+
 
 
 
