@@ -48,7 +48,7 @@ Det foregår primært i python, men der er principielt fri leg i det programmeri
 
 Gruppen har en intern mail-liste på python-gruppen@alslug.dk, hvor medlemmer har mulighed for at stille spørgsmål 24/7.
 
-[Meld dig ind](https://www.alslug.dk/medlemskab/indmeldelse.html) og kryds af af du vil modtage mail på Python-gruppens mailinglistem og du er kørende.
+[Meld dig ind i AlsLUG](https://alslug.dk/users/create-user/v1/create.php) og kryds af af du vil modtage mail på Python-gruppens mailinglistem og du er kørende.
 
 Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det en fordel at lufte det på mailinglisten, så der er nogen som kan forberede sig en lille smule.
 
