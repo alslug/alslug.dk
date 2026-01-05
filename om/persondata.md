@@ -16,7 +16,7 @@ Men vi vil meget gerne vide lidt mere om dig:
 Medlems-kartoteket er kun tilgængeligt for bestyrelsen.
 
 ### Se dine data
-Du kan få adgang til hvilke data vi har registreret [her](/medlemskab/indtast_email.html).
+Du kan få adgang til hvilke data vi har registreret [her](/medlemskab/dine_data.php).
 
 Siden er under udvikling.
 
