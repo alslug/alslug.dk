@@ -64,7 +64,18 @@ Hvis du ved hvor der er et arrangement hvor foreninger kan vise hvad de laver, v
 
 
 ### <i class='fas fa-campground'	style='font-size:175%; background:#ffaaff'></i> LugCamp
-Vi har afviklede den tyske LugCamp i Kr Himmelfarts ferien i 2019 og 2022, og planlægger at deltage nogle stykker i 2023. Den afholdes ca 100km øst for Køln.
+
+På LugCamp mødes et halvt hundrede Linux-entusiaster fra primært Tyskland og Schweitz, i Kr Himmelfarts ferien til hygge, nørderier, foredrag og ture ud i nabolaget.
+
+Vi har stået for afviklingen af LugCamp i i 2019 og 2022.
+
+Vi har har deltagere med til LugCamp i .....
+
+* 2018 i Bredstedt
+* 2019 i Ullerup
+* 2022 i Ullerup
+* 2023 i Bergneustadt, ca 100km øst for Køln.
+* 2025 i Niebüll
 
 Hvis du har lyst til at deltage i et par hyggelige dage er der mulighed for samkørsel.\
 Evt i samarbejde med folkene fra LUG-Flensborg. De plejer at være en hel del der deltager. 
