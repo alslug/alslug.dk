@@ -54,7 +54,7 @@ Har et spørgsmål du kunne tænke dig at få svar på en tirsdag aften er det e
 
 
 ### <i class='fas fa-laptop-house'	style='font-size:175%; background:#ffaaff'></i> Udstillinger
-Vi har siden 2013 deltaget i [Kultur- og idrætsnatten i Sønderborg](https://kulturnat.info).
+Vi har siden 2013 deltaget i [Kultur- og idrætsnatten i Sønderborg](https://kulturnatten6400.dk/).
 
 Vi har også tidligere haft en stand på AktiVigDag ved Den Gyldne Løve ved Varnæs Vig og
 ved Radioamatørernes Forårsmarked i Agerskov.
