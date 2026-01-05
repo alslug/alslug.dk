@@ -18,9 +18,9 @@ XXXXX NEXT 1/2 XXXXX
 
 ## Kontakt til bestyrelsen: ##
 
-Bestyrelsen	&nbsp;                bestyrelse(på)alslug.dk
------------ --------------------- ---------------------
-Formand:	  Henning Wangerin	    wangerin(på)alslug.dk
+Bestyrelsen	&nbsp;                bestyrelse(på)alslug.dk  Telefon
+----------- --------------------- -----------------------  ----------------------
+Formand:	  Henning Wangerin	    wangerin(på)alslug.dk    60 789 889 ( kun SMS ) 
 Kasserer:	  Per Finnerup Larsen	  per(på)alslug.dk
 Sekretær:	  Sten Herbst   	      herbst(på)alslug.dk
 
@@ -28,7 +28,8 @@ Du skal selvfølgelig udskift (på) med @ for at få en mail-adresse.
 
 Der ydes IKKE supprt/hjælp via ovenstående mail-adresser, men der henvises til postlisten novice@alslug.dk, hvor **medlemmer** kan få gratis hjælp.
 
-Hvis du ikke er medlem af AlsLUG, kan du tilmelde dig [her](https://www.alslug.dk/medlemskab/indmeldelse.html). Medlemskab er gratis.
+Hvis du endnu ikke er medlem af AlsLUG, kan du tilmelde dig [her](https://alslug.dk/users/create-user/v1/create.php).\
+Medlemskab er gratis.
 
 XXXXX NEXT 1/2 XXXXX
 
