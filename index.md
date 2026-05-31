@@ -27,6 +27,7 @@ Bakkensbro 6, Ullerup
 
 6400 Sønderborg
 
+<h2  id='fjernvarme_header'        ></h2>
 <div id='fjernvarme_blocked'       ></div>
 <div id='fjernvarme_reroute_big'   ></div>
 <div id='fjernvarme_reroute_small' ></div>
