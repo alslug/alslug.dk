@@ -27,6 +27,10 @@ Bakkensbro 6, Ullerup
 
 6400 Sønderborg
 
+<div class='fjernvarme_blocked'      >  </div>
+<div class='fjernvarme_reroute_big'    ></div>
+<div class='fjernvarme_reroute_small'  ></div>
+
 XXXXX BASIS KORT XXXXX
 <script src='https://alslug.dk/api/aktiviteter/lokale.js'></script>
 
