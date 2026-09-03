@@ -50,7 +50,7 @@ Formanden fremlagde beretningen ( se bilag ).\
 Godkendt med aplause.
 
 ## 3) Fremlæggelse af regnskab.
-Kassereren fremlagde regnskabet.\
+Kassereren og formanden fremlagde regnskabet.\
 Godkendt med aplause.
 
 ## 4) Indkomne forslag.
@@ -85,10 +85,12 @@ Samme aktivitet som tidligere, men stadigvæk ikke særligt stort fremmøde.
 * Julefrokost. ( 8 deltagere )
 * LugCamp i Wuppertal ( 4 deltagere )
 
-### Dette år
+### Det kommende år
 Vi fortsætter som sidste år.
 
 Vi håber at kunne finde et par arrangementer at udstille / lave larm om at en gammel PC ikke nødvendigvis er en død PC.
 Genbrug og Linux er jo ikke der værste man har.
 
 Vi mærker generelt en stigende interesse for at slippe ud af kløerne af BigTech og USA-firmaer
+
+LugCamp 2027 skal formodentlig afvikles i CH. Det forlyder at der måske skal sendes en ekspedition derned. Vi får se - der er laaangt derned.
